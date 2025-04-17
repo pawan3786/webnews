@@ -1,0 +1,37 @@
+/*
+Theme Name: ChromeMag
+Theme URI: https://afthemes.com/products/chromemag/
+Author: AF themes
+Author URI: https://afthemes.com
+Requires PHP: 5.6
+Tested up to: 6.6
+Description: ChromeMag is a solid WordPress theme ideal for news, blogs, and magazines. The theme includes a variety of free starter demo sites that may be simply imported to create an excellent online news portals. The theme is completely widgetized, with 9+ unique widgets and widget sections that allow users to alter site content. It also has a bright and dark color option for reading articles and blog posts in style. It also comes with a number of essential customizer options for constructing a visually appealing news site. You may configure it as you see fit before making any changes with the live customizer.It supports Gutenberg blocks and RTL, as well as the WooCommerce plugin, allowing you to use our newspaper theme in conjunction with an online store. The theme is suitable for news, journal, magazine, publishing, or review websites, as well as for blogging. It's well-designed to help the website rank better in search engines, and users will get fantastic support from the team if they have any problems while using it. Find all demos and documentaion at https://afthemes.com/products/chromenews/chromemag/
+Support: https://afthemes.com/supports/
+Template: chromenews
+Version: 1.1.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: chromemag
+Tags: news, blog, entertainment, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, full-width-template, custom-header, translation-ready, theme-options, threaded-comments
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ChromeMag WordPress Theme, Copyright 2022 AF themes
+ChromeMag is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+.exclusive-posts .exclusive-now,
+.chromenews-header.header-layout-side .search-watch div.custom-menu-link > a{
+    background: #af0000;
+    color: #ffffff;
+}
+
+.af-cat-widget-carousel a.chromenews-categories.category-color-2{
+    background: #af0000;
+}
+
+
+.af-cat-widget-carousel a.chromenews-categories.category-color-3{
+    background: #0B2048;
+}

@@ -1,0 +1,2790 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-04-16T06:42:21+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: psyeventsmanager\n"
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemDonationMetaboxes.php:10
+msgid "Billing Information"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemDonationMetaboxes.php:13
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:72
+msgid "Country"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemDonationMetaboxes.php:17
+msgid "City"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemDonationMetaboxes.php:21
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2848
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:100
+msgid "District"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemDonationMetaboxes.php:25
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:949
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2849
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventDetails.php:116
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:135
+msgid "Address"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemDonationMetaboxes.php:29
+msgid "Address 2"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemDonationMetaboxes.php:38
+msgid "Donor Information"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemDonationMetaboxes.php:41
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:119
+msgid "First Name"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemDonationMetaboxes.php:45
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:126
+msgid "Last Name"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemDonationMetaboxes.php:49
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2073
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2844
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:225
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:351
+msgid "Email"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemDonationMetaboxes.php:53
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2843
+msgid "Phone"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemDonationMetaboxes.php:57
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:214
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:357
+msgid "Company"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemDonationMetaboxes.php:70
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:691
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1222
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2842
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3216
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3366
+msgid "Type"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemDonationMetaboxes.php:71
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3108
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3135
+msgid "Amount"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemDonationMetaboxes.php:72
+msgid "Intent ID"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemDonationMetaboxes.php:73
+msgid "Charge ID"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemDonationMetaboxes.php:74
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3367
+msgid "Payment Status"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemDonationMetaboxes.php:75
+msgid "Payment DateTime"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemDonationMetaboxes.php:112
+msgid "Payment Payload"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemOfflineSignup.php:5
+msgid "Create Offline Registration"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemOfflineSignup.php:25
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:734
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:761
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2068
+msgid "Event"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemOfflineSignup.php:29
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:264
+msgid "-- Select --"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemOfflineSignup.php:46
+msgid "Participant First Name"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemOfflineSignup.php:56
+msgid "Participant Last Name"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemOfflineSignup.php:67
+msgid "Registration Email"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemOfflineSignup.php:75
+msgid "Company Name"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemOfflineSignup.php:82
+msgid "Number Of Participants"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:11
+msgid "Psy Plugin Settings"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:24
+msgid "Project Safe Types With Form Shortcodes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:32
+msgid "Create Project Safe Type"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:35
+msgid "Enter project safe type title"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:38
+msgid "Add"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:46
+msgid "Project Safe Type shortcodes and title"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:133
+msgid "Knowledge Hub Posts List Shortcode"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:142
+msgid "News Posts List Shortcode"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:151
+msgid "Programmes Posts List Shortcode"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:164
+msgid "Monthly and Onetime Donation Section Shortcode"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:173
+msgid "Donation page ID"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:185
+msgid "Will be use as change donation amount page link"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:192
+msgid "Donation Checkout Shortcode"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:201
+msgid "Donation checkout page ID"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:213
+msgid "Donation billing and payment checkout page"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:220
+msgid "Onetime Donation Element Shortcode"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:229
+msgid "One Time Donation page ID"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:241
+msgid "Will be use to redirect on donation second details page. donation 3rd option page"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:252
+msgid "Currency Exchange Rate (USD [1$] to HKD [7.8hk$])"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:261
+msgid "Stripe Payment Mode"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:266
+msgid "Sandbox"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:269
+msgid "Live"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:278
+msgid "Stripe Publish Key"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:288
+msgid "Stripe Secret Key"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:302
+msgid "Contact Us Page url"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:311
+msgid "Terms and Condition Page url"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:320
+msgid "Volunteer Page url"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/includes/psyemSettings.php:329
+msgid "Sponsor Page url"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:429
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:430
+msgid "Psy Events Manager"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:440
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:441
+msgid "Offline Registration"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:450
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:451
+msgid "Settings"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:481
+msgid "Settings has been failed to save!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:503
+msgid "Settings Data has been successfully saved!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:513
+msgid "Project safe type has been failed to save!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:557
+msgid "Project safe type data has been successfully saved!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:568
+msgctxt "Tickets"
+msgid "Tickets"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:569
+msgctxt "Tickets"
+msgid "Ticket"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:570
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:950
+msgid "Tickets"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:571
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:598
+msgid "Ticket"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:572
+msgid "Ticket Archives"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:573
+msgid "Ticket Attributes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:574
+msgid "Parent Ticket:"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:575
+msgid "All Tickets"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:576
+msgid "Add New Ticket"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:577
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:740
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1121
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1288
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1460
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1634
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1939
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2741
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3114
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3260
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3417
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3518
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3620
+msgid "Add New"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:578
+msgid "New Ticket"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:579
+msgid "Edit Ticket"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:580
+msgid "Update Ticket"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:581
+msgid "View Ticket"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:582
+msgid "View Tickets"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:583
+msgid "Search Ticket"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:584
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:747
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1128
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1295
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1467
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1641
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1946
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2748
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3121
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3267
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3424
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3525
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3627
+msgid "Not found"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:585
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:748
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1129
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1296
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1468
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1642
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1947
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2749
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3122
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3268
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3425
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3526
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3628
+msgid "Not found in Trash"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:586
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:749
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1130
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1297
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1469
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1643
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1948
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2750
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3123
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3269
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3426
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3527
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3629
+msgid "Featured Image"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:587
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:750
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1131
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1298
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1470
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1644
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1949
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2751
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3124
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3270
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3427
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3528
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3630
+msgid "Set featured image"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:588
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:751
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1132
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1299
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1471
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1645
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1950
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2752
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3125
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3271
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3428
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3529
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3631
+msgid "Remove featured image"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:589
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:752
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1133
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1300
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1472
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1646
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1951
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2753
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3126
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3272
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3429
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3530
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3632
+msgid "Use as featured image"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:590
+msgid "Insert into ticket"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:591
+msgid "Uploaded to this ticket"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:592
+msgid "Tickets list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:593
+msgid "Tickets list navigation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:594
+msgid "Filter Tickets list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:599
+msgid "Ticket post Type for tickets"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:690
+msgid "Price (USD)"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:731
+msgctxt "Events"
+msgid "Events"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:732
+msgctxt "Events"
+msgid "Event"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:733
+msgid "Events"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:735
+msgid "Event Archives"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:736
+msgid "Event Attributes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:737
+msgid "Parent Event:"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:738
+msgid "All Events"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:739
+msgid "Add New Event"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:741
+msgid "New Event"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:742
+msgid "Edit Event"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:743
+msgid "Update Event"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:744
+msgid "View Event"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:745
+msgid "View Events"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:746
+msgid "Search Event"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:753
+msgid "Insert into event"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:754
+msgid "Uploaded to this event"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:755
+msgid "Events list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:756
+msgid "Events list navigation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:757
+msgid "Filter Events list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:762
+msgid "Event post Type for events"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:951
+msgid "Schedules"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:952
+msgid "Reg. Type"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:953
+msgid "Total Slots"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:954
+msgid "Used Slots"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:955
+msgid "Copy Event"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1033
+msgid "Event data has been failed to copy!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1090
+msgid "Event Data has been successfully copied!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1112
+msgctxt "Coupons"
+msgid "Coupons"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1113
+msgctxt "Coupon"
+msgid "Coupon"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1114
+msgid "Coupons"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1115
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1142
+msgid "Coupon"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1116
+msgid "Coupon Archives"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1117
+msgid "Coupon Attributes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1118
+msgid "Parent Coupon:"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1119
+msgid "All Coupons"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1120
+msgid "Add New Coupon"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1122
+msgid "New Coupon"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1123
+msgid "Edit Coupon"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1124
+msgid "Update Coupon"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1125
+msgid "View Coupon"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1126
+msgid "View Coupons"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1127
+msgid "Search Coupon"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1134
+msgid "Insert into coupon"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1135
+msgid "Uploaded to this coupon"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1136
+msgid "Coupons list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1137
+msgid "Coupons list navigation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1138
+msgid "Filter Coupons list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1143
+msgid "Coupon post Type for Coupons"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1223
+msgid "Code"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1224
+msgid "Expiry"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1225
+msgid "Amount/Percent"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1279
+msgctxt "Speakers"
+msgid "Speakers"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1280
+msgctxt "Speaker"
+msgid "Speaker"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1281
+msgid "Speakers"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1282
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1309
+msgid "Speaker"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1283
+msgid "Speaker Archives"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1284
+msgid "Speaker Attributes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1285
+msgid "Parent Speaker:"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1286
+msgid "All Speakers"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1287
+msgid "Add New Speaker"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1289
+msgid "New Speaker"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1290
+msgid "Edit Speaker"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1291
+msgid "Update Speaker"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1292
+msgid "View Speaker"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1293
+msgid "View Speakers"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1294
+msgid "Search Speaker"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1301
+msgid "Insert into speaker"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1302
+msgid "Uploaded to this speaker"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1303
+msgid "Speakers list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1304
+msgid "Speakers list navigation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1305
+msgid "Filter Speakers list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1310
+msgid "Speaker post Type for event speakers"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1335
+msgctxt "taxonomy general name"
+msgid "Speaker Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1336
+msgctxt "taxonomy singular name"
+msgid "Speaker Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1337
+msgid "Search Speaker Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1338
+msgid "All Speaker Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1339
+msgid "Parent Speaker Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1340
+msgid "Parent Speaker Category:"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1341
+msgid "Edit Speaker Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1342
+msgid "Update Speaker Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1343
+msgid "Add New Speaker Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1344
+msgid "New Speaker Category Name"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1345
+msgid "Speaker Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1421
+msgid "Designation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1451
+msgctxt "Partners"
+msgid "Partners"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1452
+msgctxt "Partner"
+msgid "Partner"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1453
+msgid "Partners"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1454
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1481
+msgid "Partner"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1455
+msgid "Partner Archives"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1456
+msgid "Partner Attributes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1457
+msgid "Parent Partner:"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1458
+msgid "All Partners"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1459
+msgid "Add New Partner"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1461
+msgid "New Partner"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1462
+msgid "Edit Partner"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1463
+msgid "Update Partner"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1464
+msgid "View Partner"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1465
+msgid "View Partners"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1466
+msgid "Search Partner"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1473
+msgid "Insert into partner"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1474
+msgid "Uploaded to this partner"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1475
+msgid "Partners list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1476
+msgid "Partners list navigation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1477
+msgid "Filter Partners list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1482
+msgid "Partner post Type for event partners"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1508
+msgctxt "taxonomy general name"
+msgid "Partner Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1509
+msgctxt "taxonomy singular name"
+msgid "Partner Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1510
+msgid "Search Partner Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1511
+msgid "All Partner Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1512
+msgid "Parent Partner Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1513
+msgid "Parent Partner Category:"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1514
+msgid "Edit Partner Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1515
+msgid "Update Partner Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1516
+msgid "Add New Partner Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1517
+msgid "New Partner Category Name"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1518
+msgid "Partner Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1594
+msgid "Sponsorship Level"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1625
+msgctxt "Participants"
+msgid "Participants"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1626
+msgctxt "Participant"
+msgid "Participant"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1627
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:363
+msgid "Participants"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1628
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1655
+msgid "Participant"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1629
+msgid "Participant Archives"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1630
+msgid "Participant Attributes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1631
+msgid "Parent Participant:"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1632
+msgid "All Participants"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1633
+msgid "Add New Participant"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1635
+msgid "New Participant"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1636
+msgid "Edit Participant"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1637
+msgid "Update Participant"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1638
+msgid "View Participant"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1639
+msgid "View Participants"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1640
+msgid "Search Participant"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1647
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2754
+msgid "Insert into participant"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1648
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2755
+msgid "Uploaded to this participant"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1649
+msgid "Participants list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1650
+msgid "Participants list navigation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1651
+msgid "Filter Participants list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1656
+msgid "Participant post type for event attendees"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1734
+msgid "Participant Name"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1735
+msgid "Participant Email"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1736
+msgid "Participant Type"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1834
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2993
+msgid "You are not authorize to export data!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1930
+msgctxt "Orders"
+msgid "Event Orders"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1931
+msgctxt "Order"
+msgid "Event Order"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1932
+msgid "Orders"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1933
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1960
+msgid "Order"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1934
+msgid "Order Archives"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1935
+msgid "Order Attributes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1936
+msgid "Parent Order:"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1937
+msgid "All Orders"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1938
+msgid "Add New Order"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1940
+msgid "New Order"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1941
+msgid "Edit Order"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1942
+msgid "Update Order"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1943
+msgid "View Order"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1944
+msgid "View Orders"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1945
+msgid "Search Order"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1952
+msgid "Insert into order"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1953
+msgid "Uploaded to this order"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1954
+msgid "Orders list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1955
+msgid "Orders list navigation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1956
+msgid "Filter Orders list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:1961
+msgid "Order post type for event attendees"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2069
+msgid "Order ID"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2070
+msgid "Total Tickets"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2071
+msgid "Dates"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2072
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2841
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:208
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:345
+msgid "Name"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2160
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2262
+msgid "Print tickets has been failed to process!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2270
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2294
+msgid "Csv has been failed to import!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2295
+msgid "You can not upload more paticipants in this order."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2382
+msgid "Csv Data has been successfully imported!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2394
+msgid "Event ticket has been failed to send!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2423
+msgid "Print tickets participants data not found!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2544
+msgid "Event ticket has been successfully sent!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2566
+msgid "Offline Registration has been failed to create!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2732
+msgctxt "Projectsafes"
+msgid "Projectsafes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2733
+msgctxt "Projectsafe"
+msgid "Projectsafe"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2734
+msgid "Projectsafes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2735
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2762
+msgid "Projectsafe"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2736
+msgid "Projectsafe Archives"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2737
+msgid "Projectsafe Attributes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2738
+msgid "Parent Projectsafe:"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2739
+msgid "All Projectsafes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2740
+msgid "Add New Projectsafe"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2742
+msgid "New Projectsafe"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2743
+msgid "Edit Projectsafe"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2744
+msgid "Update Projectsafe"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2745
+msgid "View Projectsafe"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2746
+msgid "View Projectsafes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2747
+msgid "Search Projectsafe"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2756
+msgid "Projectsafes list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2757
+msgid "Projectsafes list navigation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2758
+msgid "Filter Projectsafes list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2763
+msgid "Projectsafe post type"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2845
+msgid "Gender"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2846
+msgid "DOB"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2847
+msgid "Region"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2850
+msgid "Source"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2851
+msgid "Method"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:2852
+msgid "Status"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3105
+msgctxt "Amounts"
+msgid "Donation Amounts"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3106
+msgctxt "Amount"
+msgid "Donation Amount"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3107
+msgid "Amounts"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3109
+msgid "Amount Archives"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3110
+msgid "Amount Attributes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3111
+msgid "Parent Amount:"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3112
+msgid "All Amounts"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3113
+msgid "Add New Amount"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3115
+msgid "New Amount"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3116
+msgid "Edit Amount"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3117
+msgid "Update Amount"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3118
+msgid "View Amount"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3119
+msgid "View Amounts"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3120
+msgid "Search Amount"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3127
+msgid "Insert into amount"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3128
+msgid "Uploaded to this amount"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3129
+msgid "Amounts list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3130
+msgid "Amounts list navigation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3131
+msgid "Filter Amounts list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3136
+msgid "Amount post type for donations"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3214
+msgid "Amount Name"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3215
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3365
+msgid "Price"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3251
+msgctxt "Donations"
+msgid "Donations"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3252
+msgctxt "Donation"
+msgid "Donation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3253
+msgid "Donations"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3254
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3281
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:47
+msgid "Donation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3255
+msgid "Donation Archives"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3256
+msgid "Donation Attributes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3257
+msgid "Parent Donation:"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3258
+msgid "All Donations"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3259
+msgid "Add New Donation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3261
+msgid "New Donation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3262
+msgid "Edit Donation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3263
+msgid "Update Donation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3264
+msgid "View Donation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3265
+msgid "View Donations"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3266
+msgid "Search Donation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3273
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3430
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3531
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3633
+msgid "Insert into donation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3274
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3431
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3532
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3634
+msgid "Uploaded to this donation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3275
+msgid "Donations list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3276
+msgid "Donations list navigation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3277
+msgid "Filter Donations list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3282
+msgid "Donation post type for donations"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3364
+msgid "Donation Name"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3408
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3409
+msgctxt "Knowledge"
+msgid "Knowledge"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3410
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3411
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3438
+msgid "Knowledge"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3412
+msgid "Knowledge Archives"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3413
+msgid "Knowledge Attributes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3414
+msgid "Parent Knowledge:"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3415
+msgid "All Knowledges"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3416
+msgid "Add New Knowledge"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3418
+msgid "New Knowledge"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3419
+msgid "Edit Knowledge"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3420
+msgid "Update Knowledge"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3421
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3422
+msgid "View Knowledge"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3423
+msgid "Search Knowledge"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3432
+msgid "Knowledge list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3433
+msgid "Knowledge list navigation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3434
+msgid "Filter Knowledge list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3439
+msgid "Knowledge post type for knowledge"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3473
+msgctxt "Knowledge Categories"
+msgid "Knowledge Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3474
+msgctxt "Knowledge Category"
+msgid "Knowledge Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3475
+msgid "Search Knowledge Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3476
+msgid "All Knowledge Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3477
+msgid "Parent Knowledge Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3478
+msgid "Parent Knowledge Category:"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3479
+msgid "Edit Knowledge Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3480
+msgid "Update Knowledge Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3481
+msgid "Add New Knowledge Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3482
+msgid "New Knowledge Category Name"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3483
+msgid "Knowledge Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3509
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3510
+msgctxt "News"
+msgid "News"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3511
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3512
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3539
+msgid "News"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3513
+msgid "News Archives"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3514
+msgid "News Attributes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3515
+msgid "Parent News:"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3516
+msgid "All News"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3517
+msgid "Add New News"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3519
+msgid "New News"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3520
+msgid "Edit News"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3521
+msgid "Update News"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3522
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3523
+msgid "View News"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3524
+msgid "Search News"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3533
+msgid "News list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3534
+msgid "News list navigation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3535
+msgid "Filter News list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3540
+msgid "News post type for news"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3574
+msgctxt "News Categories"
+msgid "News Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3575
+msgctxt "News Category"
+msgid "News Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3576
+msgid "Search News Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3577
+msgid "All News Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3578
+msgid "Parent News Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3579
+msgid "Parent News Category:"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3580
+msgid "Edit News Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3581
+msgid "Update News Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3582
+msgid "Add New News Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3583
+msgid "New News Category Name"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3584
+msgid "News Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3611
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3612
+msgctxt "Programmes"
+msgid "Programmes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3613
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3614
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3641
+msgid "Programmes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3615
+msgid "Programmes Archives"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3616
+msgid "Programmes Attributes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3617
+msgid "Parent Programmes:"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3618
+msgid "All Programmes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3619
+msgid "Add New Programmes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3621
+msgid "New Programmes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3622
+msgid "Edit Programmes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3623
+msgid "Update Programmes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3624
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3625
+msgid "View Programmes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3626
+msgid "Search Programmes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3635
+msgid "Programmes list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3636
+msgid "Programmes list navigation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3637
+msgid "Filter Programmes list"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3642
+msgid "Programmes post type for programmes"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3676
+msgctxt "Programmes Categories"
+msgid "Programmes Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3677
+msgctxt "Programmes Category"
+msgid "Programmes Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3678
+msgid "Search Programmes Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3679
+msgid "All Programmes Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3680
+msgid "Parent Programmes Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3681
+msgid "Parent Programmes Category:"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3682
+msgid "Edit Programmes Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3683
+msgid "Update Programmes Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3684
+msgid "Add New Programmes Category"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3685
+msgid "New Programmes Category Name"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3686
+msgid "Programmes Categories"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3712
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3723
+msgid "Category Icon Image URL"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3714
+#: wp-content/plugins/psyeventsmanager/admin/psyemAdmin.php:3726
+msgid "Enter category icon image url."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationAmountsModal.php:5
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationForm.php:38
+msgid "Monthly Donation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationAmountsModal.php:6
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationForm.php:49
+msgid "One Time Donation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationAmountsModal.php:44
+msgid "Next"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:45
+msgid "Donation Summary"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:53
+msgid "Change Amount?"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:59
+msgid "Card & Billing"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:67
+msgid "Billing Address"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:79
+msgid "Address Line 1"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:86
+msgid "Address Line 2"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:93
+msgid "Town/City"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:113
+msgid "Additional Details"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:133
+msgid "Email Address"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:140
+msgid "Phone Number"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:147
+msgid "Company/Organisation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:162
+msgid "Sign up for our Newsletter"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:172
+msgid "I agree to the"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:174
+msgid "Terms & Conditions"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:187
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:271
+msgid "Continue to Payment"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:200
+msgid "Card Details"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:215
+msgid "Please wait..."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:226
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:312
+msgid "By submitting payment details, I hereby agreed with the terms & conditions"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:234
+msgid "Donate & Confirm"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:250
+msgid "Thank You"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:257
+msgid "Thank you for your donation!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:261
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderThankyou.php:45
+msgid "REFERENCE ID"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:266
+msgid "BACK TO HOMEPAGE"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationCheckout.php:286
+msgid "Please select an amount first to proceed with the donation checkout."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationForm.php:24
+msgid "Make a Donation"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationForm.php:26
+msgid "Your donation will go a long way in helping to save lives by supporting our efforts to promote prevention, early detection, and optimal treatment of gynaecological cancer in Hong Kong."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationForm.php:29
+msgid "We are a registered charity in both the US and Hong Kong and are able to provide tax deductible receipts for both jurisdictions."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationForm.php:39
+msgid "Help keep our programs running."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationForm.php:45
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationForm.php:54
+msgid "Select Amount"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationForm.php:50
+msgid "Every penny counts."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationForm.php:58
+msgid "Donate towards our Core Objectives."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationForm.php:59
+msgid "Make a targeted impact."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemDonationForm.php:62
+msgid "Areas of Impact"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventDetails.php:54
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:54
+msgid "Our Events"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventDetails.php:97
+msgid "About the event"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventDetails.php:126
+msgid "Start date time"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventDetails.php:136
+msgid "End date time"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventDetails.php:147
+msgid "Registration Fee"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventDetails.php:160
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:119
+msgid "Registration Type"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventDetails.php:222
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:170
+msgid "Total"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventDetails.php:229
+msgid "Add To Cart"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventDetails.php:246
+msgid "Additional Information"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventDetails.php:264
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSpeakerDetails.php:27
+msgid "Event Speakers"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventDetails.php:285
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventsList.php:269
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemKnowledgehubList.php:74
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemKnowledgehubList.php:102
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSinglePost.php:15
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSinglePost.php:37
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSinglePost.php:58
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSinglePost.php:90
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSinglePost.php:113
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSinglePost.php:142
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSinglePost.php:162
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSinglePost.php:180
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSinglePost.php:211
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSinglePost.php:232
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSinglePost.php:265
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSinglePost.php:288
+msgid "More"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventDetails.php:309
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemPartnerDetails.php:28
+msgid "Event Partners"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventDetails.php:347
+msgid "Event Media"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventDetails.php:379
+msgid "Social Media"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventDetails.php:425
+msgid "Event Disclaimer"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventDetails.php:446
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventsList.php:282
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemPartnerDetails.php:86
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSpeakerDetails.php:78
+msgid "Tagged "
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventsList.php:51
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemKnowledgehubList.php:37
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemNewsList.php:38
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemProgrammesList.php:37
+msgid "Search"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventsList.php:58
+msgid "UPCOMING EVENTS"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventsList.php:63
+msgid "PAST EVENTS"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventsList.php:68
+msgid "VIEW ALL"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventsList.php:180
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemKnowledgehubList.php:122
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemNewsList.php:167
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemProgrammesList.php:93
+msgid "No records found."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventsList.php:215
+msgid "Become a Volunteer"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventsList.php:218
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventsList.php:242
+msgid "KLF is always looking for dedicated volunteers who are passionate about fighting women’s cancers or who simply want to assist the local community."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventsList.php:221
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventsList.php:245
+msgid "Contact Us"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventsList.php:239
+msgid "Get the Latest Update"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventsList.php:263
+msgid "Become a Sponsor"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemEventsList.php:266
+msgid "All our sponsorship opportunities include a range of attractive benefits"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemKnowledgehubList.php:53
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemNewsList.php:54
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemProgrammesList.php:53
+msgid "View All"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:59
+msgid "Checkout"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:100
+msgid "Event Info"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:106
+msgid "Start Date Time"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:112
+msgid "End Date Time"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:127
+msgid "Registration Ticket Price"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:143
+msgid "Disclaimer"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:157
+msgid "Order Summary"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:168
+msgid "Item"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:169
+msgid "Quantity"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:210
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:347
+msgid "Enter your name"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:216
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:359
+msgid "Enter company name"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:227
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:353
+msgid "Enter your valid email"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:231
+msgid "Coupon Code"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:234
+msgid "Enter coupon code"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:236
+msgid "Apply"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:249
+msgid "Total Ticket Price"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:255
+msgid "Total Discount Price"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:261
+msgid "Total Checkout Price"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:276
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:376
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:399
+msgid "Registration for this event has been closed."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:301
+msgid "Please wait"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:320
+msgid "PAY NOW"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:338
+msgid "Participants Info"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:365
+msgid "Select total participants"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:371
+msgid "Submit to Book"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:404
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:441
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderThankyou.php:47
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemVerifyqr.php:83
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemVerifyqr.php:115
+msgid "Click"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:406
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:443
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderThankyou.php:49
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemVerifyqr.php:85
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemVerifyqr.php:117
+msgid "here"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:408
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:445
+msgid "to view events or book new tickets."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderCheckout.php:436
+msgid "Event data not found to process checkout."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderThankyou.php:35
+msgid "Booking confirmed"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderThankyou.php:42
+msgid "We are delighted to inform you that your booking has been successfully confirmed, and your payment has been processed. We look forward to serving you and ensuring you have a wonderful experience"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemOrderThankyou.php:51
+msgid "to view more events or book new tickets."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemPartnerDetails.php:64
+msgid "About the Partner"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSinglePost.php:13
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSinglePost.php:35
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSinglePost.php:56
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSinglePost.php:88
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSinglePost.php:111
+msgid "Posted on"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemSpeakerDetails.php:54
+msgid "About the Speaker"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemVerifyqr.php:66
+msgid "QR Scan successfully confirmed"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemVerifyqr.php:73
+msgid "Welcome"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemVerifyqr.php:76
+msgid "Thank you, Your booking ticket scan for"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemVerifyqr.php:77
+msgid "EVENT"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemVerifyqr.php:78
+msgid "has been successfully confirmed."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemVerifyqr.php:87
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemVerifyqr.php:119
+msgid "to visit the site."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemVerifyqr.php:96
+msgid "The QR code scan was unsuccessful."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemVerifyqr.php:104
+msgid "The participant QR code scan has been failed to confirm."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/pages/psyemVerifyqr.php:109
+msgid "Participant QR code link is INVALID."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:262
+msgid "Event ticket price has been failed to calculate!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:279
+msgid "Event ticket price calculated!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:295
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:1427
+msgid "Payment intent has been failed to process!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:327
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:666
+msgid "Booking is not allowed for this event!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:379
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:1519
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:1611
+msgid "Payment intent created!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:407
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:641
+msgid "Booking order has been failed to process!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:610
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:788
+msgid "Booking order has been successfully proccessed!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:626
+msgid "Booking order payment intent is empty!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:803
+msgid "Booking order failed to process!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:1176
+msgid "Project safe request has been failed to process!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:1191
+msgid "Project safe request has been sucessfully submitted!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:1192
+msgid "Participant details are captured, Please submit contact informations!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:1341
+msgid "Donation amounts has been failed to fetch!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:1364
+msgid "Donation amount records data found"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:1379
+msgid "Donation cart amount process has been failed!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:1403
+msgid "Donation checkout page is not linked."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:1410
+msgid "Donation cart amount successfully processed"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:1448
+msgid "Payment intent action is invalid!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:1636
+msgid "Donation amount has been failed to process!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:1807
+msgid "Donation has been successfully proccessed!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/front/psyemFront.php:1825
+msgid "Donation payment intent is empty!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemHelper.php:463
+msgid "Your coupon code is expired!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemHelper.php:466
+msgid "Your coupon code is invalid!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemHelper.php:469
+msgid "Please check! Your coupon code is invalid!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemHelper.php:472
+msgid "No coupons are allowed for booking this event!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemHelper.php:1092
+msgid "Offline registration order has been failed to create!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemHelper.php:1115
+msgid "Registration is not allowed for this event!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemHelper.php:1238
+msgid "Offline registration order has been successfully created!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:8
+msgid "Settings are required to process the request!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:11
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:38
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:73
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:101
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:129
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:162
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:199
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:238
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:274
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:315
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:342
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:461
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:485
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:509
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:540
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:578
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:621
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:666
+msgid "Action is required to process the request!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:14
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:41
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:76
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:104
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:132
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:165
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:202
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:241
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:277
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:318
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:345
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:464
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:488
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:512
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:543
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:581
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:624
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:669
+msgid "Nonce is missing, Invalid request!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:19
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:47
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:82
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:110
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:138
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:171
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:208
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:247
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:283
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:323
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:350
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:469
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:493
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:517
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:548
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:586
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:630
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:675
+msgid "No kiddies please! Referer not matched!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:23
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:51
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:86
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:114
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:142
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:175
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:212
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:251
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:287
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:327
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:354
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:473
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:497
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:521
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:552
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:590
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:634
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:679
+msgid "No kiddies please! Security nonce not matched!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:35
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:70
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:126
+msgid "Order ID is required to process the request!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:59
+msgid "Invalid file type. Only CSV files are allowed."
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:98
+msgid "Event ID is required to process the request!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:153
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:193
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:235
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:268
+msgid "Event key is required to process the request!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:156
+msgid "At least one ticket with participant is required to process the request!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:159
+msgid "Price calculation source is missing"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:187
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:229
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:262
+msgid "Participant name is required to process the request!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:190
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:232
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:265
+msgid "Participant email required to process the request!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:196
+msgid "Ticket is required to process the request!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:223
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:615
+msgid "Payment intent is required to process the request!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:226
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:618
+msgid "Payment status is required to process the request!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:271
+msgid "Participants count is required to process the request!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:299
+msgid "Event is required!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:302
+msgid "Participant first name is required!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:305
+msgid "Participant last name is required!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:308
+msgid "Participant email is required!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:311
+msgid "Participants count is required!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:359
+msgid "Input source is missing"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:363
+msgid "Input key is missing"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:370
+msgid "First name field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:373
+msgid "Last name field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:376
+msgid "Gender field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:379
+msgid "DOB date field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:382
+msgid "DOB month field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:385
+msgid "DOB year field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:388
+msgid "Sexual experience field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:391
+msgid "Cervical screening field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:394
+msgid "Undergoing treatment field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:397
+msgid "Received HPV vaccine field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:400
+msgid "Are you pregnant field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:403
+msgid "Did you have a hysterectomy field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:406
+msgid "Clinical study consent field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:409
+msgid "Information sheet consent field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:412
+msgid "Voluntary participation consent field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:415
+msgid "Cervical screening programme consent field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:418
+msgid "Professional opinion consent field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:421
+msgid "Terms and conditions consent field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:430
+msgid "Contact way field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:433
+msgid "Phone field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:436
+msgid "Email field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:439
+msgid "Region field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:442
+msgid "District field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:445
+msgid "Address field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:448
+msgid "Contact source field is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:525
+msgid "Amount type is required"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:528
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:556
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:594
+msgid "Amount type is invalid"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:560
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:564
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:598
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:602
+msgid "Amount must be greater than 1"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:647
+msgid "Task is required to process the request!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:650
+msgid "Task is invalid to process the request!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:656
+msgid "Title is required to process the request!"
+msgstr ""
+
+#: wp-content/plugins/psyeventsmanager/helpers/psyemValidationsHelper.php:661
+msgid "Record slug is required to process the request!"
+msgstr ""
+
+#: wp-includes/blocks/widget-group/block.json
+msgctxt "block title"
+msgid "Widget Group"
+msgstr ""

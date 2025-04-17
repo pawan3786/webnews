@@ -1,0 +1,49 @@
+/*
+Theme Name: ChromeGrid
+Theme URI: https://afthemes.com/products/chromegrid/
+Author: AF themes
+Author URI: https://afthemes.com
+Requires PHP: 5.6
+Tested up to: 6.6
+Description: ChromeGrid is the ideal free WordPress theme to supercharge your blog and news website. With a collection of free demo sites ready for easy import, ChromeGrid offers incredible flexibility for creating a captivating online journal. Its user-friendly widget system, featuring over 9 unique widgets, simplifies content customization. Readers can enjoy articles in either light or dark mode, and the theme provides essential customization options for crafting an appealing news site. ChromeGrid seamlessly supports Gutenberg blocks, RTL languages, and WooCommerce integration for e-commerce functionality. Whether you're managing a blog, news outlet, magazine, or review site, ChromeGrid's SEO optimization ensures your website ranks higher in search engine results. Plus, the dedicated ChromeGrid team is at your service for any assistance you may need, making it the perfect choice for elevating your website's performance and visibility. Find all demos and documentaion at https://afthemes.com/products/chromenews/chromegrid/ and Support at https://afthemes.com/supports/
+Template: chromenews
+Version: 1.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: chromegrid
+Tags: news, blog, entertainment, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, full-width-template, custom-header, translation-ready, theme-options, threaded-comments
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+ChromeGrid WordPress Theme, Copyright 2023 AF themes
+ChromeGrid is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+.exclusive-posts .exclusive-now,
+.chromenews-header.header-layout-side .search-watch div.custom-menu-link > a{
+    background: #0973c7;
+    color: #ffffff;
+}
+
+div.custom-menu-link > a{
+    background: #0973c7;
+    color: #ffffff;
+}
+
+body.single-post .entry-title, h1.page-title {
+    font-size: 32px;
+}
+
+.archive-list-post .read-title h4{
+    font-size: 22px;
+}
+
+.af-cat-widget-carousel a.chromenews-categories.category-color-2{
+    background: #0973c7;
+}
+
+
+.af-cat-widget-carousel a.chromenews-categories.category-color-3{
+    background: #222222;
+}
