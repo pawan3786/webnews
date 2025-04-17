@@ -89,8 +89,8 @@ jQuery(function ($) {
                 text: "Want to create copy of clicked event?",
                 icon: 'warning',
                 showCancelButton: true,
-                confirmButtonText: "Yes, Create Copy",
-                cancelButtonText: "No, Cancel",
+                confirmButtonText: "Yes",
+                cancelButtonText: "No",
                 customClass: {
                     confirmButton: 'btn btn-primary me-3 waves-effect waves-light',
                     cancelButton: 'btn btn-outline-secondary waves-effect'
@@ -165,7 +165,7 @@ function hideEventTicketTypesField() {
     jQuery('#psyem_event_tickets_cont').hide();
 }
 
-function showEventTicketTypeField(ftype) {       
+function showEventTicketTypeField(ftype) {
     if (ftype == 'Closed') {
         jQuery('#psyem_event_tickets_cont').show();
     }

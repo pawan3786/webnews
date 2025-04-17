@@ -133,7 +133,7 @@ var PsyemProjectSafePanel = function () {
         var field_agree_study = psyemPaticipantForm.find('input[name="field_agree_study"]');
         if (field_agree_study.is(':checked') || field_agree_study.prop('checked')) {
         } else {
-            displayToaster('Cervical screening programme consent field is required', 'info');
+            displayToaster('Cervical screening program consent field is required', 'info');
             return 'FALSE';
         }
         var field_agree_doctor = psyemPaticipantForm.find('input[name="field_agree_doctor"]');

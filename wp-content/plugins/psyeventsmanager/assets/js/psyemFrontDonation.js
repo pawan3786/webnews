@@ -412,7 +412,7 @@ function psyemHandleStripeErrorResponse(stripeResponse) {
         if (eResponse.type === "card_error" || eResponse.type === "validation_error" || eResponse.type === 'invalid_request_error') {
             psyemShowMessage(eResponse.message);
         } else {
-            psyemShowMessage("An unexpected error occurred. Please try again.");
+            psyemShowMessage(psyem_serverError);
         }
     }
     psyemSetLoading(false);

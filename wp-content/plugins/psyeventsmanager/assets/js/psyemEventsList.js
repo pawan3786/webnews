@@ -42,7 +42,4 @@ jQuery(function () {
             jQuery('.psyemPostListSearchForm').submit();
         }
     });
-
-
-    
 });

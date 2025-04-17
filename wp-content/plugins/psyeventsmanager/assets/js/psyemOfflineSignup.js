@@ -14,8 +14,8 @@ jQuery(document).ready(function () {
                 text: "Want to create offline registration?",
                 icon: 'warning',
                 showCancelButton: true,
-                confirmButtonText: "Yes, Create it",
-                cancelButtonText: "No, Cancel",
+                confirmButtonText: "Yes",
+                cancelButtonText: "No",
                 customClass: {
                     confirmButton: 'btn btn-primary me-3 waves-effect waves-light',
                     cancelButton: 'btn btn-outline-secondary waves-effect'
