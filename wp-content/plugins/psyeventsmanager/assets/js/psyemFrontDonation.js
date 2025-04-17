@@ -686,5 +686,9 @@ window.onload = function () {
     if (psyemDonationCont) {
         psyemDonationCont.style.display = 'block';
     }
+    var psyemDonationCheckoutc = document.querySelector('.psyemDonationCheckout');
+    if (psyemDonationCheckoutc) {
+        psyemDonationCheckoutc.style.display = 'block';
+    }
 };
 

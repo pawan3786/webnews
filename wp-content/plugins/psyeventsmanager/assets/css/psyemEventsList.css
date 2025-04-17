@@ -1309,3 +1309,9 @@ a {
 	display: block;
 	padding-bottom: 100%;
 }
+
+.psyemEventDetailSidebar .event-time{
+	font-weight: lighter;
+    font-size: 1.125em;
+	color: #000;
+}

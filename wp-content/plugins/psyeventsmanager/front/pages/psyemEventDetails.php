@@ -37,12 +37,12 @@ while (have_posts()) : the_post();
     $event_startdate    = @$psyemEventMeta['psyem_event_startdate'];
     $event_starttime    = @$psyemEventMeta['psyem_event_starttime'];
     $start_date         = psyem_GetFormattedDatetime('d F Y', $event_startdate);
-    $start_time         = psyem_GetFormattedDatetime('h:i A', $event_startdate . '' . $event_starttime);
+    $start_time         = psyem_GetFormattedDatetime('h:i a', $event_startdate . '' . $event_starttime);
 
     $event_enddate      = @$psyemEventMeta['psyem_event_enddate'];
     $event_endtime      = @$psyemEventMeta['psyem_event_endtime'];
     $end_date           = psyem_GetFormattedDatetime('d F Y', $event_enddate);
-    $end_time           = psyem_GetFormattedDatetime('h:i A', $event_startdate . '' . $event_endtime);
+    $end_time           = psyem_GetFormattedDatetime('h:i a', $event_startdate . '' . $event_endtime);
 ?>
     <main id="content" <?php post_class('site-main psyemEventInfo'); ?> style="max-width: 100%; overflow: hidden;">
         <section class="topBradcampImage" style="background:url(<?= $fetauredImage ?>); background-position: center; background-repeat: no-repeat; background-size: cover;">
@@ -81,9 +81,13 @@ while (have_posts()) : the_post();
                         <?php echo $start_date . ' - ' . $end_date; ?>
                     </div>
 
+                    <div class="event-time event-date">
+                        <?php echo $start_time . ' - ' . $end_time; ?>
+                    </div>
+
                     <?php if ((!empty($eventTickets) && is_array($eventTickets)) && ($eventRegType == 'Paid')) : ?>
                         <a href="javascript:void(0);" class="linkcontact gotoTickets">
-                            More
+                            <?= __('Learn More', 'psyeventsmanager') ?>
                         </a>
                     <?php endif; ?>
                 </div>
