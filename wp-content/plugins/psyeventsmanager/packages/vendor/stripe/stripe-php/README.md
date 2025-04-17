@@ -52,7 +52,8 @@ If you use Composer, these dependencies should be handled automatically. If you 
 Simple usage looks like:
 
 ```php
-$stripe = new \Stripe\StripeClient('XXXXXXXXXXXSECRETKEY');
+$secKey = '';
+$stripe = new \Stripe\StripeClient($secKey );
 $customer = $stripe->customers->create([
     'description' => 'example customer',
     'email' => 'email@example.com',
@@ -227,7 +228,7 @@ Stripe::addBetaVersion("feature_beta", "v3");
 If you would like to send a request to an undocumented API (for example you are in a private beta), or if you prefer to bypass the method definitions in the library and specify your request details directly, you can use the `rawRequest` method on the StripeClient.
 
 ```php
-$stripe = new \Stripe\StripeClient('sk_test_xyz');
+$stripe = new \Stripe\StripeClient('XXXXXXXXXXXXXXXXX');
 $response = $stripe->rawRequest('post', '/v1/beta_endpoint', [
   "caveat": "emptor"
 ], [
