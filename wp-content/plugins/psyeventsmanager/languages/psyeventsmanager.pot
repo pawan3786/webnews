@@ -9,33 +9,33 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-04-16T11:33:47+00:00\n"
+"POT-Creation-Date: 2025-04-17T07:46:39+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: psyeventsmanager\n"
 
 #. Plugin Name of the plugin
 #: psyeventsmanager.php
-#: helpers/psyemHelper.php:11
+#: helpers/psyemHelper.php:12
 msgid "PSY Events Manager"
 msgstr ""
 
 #. Plugin URI of the plugin
 #. Author URI of the plugin
 #: psyeventsmanager.php
-#: helpers/psyemHelper.php:12
+#: helpers/psyemHelper.php:13
 msgid "https://smtlabs.io"
 msgstr ""
 
 #. Description of the plugin
 #: psyeventsmanager.php
-#: helpers/psyemHelper.php:13
+#: helpers/psyemHelper.php:14
 msgid "Custom Plugin for Events, Tickets, Sales and Orders Managements"
 msgstr ""
 
 #. Author of the plugin
 #: psyeventsmanager.php
-#: helpers/psyemHelper.php:14
+#: helpers/psyemHelper.php:15
 msgid "Pawan Kumar"
 msgstr ""
 
@@ -345,7 +345,7 @@ msgstr ""
 #: admin/includes/psyemEventMetaboxes.php:82
 #: admin/includes/psyemOrderMetaboxes.php:61
 #: admin/psyemAdmin.php:2499
-#: helpers/psyemHelper.php:1991
+#: helpers/psyemHelper.php:1998
 msgid "Event Address"
 msgstr ""
 
@@ -2008,20 +2008,20 @@ msgid "Hello"
 msgstr ""
 
 #: admin/psyemAdmin.php:2498
-#: helpers/psyemHelper.php:1990
+#: helpers/psyemHelper.php:1997
 msgid "Kindly find the attached document for event ticket reference."
 msgstr ""
 
 #: admin/psyemAdmin.php:2500
-#: helpers/psyemHelper.php:1627
-#: helpers/psyemHelper.php:1993
+#: helpers/psyemHelper.php:1634
+#: helpers/psyemHelper.php:2000
 msgid "See you soon"
 msgstr ""
 
 #: admin/psyemAdmin.php:2501
 #: front/pages/psyemDonationCheckout.php:250
-#: helpers/psyemHelper.php:1628
-#: helpers/psyemHelper.php:1994
+#: helpers/psyemHelper.php:1635
+#: helpers/psyemHelper.php:2001
 msgid "Thank You"
 msgstr ""
 
@@ -3509,51 +3509,51 @@ msgstr ""
 msgid "Donation payment intent is empty!"
 msgstr ""
 
-#: helpers/psyemHelper.php:475
+#: helpers/psyemHelper.php:482
 msgid "Your coupon code is expired!"
 msgstr ""
 
-#: helpers/psyemHelper.php:478
+#: helpers/psyemHelper.php:485
 msgid "Your coupon code is invalid!"
 msgstr ""
 
-#: helpers/psyemHelper.php:481
+#: helpers/psyemHelper.php:488
 msgid "Please check! Your coupon code is invalid!"
 msgstr ""
 
-#: helpers/psyemHelper.php:484
+#: helpers/psyemHelper.php:491
 msgid "No coupons are allowed for booking this event!"
 msgstr ""
 
-#: helpers/psyemHelper.php:1104
+#: helpers/psyemHelper.php:1111
 msgid "Offline registration order has been failed to create!"
 msgstr ""
 
-#: helpers/psyemHelper.php:1127
+#: helpers/psyemHelper.php:1134
 msgid "Registration is not allowed for this event!"
 msgstr ""
 
-#: helpers/psyemHelper.php:1250
+#: helpers/psyemHelper.php:1257
 msgid "Offline registration order has been successfully created!"
 msgstr ""
 
-#: helpers/psyemHelper.php:1621
+#: helpers/psyemHelper.php:1628
 msgid "Your registration request for Project Safe has been successfully submitted."
 msgstr ""
 
-#: helpers/psyemHelper.php:1625
+#: helpers/psyemHelper.php:1632
 msgid "You are now registered to Project SAFE - Our partner PHASE Scientific will send you an email or sms for confirmation in 1-2 working days."
 msgstr ""
 
-#: helpers/psyemHelper.php:1626
+#: helpers/psyemHelper.php:1633
 msgid "Please call Kinetics Integrated Medical and Health Center within 2 weeks from your sign-up date to arrange an appointment for the screening."
 msgstr ""
 
-#: helpers/psyemHelper.php:1989
+#: helpers/psyemHelper.php:1996
 msgid "Your booking has been confirmed."
 msgstr ""
 
-#: helpers/psyemHelper.php:1992
+#: helpers/psyemHelper.php:1999
 msgid "Booking Order"
 msgstr ""
 
