@@ -476,11 +476,12 @@
 }
 
 .eventPartnerCateHead {
-	font-size: .9375em;
 	line-height: 1.67;
 	color: #000;
 	letter-spacing: -.13px;
-	margin-bottom: 30px
+	margin-bottom: 30px;
+	font-size: 1.6875em;
+    font-weight: lighter;
 }
 
 .post-tickets .counter {
@@ -492,7 +493,8 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 20px 0;
-	position: relative
+	position: relative;
+	min-height: 32vh;
 }
 
 .page-headerNewEvent::before {

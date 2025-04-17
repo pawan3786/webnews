@@ -30,14 +30,14 @@ $AllNewsCategories       = psyem_GetAllCategoriesWithPosts('psyem-programmes-cat
     <div class="searchSection">
         <div class="container-fuild">
             <div class="row align-items-center justify-content-center">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <form action="" method="get" class="psyemPostListSearchForm">
                         <input type="submit" value="" class="search-submit">
                         <input type="hidden" name="search_cat" value="" class="search_cat">
                         <input type="search" name="search_key" class="search-text" <?= (!empty($searchq)) ? 'autofocus="autofocus"' : '' ?> placeholder="<?= __('Search', 'psyeventsmanager') ?>..." autocomplete="off" value="<?= $searchq ?>">
                     </form>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-8">
                     <?php if (!empty($AllNewsCategories) && is_array($AllNewsCategories) && count($AllNewsCategories) > 0): ?>
                         <ul class="categoryTabs">
                             <?php foreach ($AllNewsCategories as $ccatid => $ccatInfo): ?>

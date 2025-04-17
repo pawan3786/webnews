@@ -1154,6 +1154,7 @@ class psyemFrontManager
         // reset seesion on page load
         $projectKey = 'ProjectSafe';
         $_SESSION[$projectKey]     = array();
+        $psyem_options             = psyem_GetOptionsWithPrefix();
 
         $shortcodeOutput = '';
         $pfFilePath = PSYEM_PATH . 'front/pages/psyemProjectsafeForm.php';
@@ -1318,7 +1319,7 @@ class psyemFrontManager
         // reset seesion on page load
         $projectKey                 = 'donation_cart';
         // $_SESSION[$projectKey]      = array();
-
+        $psyem_options              = psyem_GetOptionsWithPrefix();
         $shortcodeOutput = '';
         $pfFilePath = PSYEM_PATH . 'front/pages/psyemDonationCheckout.php';
         if (@is_file($pfFilePath) && @file_exists($pfFilePath)) {

@@ -14,7 +14,7 @@
     left: 0;
     height: 260px;
     width: 184px;
-   
+
     background-size: 100% auto;
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -29,7 +29,7 @@
     bottom: 33px;
     height: 169px;
     width: 174px;
-   
+
     background-size: 100% auto;
     -webkit-transform: rotate(180deg);
     -moz-transform: rotate(180deg);
@@ -113,7 +113,7 @@
     bottom: 0;
     height: 20px;
     width: 20px;
-   
+
     margin: auto;
     /* transform: rotate(90deg); */
 }
@@ -142,7 +142,7 @@
     bottom: 0;
     height: 20px;
     width: 20px;
-   
+
     margin: auto;
     /* transform: rotate(90deg); */
 }
@@ -164,7 +164,7 @@
 .modal.fade.in .lab-modal-body {
     bottom: 0;
     opacity: 1;
-   
+
 }
 
 .lab-modal-body h1 {
@@ -210,7 +210,8 @@
     z-index: 2;
     border: 0px;
 }
-.lab-modal-body .close:hover{
+
+.lab-modal-body .close:hover {
     background-color: transparent;
 }
 
@@ -219,7 +220,7 @@
 }
 
 .fade:not(.show) {
-    opacity: 1;   
+    opacity: 1;
 }
 
 .wrapperModal {
@@ -309,7 +310,7 @@
     background: rgba(255, 255, 255, 0.2);
     border-radius: 100px;
     margin-left: 15px;
-    max-width: 170px;
+    max-width: 175px;
     -webkit-transition: all 333ms linear;
     -moz-transition: all 333ms linear;
     transition: all 333ms linear;
@@ -436,55 +437,242 @@
     }
 }
 
-.custom-donation-fieldgroup.active .placeholder-shown::placeholder{font-size: 11px; padding-left: 6px;}
+.custom-donation-fieldgroup.active .placeholder-shown::placeholder {
+    font-size: 11px;
+    padding-left: 6px;
+}
 
 
 /* checkout bgn */
-.donation-details{position:relative;padding:50px 0;border-top:1px solid #F2F2F2;margin-top:10px;padding-top:0;border-bottom:1px solid #F2F2F2;padding-bottom:0;margin-bottom:10px}
-.psyemDonationCheckout .borderContent{border-left:1px solid #F2F2F2;border-right:1px solid #F2F2F2}
-.psyemDonationCheckout .leftChangeAmount{padding-top:80px;padding-bottom:50px}
-.psyemDonationCheckout .leftChangeAmount h6{font-weight:600;color:#B33E96;font-size:.9375em;margin-bottom:13px;text-transform:capitalize}
-.psyemDonationCheckout .leftChangeAmount h2{margin-bottom:4px;font-size:22px;line-height:1.27;letter-spacing:-.2px;display:inline-block;vertical-align:middle}
-.psyemDonationCheckout .currency{position:relative;font-size:15px;font-weight:600;display:inline-block;vertical-align:middle;font-weight:lighter;line-height:1;cursor:pointer}
-.psyemDonationCheckout .leftChangeAmount a{font-size:.8125em;line-height:1.46;margin:20px 0 19px;color:#2C2A2E;font-weight:300;text-decoration:underline;display:block}
-.psyemDonationCheckout .cardBillingDetail{padding-top:80px;padding-bottom:80px;border-left:1px solid #F2F2F2;padding-left:50px}
-.psyemDonationCheckout .cardBillingDetail h1{font-weight:400;font-size:1.6875em;letter-spacing:-.24px;padding-bottom:21px;border-bottom:1px solid #F2F2F2;margin-bottom:40px}
-.psyemDonationCheckout .pNoneLeftRightbilling{padding-left:0;padding-right:0}
-.psyemDonationCheckout .form-group{position:relative;margin-bottom:20px}
-.psyemDonationCheckout .form-group input{width:100%;padding:17px 16px 13px;border:1px solid #F2F2F2;border-radius:0;font-size:16px;transition:border-color .3s ease;height:50px;padding-top:14px;letter-spacing:-.14px;font-weight:300;transition:all 333ms linear}
-.psyemDonationCheckout .form-group label{position:absolute;left:18px;top:10px;font-size:16px;color:#777;transition:top .3s ease,font-size .3s ease,color .3s ease;font-weight:300;cursor:text}
-.psyemDonationCheckout .form-group input:focus{border-color:#007bff;outline:none}
-.psyemDonationCheckout .form-group input:focus + label,.psyemDonationCheckout .form-group input:not(:placeholder-shown) + label{top:4px;font-size:10px;color:#424242;background-color:transparent;padding:0 4px;border-radius:4px;left:12px}
-.psyemDonationCheckout .form-group input:-webkit-autofill,.psyemDonationCheckout .form-group input:-webkit-autofill:hover,.psyemDonationCheckout .form-group input:-webkit-autofill:focus,.psyemDonationCheckout .form-group input:-webkit-autofill:active{transition:background-color 5000s ease-in-out 0s}
-.psyemDonationCheckout .cardBillingDetail h5{font-weight:600;font-size:14px;margin-bottom:25px}
-.psyemDonationCheckout .newsletter-agree_wrapper{margin-bottom:13px}
-.psyemDonationCheckout .newsletter-agree_wrapper .checkbox{background-size:cover;display:inline-block;vertical-align:middle;}
-.psyemDonationCheckout .newsletter-agree_wrapper .checkbox{height:13px;width:13px;border:1px solid #353239;border-radius:50%;margin-right:11px;cursor:pointer}
-.psyemDonationCheckout .newsletter-agree_wrapper span{font-size:.8125em;color:#454147}
-.psyemDonationCheckout .donation-details input{height:50px;width:100%;border:1px solid #F2F2F2;font-size:1em;font-weight:lighter;letter-spacing:-.14px;padding:17px 16px 13px;z-index:1;-webkit-transition:all 333ms linear;-moz-transition:all 333ms linear;transition:all 333ms linear}
-.psyemDonationCheckout .donateConirm{position:relative;display:inline-block;font-size:.875em;text-transform:uppercase;background:#B33E96;border:none;color:#FFF;border-radius:100px;padding:5px 18px;min-width:78px;text-align:center;text-decoration:none;outline:none;-webkit-transition:all 333ms linear;-moz-transition:all 333ms linear;transition:all 333ms linear;margin-top:30px}
-.psyemDonationCheckout .donateConirm:hover{padding:9px 22px;box-shadow:0 0 11px 2px #a72f9180}
-	
-	
-@media (max-width: 991px) {
-	.psyemDonationCheckout .cardBillingDetail {
-		padding-left: 50px;
-		padding-right: 50px;
-	}
-	.psyemDonationCheckout .leftChangeAmount {
-		padding-top: 50px;
-		padding-bottom: 0px;
-		padding-left: 50px;
-		padding-right: 50px;
-	}
+.donation-details {
+    position: relative;
+    padding: 50px 0;
+    border-top: 1px solid #F2F2F2;
+    margin-top: 10px;
+    padding-top: 0;
+    border-bottom: 1px solid #F2F2F2;
+    padding-bottom: 0;
+    margin-bottom: 10px
 }
+
+.psyemDonationCheckout .borderContent {
+    border-left: 1px solid #F2F2F2;
+    border-right: 1px solid #F2F2F2
+}
+
+.psyemDonationCheckout .leftChangeAmount {
+    padding-top: 80px;
+    padding-bottom: 50px
+}
+
+.psyemDonationCheckout .leftChangeAmount h6 {
+    font-weight: 600;
+    color: #B33E96;
+    font-size: .9375em;
+    margin-bottom: 13px;
+    text-transform: capitalize
+}
+
+.psyemDonationCheckout .leftChangeAmount h2 {
+    margin-bottom: 4px;
+    font-size: 22px;
+    line-height: 1.27;
+    letter-spacing: -.2px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.psyemDonationCheckout .currency {
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: lighter;
+    line-height: 1;
+    cursor: pointer
+}
+
+.psyemDonationCheckout .leftChangeAmount a {
+    font-size: .8125em;
+    line-height: 1.46;
+    margin: 20px 0 19px;
+    color: #2C2A2E;
+    font-weight: 300;
+    text-decoration: underline;
+    display: block
+}
+
+.psyemDonationCheckout .cardBillingDetail {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-left: 1px solid #F2F2F2;
+    padding-left: 50px
+}
+
+.psyemDonationCheckout .cardBillingDetail h1 {
+    font-weight: 400;
+    font-size: 1.6875em;
+    letter-spacing: -.24px;
+    padding-bottom: 21px;
+    border-bottom: 1px solid #F2F2F2;
+    margin-bottom: 40px
+}
+
+.psyemDonationCheckout .pNoneLeftRightbilling {
+    padding-left: 0;
+    padding-right: 0
+}
+
+.psyemDonationCheckout .form-group {
+    position: relative;
+    margin-bottom: 20px
+}
+
+.psyemDonationCheckout .form-group input {
+    width: 100%;
+    padding: 17px 16px 13px;
+    border: 1px solid #F2F2F2;
+    border-radius: 0;
+    font-size: 16px;
+    transition: border-color .3s ease;
+    height: 50px;
+    padding-top: 14px;
+    letter-spacing: -.14px;
+    font-weight: 300;
+    transition: all 333ms linear
+}
+
+.psyemDonationCheckout .form-group label {
+    position: absolute;
+    left: 18px;
+    top: 10px;
+    font-size: 16px;
+    color: #777;
+    transition: top .3s ease, font-size .3s ease, color .3s ease;
+    font-weight: 300;
+    cursor: text
+}
+
+.psyemDonationCheckout .form-group input:focus {
+    border-color: #007bff;
+    outline: none
+}
+
+.psyemDonationCheckout .form-group input:focus+label,
+.psyemDonationCheckout .form-group input:not(:placeholder-shown)+label {
+    top: 4px;
+    font-size: 10px;
+    color: #424242;
+    background-color: transparent;
+    padding: 0 4px;
+    border-radius: 4px;
+    left: 12px
+}
+
+.psyemDonationCheckout .form-group input:-webkit-autofill,
+.psyemDonationCheckout .form-group input:-webkit-autofill:hover,
+.psyemDonationCheckout .form-group input:-webkit-autofill:focus,
+.psyemDonationCheckout .form-group input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s
+}
+
+.psyemDonationCheckout .cardBillingDetail h5 {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 25px
+}
+
+.psyemDonationCheckout .newsletter-agree_wrapper {
+    margin-bottom: 13px
+}
+
+.psyemDonationCheckout .newsletter-agree_wrapper .checkbox {
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.psyemDonationCheckout .newsletter-agree_wrapper .checkbox {
+    height: 13px;
+    width: 13px;
+    border: 1px solid #353239;
+    border-radius: 50%;
+    margin-right: 11px;
+    cursor: pointer
+}
+
+.psyemDonationCheckout .newsletter-agree_wrapper span {
+    font-size: .8125em;
+    color: #454147
+}
+
+.psyemDonationCheckout .donation-details input {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #F2F2F2;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: -.14px;
+    padding: 17px 16px 13px;
+    z-index: 1;
+    -webkit-transition: all 333ms linear;
+    -moz-transition: all 333ms linear;
+    transition: all 333ms linear
+}
+
+.psyemDonationCheckout .donateConirm {
+    position: relative;
+    display: inline-block;
+    font-size: .875em;
+    text-transform: uppercase;
+    background: #B33E96;
+    border: none;
+    color: #FFF;
+    border-radius: 100px;
+    padding: 5px 18px;
+    min-width: 78px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    -webkit-transition: all 333ms linear;
+    -moz-transition: all 333ms linear;
+    transition: all 333ms linear;
+    margin-top: 30px
+}
+
+.psyemDonationCheckout .donateConirm:hover {
+    padding: 9px 22px;
+    box-shadow: 0 0 11px 2px #a72f9180
+}
+
+
+@media (max-width: 991px) {
+    .psyemDonationCheckout .cardBillingDetail {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .psyemDonationCheckout .leftChangeAmount {
+        padding-top: 50px;
+        padding-bottom: 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
 @media (max-width: 568px) {
     .psyemDonationCheckout .cardBillingDetail {
         padding-left: 20px;
         padding-right: 20px;
     }
-	.psyemDonationCheckout .leftChangeAmount {
-		padding-left: 20px;
-		padding-right: 20px;
-	}
+
+    .psyemDonationCheckout .leftChangeAmount {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.leftChangeAmount .psyemDonationType {
+    font-size: 0.8125em;
 }

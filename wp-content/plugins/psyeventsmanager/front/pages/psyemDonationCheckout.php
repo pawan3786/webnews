@@ -43,7 +43,7 @@ if (!empty($amount_enc)):
                 <div class="col-md-12 col-lg-3 pNoneLeftRightbilling">
                     <div class="leftChangeAmount">
                         <h6><?= __('Donation Summary', 'psyeventsmanager') ?></h6>
-                        <small class="d-block">
+                        <small class="d-block psyemDonationType">
                             <?= $amount_type ?> <?= __('Donation', 'psyeventsmanager') ?>
                         </small>
                         <h2>
@@ -170,7 +170,7 @@ if (!empty($amount_enc)):
                                                 <div class="checkbox-newsletter tandcCheck checkbox agree"></div>
                                                 <span>
                                                     <?= __('I agree to the', 'psyeventsmanager') ?>
-                                                    <a href="">
+                                                    <a href="<?= (isset($psyem_options) && isset($psyem_options['psyem_terms_url'])) ? $psyem_options['psyem_terms_url'] : '' ?>">
                                                         <?= __('Terms & Conditions', 'psyeventsmanager') ?>
                                                     </a>
                                                 </span>

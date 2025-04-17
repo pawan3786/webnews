@@ -285,7 +285,7 @@
                                             <input name="field_agree_tnc" id="field_agree_tnc" type="checkbox" required />
                                             <label for="field_agree_tnc">
                                                 <?= __('I have read and agree to the', 'psyeventsmanager') ?>
-                                                <a href="" target="_blank"><?= __('Terms & Conditions', 'psyeventsmanager') ?></a>.
+                                                <a href="<?= (isset($psyem_options) && isset($psyem_options['psyem_terms_url'])) ? $psyem_options['psyem_terms_url'] : '' ?>" target="_blank"><?= __('Terms & Conditions', 'psyeventsmanager') ?></a>.
                                                 <span class="text-danger">*</span>
                                             </label>
                                         </div>
