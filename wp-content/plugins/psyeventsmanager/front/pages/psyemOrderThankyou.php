@@ -39,7 +39,10 @@ while (have_posts()) : the_post();
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="alert alert-success mb-5" role="alert">
-                                                <?= __('We are delighted to inform you that your booking has been successfully confirmed, and your payment has been processed. We look forward to serving you and ensuring you have a wonderful experience', 'psyeventsmanager') ?>
+                                                <?php
+                                                $tText = 'We are delighted to inform you that your booking has been successfully confirmed, and your payment has been processed. We look forward to serving you and ensuring you have a wonderful experience';
+                                                esc_html_e($tText, 'psyeventsmanager');
+                                                ?>.
                                             </div>
                                             <div class="alert alert-success" role="alert">
                                                 <strong> <?= __('REFERENCE ID', 'psyeventsmanager') ?>: <?= @$booking_order_id ?> </strong>
@@ -48,7 +51,7 @@ while (have_posts()) : the_post();
                                                 <a href="<?= psyem_GetPageLinkBySlug('psyem-events-list') ?>" class="alert-link">
                                                     <?= __('here', 'psyeventsmanager') ?>
                                                 </a>
-                                                <?= __('to view more events or book new tickets.', 'psyeventsmanager') ?>
+                                                <?= __('to view more events or book new tickets', 'psyeventsmanager') ?>
                                             </div>
                                         </div>
                                     </div>

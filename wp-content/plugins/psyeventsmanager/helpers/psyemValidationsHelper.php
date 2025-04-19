@@ -5,22 +5,22 @@ function psyem_ValidateSettingsData($post = [])
     $errors = array();
     if (!empty($post) && is_array($post)) {
         if (!isset($post['Settings']) || empty($post['Settings'])) {
-            $errors[] = __('Settings are required to process the request!', 'psyeventsmanager');
+            $errors[] = __('Settings are required to process the request', 'psyeventsmanager');
         }
         if (!isset($post['action']) || empty($post['action'])) {
-            $errors[] = __('Action is required to process the request!', 'psyeventsmanager');
+            $errors[] = __('Action is required to process the request', 'psyeventsmanager');
         }
         if (!isset($post['_nonce']) || empty($post['_nonce'])) {
-            $errors[] = __('Nonce is missing, Invalid request!', 'psyeventsmanager');
+            $errors[] = __('Nonce is missing, Invalid request', 'psyeventsmanager');
         }
         if (isset($post['_nonce']) && !empty($post['_nonce'])) {
             $do_check      = check_ajax_referer('_nonce', '_nonce', false);
             if ($do_check == false) {
-                $errors[] = __('No kiddies please! Referer not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Referer not matched', 'psyeventsmanager');
             }
             $do_nonce   = wp_verify_nonce($post['_nonce'], '_nonce');
             if ($do_nonce == false) {
-                $errors[] = __('No kiddies please! Security nonce not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Security nonce not matched', 'psyeventsmanager');
             }
         }
     }
@@ -32,23 +32,23 @@ function psyem_ValidateParticipantsCsvData($post = [])
     $errors = array();
     if (!empty($post) && is_array($post)) {
         if (!isset($post['participant_order_id']) || empty($post['participant_order_id'])) {
-            $errors[] = __('Order ID is required to process the request!', 'psyeventsmanager');
+            $errors[] = __('Order ID is required to process the request', 'psyeventsmanager');
         }
         if (!isset($post['action']) || empty($post['action'])) {
-            $errors[] = __('Action is required to process the request!', 'psyeventsmanager');
+            $errors[] = __('Action is required to process the request', 'psyeventsmanager');
         }
         if (!isset($post['_nonce']) || empty($post['_nonce'])) {
-            $errors[] = __('Nonce is missing, Invalid request!', 'psyeventsmanager');
+            $errors[] = __('Nonce is missing, Invalid request', 'psyeventsmanager');
         }
 
         if (isset($post['_nonce']) && !empty($post['_nonce'])) {
             $do_check      = check_ajax_referer('_nonce', '_nonce', false);
             if ($do_check == false) {
-                $errors[] = __('No kiddies please! Referer not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Referer not matched', 'psyeventsmanager');
             }
             $do_nonce   = wp_verify_nonce($post['_nonce'], '_nonce');
             if ($do_nonce == false) {
-                $errors[] = __('No kiddies please! Security nonce not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Security nonce not matched', 'psyeventsmanager');
             }
         }
 
@@ -56,7 +56,7 @@ function psyem_ValidateParticipantsCsvData($post = [])
         $fileName    = @$_FILES['participant_csv_file']['name'];
         $file_type   = pathinfo($fileName, PATHINFO_EXTENSION);
         if ($file_type != 'csv') {
-            $errors[] = __('Invalid file type. Only CSV files are allowed.', 'psyeventsmanager');
+            $errors[] = __('Invalid file type. Only CSV files are allowed', 'psyeventsmanager');
         }
     }
     return $errors;
@@ -67,23 +67,23 @@ function psyem_ValidateOrderPrintTicketsData($post = [])
     $errors = array();
     if (!empty($post) && is_array($post)) {
         if (!isset($post['order_id']) || empty($post['order_id'])) {
-            $errors[] = __('Order ID is required to process the request!', 'psyeventsmanager');
+            $errors[] = __('Order ID is required to process the request', 'psyeventsmanager');
         }
         if (!isset($post['action']) || empty($post['action'])) {
-            $errors[] = __('Action is required to process the request!', 'psyeventsmanager');
+            $errors[] = __('Action is required to process the request', 'psyeventsmanager');
         }
         if (!isset($post['_nonce']) || empty($post['_nonce'])) {
-            $errors[] = __('Nonce is missing, Invalid request!', 'psyeventsmanager');
+            $errors[] = __('Nonce is missing, Invalid request', 'psyeventsmanager');
         }
 
         if (isset($post['_nonce']) && !empty($post['_nonce'])) {
             $do_check      = check_ajax_referer('_nonce', '_nonce', false);
             if ($do_check == false) {
-                $errors[] = __('No kiddies please! Referer not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Referer not matched', 'psyeventsmanager');
             }
             $do_nonce   = wp_verify_nonce($post['_nonce'], '_nonce');
             if ($do_nonce == false) {
-                $errors[] = __('No kiddies please! Security nonce not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Security nonce not matched', 'psyeventsmanager');
             }
         }
     }
@@ -95,23 +95,23 @@ function psyem_ValidateCopyEventData($post = [])
     $errors = array();
     if (!empty($post) && is_array($post)) {
         if (!isset($post['event_id']) || empty($post['event_id'])) {
-            $errors[] = __('Event ID is required to process the request!', 'psyeventsmanager');
+            $errors[] = __('Event ID is required to process the request', 'psyeventsmanager');
         }
         if (!isset($post['action']) || empty($post['action'])) {
-            $errors[] = __('Action is required to process the request!', 'psyeventsmanager');
+            $errors[] = __('Action is required to process the request', 'psyeventsmanager');
         }
         if (!isset($post['_nonce']) || empty($post['_nonce'])) {
-            $errors[] = __('Nonce is missing, Invalid request!', 'psyeventsmanager');
+            $errors[] = __('Nonce is missing, Invalid request', 'psyeventsmanager');
         }
 
         if (isset($post['_nonce']) && !empty($post['_nonce'])) {
             $do_check      = check_ajax_referer('_nonce', '_nonce', false);
             if ($do_check == false) {
-                $errors[] = __('No kiddies please! Referer not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Referer not matched', 'psyeventsmanager');
             }
             $do_nonce   = wp_verify_nonce($post['_nonce'], '_nonce');
             if ($do_nonce == false) {
-                $errors[] = __('No kiddies please! Security nonce not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Security nonce not matched', 'psyeventsmanager');
             }
         }
     }
@@ -123,23 +123,23 @@ function psyem_ValidateOrderSendTicketsData($post = [])
     $errors = array();
     if (!empty($post) && is_array($post)) {
         if (!isset($post['order_id']) || empty($post['order_id'])) {
-            $errors[] = __('Order ID is required to process the request!', 'psyeventsmanager');
+            $errors[] = __('Order ID is required to process the request', 'psyeventsmanager');
         }
         if (!isset($post['action']) || empty($post['action'])) {
-            $errors[] = __('Action is required to process the request!', 'psyeventsmanager');
+            $errors[] = __('Action is required to process the request', 'psyeventsmanager');
         }
         if (!isset($post['_nonce']) || empty($post['_nonce'])) {
-            $errors[] = __('Nonce is missing, Invalid request!', 'psyeventsmanager');
+            $errors[] = __('Nonce is missing, Invalid request', 'psyeventsmanager');
         }
 
         if (isset($post['_nonce']) && !empty($post['_nonce'])) {
             $do_check      = check_ajax_referer('_nonce', '_nonce', false);
             if ($do_check == false) {
-                $errors[] = __('No kiddies please! Referer not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Referer not matched', 'psyeventsmanager');
             }
             $do_nonce   = wp_verify_nonce($post['_nonce'], '_nonce');
             if ($do_nonce == false) {
-                $errors[] = __('No kiddies please! Security nonce not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Security nonce not matched', 'psyeventsmanager');
             }
         }
     }
@@ -150,29 +150,29 @@ function psyem_ValidateEventOrderCartPriceCalculationData($post = [])
 {
     $errors = array();
     if (!isset($post['checkout_key']) || empty($post['checkout_key'])) {
-        $errors[] = __('Event key is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Event key is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['checkout_tickets']) || empty($post['checkout_tickets'])) {
-        $errors[] = __('At least one ticket with participant is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('At least one ticket with participant is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['checkout_source']) || empty($post['checkout_source'])) {
         $errors[] = __('Price calculation source is missing', 'psyeventsmanager');
     }
     if (!isset($post['action']) || empty($post['action'])) {
-        $errors[] = __('Action is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Action is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['_nonce']) || empty($post['_nonce'])) {
-        $errors[] = __('Nonce is missing, Invalid request!', 'psyeventsmanager');
+        $errors[] = __('Nonce is missing, Invalid request', 'psyeventsmanager');
     }
 
     if (isset($post['_nonce']) && !empty($post['_nonce'])) {
         $do_check      = check_ajax_referer('_nonce', '_nonce', false);
         if ($do_check == false) {
-            $errors[] = __('No kiddies please! Referer not matched!', 'psyeventsmanager');
+            $errors[] = __('No kiddies please! Referer not matched', 'psyeventsmanager');
         }
         $do_nonce   = wp_verify_nonce($post['_nonce'], '_nonce');
         if ($do_nonce == false) {
-            $errors[] = __('No kiddies please! Security nonce not matched!', 'psyeventsmanager');
+            $errors[] = __('No kiddies please! Security nonce not matched', 'psyeventsmanager');
         }
     }
 
@@ -184,32 +184,32 @@ function psyem_ValidateEventOrderIntentData($post = [])
     $errors = array();
 
     if (!isset($post['checkout_name']) || empty($post['checkout_name'])) {
-        $errors[] = __('Participant name is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Participant name is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['checkout_email']) || empty($post['checkout_email'])) {
-        $errors[] = __('Participant email required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Participant email required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['checkout_key']) || empty($post['checkout_key'])) {
-        $errors[] = __('Event key is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Event key is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['checkout_tickets']) || empty($post['checkout_tickets'])) {
-        $errors[] = __('Ticket is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Ticket is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['action']) || empty($post['action'])) {
-        $errors[] = __('Action is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Action is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['_nonce']) || empty($post['_nonce'])) {
-        $errors[] = __('Nonce is missing, Invalid request!', 'psyeventsmanager');
+        $errors[] = __('Nonce is missing, Invalid request', 'psyeventsmanager');
     }
 
     if (isset($post['_nonce']) && !empty($post['_nonce'])) {
         $do_check      = check_ajax_referer('_nonce', '_nonce', false);
         if ($do_check == false) {
-            $errors[] = __('No kiddies please! Referer not matched!', 'psyeventsmanager');
+            $errors[] = __('No kiddies please! Referer not matched', 'psyeventsmanager');
         }
         $do_nonce   = wp_verify_nonce($post['_nonce'], '_nonce');
         if ($do_nonce == false) {
-            $errors[] = __('No kiddies please! Security nonce not matched!', 'psyeventsmanager');
+            $errors[] = __('No kiddies please! Security nonce not matched', 'psyeventsmanager');
         }
     }
 
@@ -220,35 +220,35 @@ function psyem_ValidateEventOrderPaymentData($post = [])
 {
     $errors = array();
     if (!isset($post['intent_id']) || empty($post['intent_id'])) {
-        $errors[] = __('Payment intent is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Payment intent is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['stripe_status']) || empty($post['stripe_status'])) {
-        $errors[] = __('Payment status is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Payment status is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['checkout_name']) || empty($post['checkout_name'])) {
-        $errors[] = __('Participant name is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Participant name is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['checkout_email']) || empty($post['checkout_email'])) {
-        $errors[] = __('Participant email required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Participant email required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['checkout_key']) || empty($post['checkout_key'])) {
-        $errors[] = __('Event key is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Event key is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['action']) || empty($post['action'])) {
-        $errors[] = __('Action is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Action is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['_nonce']) || empty($post['_nonce'])) {
-        $errors[] = __('Nonce is missing, Invalid request!', 'psyeventsmanager');
+        $errors[] = __('Nonce is missing, Invalid request', 'psyeventsmanager');
     }
 
     if (isset($post['_nonce']) && !empty($post['_nonce'])) {
         $do_check      = check_ajax_referer('_nonce', '_nonce', false);
         if ($do_check == false) {
-            $errors[] = __('No kiddies please! Referer not matched!', 'psyeventsmanager');
+            $errors[] = __('No kiddies please! Referer not matched', 'psyeventsmanager');
         }
         $do_nonce   = wp_verify_nonce($post['_nonce'], '_nonce');
         if ($do_nonce == false) {
-            $errors[] = __('No kiddies please! Security nonce not matched!', 'psyeventsmanager');
+            $errors[] = __('No kiddies please! Security nonce not matched', 'psyeventsmanager');
         }
     }
 
@@ -259,32 +259,32 @@ function psyem_ValidateEventOrderFreeBookingData($post = [])
 {
     $errors = array();
     if (!isset($post['checkout_name']) || empty($post['checkout_name'])) {
-        $errors[] = __('Participant name is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Participant name is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['checkout_email']) || empty($post['checkout_email'])) {
-        $errors[] = __('Participant email required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Participant email required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['checkout_key']) || empty($post['checkout_key'])) {
-        $errors[] = __('Event key is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Event key is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['checkout_tickets']) || empty($post['checkout_tickets'])) {
-        $errors[] = __('Participants count is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Participants count is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['action']) || empty($post['action'])) {
-        $errors[] = __('Action is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Action is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['_nonce']) || empty($post['_nonce'])) {
-        $errors[] = __('Nonce is missing, Invalid request!', 'psyeventsmanager');
+        $errors[] = __('Nonce is missing, Invalid request', 'psyeventsmanager');
     }
 
     if (isset($post['_nonce']) && !empty($post['_nonce'])) {
         $do_check      = check_ajax_referer('_nonce', '_nonce', false);
         if ($do_check == false) {
-            $errors[] = __('No kiddies please! Referer not matched!', 'psyeventsmanager');
+            $errors[] = __('No kiddies please! Referer not matched', 'psyeventsmanager');
         }
         $do_nonce   = wp_verify_nonce($post['_nonce'], '_nonce');
         if ($do_nonce == false) {
-            $errors[] = __('No kiddies please! Security nonce not matched!', 'psyeventsmanager');
+            $errors[] = __('No kiddies please! Security nonce not matched', 'psyeventsmanager');
         }
     }
 
@@ -296,35 +296,35 @@ function psyem_ValidateOfflineRegistrationData($post = [])
     $errors = array();
     if (!empty($post) && is_array($post)) {
         if (!isset($post['offline_event']) || empty($post['offline_event'])) {
-            $errors[] = __('Event is required!', 'psyeventsmanager');
+            $errors[] = __('Event is required', 'psyeventsmanager');
         }
         if (!isset($post['offline_firstname']) || empty($post['offline_firstname'])) {
-            $errors[] = __('Participant first name is required!', 'psyeventsmanager');
+            $errors[] = __('Participant first name is required', 'psyeventsmanager');
         }
         if (!isset($post['offline_lastname']) || empty($post['offline_lastname'])) {
-            $errors[] = __('Participant last name is required!', 'psyeventsmanager');
+            $errors[] = __('Participant last name is required', 'psyeventsmanager');
         }
         if (!isset($post['offline_email']) || empty($post['offline_email'])) {
-            $errors[] = __('Participant email is required!', 'psyeventsmanager');
+            $errors[] = __('Participant email is required', 'psyeventsmanager');
         }
         if (!isset($post['offline_tickets']) || empty($post['offline_tickets'])) {
-            $errors[] = __('Participants count is required!', 'psyeventsmanager');
+            $errors[] = __('Participants count is required', 'psyeventsmanager');
         }
 
         if (!isset($post['action']) || empty($post['action'])) {
-            $errors[] = __('Action is required to process the request!', 'psyeventsmanager');
+            $errors[] = __('Action is required to process the request', 'psyeventsmanager');
         }
         if (!isset($post['_nonce']) || empty($post['_nonce'])) {
-            $errors[] = __('Nonce is missing, Invalid request!', 'psyeventsmanager');
+            $errors[] = __('Nonce is missing, Invalid request', 'psyeventsmanager');
         }
         if (isset($post['_nonce']) && !empty($post['_nonce'])) {
             $do_check      = check_ajax_referer('_nonce', '_nonce', false);
             if ($do_check == false) {
-                $errors[] = __('No kiddies please! Referer not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Referer not matched', 'psyeventsmanager');
             }
             $do_nonce   = wp_verify_nonce($post['_nonce'], '_nonce');
             if ($do_nonce == false) {
-                $errors[] = __('No kiddies please! Security nonce not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Security nonce not matched', 'psyeventsmanager');
             }
         }
     }
@@ -338,19 +338,19 @@ function psyem_ValidateProjectSafeFormData($post = [])
     if (!empty($post) && is_array($post)) {
 
         if (!isset($post['action']) || empty($post['action'])) {
-            $errors[] = __('Action is required to process the request!', 'psyeventsmanager');
+            $errors[] = __('Action is required to process the request', 'psyeventsmanager');
         }
         if (!isset($post['_nonce']) || empty($post['_nonce'])) {
-            $errors[] = __('Nonce is missing, Invalid request!', 'psyeventsmanager');
+            $errors[] = __('Nonce is missing, Invalid request', 'psyeventsmanager');
         }
         if (isset($post['_nonce']) && !empty($post['_nonce'])) {
             $do_check      = check_ajax_referer('_nonce', '_nonce', false);
             if ($do_check == false) {
-                $errors[] = __('No kiddies please! Referer not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Referer not matched', 'psyeventsmanager');
             }
             $do_nonce   = wp_verify_nonce($post['_nonce'], '_nonce');
             if ($do_nonce == false) {
-                $errors[] = __('No kiddies please! Security nonce not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Security nonce not matched', 'psyeventsmanager');
             }
         }
 
@@ -457,19 +457,19 @@ function psyem_ValidateProjectSafeExportData($post)
     $errors = array();
     if (!empty($post) && is_array($post)) {
         if (!isset($post['action']) || empty($post['action'])) {
-            $errors[] = __('Action is required to process the request!', 'psyeventsmanager');
+            $errors[] = __('Action is required to process the request', 'psyeventsmanager');
         }
         if (!isset($post['_nonce']) || empty($post['_nonce'])) {
-            $errors[] = __('Nonce is missing, Invalid request!', 'psyeventsmanager');
+            $errors[] = __('Nonce is missing, Invalid request', 'psyeventsmanager');
         }
         if (isset($post['_nonce']) && !empty($post['_nonce'])) {
             $do_check      = check_ajax_referer('_nonce', '_nonce', false);
             if ($do_check == false) {
-                $errors[] = __('No kiddies please! Referer not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Referer not matched', 'psyeventsmanager');
             }
             $do_nonce   = wp_verify_nonce($post['_nonce'], '_nonce');
             if ($do_nonce == false) {
-                $errors[] = __('No kiddies please! Security nonce not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Security nonce not matched', 'psyeventsmanager');
             }
         }
     }
@@ -481,19 +481,19 @@ function psyem_ValidateParticipantsExportData($post)
     $errors = array();
     if (!empty($post) && is_array($post)) {
         if (!isset($post['action']) || empty($post['action'])) {
-            $errors[] = __('Action is required to process the request!', 'psyeventsmanager');
+            $errors[] = __('Action is required to process the request', 'psyeventsmanager');
         }
         if (!isset($post['_nonce']) || empty($post['_nonce'])) {
-            $errors[] = __('Nonce is missing, Invalid request!', 'psyeventsmanager');
+            $errors[] = __('Nonce is missing, Invalid request', 'psyeventsmanager');
         }
         if (isset($post['_nonce']) && !empty($post['_nonce'])) {
             $do_check      = check_ajax_referer('_nonce', '_nonce', false);
             if ($do_check == false) {
-                $errors[] = __('No kiddies please! Referer not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Referer not matched', 'psyeventsmanager');
             }
             $do_nonce   = wp_verify_nonce($post['_nonce'], '_nonce');
             if ($do_nonce == false) {
-                $errors[] = __('No kiddies please! Security nonce not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Security nonce not matched', 'psyeventsmanager');
             }
         }
     }
@@ -505,19 +505,19 @@ function psyem_ValidateDonationAmountsData($post)
     $errors = array();
     if (!empty($post) && is_array($post)) {
         if (!isset($post['action']) || empty($post['action'])) {
-            $errors[] = __('Action is required to process the request!', 'psyeventsmanager');
+            $errors[] = __('Action is required to process the request', 'psyeventsmanager');
         }
         if (!isset($post['_nonce']) || empty($post['_nonce'])) {
-            $errors[] = __('Nonce is missing, Invalid request!', 'psyeventsmanager');
+            $errors[] = __('Nonce is missing, Invalid request', 'psyeventsmanager');
         }
         if (isset($post['_nonce']) && !empty($post['_nonce'])) {
             $do_check      = check_ajax_referer('_nonce', '_nonce', false);
             if ($do_check == false) {
-                $errors[] = __('No kiddies please! Referer not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Referer not matched', 'psyeventsmanager');
             }
             $do_nonce   = wp_verify_nonce($post['_nonce'], '_nonce');
             if ($do_nonce == false) {
-                $errors[] = __('No kiddies please! Security nonce not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Security nonce not matched', 'psyeventsmanager');
             }
         }
         if (!isset($post['amount_type']) || empty($post['amount_type'])) {
@@ -536,19 +536,19 @@ function psyem_ValidateDonationAmountProcessData($post)
     $errors = array();
     if (!empty($post) && is_array($post)) {
         if (!isset($post['action']) || empty($post['action'])) {
-            $errors[] = __('Action is required to process the request!', 'psyeventsmanager');
+            $errors[] = __('Action is required to process the request', 'psyeventsmanager');
         }
         if (!isset($post['_nonce']) || empty($post['_nonce'])) {
-            $errors[] = __('Nonce is missing, Invalid request!', 'psyeventsmanager');
+            $errors[] = __('Nonce is missing, Invalid request', 'psyeventsmanager');
         }
         if (isset($post['_nonce']) && !empty($post['_nonce'])) {
             $do_check      = check_ajax_referer('_nonce', '_nonce', false);
             if ($do_check == false) {
-                $errors[] = __('No kiddies please! Referer not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Referer not matched', 'psyeventsmanager');
             }
             $do_nonce   = wp_verify_nonce($post['_nonce'], '_nonce');
             if ($do_nonce == false) {
-                $errors[] = __('No kiddies please! Security nonce not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Security nonce not matched', 'psyeventsmanager');
             }
         }
         if (!isset($post['amount_enc']) || empty($post['amount_enc'])) {
@@ -574,19 +574,19 @@ function psyem_ValidateDonationIntentData($post)
     $errors = array();
     if (!empty($post) && is_array($post)) {
         if (!isset($post['action']) || empty($post['action'])) {
-            $errors[] = __('Action is required to process the request!', 'psyeventsmanager');
+            $errors[] = __('Action is required to process the request', 'psyeventsmanager');
         }
         if (!isset($post['_nonce']) || empty($post['_nonce'])) {
-            $errors[] = __('Nonce is missing, Invalid request!', 'psyeventsmanager');
+            $errors[] = __('Nonce is missing, Invalid request', 'psyeventsmanager');
         }
         if (isset($post['_nonce']) && !empty($post['_nonce'])) {
             $do_check      = check_ajax_referer('_nonce', '_nonce', false);
             if ($do_check == false) {
-                $errors[] = __('No kiddies please! Referer not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Referer not matched', 'psyeventsmanager');
             }
             $do_nonce   = wp_verify_nonce($post['_nonce'], '_nonce');
             if ($do_nonce == false) {
-                $errors[] = __('No kiddies please! Security nonce not matched!', 'psyeventsmanager');
+                $errors[] = __('No kiddies please! Security nonce not matched', 'psyeventsmanager');
             }
         }
         if (!isset($post['amount_enc']) || empty($post['amount_enc'])) {
@@ -611,26 +611,26 @@ function psyem_ValidateDonationPaymentData($post = [])
 {
     $errors = array();
     if (!isset($post['intent_id']) || empty($post['intent_id'])) {
-        $errors[] = __('Payment intent is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Payment intent is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['stripe_status']) || empty($post['stripe_status'])) {
-        $errors[] = __('Payment status is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Payment status is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['action']) || empty($post['action'])) {
-        $errors[] = __('Action is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Action is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['_nonce']) || empty($post['_nonce'])) {
-        $errors[] = __('Nonce is missing, Invalid request!', 'psyeventsmanager');
+        $errors[] = __('Nonce is missing, Invalid request', 'psyeventsmanager');
     }
 
     if (isset($post['_nonce']) && !empty($post['_nonce'])) {
         $do_check      = check_ajax_referer('_nonce', '_nonce', false);
         if ($do_check == false) {
-            $errors[] = __('No kiddies please! Referer not matched!', 'psyeventsmanager');
+            $errors[] = __('No kiddies please! Referer not matched', 'psyeventsmanager');
         }
         $do_nonce   = wp_verify_nonce($post['_nonce'], '_nonce');
         if ($do_nonce == false) {
-            $errors[] = __('No kiddies please! Security nonce not matched!', 'psyeventsmanager');
+            $errors[] = __('No kiddies please! Security nonce not matched', 'psyeventsmanager');
         }
     }
 
@@ -643,39 +643,39 @@ function psyem_ValidateProjectSafeTypeData($post = [])
     $errors = array();
     $task   = @$post['task'];
     if (!isset($post['task']) || empty($post['task'])) {
-        $errors[] = __('Task is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Task is required to process the request', 'psyeventsmanager');
     } else {
         if (!in_array($task, ['Create', 'Remove'])) {
-            $errors[] = __('Task is invalid to process the request!', 'psyeventsmanager');
+            $errors[] = __('Task is invalid to process the request', 'psyeventsmanager');
         }
     }
 
     if ($task == 'Create') {
         if (!isset($post['title']) || empty($post['title'])) {
-            $errors[] = __('Title is required to process the request!', 'psyeventsmanager');
+            $errors[] = __('Title is required to process the request', 'psyeventsmanager');
         }
     }
     if ($task == 'Remove') {
         if (!isset($post['row_slug']) || empty($post['row_slug'])) {
-            $errors[] = __('Record slug is required to process the request!', 'psyeventsmanager');
+            $errors[] = __('Record slug is required to process the request', 'psyeventsmanager');
         }
     }
 
     if (!isset($post['action']) || empty($post['action'])) {
-        $errors[] = __('Action is required to process the request!', 'psyeventsmanager');
+        $errors[] = __('Action is required to process the request', 'psyeventsmanager');
     }
     if (!isset($post['_nonce']) || empty($post['_nonce'])) {
-        $errors[] = __('Nonce is missing, Invalid request!', 'psyeventsmanager');
+        $errors[] = __('Nonce is missing, Invalid request', 'psyeventsmanager');
     }
 
     if (isset($post['_nonce']) && !empty($post['_nonce'])) {
         $do_check      = check_ajax_referer('_nonce', '_nonce', false);
         if ($do_check == false) {
-            $errors[] = __('No kiddies please! Referer not matched!', 'psyeventsmanager');
+            $errors[] = __('No kiddies please! Referer not matched', 'psyeventsmanager');
         }
         $do_nonce   = wp_verify_nonce($post['_nonce'], '_nonce');
         if ($do_nonce == false) {
-            $errors[] = __('No kiddies please! Security nonce not matched!', 'psyeventsmanager');
+            $errors[] = __('No kiddies please! Security nonce not matched', 'psyeventsmanager');
         }
     }
     return $errors;

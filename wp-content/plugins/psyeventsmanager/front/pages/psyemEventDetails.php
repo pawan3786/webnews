@@ -63,7 +63,7 @@ while (have_posts()) : the_post();
                         <img src="<?= $fetauredImage ?>" class="imgWdth" alt="<?= @$psyemEventInfo['title'] ?>" />
                     </div>
                     <div class="col-md-9">
-                        <h2 class="gTxt">
+                        <h2 class="gTxt gTxttitle">
                             <?= @$psyemEventInfo['title'] ?>
                         </h2>
                     </div>
@@ -172,9 +172,68 @@ while (have_posts()) : the_post();
                                     </div>
                                 </div>
 
+                                <!-- event excerpt -->
+                                <?php if (!empty($excerpt)) : ?>
+                                    <div class="col-md-12">
+                                        <h3 class="aboutHeaDetail">
+                                            <?= __('Additional Information', 'psyeventsmanager') ?>
+                                        </h3>
+                                        <div class="post-excerpt mb-5" id="EV<?= $EventId ?>">
+                                            <?php
+                                            echo (!empty($excerpt)) ? $excerpt : '';
+                                            ?>
+                                        </div>
+                                    </div>
+                                <?php endif; ?>
+
+                                <!-- event speakers -->
+                                <?php
+                                if (!empty($event_speakers) && is_array($event_speakers) && count($event_speakers) > 0) {
+                                    $eventSpeakersCatData =  psyem_GetEventSpeakersWithCategory($event_speakers);
+                                    if (!empty($eventSpeakersCatData) && is_array($eventSpeakersCatData) && count($eventSpeakersCatData) > 0) {
+                                ?>
+                                        <div class="col-md-12">
+                                            <h3 class="eventHeadingSpe">
+                                                <?= __('Event Speakers', 'psyeventsmanager') ?>
+                                            </h3>
+                                            <div class="row">
+                                                <?php
+                                                foreach ($eventSpeakersCatData as $eventCatSpeaker) {
+                                                    $event_cat_speakers = @$eventCatSpeaker['term_posts'];
+                                                    if (!empty($event_cat_speakers)) :
+                                                ?>
+                                                        <div class="col-md-12">
+                                                            <h5 class="eventPartnerCateHead">
+                                                                <?= @$eventCatSpeaker['term_name'] ?>
+                                                            </h5>
+                                                            <div class="row">
+                                                                <?php foreach ($event_cat_speakers as $speakerInfo) : $speakerMeta = @$speakerInfo['meta_data']; ?>
+                                                                    <div class="col-md-4">
+                                                                        <div class="cardDetailSpeaker">
+                                                                            <img src="<?= @$speakerInfo['image'] ?>" alt="<?= @$speakerInfo['title'] ?>" />
+                                                                            <div class="speakerDetailContent">
+                                                                                <h3><?= @$speakerInfo['title'] ?></h3>
+                                                                                <p class="mb-1"><?= @$speakerMeta['psyem_speaker_designation'] ?></p>
+                                                                                <a href="<?= @$speakerInfo['link'] ?>" class="linkcontact">
+                                                                                    <?= __('More', 'psyeventsmanager') ?>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                <?php endforeach; ?>
+                                                            </div>
+                                                        </div>
+                                                <?php endif;
+                                                } ?>
+                                            </div>
+                                        </div>
+                                <?php
+                                    }
+                                } ?>
+
                                 <!-- event tickets -->
                                 <?php if ((!empty($eventTickets) && is_array($eventTickets)) && ($eventRegType == 'Paid')) : ?>
-                                    <div class="col-md-12 mb-5 mt-5">
+                                    <div class="col-md-12 mb-2 mt-2">
                                         <h3 class="aboutHeaDetail">Tickets</h3>
                                         <form class="psyemCartForm">
                                             <input type="hidden" name="checkout_coupon" value="" />
@@ -242,65 +301,6 @@ while (have_posts()) : the_post();
                                         </form>
                                     </div>
                                 <?php endif; ?>
-
-                                <!-- event excerpt -->
-                                <?php if (!empty($excerpt)) : ?>
-                                    <div class="col-md-12">
-                                        <h3 class="aboutHeaDetail">
-                                            <?= __('Additional Information', 'psyeventsmanager') ?>
-                                        </h3>
-                                        <div class="post-excerpt mb-5" id="EV<?= $EventId ?>">
-                                            <?php
-                                            echo (!empty($excerpt)) ? $excerpt : '';
-                                            ?>
-                                        </div>
-                                    </div>
-                                <?php endif; ?>
-
-                                <!-- event speakers -->
-                                <?php
-                                if (!empty($event_speakers) && is_array($event_speakers) && count($event_speakers) > 0) {
-                                    $eventSpeakersCatData =  psyem_GetEventSpeakersWithCategory($event_speakers);
-                                    if (!empty($eventSpeakersCatData) && is_array($eventSpeakersCatData) && count($eventSpeakersCatData) > 0) {
-                                ?>
-                                        <div class="col-md-12">
-                                            <h3 class="eventHeadingSpe">
-                                                <?= __('Event Speakers', 'psyeventsmanager') ?>
-                                            </h3>
-                                            <div class="row">
-                                                <?php
-                                                foreach ($eventSpeakersCatData as $eventCatSpeaker) {
-                                                    $event_cat_speakers = @$eventCatSpeaker['term_posts'];
-                                                    if (!empty($event_cat_speakers)) :
-                                                ?>
-                                                        <div class="col-md-12">
-                                                            <h5 class="eventPartnerCateHead">
-                                                                <?= @$eventCatSpeaker['term_name'] ?>
-                                                            </h5>
-                                                            <div class="row">
-                                                                <?php foreach ($event_cat_speakers as $speakerInfo) : $speakerMeta = @$speakerInfo['meta_data']; ?>
-                                                                    <div class="col-md-4">
-                                                                        <div class="cardDetailSpeaker">
-                                                                            <img src="<?= @$speakerInfo['image'] ?>" alt="<?= @$speakerInfo['title'] ?>" />
-                                                                            <div class="speakerDetailContent">
-                                                                                <h3><?= @$speakerInfo['title'] ?></h3>
-                                                                                <p class="mb-1"><?= @$speakerMeta['psyem_speaker_designation'] ?></p>
-                                                                                <a href="<?= @$speakerInfo['link'] ?>" class="linkcontact">
-                                                                                    <?= __('More', 'psyeventsmanager') ?>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                <?php endforeach; ?>
-                                                            </div>
-                                                        </div>
-                                                <?php endif;
-                                                } ?>
-                                            </div>
-                                        </div>
-                                <?php
-                                    }
-                                } ?>
 
                                 <!-- event partners -->
                                 <?php

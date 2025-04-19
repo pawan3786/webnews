@@ -99,7 +99,7 @@ var psyemDonationPanel = function () {
                     if (amount > 0) {
                         psyemRunProcessSelectedDonationAmount(amountEnc, amountFor, amount);
                     } else {
-                        displayToaster('Please enter some amount to process.', 'error');
+                        displayToaster('Please enter some amount to process', 'error');
                         return false;
                     }
                 } else {
@@ -481,7 +481,7 @@ function psyemUpdatePaymentIntentResponseInDb(payment_intent_id, stripe_status) 
             },
             error: function (jqXHR, textStatus, errorThrown) {
                 psyemSetLoading(false);
-                displayToaster('Payment info has been failed to update!', 'error');
+                displayToaster('Payment info has been failed to update', 'error');
                 setTimeout(() => {
                     hidePanelLoader(psyemPaymentSection);
                 }, 2000);

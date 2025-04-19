@@ -43,13 +43,13 @@
             <div class="col-sm-3">
                 <label class="form-label fw-bold"><?= __('Registration Closing (In Days)', 'psyeventsmanager') ?></label>
                 <input type="text" class="form-control strict_integer strict_space" name="psyemConfigs[psyem_event_registration_closing]" value="<?= @$psyem_event_registration_closing ?>" placeholder="<?= __('Enter  number of closing days', 'psyeventsmanager') ?>">
-                <small> <?= __('x days before event start day.', 'psyeventsmanager') ?> </small>
+                <small> <?= __('x days before event start day', 'psyeventsmanager') ?> </small>
             </div>
 
             <div class="col-sm-6">
                 <label class="form-label fw-bold"><?= __('Event Website', 'psyeventsmanager') ?></label>
                 <input type="text" class="form-control strict_space" name="psyemConfigs[psyem_event_website]" value="<?= @$psyem_event_website ?>" placeholder="<?= __('Enter event website url', 'psyeventsmanager') ?>">
-                <small><?= __('If applicable, Enter external website url.', 'psyeventsmanager') ?> </small>
+                <small><?= __('If applicable, Enter external website url', 'psyeventsmanager') ?> </small>
             </div>
         </div>
 

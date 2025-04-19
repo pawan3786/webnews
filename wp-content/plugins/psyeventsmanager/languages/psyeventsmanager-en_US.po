@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PSY Events Manager 1.0.0\n"
-"POT-Creation-Date: 2025-04-17 16:06+0530\n"
-"PO-Revision-Date: 2025-04-17 16:08+0530\n"
+"POT-Creation-Date: 2025-04-19 14:57+0530\n"
+"PO-Revision-Date: 2025-04-19 14:59+0530\n"
 "Last-Translator: Pawan Kumar <pawan.yadav0446@gmail.com>\n"
 "Language-Team: Pawan Kumar <pawan.yadav0446@gmail.com>\n"
 "Language: en_US\n"
@@ -19,133 +19,133 @@ msgstr ""
 
 #: admin/includes/psyemAmountMetaboxes.php:9
 msgid "Amount Type"
-msgstr ""
+msgstr "Amount Type"
 
 #: admin/includes/psyemAmountMetaboxes.php:12
 #: admin/includes/psyemOfflineSignup.php:29
 #: admin/includes/psyemParticipantMetaboxes.php:22
 #: admin/includes/psyemSettings.php:176 admin/includes/psyemSettings.php:204
-#: admin/includes/psyemSettings.php:232 admin/includes/psyemSettings.php:263
+#: admin/includes/psyemSettings.php:232 admin/includes/psyemSettings.php:265
 #: admin/includes/psyemTicketMetaboxes.php:15
 #: admin/includes/psyemTicketMetaboxes.php:52
 msgid "-- Select --"
-msgstr ""
+msgstr "-- Select --"
 
 #: admin/includes/psyemAmountMetaboxes.php:15
 msgid "Monthly Charge"
-msgstr ""
+msgstr "Monthly Charge"
 
 #: admin/includes/psyemAmountMetaboxes.php:18
 msgid "One Time Charge"
-msgstr ""
+msgstr "One Time Charge"
 
 #: admin/includes/psyemAmountMetaboxes.php:24
 #: admin/includes/psyemDonationMetaboxes.php:71 admin/psyemAdmin.php:3107
 #: admin/psyemAdmin.php:3134
 msgid "Amount"
-msgstr ""
+msgstr "Amount"
 
 #: admin/includes/psyemAmountMetaboxes.php:25
 msgid "Enter amount > 5$"
-msgstr ""
+msgstr "Enter amount > 5$"
 
 #: admin/includes/psyemCouponMetaboxes.php:9
 msgid "Coupon Type"
-msgstr ""
+msgstr "Coupon Type"
 
 #: admin/includes/psyemCouponMetaboxes.php:12
 msgid "Order Fixed Price"
-msgstr ""
+msgstr "Order Fixed Price"
 
 #: admin/includes/psyemCouponMetaboxes.php:15
 msgid "Order Percentage Price"
-msgstr ""
+msgstr "Order Percentage Price"
 
 #: admin/includes/psyemCouponMetaboxes.php:21
 #: front/pages/psyemOrderCheckout.php:231
 msgid "Coupon Code"
-msgstr ""
+msgstr "Coupon Code"
 
 #: admin/includes/psyemCouponMetaboxes.php:22
 #: front/pages/psyemOrderCheckout.php:234
 msgid "Enter coupon code"
-msgstr ""
+msgstr "Enter coupon code"
 
 #: admin/includes/psyemCouponMetaboxes.php:26
 msgid "Coupon Discount Amount"
-msgstr ""
+msgstr "Coupon Discount Amount"
 
 #: admin/includes/psyemCouponMetaboxes.php:27
 msgid "Enter discount amount"
-msgstr ""
+msgstr "Enter discount amount"
 
 #: admin/includes/psyemCouponMetaboxes.php:31
 msgid "Coupon Discount Percentage"
-msgstr ""
+msgstr "Coupon Discount Percentage"
 
 #: admin/includes/psyemCouponMetaboxes.php:32
 msgid "Enter discount percentage"
-msgstr ""
+msgstr "Enter discount percentage"
 
 #: admin/includes/psyemCouponMetaboxes.php:36
 msgid "Coupon Expiry Date"
-msgstr ""
+msgstr "Coupon Expiry Date"
 
 #: admin/includes/psyemCouponMetaboxes.php:37
 msgid "Enter Coupon Expiry Date"
-msgstr ""
+msgstr "Enter Coupon Expiry Date"
 
 #: admin/includes/psyemDonationMetaboxes.php:10
 msgid "Billing Information"
-msgstr ""
+msgstr "Billing Information"
 
 #: admin/includes/psyemDonationMetaboxes.php:13
 #: front/pages/psyemDonationCheckout.php:72
 msgid "Country"
-msgstr ""
+msgstr "Country"
 
 #: admin/includes/psyemDonationMetaboxes.php:17
 msgid "City"
-msgstr ""
+msgstr "City"
 
 #: admin/includes/psyemDonationMetaboxes.php:21
 #: admin/includes/psyemProjectsafeMetaboxes.php:52 admin/psyemAdmin.php:2848
 #: admin/psyemAdmin.php:3031 front/pages/psyemDonationCheckout.php:100
-#: front/pages/psyemProjectsafeForm.php:369
-#: front/pages/psyemProjectsafeForm.php:428
+#: front/pages/psyemProjectsafeForm.php:381
+#: front/pages/psyemProjectsafeForm.php:440
 msgid "District"
-msgstr ""
+msgstr "District"
 
 #: admin/includes/psyemDonationMetaboxes.php:25
 #: admin/includes/psyemProjectsafeMetaboxes.php:56 admin/psyemAdmin.php:949
 #: admin/psyemAdmin.php:2849 admin/psyemAdmin.php:3032
-#: front/pages/psyemEventDetails.php:116 front/pages/psyemOrderCheckout.php:135
-#: front/pages/psyemProjectsafeForm.php:433
-#: front/pages/psyemProjectsafeForm.php:435
+#: front/pages/psyemEventDetails.php:120 front/pages/psyemOrderCheckout.php:135
+#: front/pages/psyemProjectsafeForm.php:445
+#: front/pages/psyemProjectsafeForm.php:447
 msgid "Address"
-msgstr ""
+msgstr "Address"
 
 #: admin/includes/psyemDonationMetaboxes.php:29
 msgid "Address 2"
-msgstr ""
+msgstr "Address 2"
 
 #: admin/includes/psyemDonationMetaboxes.php:38
 msgid "Donor Information"
-msgstr ""
+msgstr "Donor Information"
 
 #: admin/includes/psyemDonationMetaboxes.php:41
 #: admin/includes/psyemOrderTicket.php:111
 #: admin/includes/psyemProjectsafeMetaboxes.php:5 admin/psyemAdmin.php:3023
 #: front/pages/psyemDonationCheckout.php:119
 msgid "First Name"
-msgstr ""
+msgstr "First Name"
 
 #: admin/includes/psyemDonationMetaboxes.php:45
 #: admin/includes/psyemOrderTicket.php:117
 #: admin/includes/psyemProjectsafeMetaboxes.php:9 admin/psyemAdmin.php:3024
 #: front/pages/psyemDonationCheckout.php:126
 msgid "Last Name"
-msgstr ""
+msgstr "Last Name"
 
 #: admin/includes/psyemDonationMetaboxes.php:49
 #: admin/includes/psyemOrderMetaboxes.php:264
@@ -154,15 +154,15 @@ msgstr ""
 #: admin/psyemAdmin.php:2073 admin/psyemAdmin.php:2844
 #: admin/psyemAdmin.php:3027 front/pages/psyemOrderCheckout.php:225
 #: front/pages/psyemOrderCheckout.php:351
-#: front/pages/psyemProjectsafeForm.php:325
+#: front/pages/psyemProjectsafeForm.php:337
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 #: admin/includes/psyemDonationMetaboxes.php:53
 #: admin/includes/psyemProjectsafeMetaboxes.php:17 admin/psyemAdmin.php:2843
 #: admin/psyemAdmin.php:3026
 msgid "Phone"
-msgstr ""
+msgstr "Phone"
 
 #: admin/includes/psyemDonationMetaboxes.php:57
 #: admin/includes/psyemOrderMetaboxes.php:265
@@ -171,7 +171,7 @@ msgstr ""
 #: front/pages/psyemOrderCheckout.php:214
 #: front/pages/psyemOrderCheckout.php:357
 msgid "Company"
-msgstr ""
+msgstr "Company"
 
 #: admin/includes/psyemDonationMetaboxes.php:70
 #: admin/includes/psyemOrderMetaboxes.php:266
@@ -180,829 +180,801 @@ msgstr ""
 #: admin/psyemAdmin.php:2842 admin/psyemAdmin.php:3036
 #: admin/psyemAdmin.php:3215 admin/psyemAdmin.php:3365
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: admin/includes/psyemDonationMetaboxes.php:72
 #: admin/includes/psyemOrderMetaboxes.php:153
 msgid "Intent ID"
-msgstr ""
+msgstr "Intent ID"
 
 #: admin/includes/psyemDonationMetaboxes.php:73
 #: admin/includes/psyemOrderMetaboxes.php:154
 msgid "Charge ID"
-msgstr ""
+msgstr "Charge ID"
 
 #: admin/includes/psyemDonationMetaboxes.php:74
 #: admin/includes/psyemOrderMetaboxes.php:155 admin/psyemAdmin.php:3366
 msgid "Payment Status"
-msgstr ""
+msgstr "Payment Status"
 
 #: admin/includes/psyemDonationMetaboxes.php:75
 #: admin/includes/psyemOrderMetaboxes.php:156
 msgid "Payment DateTime"
-msgstr ""
+msgstr "Payment DateTime"
 
 #: admin/includes/psyemDonationMetaboxes.php:112
 #: admin/includes/psyemOrderMetaboxes.php:189
 msgid "Payment Payload"
-msgstr ""
+msgstr "Payment Payload"
 
 #: admin/includes/psyemEventMetaboxes.php:10
 #: admin/includes/psyemOrderMetaboxes.php:15
 msgid "Event Start Date"
-msgstr ""
+msgstr "Event Start Date"
 
 #: admin/includes/psyemEventMetaboxes.php:11
 msgid "Enter event start date"
-msgstr ""
+msgstr "Enter event start date"
 
 #: admin/includes/psyemEventMetaboxes.php:14
 #: admin/includes/psyemOrderMetaboxes.php:21
 msgid "Event Start Time"
-msgstr ""
+msgstr "Event Start Time"
 
 #: admin/includes/psyemEventMetaboxes.php:15
 msgid "Enter event start time"
-msgstr ""
+msgstr "Enter event start time"
 
 #: admin/includes/psyemEventMetaboxes.php:18
 #: admin/includes/psyemOrderMetaboxes.php:25
 msgid "Event End Date"
-msgstr ""
+msgstr "Event End Date"
 
 #: admin/includes/psyemEventMetaboxes.php:19
 msgid "Enter event end date"
-msgstr ""
+msgstr "Enter event end date"
 
 #: admin/includes/psyemEventMetaboxes.php:22
 #: admin/includes/psyemOrderMetaboxes.php:29
 msgid "Event End Time"
-msgstr ""
+msgstr "Event End Time"
 
 #: admin/includes/psyemEventMetaboxes.php:23
 msgid "Enter event end time"
-msgstr ""
+msgstr "Enter event end time"
 
 #: admin/includes/psyemEventMetaboxes.php:29
 #: admin/includes/psyemOrderMetaboxes.php:44
-#: front/pages/psyemEventDetails.php:160 front/pages/psyemOrderCheckout.php:119
+#: front/pages/psyemEventDetails.php:164 front/pages/psyemOrderCheckout.php:119
 msgid "Registration Type"
-msgstr ""
+msgstr "Registration Type"
 
 #: admin/includes/psyemEventMetaboxes.php:32
 msgid "Registration Closed"
-msgstr ""
+msgstr "Registration Closed"
 
 #: admin/includes/psyemEventMetaboxes.php:35
 msgid "Paid Registration"
-msgstr ""
+msgstr "Paid Registration"
 
 #: admin/includes/psyemEventMetaboxes.php:38
 msgid "Free Registration"
-msgstr ""
+msgstr "Free Registration"
 
 #: admin/includes/psyemEventMetaboxes.php:44
 #: admin/includes/psyemOrderMetaboxes.php:49
 msgid "Registration Closing (In Days)"
-msgstr ""
+msgstr "Registration Closing (In Days)"
 
 #: admin/includes/psyemEventMetaboxes.php:45
 msgid "Enter  number of closing days"
-msgstr ""
+msgstr "Enter  number of closing days"
 
 #: admin/includes/psyemEventMetaboxes.php:46
-msgid "x days before event start day."
-msgstr ""
+msgid "x days before event start day"
+msgstr "x days before event start day"
 
 #: admin/includes/psyemEventMetaboxes.php:50
 #: admin/includes/psyemOrderMetaboxes.php:54
 msgid "Event Website"
-msgstr ""
+msgstr "Event Website"
 
 #: admin/includes/psyemEventMetaboxes.php:51
 msgid "Enter event website url"
-msgstr ""
+msgstr "Enter event website url"
 
 #: admin/includes/psyemEventMetaboxes.php:52
-msgid "If applicable, Enter external website url."
-msgstr ""
+msgid "If applicable, Enter external website url"
+msgstr "If applicable, Enter external website url"
 
 #: admin/includes/psyemEventMetaboxes.php:57
 msgid "Select applicable tickets for this event"
-msgstr ""
+msgstr "Select applicable tickets for this event"
 
 #: admin/includes/psyemEventMetaboxes.php:59
 msgid "Event Tickets"
-msgstr ""
+msgstr "Event Tickets"
 
 #: admin/includes/psyemEventMetaboxes.php:62
 msgid "Select Ticket"
-msgstr ""
+msgstr "Select Ticket"
 
 #: admin/includes/psyemEventMetaboxes.php:82
 #: admin/includes/psyemOrderMetaboxes.php:61 admin/psyemAdmin.php:2499
-#: helpers/psyemHelper.php:2065
+#: helpers/psyemHelper.php:2067
 msgid "Event Address"
-msgstr ""
+msgstr "Event Address"
 
 #: admin/includes/psyemEventMetaboxes.php:83
 msgid "Enter event full addess"
-msgstr ""
+msgstr "Enter event full addess"
 
 #: admin/includes/psyemEventMetaboxes.php:88
 msgid "Preview"
-msgstr ""
+msgstr "Preview"
 
 #: admin/includes/psyemEventMetaboxes.php:93
-#: front/pages/psyemEventDetails.php:425
+#: front/pages/psyemEventDetails.php:429
 msgid "Event Disclaimer"
-msgstr ""
+msgstr "Event Disclaimer"
 
 #: admin/includes/psyemEventMetaboxes.php:94
 msgid "Enter event disclaimer details"
-msgstr ""
+msgstr "Enter event disclaimer details"
 
 #: admin/includes/psyemEventMetaboxes.php:100
 msgid "Facebook Url"
-msgstr ""
+msgstr "Facebook Url"
 
 #: admin/includes/psyemEventMetaboxes.php:101
 msgid "Enter facebook url"
-msgstr ""
+msgstr "Enter facebook url"
 
 #: admin/includes/psyemEventMetaboxes.php:105
 msgid "Instagram Url"
-msgstr ""
+msgstr "Instagram Url"
 
 #: admin/includes/psyemEventMetaboxes.php:106
 msgid "Enter instagram url"
-msgstr ""
+msgstr "Enter instagram url"
 
 #: admin/includes/psyemEventMetaboxes.php:111
 msgid "LinkedIn Url"
-msgstr ""
+msgstr "LinkedIn Url"
 
 #: admin/includes/psyemEventMetaboxes.php:112
 msgid "Enter linkedin url"
-msgstr ""
+msgstr "Enter linkedin url"
 
 #: admin/includes/psyemEventMetaboxes.php:116
 msgid "Twitter Url"
-msgstr ""
+msgstr "Twitter Url"
 
 #: admin/includes/psyemEventMetaboxes.php:117
 msgid "Enter twitter url"
-msgstr ""
+msgstr "Enter twitter url"
 
 #: admin/includes/psyemEventMetaboxes.php:129
 msgid "Select event partners"
-msgstr ""
+msgstr "Select event partners"
 
 #: admin/includes/psyemEventMetaboxes.php:137
 msgid "Partner Type"
-msgstr ""
+msgstr "Partner Type"
 
 #: admin/includes/psyemEventMetaboxes.php:141
 msgid "Select partners"
-msgstr ""
+msgstr "Select partners"
 
 #: admin/includes/psyemEventMetaboxes.php:183
 msgid "Select event speakers"
-msgstr ""
+msgstr "Select event speakers"
 
 #: admin/includes/psyemEventMetaboxes.php:191
 msgid "Speaker Type"
-msgstr ""
+msgstr "Speaker Type"
 
 #: admin/includes/psyemEventMetaboxes.php:195
 msgid "Select speakers"
-msgstr ""
+msgstr "Select speakers"
 
 #: admin/includes/psyemEventMetaboxes.php:238
 msgid "Upload Event Media"
-msgstr ""
+msgstr "Upload Event Media"
 
-#: admin/includes/psyemEventMetaboxes.php:256 helpers/psyemHelper.php:30
+#: admin/includes/psyemEventMetaboxes.php:256 helpers/psyemHelper.php:32
 msgid "Remove"
-msgstr ""
+msgstr "Remove"
 
 #: admin/includes/psyemOfflineSignup.php:5
 msgid "Create Offline Registration"
-msgstr ""
+msgstr "Create Offline Registration"
 
 #: admin/includes/psyemOfflineSignup.php:16
 #: admin/includes/psyemOfflineSignup.php:94
 msgid "Create"
-msgstr ""
+msgstr "Create"
 
 #: admin/includes/psyemOfflineSignup.php:25 admin/psyemAdmin.php:732
 #: admin/psyemAdmin.php:734 admin/psyemAdmin.php:761 admin/psyemAdmin.php:1867
 #: admin/psyemAdmin.php:2068
 msgid "Event"
-msgstr ""
+msgstr "Event"
 
 #: admin/includes/psyemOfflineSignup.php:46
 msgid "Participant First Name"
-msgstr ""
+msgstr "Participant First Name"
 
 #: admin/includes/psyemOfflineSignup.php:49
 msgid "Enter Participant First Name"
-msgstr ""
+msgstr "Enter Participant First Name"
 
 #: admin/includes/psyemOfflineSignup.php:56
 msgid "Participant Last Name"
-msgstr ""
+msgstr "Participant Last Name"
 
 #: admin/includes/psyemOfflineSignup.php:59
 msgid "Enter Participant Last Name"
-msgstr ""
+msgstr "Enter Participant Last Name"
 
 #: admin/includes/psyemOfflineSignup.php:67
 msgid "Registration Email"
-msgstr ""
+msgstr "Registration Email"
 
 #: admin/includes/psyemOfflineSignup.php:70
 msgid "Enter Registration Email Address"
-msgstr ""
+msgstr "Enter Registration Email Address"
 
 #: admin/includes/psyemOfflineSignup.php:75
 msgid "Company Name"
-msgstr ""
+msgstr "Company Name"
 
 #: admin/includes/psyemOfflineSignup.php:77
 #: front/pages/psyemOrderCheckout.php:216
 #: front/pages/psyemOrderCheckout.php:359
 msgid "Enter company name"
-msgstr ""
+msgstr "Enter company name"
 
 #: admin/includes/psyemOfflineSignup.php:82
 msgid "Number Of Participants"
-msgstr ""
+msgstr "Number Of Participants"
 
 #: admin/includes/psyemOfflineSignup.php:85
 msgid "Enter Number Of Participants Count"
-msgstr ""
+msgstr "Enter Number Of Participants Count"
 
 #: admin/includes/psyemOrderMetaboxes.php:36
 msgid "Registration Total Price"
-msgstr ""
+msgstr "Registration Total Price"
 
 #: admin/includes/psyemOrderMetaboxes.php:78 admin/psyemAdmin.php:2069
 msgid "Order ID"
-msgstr ""
+msgstr "Order ID"
 
 #: admin/includes/psyemOrderMetaboxes.php:79 admin/psyemAdmin.php:953
 msgid "Total Slots"
-msgstr ""
+msgstr "Total Slots"
 
 #: admin/includes/psyemOrderMetaboxes.php:80 admin/psyemAdmin.php:954
 msgid "Used Slots"
-msgstr ""
+msgstr "Used Slots"
 
 #: admin/includes/psyemOrderMetaboxes.php:81
 msgid "Order Amount"
-msgstr ""
+msgstr "Order Amount"
 
 #: admin/includes/psyemOrderMetaboxes.php:82
 msgid "Order Coupon"
-msgstr ""
+msgstr "Order Coupon"
 
 #: admin/includes/psyemOrderMetaboxes.php:83
 msgid "Total Discount"
-msgstr ""
+msgstr "Total Discount"
 
 #: admin/includes/psyemOrderMetaboxes.php:109
 msgid "Tickets Informations"
-msgstr ""
+msgstr "Tickets Informations"
 
 #: admin/includes/psyemOrderMetaboxes.php:113
 #: admin/includes/psyemOrderTicket.php:49
 #: front/pages/psyemOrderCheckout.php:168
 msgid "Item"
-msgstr ""
+msgstr "Item"
 
 #: admin/includes/psyemOrderMetaboxes.php:114
 #: front/pages/psyemOrderCheckout.php:169
 msgid "Quantity"
-msgstr ""
+msgstr "Quantity"
 
 #: admin/includes/psyemOrderMetaboxes.php:115
-#: front/pages/psyemEventDetails.php:222 front/pages/psyemOrderCheckout.php:170
+#: front/pages/psyemEventDetails.php:285 front/pages/psyemOrderCheckout.php:170
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: admin/includes/psyemOrderMetaboxes.php:148
 msgid "Payment Informations"
-msgstr ""
+msgstr "Payment Informations"
 
 #: admin/includes/psyemOrderMetaboxes.php:152
 msgid "Currency"
-msgstr ""
+msgstr "Currency"
 
 #: admin/includes/psyemOrderMetaboxes.php:223
 msgid "Print All tickets"
-msgstr ""
+msgstr "Print All tickets"
 
 #: admin/includes/psyemOrderMetaboxes.php:230
 msgid "Send Tickets"
-msgstr ""
+msgstr "Send Tickets"
 
 #: admin/includes/psyemOrderMetaboxes.php:236
 msgid "Download Sample CSV"
-msgstr ""
+msgstr "Download Sample CSV"
 
 #: admin/includes/psyemOrderMetaboxes.php:247
 msgid "Import CSV"
-msgstr ""
+msgstr "Import CSV"
 
 #: admin/includes/psyemOrderMetaboxes.php:262 admin/psyemAdmin.php:1862
 #: admin/psyemAdmin.php:3022
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: admin/includes/psyemOrderMetaboxes.php:263 admin/psyemAdmin.php:1863
 #: admin/psyemAdmin.php:2072 admin/psyemAdmin.php:2841
 #: front/pages/psyemOrderCheckout.php:208
 #: front/pages/psyemOrderCheckout.php:345
 msgid "Name"
-msgstr ""
+msgstr "Name"
 
 #: admin/includes/psyemOrderMetaboxes.php:267
 #: admin/includes/psyemOrderMetaboxes.php:300
 msgid "Print"
-msgstr ""
+msgstr "Print"
 
 #: admin/includes/psyemOrderMetaboxes.php:268
 #: admin/includes/psyemOrderMetaboxes.php:305
 msgid "Edit"
-msgstr ""
+msgstr "Edit"
 
 #: admin/includes/psyemOrderMetaboxes.php:269
 msgid "Actions"
-msgstr ""
+msgstr "Actions"
 
 #: admin/includes/psyemOrderMetaboxes.php:312
 msgid "Send Ticket"
-msgstr ""
+msgstr "Send Ticket"
 
 #: admin/includes/psyemOrderMetaboxes.php:324
+#: front/pages/psyemEventsList.php:180
+#: front/pages/psyemKnowledgehubList.php:122 front/pages/psyemNewsList.php:167
+#: front/pages/psyemProgrammesList.php:93
 msgid "No records found"
-msgstr ""
+msgstr "No records found"
 
 #: admin/includes/psyemOrderTicket.php:34
 msgid "Confirmation No"
-msgstr ""
+msgstr "Confirmation No"
 
 #: admin/includes/psyemOrderTicket.php:42
-msgid "Print this ticket or save on your device & present it at the event."
-msgstr ""
+msgid "Print this ticket or save on your device & present it at the event"
+msgstr "Print this ticket or save on your device & present it at the event"
 
 #: admin/includes/psyemOrderTicket.php:58
 msgid "Start Date"
-msgstr ""
+msgstr "Start Date"
 
 #: admin/includes/psyemOrderTicket.php:64
 msgid "Start Time"
-msgstr ""
+msgstr "Start Time"
 
 #: admin/includes/psyemOrderTicket.php:72
 msgid "End Date"
-msgstr ""
+msgstr "End Date"
 
 #: admin/includes/psyemOrderTicket.php:78
 msgid "End Time"
-msgstr ""
+msgstr "End Time"
 
 #: admin/includes/psyemOrderTicket.php:87
 #: admin/includes/psyemProjectsafeMetaboxes.php:45
 msgid "Location"
-msgstr ""
+msgstr "Location"
 
 #: admin/includes/psyemOrderTicket.php:108
 msgid "Attendee Detail"
-msgstr ""
+msgstr "Attendee Detail"
 
 #: admin/includes/psyemOrderTicket.php:145
 msgid "TERMS AND CONDITIONS OF SALE AND PURCHASE"
-msgstr ""
+msgstr "TERMS AND CONDITIONS OF SALE AND PURCHASE"
 
 #: admin/includes/psyemOrderTicket.php:149
-msgid "All registrations are final, non-refundable and non-changeable."
-msgstr ""
+msgid "All registrations are final, non-refundable and non-changeable"
+msgstr "All registrations are final, non-refundable and non-changeable"
 
 #: admin/includes/psyemParticipantMetaboxes.php:10
 msgid "Enter participant email address"
-msgstr ""
+msgstr "Enter participant email address"
 
 #: admin/includes/psyemParticipantMetaboxes.php:15
 msgid "Enter participant company name"
-msgstr ""
+msgstr "Enter participant company name"
 
 #: admin/includes/psyemParticipantMetaboxes.php:25
 msgid "Main"
-msgstr ""
+msgstr "Main"
 
 #: admin/includes/psyemParticipantMetaboxes.php:28
 msgid "Member"
-msgstr ""
+msgstr "Member"
 
 #: admin/includes/psyemPartnerMetaboxes.php:9 admin/psyemAdmin.php:1594
 msgid "Sponsorship Level"
-msgstr ""
+msgstr "Sponsorship Level"
 
 #: admin/includes/psyemPartnerMetaboxes.php:10
 msgid "Enter Partner Sponsorship Level"
-msgstr ""
+msgstr "Enter Partner Sponsorship Level"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:24 admin/psyemAdmin.php:2845
 #: admin/psyemAdmin.php:3028 front/pages/psyemProjectsafeForm.php:64
 msgid "Gender"
-msgstr ""
+msgstr "Gender"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:28 admin/psyemAdmin.php:2846
 #: admin/psyemAdmin.php:3029
 msgid "DOB"
-msgstr ""
+msgstr "DOB"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:32 admin/psyemAdmin.php:2850
 #: admin/psyemAdmin.php:3033
 msgid "Source"
-msgstr ""
+msgstr "Source"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:36 admin/psyemAdmin.php:2852
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:48 admin/psyemAdmin.php:2847
-#: admin/psyemAdmin.php:3030 front/pages/psyemProjectsafeForm.php:349
-#: front/pages/psyemProjectsafeForm.php:362
+#: admin/psyemAdmin.php:3030 front/pages/psyemProjectsafeForm.php:361
+#: front/pages/psyemProjectsafeForm.php:374
 msgid "Region"
-msgstr ""
+msgstr "Region"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:65
 msgid "Questionary"
-msgstr ""
+msgstr "Questionary"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:69
 #: front/pages/psyemProjectsafeForm.php:154
 #: front/pages/psyemProjectsafeForm.php:164
 msgid "Do you have any sexual experience?"
-msgstr ""
+msgstr "Do you have any sexual experience?"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:75
 #: front/pages/psyemProjectsafeForm.php:170
 #: front/pages/psyemProjectsafeForm.php:180
 msgid "Have you ever had any cervical screening in the last 3 years?"
-msgstr ""
+msgstr "Have you ever had any cervical screening in the last 3 years?"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:81
 #: front/pages/psyemProjectsafeForm.php:186
 #: front/pages/psyemProjectsafeForm.php:196
 msgid "Are you undergoing treatment for CIN or cervical cancer?"
-msgstr ""
+msgstr "Are you undergoing treatment for CIN or cervical cancer?"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:87
 #: front/pages/psyemProjectsafeForm.php:202
 #: front/pages/psyemProjectsafeForm.php:212
 msgid "Have you ever received HPV vaccine?"
-msgstr ""
+msgstr "Have you ever received HPV vaccine?"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:93
 #: front/pages/psyemProjectsafeForm.php:218
 #: front/pages/psyemProjectsafeForm.php:228
 msgid "Are you pregnant?"
-msgstr ""
+msgstr "Are you pregnant?"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:99
 #: front/pages/psyemProjectsafeForm.php:234
 #: front/pages/psyemProjectsafeForm.php:244
 msgid "Did you have a hysterectomy?"
-msgstr ""
+msgstr "Did you have a hysterectomy?"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:105
-#: front/pages/psyemProjectsafeForm.php:311
+#: front/pages/psyemProjectsafeForm.php:323
 msgid "How would you like to be contacted for the program?"
-msgstr ""
+msgstr "How would you like to be contacted for the program?"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:111
-#: front/pages/psyemProjectsafeForm.php:446
-#: front/pages/psyemProjectsafeForm.php:465
+#: front/pages/psyemProjectsafeForm.php:458
+#: front/pages/psyemProjectsafeForm.php:477
 msgid "How have you heard about this study?"
-msgstr ""
+msgstr "How have you heard about this study?"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:125
 msgid "Consents"
-msgstr ""
+msgstr "Consents"
 
-#: admin/includes/psyemProjectsafeMetaboxes.php:129
-#: front/pages/psyemProjectsafeForm.php:251
-msgid ""
-"I understand that this program is part of a clinical study and enrollment is "
-"only for participants who agree to the terms and conditions on the clinical "
-"study consent form presented at the clinic on the day of appointment."
-msgstr ""
+#: admin/includes/psyemProjectsafeMetaboxes.php:162
+#: front/pages/psyemProjectsafeForm.php:282
+msgid "I agree to take part in the above cervical screening programme"
+msgstr "I agree to take part in the above cervical screening programme"
 
-#: admin/includes/psyemProjectsafeMetaboxes.php:135
-#: front/pages/psyemProjectsafeForm.php:258
-msgid ""
-"I confirm, that I have read and understood the information sheet for the "
-"project and have had the opportunity to view and study the educational "
-"videos provided for a better overall grasp on how to protect myself against "
-"cervical cancer."
-msgstr ""
-
-#: admin/includes/psyemProjectsafeMetaboxes.php:141
-#: front/pages/psyemProjectsafeForm.php:265
-msgid ""
-"I understand that my participation is voluntary and that I am free to "
-"withdraw at any time, without giving any reason, without my medical care or "
-"legal rights being affected."
-msgstr ""
-
-#: admin/includes/psyemProjectsafeMetaboxes.php:147
-#: front/pages/psyemProjectsafeForm.php:273
-msgid "I agree to take part in the above cervical screening programme."
-msgstr ""
-
-#: admin/includes/psyemProjectsafeMetaboxes.php:153
-msgid ""
-"I herewith acknowledge that, if I am currently experiencing irregular "
-"bleeding, spotting or pain during my menses, sex or randomly, I cannot join "
-"the project. We kindly encourage you to contact your GP immediately and seek "
-"a professional opinion."
-msgstr ""
-
-#: admin/includes/psyemProjectsafeMetaboxes.php:159
+#: admin/includes/psyemProjectsafeMetaboxes.php:179
 #: front/pages/psyemDonationCheckout.php:174
-#: front/pages/psyemProjectsafeForm.php:288
+#: front/pages/psyemProjectsafeForm.php:300
 msgid "Terms & Conditions"
-msgstr ""
+msgstr "Terms & Conditions"
 
 #: admin/includes/psyemSettings.php:11
 msgid "Psy Plugin Settings"
-msgstr ""
+msgstr "Psy Plugin Settings"
 
 #: admin/includes/psyemSettings.php:24
 msgid "Project Safe Types With Form Shortcodes"
-msgstr ""
+msgstr "Project Safe Types With Form Shortcodes"
 
 #: admin/includes/psyemSettings.php:32
 msgid "Create Project Safe Type"
-msgstr ""
+msgstr "Create Project Safe Type"
 
 #: admin/includes/psyemSettings.php:35
 msgid "Enter project safe type title"
-msgstr ""
+msgstr "Enter project safe type title"
 
 #: admin/includes/psyemSettings.php:38
 msgid "Add"
-msgstr ""
+msgstr "Add"
 
 #: admin/includes/psyemSettings.php:46
 msgid "Project Safe Type shortcodes and title"
-msgstr ""
+msgstr "Project Safe Type shortcodes and title"
 
-#: admin/includes/psyemSettings.php:78 admin/includes/psyemSettings.php:342
+#: admin/includes/psyemSettings.php:78 admin/includes/psyemSettings.php:344
 msgid "Save Settings"
-msgstr ""
+msgstr "Save Settings"
 
 #: admin/includes/psyemSettings.php:85
 msgid "Update Speakers Categories"
-msgstr ""
+msgstr "Update Speakers Categories"
 
 #: admin/includes/psyemSettings.php:93
 msgid "Update Partners Categories"
-msgstr ""
+msgstr "Update Partners Categories"
 
 #: admin/includes/psyemSettings.php:103
 msgid "Update News Categories"
-msgstr ""
+msgstr "Update News Categories"
 
 #: admin/includes/psyemSettings.php:111
 msgid "Update Programmes Categories"
-msgstr ""
+msgstr "Update Programmes Categories"
 
 #: admin/includes/psyemSettings.php:119
 msgid "Update Knowledge Categories"
-msgstr ""
+msgstr "Update Knowledge Categories"
 
 #: admin/includes/psyemSettings.php:132
 msgid "Knowledge Hub Posts List Shortcode"
-msgstr ""
+msgstr "Knowledge Hub Posts List Shortcode"
 
 #: admin/includes/psyemSettings.php:141
 msgid "News Posts List Shortcode"
-msgstr ""
+msgstr "News Posts List Shortcode"
 
 #: admin/includes/psyemSettings.php:150
 msgid "Programmes Posts List Shortcode"
-msgstr ""
+msgstr "Programmes Posts List Shortcode"
 
 #: admin/includes/psyemSettings.php:163
 msgid "Monthly and Onetime Donation Section Shortcode"
-msgstr ""
+msgstr "Monthly and Onetime Donation Section Shortcode"
 
 #: admin/includes/psyemSettings.php:172
 msgid "Donation page ID"
-msgstr ""
+msgstr "Donation page ID"
 
 #: admin/includes/psyemSettings.php:184
 msgid "Will be use as change donation amount page link"
-msgstr ""
+msgstr "Will be use as change donation amount page link"
 
 #: admin/includes/psyemSettings.php:191
 msgid "Donation Checkout Shortcode"
-msgstr ""
+msgstr "Donation Checkout Shortcode"
 
 #: admin/includes/psyemSettings.php:200
 msgid "Donation checkout page ID"
-msgstr ""
+msgstr "Donation checkout page ID"
 
 #: admin/includes/psyemSettings.php:212
 msgid "Donation billing and payment checkout page"
-msgstr ""
+msgstr "Donation billing and payment checkout page"
 
 #: admin/includes/psyemSettings.php:219
 msgid "Onetime Donation Element Shortcode"
-msgstr ""
+msgstr "Onetime Donation Element Shortcode"
 
 #: admin/includes/psyemSettings.php:228
 msgid "One Time Donation page ID"
-msgstr ""
+msgstr "One Time Donation page ID"
 
-#: admin/includes/psyemSettings.php:240
+#: admin/includes/psyemSettings.php:241
 msgid ""
 "Will be use to redirect on donation second details page. donation 3rd option "
 "page"
 msgstr ""
+"Will be use to redirect on donation second details page. donation 3rd option "
+"page"
 
-#: admin/includes/psyemSettings.php:251
+#: admin/includes/psyemSettings.php:253
 msgid "Currency Exchange Rate (USD [1$] to HKD [7.8hk$])"
-msgstr ""
+msgstr "Currency Exchange Rate (USD [1$] to HKD [7.8hk$])"
 
-#: admin/includes/psyemSettings.php:260
+#: admin/includes/psyemSettings.php:262
 msgid "Stripe Payment Mode"
-msgstr ""
+msgstr "Stripe Payment Mode"
 
-#: admin/includes/psyemSettings.php:265
+#: admin/includes/psyemSettings.php:267
 msgid "Sandbox"
-msgstr ""
+msgstr "Sandbox"
 
-#: admin/includes/psyemSettings.php:268
+#: admin/includes/psyemSettings.php:270
 msgid "Live"
-msgstr ""
+msgstr "Live"
 
-#: admin/includes/psyemSettings.php:277
+#: admin/includes/psyemSettings.php:279
 msgid "Stripe Publish Key"
-msgstr ""
+msgstr "Stripe Publish Key"
 
-#: admin/includes/psyemSettings.php:280 admin/includes/psyemSettings.php:290
+#: admin/includes/psyemSettings.php:282 admin/includes/psyemSettings.php:292
 msgid "Enter stripe publish key"
-msgstr ""
+msgstr "Enter stripe publish key"
 
-#: admin/includes/psyemSettings.php:287
+#: admin/includes/psyemSettings.php:289
 msgid "Stripe Secret Key"
-msgstr ""
-
-#: admin/includes/psyemSettings.php:301
-msgid "Contact Us Page url"
-msgstr ""
+msgstr "Stripe Secret Key"
 
 #: admin/includes/psyemSettings.php:303
-msgid "Enter Contact Us Page Url"
-msgstr ""
+msgid "Contact Us Page url"
+msgstr "Contact Us Page url"
 
-#: admin/includes/psyemSettings.php:310
-msgid "Terms and Condition Page url"
-msgstr ""
+#: admin/includes/psyemSettings.php:305
+msgid "Enter Contact Us Page Url"
+msgstr "Enter Contact Us Page Url"
 
 #: admin/includes/psyemSettings.php:312
-msgid "Enter Terms and Condition Page Url"
-msgstr ""
+msgid "Terms and Condition Page url"
+msgstr "Terms and Condition Page url"
 
-#: admin/includes/psyemSettings.php:319
-msgid "Volunteer Page url"
-msgstr ""
+#: admin/includes/psyemSettings.php:314
+msgid "Enter Terms and Condition Page Url"
+msgstr "Enter Terms and Condition Page Url"
 
 #: admin/includes/psyemSettings.php:321
-msgid "Enter Volunteer Page Url"
-msgstr ""
+msgid "Volunteer Page url"
+msgstr "Volunteer Page url"
 
-#: admin/includes/psyemSettings.php:328
-msgid "Sponsor Page url"
-msgstr ""
+#: admin/includes/psyemSettings.php:323
+msgid "Enter Volunteer Page Url"
+msgstr "Enter Volunteer Page Url"
 
 #: admin/includes/psyemSettings.php:330
+msgid "Sponsor Page url"
+msgstr "Sponsor Page url"
+
+#: admin/includes/psyemSettings.php:332
 msgid "Enter Sponsor Page Url"
-msgstr ""
+msgstr "Enter Sponsor Page Url"
 
 #: admin/includes/psyemSpeakerMetaboxes.php:9
 msgid "Speaker Designation"
-msgstr ""
+msgstr "Speaker Designation"
 
 #: admin/includes/psyemSpeakerMetaboxes.php:10
 msgid "Enter Speaker Designation"
-msgstr ""
+msgstr "Enter Speaker Designation"
 
 #: admin/includes/psyemTicketMetaboxes.php:11
 msgid "Ticket Type"
-msgstr ""
+msgstr "Ticket Type"
 
 #: admin/includes/psyemTicketMetaboxes.php:18
 msgid "Individual"
-msgstr ""
+msgstr "Individual"
 
 #: admin/includes/psyemTicketMetaboxes.php:21
 msgid "Group"
-msgstr ""
+msgstr "Group"
 
 #: admin/includes/psyemTicketMetaboxes.php:28
 msgid "Ticket Price (USD)"
-msgstr ""
+msgstr "Ticket Price (USD)"
 
 #: admin/includes/psyemTicketMetaboxes.php:30
 msgid "Enter ticket price in usd"
-msgstr ""
+msgstr "Enter ticket price in usd"
 
 #: admin/includes/psyemTicketMetaboxes.php:35
 msgid "Participant Count"
-msgstr ""
+msgstr "Participant Count"
 
 #: admin/includes/psyemTicketMetaboxes.php:37
 msgid "Enter group ticket participants count"
-msgstr ""
+msgstr "Enter group ticket participants count"
 
 #: admin/includes/psyemTicketMetaboxes.php:38
 msgid "Group Ticket Participant Count"
-msgstr ""
+msgstr "Group Ticket Participant Count"
 
 #: admin/includes/psyemTicketMetaboxes.php:44
 msgid "Select applicable coupons for this ticket"
-msgstr ""
+msgstr "Select applicable coupons for this ticket"
 
 #: admin/includes/psyemTicketMetaboxes.php:48
 msgid "Ticket Coupons"
-msgstr ""
+msgstr "Ticket Coupons"
 
 #: admin/psyemAdmin.php:288 admin/psyemAdmin.php:306 admin/psyemAdmin.php:386
-msgid "Something went wrong with server end, Please try later."
-msgstr ""
+msgid "Something went wrong with server end, Please try later"
+msgstr "Something went wrong with server end, Please try later"
 
 #: admin/psyemAdmin.php:429 admin/psyemAdmin.php:430
 msgid "Psy Events Manager"
-msgstr ""
+msgstr "Psy Events Manager"
 
 #: admin/psyemAdmin.php:440 admin/psyemAdmin.php:441
 msgid "Offline Registration"
-msgstr ""
+msgstr "Offline Registration"
 
 #: admin/psyemAdmin.php:450 admin/psyemAdmin.php:451
 msgid "Settings"
-msgstr ""
+msgstr "Settings"
 
 #: admin/psyemAdmin.php:481
-msgid "Settings has been failed to save!"
-msgstr ""
+msgid "Settings has been failed to save"
+msgstr "Settings has been failed to save"
 
 #: admin/psyemAdmin.php:503
-msgid "Settings Data has been successfully saved!"
-msgstr ""
+msgid "Settings Data has been successfully saved"
+msgstr "Settings Data has been successfully saved"
 
 #: admin/psyemAdmin.php:513
-msgid "Project safe type has been failed to save!"
-msgstr ""
+msgid "Project safe type has been failed to save"
+msgstr "Project safe type has been failed to save"
 
 #: admin/psyemAdmin.php:557
-msgid "Project safe type data has been successfully saved!"
-msgstr ""
+msgid "Project safe type data has been successfully saved"
+msgstr "Project safe type data has been successfully saved"
 
 #: admin/psyemAdmin.php:568 admin/psyemAdmin.php:570 admin/psyemAdmin.php:950
 msgid "Tickets"
-msgstr ""
+msgstr "Tickets"
 
 #: admin/psyemAdmin.php:569 admin/psyemAdmin.php:571 admin/psyemAdmin.php:598
 msgid "Ticket"
-msgstr ""
+msgstr "Ticket"
 
 #: admin/psyemAdmin.php:572
 msgid "Ticket Archives"
-msgstr ""
+msgstr "Ticket Archives"
 
 #: admin/psyemAdmin.php:573
 msgid "Ticket Attributes"
-msgstr ""
+msgstr "Ticket Attributes"
 
 #: admin/psyemAdmin.php:574
 msgid "Parent Ticket:"
-msgstr ""
+msgstr "Parent Ticket:"
 
 #: admin/psyemAdmin.php:575
 msgid "All Tickets"
-msgstr ""
+msgstr "All Tickets"
 
 #: admin/psyemAdmin.php:576
 msgid "Add New Ticket"
-msgstr ""
+msgstr "Add New Ticket"
 
 #: admin/psyemAdmin.php:577 admin/psyemAdmin.php:740 admin/psyemAdmin.php:1121
 #: admin/psyemAdmin.php:1288 admin/psyemAdmin.php:1460
@@ -1011,31 +983,31 @@ msgstr ""
 #: admin/psyemAdmin.php:3259 admin/psyemAdmin.php:3416
 #: admin/psyemAdmin.php:3517 admin/psyemAdmin.php:3619
 msgid "Add New"
-msgstr ""
+msgstr "Add New"
 
 #: admin/psyemAdmin.php:578
 msgid "New Ticket"
-msgstr ""
+msgstr "New Ticket"
 
 #: admin/psyemAdmin.php:579
 msgid "Edit Ticket"
-msgstr ""
+msgstr "Edit Ticket"
 
 #: admin/psyemAdmin.php:580
 msgid "Update Ticket"
-msgstr ""
+msgstr "Update Ticket"
 
 #: admin/psyemAdmin.php:581
 msgid "View Ticket"
-msgstr ""
+msgstr "View Ticket"
 
 #: admin/psyemAdmin.php:582
 msgid "View Tickets"
-msgstr ""
+msgstr "View Tickets"
 
 #: admin/psyemAdmin.php:583
 msgid "Search Ticket"
-msgstr ""
+msgstr "Search Ticket"
 
 #: admin/psyemAdmin.php:584 admin/psyemAdmin.php:747 admin/psyemAdmin.php:1128
 #: admin/psyemAdmin.php:1295 admin/psyemAdmin.php:1467
@@ -1044,7 +1016,7 @@ msgstr ""
 #: admin/psyemAdmin.php:3266 admin/psyemAdmin.php:3423
 #: admin/psyemAdmin.php:3524 admin/psyemAdmin.php:3626
 msgid "Not found"
-msgstr ""
+msgstr "Not found"
 
 #: admin/psyemAdmin.php:585 admin/psyemAdmin.php:748 admin/psyemAdmin.php:1129
 #: admin/psyemAdmin.php:1296 admin/psyemAdmin.php:1468
@@ -1053,7 +1025,7 @@ msgstr ""
 #: admin/psyemAdmin.php:3267 admin/psyemAdmin.php:3424
 #: admin/psyemAdmin.php:3525 admin/psyemAdmin.php:3627
 msgid "Not found in Trash"
-msgstr ""
+msgstr "Not found in Trash"
 
 #: admin/psyemAdmin.php:586 admin/psyemAdmin.php:749 admin/psyemAdmin.php:1130
 #: admin/psyemAdmin.php:1297 admin/psyemAdmin.php:1469
@@ -1062,7 +1034,7 @@ msgstr ""
 #: admin/psyemAdmin.php:3268 admin/psyemAdmin.php:3425
 #: admin/psyemAdmin.php:3526 admin/psyemAdmin.php:3628
 msgid "Featured Image"
-msgstr ""
+msgstr "Featured Image"
 
 #: admin/psyemAdmin.php:587 admin/psyemAdmin.php:750 admin/psyemAdmin.php:1131
 #: admin/psyemAdmin.php:1298 admin/psyemAdmin.php:1470
@@ -1071,7 +1043,7 @@ msgstr ""
 #: admin/psyemAdmin.php:3269 admin/psyemAdmin.php:3426
 #: admin/psyemAdmin.php:3527 admin/psyemAdmin.php:3629
 msgid "Set featured image"
-msgstr ""
+msgstr "Set featured image"
 
 #: admin/psyemAdmin.php:588 admin/psyemAdmin.php:751 admin/psyemAdmin.php:1132
 #: admin/psyemAdmin.php:1299 admin/psyemAdmin.php:1471
@@ -1080,7 +1052,7 @@ msgstr ""
 #: admin/psyemAdmin.php:3270 admin/psyemAdmin.php:3427
 #: admin/psyemAdmin.php:3528 admin/psyemAdmin.php:3630
 msgid "Remove featured image"
-msgstr ""
+msgstr "Remove featured image"
 
 #: admin/psyemAdmin.php:589 admin/psyemAdmin.php:752 admin/psyemAdmin.php:1133
 #: admin/psyemAdmin.php:1300 admin/psyemAdmin.php:1472
@@ -1089,1515 +1061,1504 @@ msgstr ""
 #: admin/psyemAdmin.php:3271 admin/psyemAdmin.php:3428
 #: admin/psyemAdmin.php:3529 admin/psyemAdmin.php:3631
 msgid "Use as featured image"
-msgstr ""
+msgstr "Use as featured image"
 
 #: admin/psyemAdmin.php:590
 msgid "Insert into ticket"
-msgstr ""
+msgstr "Insert into ticket"
 
 #: admin/psyemAdmin.php:591
 msgid "Uploaded to this ticket"
-msgstr ""
+msgstr "Uploaded to this ticket"
 
 #: admin/psyemAdmin.php:592
 msgid "Tickets list"
-msgstr ""
+msgstr "Tickets list"
 
 #: admin/psyemAdmin.php:593
 msgid "Tickets list navigation"
-msgstr ""
+msgstr "Tickets list navigation"
 
 #: admin/psyemAdmin.php:594
 msgid "Filter Tickets list"
-msgstr ""
+msgstr "Filter Tickets list"
 
 #: admin/psyemAdmin.php:599
 msgid "Ticket post Type for tickets"
-msgstr ""
+msgstr "Ticket post Type for tickets"
 
 #: admin/psyemAdmin.php:624
 msgid "Ticket Configurations"
-msgstr ""
+msgstr "Ticket Configurations"
 
 #: admin/psyemAdmin.php:690
 msgid "Price (USD)"
-msgstr ""
+msgstr "Price (USD)"
 
 #: admin/psyemAdmin.php:731 admin/psyemAdmin.php:733
 msgid "Events"
-msgstr ""
+msgstr "Events"
 
 #: admin/psyemAdmin.php:735
 msgid "Event Archives"
-msgstr ""
+msgstr "Event Archives"
 
 #: admin/psyemAdmin.php:736
 msgid "Event Attributes"
-msgstr ""
+msgstr "Event Attributes"
 
 #: admin/psyemAdmin.php:737
 msgid "Parent Event:"
-msgstr ""
+msgstr "Parent Event:"
 
 #: admin/psyemAdmin.php:738 admin/psyemAdmin.php:1799
 msgid "All Events"
-msgstr ""
+msgstr "All Events"
 
 #: admin/psyemAdmin.php:739
 msgid "Add New Event"
-msgstr ""
+msgstr "Add New Event"
 
 #: admin/psyemAdmin.php:741
 msgid "New Event"
-msgstr ""
+msgstr "New Event"
 
 #: admin/psyemAdmin.php:742
 msgid "Edit Event"
-msgstr ""
+msgstr "Edit Event"
 
 #: admin/psyemAdmin.php:743
 msgid "Update Event"
-msgstr ""
+msgstr "Update Event"
 
 #: admin/psyemAdmin.php:744
 msgid "View Event"
-msgstr ""
+msgstr "View Event"
 
 #: admin/psyemAdmin.php:745
 msgid "View Events"
-msgstr ""
+msgstr "View Events"
 
 #: admin/psyemAdmin.php:746
 msgid "Search Event"
-msgstr ""
+msgstr "Search Event"
 
 #: admin/psyemAdmin.php:753
 msgid "Insert into event"
-msgstr ""
+msgstr "Insert into event"
 
 #: admin/psyemAdmin.php:754
 msgid "Uploaded to this event"
-msgstr ""
+msgstr "Uploaded to this event"
 
 #: admin/psyemAdmin.php:755
 msgid "Events list"
-msgstr ""
+msgstr "Events list"
 
 #: admin/psyemAdmin.php:756
 msgid "Events list navigation"
-msgstr ""
+msgstr "Events list navigation"
 
 #: admin/psyemAdmin.php:757
 msgid "Filter Events list"
-msgstr ""
+msgstr "Filter Events list"
 
 #: admin/psyemAdmin.php:762
 msgid "Event post Type for events"
-msgstr ""
+msgstr "Event post Type for events"
 
 #: admin/psyemAdmin.php:787
 msgid "Event Configurations"
-msgstr ""
+msgstr "Event Configurations"
 
-#: admin/psyemAdmin.php:796 front/pages/psyemEventDetails.php:309
+#: admin/psyemAdmin.php:796 front/pages/psyemEventDetails.php:313
 #: front/pages/psyemPartnerDetails.php:28
 msgid "Event Partners"
-msgstr ""
+msgstr "Event Partners"
 
-#: admin/psyemAdmin.php:805 front/pages/psyemEventDetails.php:264
+#: admin/psyemAdmin.php:805 front/pages/psyemEventDetails.php:197
 #: front/pages/psyemSpeakerDetails.php:27
 msgid "Event Speakers"
-msgstr ""
+msgstr "Event Speakers"
 
-#: admin/psyemAdmin.php:814 front/pages/psyemEventDetails.php:347
+#: admin/psyemAdmin.php:814 front/pages/psyemEventDetails.php:351
 msgid "Event Media"
-msgstr ""
+msgstr "Event Media"
 
 #: admin/psyemAdmin.php:951
 msgid "Schedules"
-msgstr ""
+msgstr "Schedules"
 
 #: admin/psyemAdmin.php:952
 msgid "Reg. Type"
-msgstr ""
+msgstr "Reg. Type"
 
 #: admin/psyemAdmin.php:955
 msgid "Copy Event"
-msgstr ""
+msgstr "Copy Event"
 
 #: admin/psyemAdmin.php:1010
 msgid "Copy"
-msgstr ""
+msgstr "Copy"
 
 #: admin/psyemAdmin.php:1033
-msgid "Event data has been failed to copy!"
-msgstr ""
+msgid "Event data has been failed to copy"
+msgstr "Event data has been failed to copy"
 
 #: admin/psyemAdmin.php:1090
-msgid "Event Data has been successfully copied!"
-msgstr ""
+msgid "Event Data has been successfully copied"
+msgstr "Event Data has been successfully copied"
 
 #: admin/psyemAdmin.php:1100
 msgid "Preview Event"
-msgstr ""
+msgstr "Preview Event"
 
 #: admin/psyemAdmin.php:1112 admin/psyemAdmin.php:1114
 msgid "Coupons"
-msgstr ""
+msgstr "Coupons"
 
 #: admin/psyemAdmin.php:1113 admin/psyemAdmin.php:1115
 #: admin/psyemAdmin.php:1142
 msgid "Coupon"
-msgstr ""
+msgstr "Coupon"
 
 #: admin/psyemAdmin.php:1116
 msgid "Coupon Archives"
-msgstr ""
+msgstr "Coupon Archives"
 
 #: admin/psyemAdmin.php:1117
 msgid "Coupon Attributes"
-msgstr ""
+msgstr "Coupon Attributes"
 
 #: admin/psyemAdmin.php:1118
 msgid "Parent Coupon:"
-msgstr ""
+msgstr "Parent Coupon:"
 
 #: admin/psyemAdmin.php:1119
 msgid "All Coupons"
-msgstr ""
+msgstr "All Coupons"
 
 #: admin/psyemAdmin.php:1120
 msgid "Add New Coupon"
-msgstr ""
+msgstr "Add New Coupon"
 
 #: admin/psyemAdmin.php:1122
 msgid "New Coupon"
-msgstr ""
+msgstr "New Coupon"
 
 #: admin/psyemAdmin.php:1123
 msgid "Edit Coupon"
-msgstr ""
+msgstr "Edit Coupon"
 
 #: admin/psyemAdmin.php:1124
 msgid "Update Coupon"
-msgstr ""
+msgstr "Update Coupon"
 
 #: admin/psyemAdmin.php:1125
 msgid "View Coupon"
-msgstr ""
+msgstr "View Coupon"
 
 #: admin/psyemAdmin.php:1126
 msgid "View Coupons"
-msgstr ""
+msgstr "View Coupons"
 
 #: admin/psyemAdmin.php:1127
 msgid "Search Coupon"
-msgstr ""
+msgstr "Search Coupon"
 
 #: admin/psyemAdmin.php:1134
 msgid "Insert into coupon"
-msgstr ""
+msgstr "Insert into coupon"
 
 #: admin/psyemAdmin.php:1135
 msgid "Uploaded to this coupon"
-msgstr ""
+msgstr "Uploaded to this coupon"
 
 #: admin/psyemAdmin.php:1136
 msgid "Coupons list"
-msgstr ""
+msgstr "Coupons list"
 
 #: admin/psyemAdmin.php:1137
 msgid "Coupons list navigation"
-msgstr ""
+msgstr "Coupons list navigation"
 
 #: admin/psyemAdmin.php:1138
 msgid "Filter Coupons list"
-msgstr ""
+msgstr "Filter Coupons list"
 
 #: admin/psyemAdmin.php:1143
 msgid "Coupon post Type for Coupons"
-msgstr ""
+msgstr "Coupon post Type for Coupons"
 
 #: admin/psyemAdmin.php:1168
 msgid "Coupon Configurations"
-msgstr ""
+msgstr "Coupon Configurations"
 
 #: admin/psyemAdmin.php:1223
 msgid "Code"
-msgstr ""
+msgstr "Code"
 
 #: admin/psyemAdmin.php:1224
 msgid "Expiry"
-msgstr ""
+msgstr "Expiry"
 
 #: admin/psyemAdmin.php:1225
 msgid "Amount/Percent"
-msgstr ""
+msgstr "Amount/Percent"
 
 #: admin/psyemAdmin.php:1279 admin/psyemAdmin.php:1281
 msgid "Speakers"
-msgstr ""
+msgstr "Speakers"
 
 #: admin/psyemAdmin.php:1280 admin/psyemAdmin.php:1282
 #: admin/psyemAdmin.php:1309
 msgid "Speaker"
-msgstr ""
+msgstr "Speaker"
 
 #: admin/psyemAdmin.php:1283
 msgid "Speaker Archives"
-msgstr ""
+msgstr "Speaker Archives"
 
 #: admin/psyemAdmin.php:1284
 msgid "Speaker Attributes"
-msgstr ""
+msgstr "Speaker Attributes"
 
 #: admin/psyemAdmin.php:1285
 msgid "Parent Speaker:"
-msgstr ""
+msgstr "Parent Speaker:"
 
 #: admin/psyemAdmin.php:1286
 msgid "All Speakers"
-msgstr ""
+msgstr "All Speakers"
 
 #: admin/psyemAdmin.php:1287
 msgid "Add New Speaker"
-msgstr ""
+msgstr "Add New Speaker"
 
 #: admin/psyemAdmin.php:1289
 msgid "New Speaker"
-msgstr ""
+msgstr "New Speaker"
 
 #: admin/psyemAdmin.php:1290
 msgid "Edit Speaker"
-msgstr ""
+msgstr "Edit Speaker"
 
 #: admin/psyemAdmin.php:1291
 msgid "Update Speaker"
-msgstr ""
+msgstr "Update Speaker"
 
 #: admin/psyemAdmin.php:1292
 msgid "View Speaker"
-msgstr ""
+msgstr "View Speaker"
 
 #: admin/psyemAdmin.php:1293
 msgid "View Speakers"
-msgstr ""
+msgstr "View Speakers"
 
 #: admin/psyemAdmin.php:1294
 msgid "Search Speaker"
-msgstr ""
+msgstr "Search Speaker"
 
 #: admin/psyemAdmin.php:1301
 msgid "Insert into speaker"
-msgstr ""
+msgstr "Insert into speaker"
 
 #: admin/psyemAdmin.php:1302
 msgid "Uploaded to this speaker"
-msgstr ""
+msgstr "Uploaded to this speaker"
 
 #: admin/psyemAdmin.php:1303
 msgid "Speakers list"
-msgstr ""
+msgstr "Speakers list"
 
 #: admin/psyemAdmin.php:1304
 msgid "Speakers list navigation"
-msgstr ""
+msgstr "Speakers list navigation"
 
 #: admin/psyemAdmin.php:1305
 msgid "Filter Speakers list"
-msgstr ""
+msgstr "Filter Speakers list"
 
 #: admin/psyemAdmin.php:1310
 msgid "Speaker post Type for event speakers"
-msgstr ""
+msgstr "Speaker post Type for event speakers"
 
 #: admin/psyemAdmin.php:1335 admin/psyemAdmin.php:1345
 msgid "Speaker Categories"
-msgstr ""
+msgstr "Speaker Categories"
 
 #: admin/psyemAdmin.php:1336
 msgid "Speaker Category"
-msgstr ""
+msgstr "Speaker Category"
 
 #: admin/psyemAdmin.php:1337
 msgid "Search Speaker Categories"
-msgstr ""
+msgstr "Search Speaker Categories"
 
 #: admin/psyemAdmin.php:1338
 msgid "All Speaker Categories"
-msgstr ""
+msgstr "All Speaker Categories"
 
 #: admin/psyemAdmin.php:1339
 msgid "Parent Speaker Category"
-msgstr ""
+msgstr "Parent Speaker Category"
 
 #: admin/psyemAdmin.php:1340
 msgid "Parent Speaker Category:"
-msgstr ""
+msgstr "Parent Speaker Category:"
 
 #: admin/psyemAdmin.php:1341
 msgid "Edit Speaker Category"
-msgstr ""
+msgstr "Edit Speaker Category"
 
 #: admin/psyemAdmin.php:1342
 msgid "Update Speaker Category"
-msgstr ""
+msgstr "Update Speaker Category"
 
 #: admin/psyemAdmin.php:1343
 msgid "Add New Speaker Category"
-msgstr ""
+msgstr "Add New Speaker Category"
 
 #: admin/psyemAdmin.php:1344
 msgid "New Speaker Category Name"
-msgstr ""
+msgstr "New Speaker Category Name"
 
 #: admin/psyemAdmin.php:1368
 msgid "Speaker Informations"
-msgstr ""
+msgstr "Speaker Informations"
 
 #: admin/psyemAdmin.php:1421
 msgid "Designation"
-msgstr ""
+msgstr "Designation"
 
 #: admin/psyemAdmin.php:1451 admin/psyemAdmin.php:1453
 msgid "Partners"
-msgstr ""
+msgstr "Partners"
 
 #: admin/psyemAdmin.php:1452 admin/psyemAdmin.php:1454
 #: admin/psyemAdmin.php:1481
 msgid "Partner"
-msgstr ""
+msgstr "Partner"
 
 #: admin/psyemAdmin.php:1455
 msgid "Partner Archives"
-msgstr ""
+msgstr "Partner Archives"
 
 #: admin/psyemAdmin.php:1456
 msgid "Partner Attributes"
-msgstr ""
+msgstr "Partner Attributes"
 
 #: admin/psyemAdmin.php:1457
 msgid "Parent Partner:"
-msgstr ""
+msgstr "Parent Partner:"
 
 #: admin/psyemAdmin.php:1458
 msgid "All Partners"
-msgstr ""
+msgstr "All Partners"
 
 #: admin/psyemAdmin.php:1459
 msgid "Add New Partner"
-msgstr ""
+msgstr "Add New Partner"
 
 #: admin/psyemAdmin.php:1461
 msgid "New Partner"
-msgstr ""
+msgstr "New Partner"
 
 #: admin/psyemAdmin.php:1462
 msgid "Edit Partner"
-msgstr ""
+msgstr "Edit Partner"
 
 #: admin/psyemAdmin.php:1463
 msgid "Update Partner"
-msgstr ""
+msgstr "Update Partner"
 
 #: admin/psyemAdmin.php:1464
 msgid "View Partner"
-msgstr ""
+msgstr "View Partner"
 
 #: admin/psyemAdmin.php:1465
 msgid "View Partners"
-msgstr ""
+msgstr "View Partners"
 
 #: admin/psyemAdmin.php:1466
 msgid "Search Partner"
-msgstr ""
+msgstr "Search Partner"
 
 #: admin/psyemAdmin.php:1473
 msgid "Insert into partner"
-msgstr ""
+msgstr "Insert into partner"
 
 #: admin/psyemAdmin.php:1474
 msgid "Uploaded to this partner"
-msgstr ""
+msgstr "Uploaded to this partner"
 
 #: admin/psyemAdmin.php:1475
 msgid "Partners list"
-msgstr ""
+msgstr "Partners list"
 
 #: admin/psyemAdmin.php:1476
 msgid "Partners list navigation"
-msgstr ""
+msgstr "Partners list navigation"
 
 #: admin/psyemAdmin.php:1477
 msgid "Filter Partners list"
-msgstr ""
+msgstr "Filter Partners list"
 
 #: admin/psyemAdmin.php:1482
 msgid "Partner post Type for event partners"
-msgstr ""
+msgstr "Partner post Type for event partners"
 
 #: admin/psyemAdmin.php:1508 admin/psyemAdmin.php:1518
 msgid "Partner Categories"
-msgstr ""
+msgstr "Partner Categories"
 
 #: admin/psyemAdmin.php:1509
 msgid "Partner Category"
-msgstr ""
+msgstr "Partner Category"
 
 #: admin/psyemAdmin.php:1510
 msgid "Search Partner Categories"
-msgstr ""
+msgstr "Search Partner Categories"
 
 #: admin/psyemAdmin.php:1511
 msgid "All Partner Categories"
-msgstr ""
+msgstr "All Partner Categories"
 
 #: admin/psyemAdmin.php:1512
 msgid "Parent Partner Category"
-msgstr ""
+msgstr "Parent Partner Category"
 
 #: admin/psyemAdmin.php:1513
 msgid "Parent Partner Category:"
-msgstr ""
+msgstr "Parent Partner Category:"
 
 #: admin/psyemAdmin.php:1514
 msgid "Edit Partner Category"
-msgstr ""
+msgstr "Edit Partner Category"
 
 #: admin/psyemAdmin.php:1515
 msgid "Update Partner Category"
-msgstr ""
+msgstr "Update Partner Category"
 
 #: admin/psyemAdmin.php:1516
 msgid "Add New Partner Category"
-msgstr ""
+msgstr "Add New Partner Category"
 
 #: admin/psyemAdmin.php:1517
 msgid "New Partner Category Name"
-msgstr ""
+msgstr "New Partner Category Name"
 
 #: admin/psyemAdmin.php:1541
 msgid "Partner Informations"
-msgstr ""
+msgstr "Partner Informations"
 
 #: admin/psyemAdmin.php:1625 admin/psyemAdmin.php:1627
 #: front/pages/psyemOrderCheckout.php:363
 msgid "Participants"
-msgstr ""
+msgstr "Participants"
 
 #: admin/psyemAdmin.php:1626 admin/psyemAdmin.php:1628
 #: admin/psyemAdmin.php:1655
 msgid "Participant"
-msgstr ""
+msgstr "Participant"
 
 #: admin/psyemAdmin.php:1629
 msgid "Participant Archives"
-msgstr ""
+msgstr "Participant Archives"
 
 #: admin/psyemAdmin.php:1630
 msgid "Participant Attributes"
-msgstr ""
+msgstr "Participant Attributes"
 
 #: admin/psyemAdmin.php:1631
 msgid "Parent Participant:"
-msgstr ""
+msgstr "Parent Participant:"
 
 #: admin/psyemAdmin.php:1632
 msgid "All Participants"
-msgstr ""
+msgstr "All Participants"
 
 #: admin/psyemAdmin.php:1633
 msgid "Add New Participant"
-msgstr ""
+msgstr "Add New Participant"
 
 #: admin/psyemAdmin.php:1635
 msgid "New Participant"
-msgstr ""
+msgstr "New Participant"
 
 #: admin/psyemAdmin.php:1636
 msgid "Edit Participant"
-msgstr ""
+msgstr "Edit Participant"
 
 #: admin/psyemAdmin.php:1637
 msgid "Update Participant"
-msgstr ""
+msgstr "Update Participant"
 
 #: admin/psyemAdmin.php:1638
 msgid "View Participant"
-msgstr ""
+msgstr "View Participant"
 
 #: admin/psyemAdmin.php:1639
 msgid "View Participants"
-msgstr ""
+msgstr "View Participants"
 
 #: admin/psyemAdmin.php:1640
 msgid "Search Participant"
-msgstr ""
+msgstr "Search Participant"
 
 #: admin/psyemAdmin.php:1647 admin/psyemAdmin.php:2754
 msgid "Insert into participant"
-msgstr ""
+msgstr "Insert into participant"
 
 #: admin/psyemAdmin.php:1648 admin/psyemAdmin.php:2755
 msgid "Uploaded to this participant"
-msgstr ""
+msgstr "Uploaded to this participant"
 
 #: admin/psyemAdmin.php:1649
 msgid "Participants list"
-msgstr ""
+msgstr "Participants list"
 
 #: admin/psyemAdmin.php:1650
 msgid "Participants list navigation"
-msgstr ""
+msgstr "Participants list navigation"
 
 #: admin/psyemAdmin.php:1651
 msgid "Filter Participants list"
-msgstr ""
+msgstr "Filter Participants list"
 
 #: admin/psyemAdmin.php:1656
 msgid "Participant post type for event attendees"
-msgstr ""
+msgstr "Participant post type for event attendees"
 
 #: admin/psyemAdmin.php:1681
 msgid "Participant Informations"
-msgstr ""
+msgstr "Participant Informations"
 
 #: admin/psyemAdmin.php:1734
 msgid "Participant Name"
-msgstr ""
+msgstr "Participant Name"
 
 #: admin/psyemAdmin.php:1735
 msgid "Participant Email"
-msgstr ""
+msgstr "Participant Email"
 
 #: admin/psyemAdmin.php:1736
 msgid "Participant Type"
-msgstr ""
+msgstr "Participant Type"
 
 #: admin/psyemAdmin.php:1815 admin/psyemAdmin.php:2974
 msgid "Export to XLSX"
-msgstr ""
+msgstr "Export to XLSX"
 
 #: admin/psyemAdmin.php:1834 admin/psyemAdmin.php:2993
-msgid "You are not authorize to export data!"
-msgstr ""
+msgid "You are not authorize to export data"
+msgstr "You are not authorize to export data"
 
 #: admin/psyemAdmin.php:1868 admin/psyemAdmin.php:3035
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: admin/psyemAdmin.php:1930
 msgid "Event Orders"
-msgstr ""
+msgstr "Event Orders"
 
 #: admin/psyemAdmin.php:1931
 msgid "Event Order"
-msgstr ""
+msgstr "Event Order"
 
 #: admin/psyemAdmin.php:1932
 msgid "Orders"
-msgstr ""
+msgstr "Orders"
 
 #: admin/psyemAdmin.php:1933 admin/psyemAdmin.php:1960
 msgid "Order"
-msgstr ""
+msgstr "Order"
 
 #: admin/psyemAdmin.php:1934
 msgid "Order Archives"
-msgstr ""
+msgstr "Order Archives"
 
 #: admin/psyemAdmin.php:1935
 msgid "Order Attributes"
-msgstr ""
+msgstr "Order Attributes"
 
 #: admin/psyemAdmin.php:1936
 msgid "Parent Order:"
-msgstr ""
+msgstr "Parent Order:"
 
 #: admin/psyemAdmin.php:1937
 msgid "All Orders"
-msgstr ""
+msgstr "All Orders"
 
 #: admin/psyemAdmin.php:1938
 msgid "Add New Order"
-msgstr ""
+msgstr "Add New Order"
 
 #: admin/psyemAdmin.php:1940
 msgid "New Order"
-msgstr ""
+msgstr "New Order"
 
 #: admin/psyemAdmin.php:1941
 msgid "Edit Order"
-msgstr ""
+msgstr "Edit Order"
 
 #: admin/psyemAdmin.php:1942
 msgid "Update Order"
-msgstr ""
+msgstr "Update Order"
 
 #: admin/psyemAdmin.php:1943
 msgid "View Order"
-msgstr ""
+msgstr "View Order"
 
 #: admin/psyemAdmin.php:1944
 msgid "View Orders"
-msgstr ""
+msgstr "View Orders"
 
 #: admin/psyemAdmin.php:1945
 msgid "Search Order"
-msgstr ""
+msgstr "Search Order"
 
 #: admin/psyemAdmin.php:1952
 msgid "Insert into order"
-msgstr ""
+msgstr "Insert into order"
 
 #: admin/psyemAdmin.php:1953
 msgid "Uploaded to this order"
-msgstr ""
+msgstr "Uploaded to this order"
 
 #: admin/psyemAdmin.php:1954
 msgid "Orders list"
-msgstr ""
+msgstr "Orders list"
 
 #: admin/psyemAdmin.php:1955
 msgid "Orders list navigation"
-msgstr ""
+msgstr "Orders list navigation"
 
 #: admin/psyemAdmin.php:1956
 msgid "Filter Orders list"
-msgstr ""
+msgstr "Filter Orders list"
 
 #: admin/psyemAdmin.php:1961
 msgid "Order post type for event attendees"
-msgstr ""
+msgstr "Order post type for event attendees"
 
 #: admin/psyemAdmin.php:1987
 msgid "Event Informations"
-msgstr ""
+msgstr "Event Informations"
 
 #: admin/psyemAdmin.php:1996
 msgid "Order Informations"
-msgstr ""
+msgstr "Order Informations"
 
 #: admin/psyemAdmin.php:2005
 msgid "Participants Informations"
-msgstr ""
+msgstr "Participants Informations"
 
 #: admin/psyemAdmin.php:2070
 msgid "Total Tickets"
-msgstr ""
+msgstr "Total Tickets"
 
 #: admin/psyemAdmin.php:2071
 msgid "Dates"
-msgstr ""
+msgstr "Dates"
 
 #: admin/psyemAdmin.php:2160 admin/psyemAdmin.php:2262
-msgid "Print tickets has been failed to process!"
-msgstr ""
+msgid "Print tickets has been failed to process"
+msgstr "Print tickets has been failed to process"
 
 #: admin/psyemAdmin.php:2270 admin/psyemAdmin.php:2294
-msgid "Csv has been failed to import!"
-msgstr ""
+msgid "Csv has been failed to import"
+msgstr "Csv has been failed to import"
 
 #: admin/psyemAdmin.php:2295
-msgid "You can not upload more paticipants in this order."
-msgstr ""
+msgid "You can not upload more paticipants in this order"
+msgstr "You can not upload more paticipants in this order"
 
 #: admin/psyemAdmin.php:2382
-msgid "Csv Data has been successfully imported!"
-msgstr ""
+msgid "Csv Data has been successfully imported"
+msgstr "Csv Data has been successfully imported"
 
 #: admin/psyemAdmin.php:2394
-msgid "Event ticket has been failed to send!"
-msgstr ""
+msgid "Event ticket has been failed to send"
+msgstr "Event ticket has been failed to send"
 
 #: admin/psyemAdmin.php:2423
-msgid "Print tickets participants data not found!"
-msgstr ""
+msgid "Print tickets participants data not found"
+msgstr "Print tickets participants data not found"
 
 #: admin/psyemAdmin.php:2497
 msgid "Hello"
-msgstr ""
+msgstr "Hello"
 
-#: admin/psyemAdmin.php:2498 helpers/psyemHelper.php:2064
-msgid "Kindly find the attached document for event ticket reference."
-msgstr ""
+#: admin/psyemAdmin.php:2498 helpers/psyemHelper.php:2066
+msgid "Kindly find the attached document for event ticket reference"
+msgstr "Kindly find the attached document for event ticket reference"
 
-#: admin/psyemAdmin.php:2500 helpers/psyemHelper.php:1701
-#: helpers/psyemHelper.php:2067
+#: admin/psyemAdmin.php:2500 helpers/psyemHelper.php:1703
+#: helpers/psyemHelper.php:2069
 msgid "See you soon"
-msgstr ""
+msgstr "See you soon"
 
 #: admin/psyemAdmin.php:2501 front/pages/psyemDonationCheckout.php:250
-#: helpers/psyemHelper.php:1702 helpers/psyemHelper.php:2068
+#: helpers/psyemHelper.php:1704 helpers/psyemHelper.php:2070
 msgid "Thank You"
-msgstr ""
+msgstr "Thank You"
 
 #: admin/psyemAdmin.php:2544
-msgid "Event ticket has been successfully sent!"
-msgstr ""
+msgid "Event ticket has been successfully sent"
+msgstr "Event ticket has been successfully sent"
 
 #: admin/psyemAdmin.php:2566
-msgid "Offline Registration has been failed to create!"
-msgstr ""
+msgid "Offline Registration has been failed to create"
+msgstr "Offline Registration has been failed to create"
 
 #: admin/psyemAdmin.php:2732 admin/psyemAdmin.php:2734
 msgid "Projectsafes"
-msgstr ""
+msgstr "Projectsafes"
 
 #: admin/psyemAdmin.php:2733 admin/psyemAdmin.php:2735
 #: admin/psyemAdmin.php:2762
 msgid "Projectsafe"
-msgstr ""
+msgstr "Projectsafe"
 
 #: admin/psyemAdmin.php:2736
 msgid "Projectsafe Archives"
-msgstr ""
+msgstr "Projectsafe Archives"
 
 #: admin/psyemAdmin.php:2737
 msgid "Projectsafe Attributes"
-msgstr ""
+msgstr "Projectsafe Attributes"
 
 #: admin/psyemAdmin.php:2738
 msgid "Parent Projectsafe:"
-msgstr ""
+msgstr "Parent Projectsafe:"
 
 #: admin/psyemAdmin.php:2739
 msgid "All Projectsafes"
-msgstr ""
+msgstr "All Projectsafes"
 
 #: admin/psyemAdmin.php:2740
 msgid "Add New Projectsafe"
-msgstr ""
+msgstr "Add New Projectsafe"
 
 #: admin/psyemAdmin.php:2742
 msgid "New Projectsafe"
-msgstr ""
+msgstr "New Projectsafe"
 
 #: admin/psyemAdmin.php:2743
 msgid "Edit Projectsafe"
-msgstr ""
+msgstr "Edit Projectsafe"
 
 #: admin/psyemAdmin.php:2744
 msgid "Update Projectsafe"
-msgstr ""
+msgstr "Update Projectsafe"
 
 #: admin/psyemAdmin.php:2745
 msgid "View Projectsafe"
-msgstr ""
+msgstr "View Projectsafe"
 
 #: admin/psyemAdmin.php:2746
 msgid "View Projectsafes"
-msgstr ""
+msgstr "View Projectsafes"
 
 #: admin/psyemAdmin.php:2747
 msgid "Search Projectsafe"
-msgstr ""
+msgstr "Search Projectsafe"
 
 #: admin/psyemAdmin.php:2756
 msgid "Projectsafes list"
-msgstr ""
+msgstr "Projectsafes list"
 
 #: admin/psyemAdmin.php:2757
 msgid "Projectsafes list navigation"
-msgstr ""
+msgstr "Projectsafes list navigation"
 
 #: admin/psyemAdmin.php:2758
 msgid "Filter Projectsafes list"
-msgstr ""
+msgstr "Filter Projectsafes list"
 
 #: admin/psyemAdmin.php:2763
 msgid "Projectsafe post type"
-msgstr ""
+msgstr "Projectsafe post type"
 
 #: admin/psyemAdmin.php:2788
 msgid "Project safe Informations"
-msgstr ""
+msgstr "Project safe Informations"
 
 #: admin/psyemAdmin.php:2851 admin/psyemAdmin.php:3034
 msgid "Method"
-msgstr ""
+msgstr "Method"
 
 #: admin/psyemAdmin.php:2961
 msgid "All Project Safe Types"
-msgstr ""
+msgstr "All Project Safe Types"
 
 #: admin/psyemAdmin.php:3025
 msgid "FullName"
-msgstr ""
+msgstr "FullName"
 
 #: admin/psyemAdmin.php:3104
 msgid "Donation Amounts"
-msgstr ""
+msgstr "Donation Amounts"
 
 #: admin/psyemAdmin.php:3105
 msgid "Donation Amount"
-msgstr ""
+msgstr "Donation Amount"
 
 #: admin/psyemAdmin.php:3106
 msgid "Amounts"
-msgstr ""
+msgstr "Amounts"
 
 #: admin/psyemAdmin.php:3108
 msgid "Amount Archives"
-msgstr ""
+msgstr "Amount Archives"
 
 #: admin/psyemAdmin.php:3109
 msgid "Amount Attributes"
-msgstr ""
+msgstr "Amount Attributes"
 
 #: admin/psyemAdmin.php:3110
 msgid "Parent Amount:"
-msgstr ""
+msgstr "Parent Amount:"
 
 #: admin/psyemAdmin.php:3111
 msgid "All Amounts"
-msgstr ""
+msgstr "All Amounts"
 
 #: admin/psyemAdmin.php:3112
 msgid "Add New Amount"
-msgstr ""
+msgstr "Add New Amount"
 
 #: admin/psyemAdmin.php:3114
 msgid "New Amount"
-msgstr ""
+msgstr "New Amount"
 
 #: admin/psyemAdmin.php:3115
 msgid "Edit Amount"
-msgstr ""
+msgstr "Edit Amount"
 
 #: admin/psyemAdmin.php:3116
 msgid "Update Amount"
-msgstr ""
+msgstr "Update Amount"
 
 #: admin/psyemAdmin.php:3117
 msgid "View Amount"
-msgstr ""
+msgstr "View Amount"
 
 #: admin/psyemAdmin.php:3118
 msgid "View Amounts"
-msgstr ""
+msgstr "View Amounts"
 
 #: admin/psyemAdmin.php:3119
 msgid "Search Amount"
-msgstr ""
+msgstr "Search Amount"
 
 #: admin/psyemAdmin.php:3126
 msgid "Insert into amount"
-msgstr ""
+msgstr "Insert into amount"
 
 #: admin/psyemAdmin.php:3127
 msgid "Uploaded to this amount"
-msgstr ""
+msgstr "Uploaded to this amount"
 
 #: admin/psyemAdmin.php:3128
 msgid "Amounts list"
-msgstr ""
+msgstr "Amounts list"
 
 #: admin/psyemAdmin.php:3129
 msgid "Amounts list navigation"
-msgstr ""
+msgstr "Amounts list navigation"
 
 #: admin/psyemAdmin.php:3130
 msgid "Filter Amounts list"
-msgstr ""
+msgstr "Filter Amounts list"
 
 #: admin/psyemAdmin.php:3135
 msgid "Amount post type for donations"
-msgstr ""
+msgstr "Amount post type for donations"
 
 #: admin/psyemAdmin.php:3160
 msgid "Amount Informations"
-msgstr ""
+msgstr "Amount Informations"
 
 #: admin/psyemAdmin.php:3213
 msgid "Amount Name"
-msgstr ""
+msgstr "Amount Name"
 
 #: admin/psyemAdmin.php:3214 admin/psyemAdmin.php:3364
 msgid "Price"
-msgstr ""
+msgstr "Price"
 
 #: admin/psyemAdmin.php:3250 admin/psyemAdmin.php:3252
 msgid "Donations"
-msgstr ""
+msgstr "Donations"
 
 #: admin/psyemAdmin.php:3251 admin/psyemAdmin.php:3253
 #: admin/psyemAdmin.php:3280 front/pages/psyemDonationCheckout.php:47
 msgid "Donation"
-msgstr ""
+msgstr "Donation"
 
 #: admin/psyemAdmin.php:3254
 msgid "Donation Archives"
-msgstr ""
+msgstr "Donation Archives"
 
 #: admin/psyemAdmin.php:3255
 msgid "Donation Attributes"
-msgstr ""
+msgstr "Donation Attributes"
 
 #: admin/psyemAdmin.php:3256
 msgid "Parent Donation:"
-msgstr ""
+msgstr "Parent Donation:"
 
 #: admin/psyemAdmin.php:3257
 msgid "All Donations"
-msgstr ""
+msgstr "All Donations"
 
 #: admin/psyemAdmin.php:3258
 msgid "Add New Donation"
-msgstr ""
+msgstr "Add New Donation"
 
 #: admin/psyemAdmin.php:3260
 msgid "New Donation"
-msgstr ""
+msgstr "New Donation"
 
 #: admin/psyemAdmin.php:3261
 msgid "Edit Donation"
-msgstr ""
+msgstr "Edit Donation"
 
 #: admin/psyemAdmin.php:3262
 msgid "Update Donation"
-msgstr ""
+msgstr "Update Donation"
 
 #: admin/psyemAdmin.php:3263
 msgid "View Donation"
-msgstr ""
+msgstr "View Donation"
 
 #: admin/psyemAdmin.php:3264
 msgid "View Donations"
-msgstr ""
+msgstr "View Donations"
 
 #: admin/psyemAdmin.php:3265
 msgid "Search Donation"
-msgstr ""
+msgstr "Search Donation"
 
 #: admin/psyemAdmin.php:3272 admin/psyemAdmin.php:3429
 #: admin/psyemAdmin.php:3530 admin/psyemAdmin.php:3632
 msgid "Insert into donation"
-msgstr ""
+msgstr "Insert into donation"
 
 #: admin/psyemAdmin.php:3273 admin/psyemAdmin.php:3430
 #: admin/psyemAdmin.php:3531 admin/psyemAdmin.php:3633
 msgid "Uploaded to this donation"
-msgstr ""
+msgstr "Uploaded to this donation"
 
 #: admin/psyemAdmin.php:3274
 msgid "Donations list"
-msgstr ""
+msgstr "Donations list"
 
 #: admin/psyemAdmin.php:3275
 msgid "Donations list navigation"
-msgstr ""
+msgstr "Donations list navigation"
 
 #: admin/psyemAdmin.php:3276
 msgid "Filter Donations list"
-msgstr ""
+msgstr "Filter Donations list"
 
 #: admin/psyemAdmin.php:3281
 msgid "Donation post type for donations"
-msgstr ""
+msgstr "Donation post type for donations"
 
 #: admin/psyemAdmin.php:3306
 msgid "Donation Informations"
-msgstr ""
+msgstr "Donation Informations"
 
 #: admin/psyemAdmin.php:3363
 msgid "Donation Name"
-msgstr ""
+msgstr "Donation Name"
 
 #: admin/psyemAdmin.php:3407 admin/psyemAdmin.php:3408
 #: admin/psyemAdmin.php:3409 admin/psyemAdmin.php:3410
 #: admin/psyemAdmin.php:3437
 msgid "Knowledge"
-msgstr ""
+msgstr "Knowledge"
 
 #: admin/psyemAdmin.php:3411
 msgid "Knowledge Archives"
-msgstr ""
+msgstr "Knowledge Archives"
 
 #: admin/psyemAdmin.php:3412
 msgid "Knowledge Attributes"
-msgstr ""
+msgstr "Knowledge Attributes"
 
 #: admin/psyemAdmin.php:3413
 msgid "Parent Knowledge:"
-msgstr ""
+msgstr "Parent Knowledge:"
 
 #: admin/psyemAdmin.php:3414
 msgid "All Knowledges"
-msgstr ""
+msgstr "All Knowledges"
 
 #: admin/psyemAdmin.php:3415
 msgid "Add New Knowledge"
-msgstr ""
+msgstr "Add New Knowledge"
 
 #: admin/psyemAdmin.php:3417
 msgid "New Knowledge"
-msgstr ""
+msgstr "New Knowledge"
 
 #: admin/psyemAdmin.php:3418
 msgid "Edit Knowledge"
-msgstr ""
+msgstr "Edit Knowledge"
 
 #: admin/psyemAdmin.php:3419
 msgid "Update Knowledge"
-msgstr ""
+msgstr "Update Knowledge"
 
 #: admin/psyemAdmin.php:3420 admin/psyemAdmin.php:3421
 msgid "View Knowledge"
-msgstr ""
+msgstr "View Knowledge"
 
 #: admin/psyemAdmin.php:3422
 msgid "Search Knowledge"
-msgstr ""
+msgstr "Search Knowledge"
 
 #: admin/psyemAdmin.php:3431
 msgid "Knowledge list"
-msgstr ""
+msgstr "Knowledge list"
 
 #: admin/psyemAdmin.php:3432
 msgid "Knowledge list navigation"
-msgstr ""
+msgstr "Knowledge list navigation"
 
 #: admin/psyemAdmin.php:3433
 msgid "Filter Knowledge list"
-msgstr ""
+msgstr "Filter Knowledge list"
 
 #: admin/psyemAdmin.php:3438
 msgid "Knowledge post type for knowledge"
-msgstr ""
+msgstr "Knowledge post type for knowledge"
 
 #: admin/psyemAdmin.php:3472 admin/psyemAdmin.php:3482
 msgid "Knowledge Categories"
-msgstr ""
+msgstr "Knowledge Categories"
 
 #: admin/psyemAdmin.php:3473
 msgid "Knowledge Category"
-msgstr ""
+msgstr "Knowledge Category"
 
 #: admin/psyemAdmin.php:3474
 msgid "Search Knowledge Categories"
-msgstr ""
+msgstr "Search Knowledge Categories"
 
 #: admin/psyemAdmin.php:3475
 msgid "All Knowledge Categories"
-msgstr ""
+msgstr "All Knowledge Categories"
 
 #: admin/psyemAdmin.php:3476
 msgid "Parent Knowledge Category"
-msgstr ""
+msgstr "Parent Knowledge Category"
 
 #: admin/psyemAdmin.php:3477
 msgid "Parent Knowledge Category:"
-msgstr ""
+msgstr "Parent Knowledge Category:"
 
 #: admin/psyemAdmin.php:3478
 msgid "Edit Knowledge Category"
-msgstr ""
+msgstr "Edit Knowledge Category"
 
 #: admin/psyemAdmin.php:3479
 msgid "Update Knowledge Category"
-msgstr ""
+msgstr "Update Knowledge Category"
 
 #: admin/psyemAdmin.php:3480
 msgid "Add New Knowledge Category"
-msgstr ""
+msgstr "Add New Knowledge Category"
 
 #: admin/psyemAdmin.php:3481
 msgid "New Knowledge Category Name"
-msgstr ""
+msgstr "New Knowledge Category Name"
 
 #: admin/psyemAdmin.php:3508 admin/psyemAdmin.php:3509
 #: admin/psyemAdmin.php:3510 admin/psyemAdmin.php:3511
 #: admin/psyemAdmin.php:3538
 msgid "News"
-msgstr ""
+msgstr "News"
 
 #: admin/psyemAdmin.php:3512
 msgid "News Archives"
-msgstr ""
+msgstr "News Archives"
 
 #: admin/psyemAdmin.php:3513
 msgid "News Attributes"
-msgstr ""
+msgstr "News Attributes"
 
 #: admin/psyemAdmin.php:3514
 msgid "Parent News:"
-msgstr ""
+msgstr "Parent News:"
 
 #: admin/psyemAdmin.php:3515
 msgid "All News"
-msgstr ""
+msgstr "All News"
 
 #: admin/psyemAdmin.php:3516
 msgid "Add New News"
-msgstr ""
+msgstr "Add New News"
 
 #: admin/psyemAdmin.php:3518
 msgid "New News"
-msgstr ""
+msgstr "New News"
 
 #: admin/psyemAdmin.php:3519
 msgid "Edit News"
-msgstr ""
+msgstr "Edit News"
 
 #: admin/psyemAdmin.php:3520
 msgid "Update News"
-msgstr ""
+msgstr "Update News"
 
 #: admin/psyemAdmin.php:3521 admin/psyemAdmin.php:3522
 msgid "View News"
-msgstr ""
+msgstr "View News"
 
 #: admin/psyemAdmin.php:3523
 msgid "Search News"
-msgstr ""
+msgstr "Search News"
 
 #: admin/psyemAdmin.php:3532
 msgid "News list"
-msgstr ""
+msgstr "News list"
 
 #: admin/psyemAdmin.php:3533
 msgid "News list navigation"
-msgstr ""
+msgstr "News list navigation"
 
 #: admin/psyemAdmin.php:3534
 msgid "Filter News list"
-msgstr ""
+msgstr "Filter News list"
 
 #: admin/psyemAdmin.php:3539
 msgid "News post type for news"
-msgstr ""
+msgstr "News post type for news"
 
 #: admin/psyemAdmin.php:3573 admin/psyemAdmin.php:3583
 msgid "News Categories"
-msgstr ""
+msgstr "News Categories"
 
 #: admin/psyemAdmin.php:3574
 msgid "News Category"
-msgstr ""
+msgstr "News Category"
 
 #: admin/psyemAdmin.php:3575
 msgid "Search News Categories"
-msgstr ""
+msgstr "Search News Categories"
 
 #: admin/psyemAdmin.php:3576
 msgid "All News Categories"
-msgstr ""
+msgstr "All News Categories"
 
 #: admin/psyemAdmin.php:3577
 msgid "Parent News Category"
-msgstr ""
+msgstr "Parent News Category"
 
 #: admin/psyemAdmin.php:3578
 msgid "Parent News Category:"
-msgstr ""
+msgstr "Parent News Category:"
 
 #: admin/psyemAdmin.php:3579
 msgid "Edit News Category"
-msgstr ""
+msgstr "Edit News Category"
 
 #: admin/psyemAdmin.php:3580
 msgid "Update News Category"
-msgstr ""
+msgstr "Update News Category"
 
 #: admin/psyemAdmin.php:3581
 msgid "Add New News Category"
-msgstr ""
+msgstr "Add New News Category"
 
 #: admin/psyemAdmin.php:3582
 msgid "New News Category Name"
-msgstr ""
+msgstr "New News Category Name"
 
 #: admin/psyemAdmin.php:3610 admin/psyemAdmin.php:3611
 #: admin/psyemAdmin.php:3612 admin/psyemAdmin.php:3613
 #: admin/psyemAdmin.php:3640
 msgid "Programmes"
-msgstr ""
+msgstr "Programmes"
 
 #: admin/psyemAdmin.php:3614
 msgid "Programmes Archives"
-msgstr ""
+msgstr "Programmes Archives"
 
 #: admin/psyemAdmin.php:3615
 msgid "Programmes Attributes"
-msgstr ""
+msgstr "Programmes Attributes"
 
 #: admin/psyemAdmin.php:3616
 msgid "Parent Programmes:"
-msgstr ""
+msgstr "Parent Programmes:"
 
 #: admin/psyemAdmin.php:3617
 msgid "All Programmes"
-msgstr ""
+msgstr "All Programmes"
 
 #: admin/psyemAdmin.php:3618
 msgid "Add New Programmes"
-msgstr ""
+msgstr "Add New Programmes"
 
 #: admin/psyemAdmin.php:3620
 msgid "New Programmes"
-msgstr ""
+msgstr "New Programmes"
 
 #: admin/psyemAdmin.php:3621
 msgid "Edit Programmes"
-msgstr ""
+msgstr "Edit Programmes"
 
 #: admin/psyemAdmin.php:3622
 msgid "Update Programmes"
-msgstr ""
+msgstr "Update Programmes"
 
 #: admin/psyemAdmin.php:3623 admin/psyemAdmin.php:3624
 msgid "View Programmes"
-msgstr ""
+msgstr "View Programmes"
 
 #: admin/psyemAdmin.php:3625
 msgid "Search Programmes"
-msgstr ""
+msgstr "Search Programmes"
 
 #: admin/psyemAdmin.php:3634
 msgid "Programmes list"
-msgstr ""
+msgstr "Programmes list"
 
 #: admin/psyemAdmin.php:3635
 msgid "Programmes list navigation"
-msgstr ""
+msgstr "Programmes list navigation"
 
 #: admin/psyemAdmin.php:3636
 msgid "Filter Programmes list"
-msgstr ""
+msgstr "Filter Programmes list"
 
 #: admin/psyemAdmin.php:3641
 msgid "Programmes post type for programmes"
-msgstr ""
+msgstr "Programmes post type for programmes"
 
 #: admin/psyemAdmin.php:3675 admin/psyemAdmin.php:3685
 msgid "Programmes Categories"
-msgstr ""
+msgstr "Programmes Categories"
 
 #: admin/psyemAdmin.php:3676
 msgid "Programmes Category"
-msgstr ""
+msgstr "Programmes Category"
 
 #: admin/psyemAdmin.php:3677
 msgid "Search Programmes Categories"
-msgstr ""
+msgstr "Search Programmes Categories"
 
 #: admin/psyemAdmin.php:3678
 msgid "All Programmes Categories"
-msgstr ""
+msgstr "All Programmes Categories"
 
 #: admin/psyemAdmin.php:3679
 msgid "Parent Programmes Category"
-msgstr ""
+msgstr "Parent Programmes Category"
 
 #: admin/psyemAdmin.php:3680
 msgid "Parent Programmes Category:"
-msgstr ""
+msgstr "Parent Programmes Category:"
 
 #: admin/psyemAdmin.php:3681
 msgid "Edit Programmes Category"
-msgstr ""
+msgstr "Edit Programmes Category"
 
 #: admin/psyemAdmin.php:3682
 msgid "Update Programmes Category"
-msgstr ""
+msgstr "Update Programmes Category"
 
 #: admin/psyemAdmin.php:3683
 msgid "Add New Programmes Category"
-msgstr ""
+msgstr "Add New Programmes Category"
 
 #: admin/psyemAdmin.php:3684
 msgid "New Programmes Category Name"
-msgstr ""
+msgstr "New Programmes Category Name"
 
 #: admin/psyemAdmin.php:3711 admin/psyemAdmin.php:3722
 msgid "Category Icon Image URL"
-msgstr ""
+msgstr "Category Icon Image URL"
 
 #: admin/psyemAdmin.php:3713 admin/psyemAdmin.php:3725
-msgid "Enter category icon image url."
-msgstr ""
+msgid "Enter category icon image url"
+msgstr "Enter category icon image url"
 
 #: front/pages/psyemDonationAmountsModal.php:5
-#: front/pages/psyemDonationForm.php:38
+#: front/pages/psyemDonationForm.php:44
 msgid "Monthly Donation"
-msgstr ""
+msgstr "Monthly Donation"
 
 #: front/pages/psyemDonationAmountsModal.php:6
-#: front/pages/psyemDonationForm.php:49
+#: front/pages/psyemDonationForm.php:55
 msgid "One Time Donation"
-msgstr ""
+msgstr "One Time Donation"
 
 #: front/pages/psyemDonationAmountsModal.php:44
-#: front/pages/psyemProjectsafeForm.php:296
+#: front/pages/psyemProjectsafeForm.php:308
 msgid "Next"
-msgstr ""
+msgstr "Next"
 
 #: front/pages/psyemDonationCheckout.php:45
 msgid "Donation Summary"
-msgstr ""
+msgstr "Donation Summary"
 
 #: front/pages/psyemDonationCheckout.php:53
 msgid "Change Amount?"
-msgstr ""
+msgstr "Change Amount?"
 
 #: front/pages/psyemDonationCheckout.php:59
 msgid "Card & Billing"
-msgstr ""
+msgstr "Card & Billing"
 
 #: front/pages/psyemDonationCheckout.php:67
 msgid "Billing Address"
-msgstr ""
+msgstr "Billing Address"
 
 #: front/pages/psyemDonationCheckout.php:79
 msgid "Address Line 1"
-msgstr ""
+msgstr "Address Line 1"
 
 #: front/pages/psyemDonationCheckout.php:86
 msgid "Address Line 2"
-msgstr ""
+msgstr "Address Line 2"
 
 #: front/pages/psyemDonationCheckout.php:93
 msgid "Town/City"
-msgstr ""
+msgstr "Town/City"
 
 #: front/pages/psyemDonationCheckout.php:113
 msgid "Additional Details"
-msgstr ""
+msgstr "Additional Details"
 
 #: front/pages/psyemDonationCheckout.php:133
-#: front/pages/psyemProjectsafeForm.php:341
-#: front/pages/psyemProjectsafeForm.php:343
+#: front/pages/psyemProjectsafeForm.php:353
+#: front/pages/psyemProjectsafeForm.php:355
 msgid "Email Address"
-msgstr ""
+msgstr "Email Address"
 
 #: front/pages/psyemDonationCheckout.php:140
 msgid "Phone Number"
-msgstr ""
+msgstr "Phone Number"
 
 #: front/pages/psyemDonationCheckout.php:147
 msgid "Company/Organisation"
-msgstr ""
+msgstr "Company/Organisation"
 
 #: front/pages/psyemDonationCheckout.php:162
 msgid "Sign up for our Newsletter"
-msgstr ""
+msgstr "Sign up for our Newsletter"
 
 #: front/pages/psyemDonationCheckout.php:172
 msgid "I agree to the"
-msgstr ""
+msgstr "I agree to the"
 
 #: front/pages/psyemDonationCheckout.php:187
 #: front/pages/psyemOrderCheckout.php:271
 msgid "Continue to Payment"
-msgstr ""
+msgstr "Continue to Payment"
 
 #: front/pages/psyemDonationCheckout.php:200
 msgid "Card Details"
-msgstr ""
+msgstr "Card Details"
 
 #: front/pages/psyemDonationCheckout.php:215
-msgid "Please wait..."
-msgstr ""
+#: front/pages/psyemOrderCheckout.php:301
+msgid "Please wait"
+msgstr "Please wait"
 
 #: front/pages/psyemDonationCheckout.php:226
 #: front/pages/psyemOrderCheckout.php:312
 msgid ""
 "By submitting payment details, I hereby agreed with the terms & conditions"
 msgstr ""
+"By submitting payment details, I hereby agreed with the terms & conditions"
 
 #: front/pages/psyemDonationCheckout.php:234
 msgid "Donate & Confirm"
-msgstr ""
+msgstr "Donate & Confirm"
 
 #: front/pages/psyemDonationCheckout.php:257
-msgid "Thank you for your donation!"
-msgstr ""
+msgid "Thank you for your donation"
+msgstr "Thank you for your donation"
 
 #: front/pages/psyemDonationCheckout.php:261
-#: front/pages/psyemOrderThankyou.php:45
+#: front/pages/psyemOrderThankyou.php:48
 msgid "REFERENCE ID"
-msgstr ""
+msgstr "REFERENCE ID"
 
 #: front/pages/psyemDonationCheckout.php:266
-#: front/pages/psyemProjectsafeForm.php:503
+#: front/pages/psyemProjectsafeForm.php:515
 msgid "BACK TO HOMEPAGE"
-msgstr ""
+msgstr "BACK TO HOMEPAGE"
 
 #: front/pages/psyemDonationCheckout.php:286
-msgid "Please select an amount first to proceed with the donation checkout."
-msgstr ""
+msgid "Please select an amount first to proceed with the donation checkout"
+msgstr "Please select an amount first to proceed with the donation checkout"
 
 #: front/pages/psyemDonationForm.php:24
 msgid "Make a Donation"
-msgstr ""
+msgstr "Make a Donation"
 
-#: front/pages/psyemDonationForm.php:26
-msgid ""
-"Your donation will go a long way in helping to save lives by supporting our "
-"efforts to promote prevention, early detection, and optimal treatment of "
-"gynaecological cancer in Hong Kong."
-msgstr ""
+#: front/pages/psyemDonationForm.php:45
+msgid "Help keep our programs running"
+msgstr "Help keep our programs running"
 
-#: front/pages/psyemDonationForm.php:29
-msgid ""
-"We are a registered charity in both the US and Hong Kong and are able to "
-"provide tax deductible receipts for both jurisdictions."
-msgstr ""
-
-#: front/pages/psyemDonationForm.php:39
-msgid "Help keep our programs running."
-msgstr ""
-
-#: front/pages/psyemDonationForm.php:45 front/pages/psyemDonationForm.php:54
+#: front/pages/psyemDonationForm.php:51 front/pages/psyemDonationForm.php:60
 msgid "Select Amount"
-msgstr ""
+msgstr "Select Amount"
 
-#: front/pages/psyemDonationForm.php:50
-msgid "Every penny counts."
-msgstr ""
+#: front/pages/psyemDonationForm.php:56
+msgid "Every penny counts"
+msgstr "Every penny counts"
 
-#: front/pages/psyemDonationForm.php:58
-msgid "Donate towards our Core Objectives."
-msgstr ""
+#: front/pages/psyemDonationForm.php:64
+msgid "Donate towards our Core Objectives"
+msgstr "Donate towards our Core Objectives"
 
-#: front/pages/psyemDonationForm.php:59
-msgid "Make a targeted impact."
-msgstr ""
+#: front/pages/psyemDonationForm.php:65
+msgid "Make a targeted impact"
+msgstr "Make a targeted impact"
 
-#: front/pages/psyemDonationForm.php:62
+#: front/pages/psyemDonationForm.php:68
 msgid "Areas of Impact"
-msgstr ""
+msgstr "Areas of Impact"
 
 #: front/pages/psyemEventDetails.php:54 front/pages/psyemOrderCheckout.php:54
 msgid "Our Events"
-msgstr ""
+msgstr "Our Events"
 
-#: front/pages/psyemEventDetails.php:97
+#: front/pages/psyemEventDetails.php:90
+msgid "Learn More"
+msgstr "Learn More"
+
+#: front/pages/psyemEventDetails.php:101
 msgid "About the event"
-msgstr ""
+msgstr "About the event"
 
-#: front/pages/psyemEventDetails.php:126
+#: front/pages/psyemEventDetails.php:130
 msgid "Start date time"
-msgstr ""
+msgstr "Start date time"
 
-#: front/pages/psyemEventDetails.php:136
+#: front/pages/psyemEventDetails.php:140
 msgid "End date time"
-msgstr ""
+msgstr "End date time"
 
-#: front/pages/psyemEventDetails.php:147
+#: front/pages/psyemEventDetails.php:151
 msgid "Registration Fee"
-msgstr ""
+msgstr "Registration Fee"
 
-#: front/pages/psyemEventDetails.php:229
-msgid "Add To Cart"
-msgstr ""
-
-#: front/pages/psyemEventDetails.php:246
+#: front/pages/psyemEventDetails.php:179
 msgid "Additional Information"
-msgstr ""
+msgstr "Additional Information"
 
-#: front/pages/psyemEventDetails.php:285 front/pages/psyemEventsList.php:269
+#: front/pages/psyemEventDetails.php:218 front/pages/psyemEventsList.php:272
 #: front/pages/psyemKnowledgehubList.php:74
 #: front/pages/psyemKnowledgehubList.php:102 front/pages/psyemSinglePost.php:15
 #: front/pages/psyemSinglePost.php:37 front/pages/psyemSinglePost.php:58
@@ -2607,969 +2568,965 @@ msgstr ""
 #: front/pages/psyemSinglePost.php:232 front/pages/psyemSinglePost.php:265
 #: front/pages/psyemSinglePost.php:288
 msgid "More"
-msgstr ""
+msgstr "More"
 
-#: front/pages/psyemEventDetails.php:379
+#: front/pages/psyemEventDetails.php:292
+msgid "Add To Cart"
+msgstr "Add To Cart"
+
+#: front/pages/psyemEventDetails.php:383
 msgid "Social Media"
-msgstr ""
+msgstr "Social Media"
 
-#: front/pages/psyemEventDetails.php:446 front/pages/psyemEventsList.php:282
+#: front/pages/psyemEventDetails.php:450 front/pages/psyemEventsList.php:285
 #: front/pages/psyemPartnerDetails.php:86
 #: front/pages/psyemSpeakerDetails.php:78
 msgid "Tagged "
-msgstr ""
+msgstr "Tagged "
 
 #: front/pages/psyemEventsList.php:51 front/pages/psyemKnowledgehubList.php:37
 #: front/pages/psyemNewsList.php:38 front/pages/psyemProgrammesList.php:37
 msgid "Search"
-msgstr ""
+msgstr "Search"
 
 #: front/pages/psyemEventsList.php:58
 msgid "UPCOMING EVENTS"
-msgstr ""
+msgstr "UPCOMING EVENTS"
 
 #: front/pages/psyemEventsList.php:63
 msgid "PAST EVENTS"
-msgstr ""
+msgstr "PAST EVENTS"
 
 #: front/pages/psyemEventsList.php:68
 msgid "VIEW ALL"
-msgstr ""
-
-#: front/pages/psyemEventsList.php:180
-#: front/pages/psyemKnowledgehubList.php:122 front/pages/psyemNewsList.php:167
-#: front/pages/psyemProgrammesList.php:93
-msgid "No records found."
-msgstr ""
+msgstr "VIEW ALL"
 
 #: front/pages/psyemEventsList.php:193
 #: front/pages/psyemKnowledgehubList.php:135 front/pages/psyemNewsList.php:180
 #: front/pages/psyemProgrammesList.php:106
 msgid "<<"
-msgstr ""
+msgstr "<<"
 
 #: front/pages/psyemEventsList.php:194
 #: front/pages/psyemKnowledgehubList.php:136 front/pages/psyemNewsList.php:181
 #: front/pages/psyemProgrammesList.php:107
 msgid ">>"
-msgstr ""
+msgstr ">>"
 
 #: front/pages/psyemEventsList.php:215
 msgid "Become a Volunteer"
-msgstr ""
+msgstr "Become a Volunteer"
 
-#: front/pages/psyemEventsList.php:218 front/pages/psyemEventsList.php:242
+#: front/pages/psyemEventsList.php:224 front/pages/psyemEventsList.php:248
+msgid "Contact Us"
+msgstr "Contact Us"
+
+#: front/pages/psyemEventsList.php:242
+msgid "Get the Latest Update"
+msgstr "Get the Latest Update"
+
+#: front/pages/psyemEventsList.php:245
 msgid ""
 "KLF is always looking for dedicated volunteers who are passionate about "
-"fighting women’s cancers or who simply want to assist the local community."
+"fighting women’s cancers or who simply want to assist the local community"
 msgstr ""
-
-#: front/pages/psyemEventsList.php:221 front/pages/psyemEventsList.php:245
-msgid "Contact Us"
-msgstr ""
-
-#: front/pages/psyemEventsList.php:239
-msgid "Get the Latest Update"
-msgstr ""
-
-#: front/pages/psyemEventsList.php:263
-msgid "Become a Sponsor"
-msgstr ""
+"KLF is always looking for dedicated volunteers who are passionate about "
+"fighting women’s cancers or who simply want to assist the local community"
 
 #: front/pages/psyemEventsList.php:266
+msgid "Become a Sponsor"
+msgstr "Become a Sponsor"
+
+#: front/pages/psyemEventsList.php:269
 msgid ""
 "All our sponsorship opportunities include a range of attractive benefits"
 msgstr ""
+"All our sponsorship opportunities include a range of attractive benefits"
 
 #: front/pages/psyemKnowledgehubList.php:53 front/pages/psyemNewsList.php:54
 #: front/pages/psyemProgrammesList.php:53
 msgid "View All"
-msgstr ""
+msgstr "View All"
 
 #: front/pages/psyemOrderCheckout.php:59
 msgid "Checkout"
-msgstr ""
+msgstr "Checkout"
 
 #: front/pages/psyemOrderCheckout.php:100
 msgid "Event Info"
-msgstr ""
+msgstr "Event Info"
 
 #: front/pages/psyemOrderCheckout.php:106
 msgid "Start Date Time"
-msgstr ""
+msgstr "Start Date Time"
 
 #: front/pages/psyemOrderCheckout.php:112
 msgid "End Date Time"
-msgstr ""
+msgstr "End Date Time"
 
 #: front/pages/psyemOrderCheckout.php:127
 msgid "Registration Ticket Price"
-msgstr ""
+msgstr "Registration Ticket Price"
 
 #: front/pages/psyemOrderCheckout.php:143
 msgid "Disclaimer"
-msgstr ""
+msgstr "Disclaimer"
 
 #: front/pages/psyemOrderCheckout.php:157
 msgid "Order Summary"
-msgstr ""
+msgstr "Order Summary"
 
 #: front/pages/psyemOrderCheckout.php:210
 #: front/pages/psyemOrderCheckout.php:347
 msgid "Enter your name"
-msgstr ""
+msgstr "Enter your name"
 
 #: front/pages/psyemOrderCheckout.php:227
 #: front/pages/psyemOrderCheckout.php:353
 msgid "Enter your valid email"
-msgstr ""
+msgstr "Enter your valid email"
 
 #: front/pages/psyemOrderCheckout.php:236
 msgid "Apply"
-msgstr ""
+msgstr "Apply"
 
 #: front/pages/psyemOrderCheckout.php:249
 msgid "Total Ticket Price"
-msgstr ""
+msgstr "Total Ticket Price"
 
 #: front/pages/psyemOrderCheckout.php:255
 msgid "Total Discount Price"
-msgstr ""
+msgstr "Total Discount Price"
 
 #: front/pages/psyemOrderCheckout.php:261
 msgid "Total Checkout Price"
-msgstr ""
+msgstr "Total Checkout Price"
 
 #: front/pages/psyemOrderCheckout.php:276
 #: front/pages/psyemOrderCheckout.php:376
 #: front/pages/psyemOrderCheckout.php:399
-msgid "Registration for this event has been closed."
-msgstr ""
-
-#: front/pages/psyemOrderCheckout.php:301
-msgid "Please wait"
-msgstr ""
+msgid "Registration for this event has been closed"
+msgstr "Registration for this event has been closed"
 
 #: front/pages/psyemOrderCheckout.php:320
 msgid "PAY NOW"
-msgstr ""
+msgstr "PAY NOW"
 
 #: front/pages/psyemOrderCheckout.php:338
 msgid "Participants Info"
-msgstr ""
+msgstr "Participants Info"
 
 #: front/pages/psyemOrderCheckout.php:365
 msgid "Select total participants"
-msgstr ""
+msgstr "Select total participants"
 
 #: front/pages/psyemOrderCheckout.php:371
 msgid "Submit to Book"
-msgstr ""
+msgstr "Submit to Book"
 
 #: front/pages/psyemOrderCheckout.php:404
-#: front/pages/psyemOrderCheckout.php:441 front/pages/psyemOrderThankyou.php:47
+#: front/pages/psyemOrderCheckout.php:441 front/pages/psyemOrderThankyou.php:50
 #: front/pages/psyemVerifyqr.php:83 front/pages/psyemVerifyqr.php:115
 msgid "Click"
-msgstr ""
+msgstr "Click"
 
 #: front/pages/psyemOrderCheckout.php:406
-#: front/pages/psyemOrderCheckout.php:443 front/pages/psyemOrderThankyou.php:49
+#: front/pages/psyemOrderCheckout.php:443 front/pages/psyemOrderThankyou.php:52
 #: front/pages/psyemVerifyqr.php:85 front/pages/psyemVerifyqr.php:117
 msgid "here"
-msgstr ""
+msgstr "here"
 
 #: front/pages/psyemOrderCheckout.php:408
 #: front/pages/psyemOrderCheckout.php:445
-msgid "to view events or book new tickets."
-msgstr ""
+msgid "to view events or book new tickets"
+msgstr "to view events or book new tickets"
 
 #: front/pages/psyemOrderCheckout.php:436
-msgid "Event data not found to process checkout."
-msgstr ""
+msgid "Event data not found to process checkout"
+msgstr "Event data not found to process checkout"
 
 #: front/pages/psyemOrderThankyou.php:35
 msgid "Booking confirmed"
-msgstr ""
+msgstr "Booking confirmed"
 
-#: front/pages/psyemOrderThankyou.php:42
-msgid ""
-"We are delighted to inform you that your booking has been successfully "
-"confirmed, and your payment has been processed. We look forward to serving "
-"you and ensuring you have a wonderful experience"
-msgstr ""
-
-#: front/pages/psyemOrderThankyou.php:51
-msgid "to view more events or book new tickets."
-msgstr ""
+#: front/pages/psyemOrderThankyou.php:54
+msgid "to view more events or book new tickets"
+msgstr "to view more events or book new tickets"
 
 #: front/pages/psyemPartnerDetails.php:64
 msgid "About the Partner"
-msgstr ""
+msgstr "About the Partner"
 
 #: front/pages/psyemProjectsafeForm.php:9
 msgid "Register For Project SAFE"
-msgstr ""
+msgstr "Register For Project SAFE"
 
 #: front/pages/psyemProjectsafeForm.php:13
-msgid "Two simple steps to register."
-msgstr ""
+msgid "Two simple steps to register"
+msgstr "Two simple steps to register"
 
 #: front/pages/psyemProjectsafeForm.php:22
 msgid "Participant Information"
-msgstr ""
+msgstr "Participant Information"
 
 #: front/pages/psyemProjectsafeForm.php:27
 msgid "Contact information"
-msgstr ""
+msgstr "Contact information"
 
 #: front/pages/psyemProjectsafeForm.php:38
 msgid ""
 "Please fill in the following information if you would like join the project. "
-"<br>All personal details will be kept strictly confidential."
+"<br>All personal details will be kept strictly confidential"
 msgstr ""
+"Please fill in the following information if you would like join the project. "
+"<br>All personal details will be kept strictly confidential"
 
 #: front/pages/psyemProjectsafeForm.php:41
-#: front/pages/psyemProjectsafeForm.php:307
+#: front/pages/psyemProjectsafeForm.php:319
 msgid "Required field"
-msgstr ""
+msgstr "Required field"
 
 #: front/pages/psyemProjectsafeForm.php:47
 #: front/pages/psyemProjectsafeForm.php:49
 msgid "First Name (Same with HKID)"
-msgstr ""
+msgstr "First Name (Same with HKID)"
 
 #: front/pages/psyemProjectsafeForm.php:55
 #: front/pages/psyemProjectsafeForm.php:57
 msgid "Last Name (Same with HKID)"
-msgstr ""
+msgstr "Last Name (Same with HKID)"
 
 #: front/pages/psyemProjectsafeForm.php:67
 msgid "Female"
-msgstr ""
+msgstr "Female"
 
 #: front/pages/psyemProjectsafeForm.php:70
 msgid "Male"
-msgstr ""
+msgstr "Male"
 
 #: front/pages/psyemProjectsafeForm.php:78
 #: front/pages/psyemProjectsafeForm.php:113
 msgid "Day of Birth"
-msgstr ""
+msgstr "Day of Birth"
 
 #: front/pages/psyemProjectsafeForm.php:119
 #: front/pages/psyemProjectsafeForm.php:135
 msgid "Month of Birth"
-msgstr ""
+msgstr "Month of Birth"
 
 #: front/pages/psyemProjectsafeForm.php:121
 msgid "January"
-msgstr ""
+msgstr "January"
 
 #: front/pages/psyemProjectsafeForm.php:122
 msgid "February"
-msgstr ""
+msgstr "February"
 
 #: front/pages/psyemProjectsafeForm.php:123
 msgid "March"
-msgstr ""
+msgstr "March"
 
 #: front/pages/psyemProjectsafeForm.php:124
 msgid "April"
-msgstr ""
+msgstr "April"
 
 #: front/pages/psyemProjectsafeForm.php:125
 msgid "May"
-msgstr ""
+msgstr "May"
 
 #: front/pages/psyemProjectsafeForm.php:126
 msgid "June"
-msgstr ""
+msgstr "June"
 
 #: front/pages/psyemProjectsafeForm.php:127
 msgid "July"
-msgstr ""
+msgstr "July"
 
 #: front/pages/psyemProjectsafeForm.php:128
 msgid "August"
-msgstr ""
+msgstr "August"
 
 #: front/pages/psyemProjectsafeForm.php:129
 msgid "September"
-msgstr ""
+msgstr "September"
 
 #: front/pages/psyemProjectsafeForm.php:130
 msgid "October"
-msgstr ""
+msgstr "October"
 
 #: front/pages/psyemProjectsafeForm.php:131
 msgid "November"
-msgstr ""
+msgstr "November"
 
 #: front/pages/psyemProjectsafeForm.php:132
 msgid "December"
-msgstr ""
+msgstr "December"
 
 #: front/pages/psyemProjectsafeForm.php:141
 #: front/pages/psyemProjectsafeForm.php:148
 msgid "Year of Birth"
-msgstr ""
+msgstr "Year of Birth"
 
 #: front/pages/psyemProjectsafeForm.php:157
 #: front/pages/psyemProjectsafeForm.php:173
 #: front/pages/psyemProjectsafeForm.php:189
 #: front/pages/psyemProjectsafeForm.php:205
 #: front/pages/psyemProjectsafeForm.php:221
-#: front/pages/psyemProjectsafeForm.php:237 helpers/psyemHelper.php:28
+#: front/pages/psyemProjectsafeForm.php:237 helpers/psyemHelper.php:30
 msgid "Yes"
-msgstr ""
+msgstr "Yes"
 
 #: front/pages/psyemProjectsafeForm.php:160
 #: front/pages/psyemProjectsafeForm.php:176
 #: front/pages/psyemProjectsafeForm.php:192
 #: front/pages/psyemProjectsafeForm.php:208
 #: front/pages/psyemProjectsafeForm.php:224
-#: front/pages/psyemProjectsafeForm.php:240 helpers/psyemHelper.php:29
+#: front/pages/psyemProjectsafeForm.php:240 helpers/psyemHelper.php:31
 msgid "No"
-msgstr ""
+msgstr "No"
 
-#: front/pages/psyemProjectsafeForm.php:280
-msgid ""
-"I here with acknowledge that, if I am currently experiencing irregular "
-"bleeding, spotting or pain during my menses, sex or randomly, I cannot join "
-"the project. We kindly encourage you to contact your GP immediately and seek "
-"a professional opinion."
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:287
+#: front/pages/psyemProjectsafeForm.php:299
 msgid "I have read and agree to the"
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:319
-msgid "SMS"
-msgstr ""
+msgstr "I have read and agree to the"
 
 #: front/pages/psyemProjectsafeForm.php:331
+msgid "SMS"
+msgstr "SMS"
+
+#: front/pages/psyemProjectsafeForm.php:343
 msgid "Contact Details"
-msgstr ""
+msgstr "Contact Details"
 
-#: front/pages/psyemProjectsafeForm.php:335
-#: front/pages/psyemProjectsafeForm.php:337
+#: front/pages/psyemProjectsafeForm.php:347
+#: front/pages/psyemProjectsafeForm.php:349
 msgid "Phone number"
-msgstr ""
+msgstr "Phone number"
 
-#: front/pages/psyemProjectsafeForm.php:352
+#: front/pages/psyemProjectsafeForm.php:364
 msgid "Hong Kong Island"
-msgstr ""
+msgstr "Hong Kong Island"
 
-#: front/pages/psyemProjectsafeForm.php:355
+#: front/pages/psyemProjectsafeForm.php:367
 msgid "Kowloon"
-msgstr ""
+msgstr "Kowloon"
 
-#: front/pages/psyemProjectsafeForm.php:358
+#: front/pages/psyemProjectsafeForm.php:370
 msgid "New Territories"
-msgstr ""
+msgstr "New Territories"
 
-#: front/pages/psyemProjectsafeForm.php:372
+#: front/pages/psyemProjectsafeForm.php:384
 msgid "Central and Western"
-msgstr ""
+msgstr "Central and Western"
 
-#: front/pages/psyemProjectsafeForm.php:375
+#: front/pages/psyemProjectsafeForm.php:387
 msgid "Eastern"
-msgstr ""
+msgstr "Eastern"
 
-#: front/pages/psyemProjectsafeForm.php:378
+#: front/pages/psyemProjectsafeForm.php:390
 msgid "Southern"
-msgstr ""
+msgstr "Southern"
 
-#: front/pages/psyemProjectsafeForm.php:381
+#: front/pages/psyemProjectsafeForm.php:393
 msgid "Wan Chai"
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:385
-msgid "Sham Shui Po"
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:388
-msgid "Kowloon City"
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:391
-msgid "Kwun Tong"
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:394
-msgid "Wong Tai Sin"
-msgstr ""
+msgstr "Wan Chai"
 
 #: front/pages/psyemProjectsafeForm.php:397
-msgid "Yau Tsim Mong"
-msgstr ""
+msgid "Sham Shui Po"
+msgstr "Sham Shui Po"
 
 #: front/pages/psyemProjectsafeForm.php:400
-msgid "Islands"
-msgstr ""
+msgid "Kowloon City"
+msgstr "Kowloon City"
 
 #: front/pages/psyemProjectsafeForm.php:403
-msgid "Kwai Tsing"
-msgstr ""
+msgid "Kwun Tong"
+msgstr "Kwun Tong"
 
 #: front/pages/psyemProjectsafeForm.php:406
-msgid "North"
-msgstr ""
+msgid "Wong Tai Sin"
+msgstr "Wong Tai Sin"
 
 #: front/pages/psyemProjectsafeForm.php:409
-msgid "Sai Kung"
-msgstr ""
+msgid "Yau Tsim Mong"
+msgstr "Yau Tsim Mong"
 
 #: front/pages/psyemProjectsafeForm.php:412
-msgid "Sha Tin"
-msgstr ""
+msgid "Islands"
+msgstr "Islands"
 
 #: front/pages/psyemProjectsafeForm.php:415
-msgid "Tai Po"
-msgstr ""
+msgid "Kwai Tsing"
+msgstr "Kwai Tsing"
 
 #: front/pages/psyemProjectsafeForm.php:418
-msgid "Tsuen Wan"
-msgstr ""
+msgid "North"
+msgstr "North"
 
 #: front/pages/psyemProjectsafeForm.php:421
-msgid "Tuen Mun"
-msgstr ""
+msgid "Sai Kung"
+msgstr "Sai Kung"
 
 #: front/pages/psyemProjectsafeForm.php:424
+msgid "Sha Tin"
+msgstr "Sha Tin"
+
+#: front/pages/psyemProjectsafeForm.php:427
+msgid "Tai Po"
+msgstr "Tai Po"
+
+#: front/pages/psyemProjectsafeForm.php:430
+msgid "Tsuen Wan"
+msgstr "Tsuen Wan"
+
+#: front/pages/psyemProjectsafeForm.php:433
+msgid "Tuen Mun"
+msgstr "Tuen Mun"
+
+#: front/pages/psyemProjectsafeForm.php:436
 msgid "Yuen Long"
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:440
-msgid "Let us know more about you."
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:449
-msgid "Karen Leung Foundation Website"
-msgstr ""
+msgstr "Yuen Long"
 
 #: front/pages/psyemProjectsafeForm.php:452
-msgid "PHASE Scientific"
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:455
-msgid "Social Media (eg. Facebook, Instagram, etc)"
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:458
-msgid "School News"
-msgstr ""
+msgid "Let us know more about you"
+msgstr "Let us know more about you"
 
 #: front/pages/psyemProjectsafeForm.php:461
+msgid "Karen Leung Foundation Website"
+msgstr "Karen Leung Foundation Website"
+
+#: front/pages/psyemProjectsafeForm.php:464
+msgid "PHASE Scientific"
+msgstr "PHASE Scientific"
+
+#: front/pages/psyemProjectsafeForm.php:467
+msgid "Social Media (eg. Facebook, Instagram, etc)"
+msgstr "Social Media (eg. Facebook, Instagram, etc)"
+
+#: front/pages/psyemProjectsafeForm.php:470
+msgid "School News"
+msgstr "School News"
+
+#: front/pages/psyemProjectsafeForm.php:473
 msgid "Health Talk by Karen Leung Foundation"
-msgstr ""
+msgstr "Health Talk by Karen Leung Foundation"
 
-#: front/pages/psyemProjectsafeForm.php:471
+#: front/pages/psyemProjectsafeForm.php:483
 msgid "Back"
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:475
-msgid "Submit"
-msgstr ""
+msgstr "Back"
 
 #: front/pages/psyemProjectsafeForm.php:487
-msgid ""
-"Thank you for your registration! We will put you in our first priority list."
-msgstr ""
+msgid "Submit"
+msgstr "Submit"
 
-#: front/pages/psyemProjectsafeForm.php:492
+#: front/pages/psyemProjectsafeForm.php:499
+msgid ""
+"Thank you for your registration! We will put you in our first priority list"
+msgstr ""
+"Thank you for your registration! We will put you in our first priority list"
+
+#: front/pages/psyemProjectsafeForm.php:504
 msgid ""
 "The project quota is full. You will be notified by an Email or Sms for "
-"successful registration."
+"successful registration"
 msgstr ""
+"The project quota is full. You will be notified by an Email or Sms for "
+"successful registration"
 
-#: front/pages/psyemProjectsafeForm.php:497
+#: front/pages/psyemProjectsafeForm.php:509
 msgid "Reference no"
-msgstr ""
+msgstr "Reference no"
 
 #: front/pages/psyemSinglePost.php:13 front/pages/psyemSinglePost.php:35
 #: front/pages/psyemSinglePost.php:56 front/pages/psyemSinglePost.php:88
 #: front/pages/psyemSinglePost.php:111
 msgid "Posted on"
-msgstr ""
+msgstr "Posted on"
 
 #: front/pages/psyemSpeakerDetails.php:54
 msgid "About the Speaker"
-msgstr ""
+msgstr "About the Speaker"
 
 #: front/pages/psyemVerifyqr.php:66
 msgid "QR Scan successfully confirmed"
-msgstr ""
+msgstr "QR Scan successfully confirmed"
 
 #: front/pages/psyemVerifyqr.php:73
 msgid "Welcome"
-msgstr ""
+msgstr "Welcome"
 
 #: front/pages/psyemVerifyqr.php:76
 msgid "Thank you, Your booking ticket scan for"
-msgstr ""
+msgstr "Thank you, Your booking ticket scan for"
 
 #: front/pages/psyemVerifyqr.php:77
 msgid "EVENT"
-msgstr ""
+msgstr "EVENT"
 
 #: front/pages/psyemVerifyqr.php:78
-msgid "has been successfully confirmed."
-msgstr ""
+msgid "has been successfully confirmed"
+msgstr "has been successfully confirmed"
 
 #: front/pages/psyemVerifyqr.php:87 front/pages/psyemVerifyqr.php:119
-msgid "to visit the site."
-msgstr ""
+msgid "to visit the site"
+msgstr "to visit the site"
 
 #: front/pages/psyemVerifyqr.php:96
-msgid "The QR code scan was unsuccessful."
-msgstr ""
+msgid "The QR code scan was unsuccessful"
+msgstr "The QR code scan was unsuccessful"
 
 #: front/pages/psyemVerifyqr.php:104
-msgid "The participant QR code scan has been failed to confirm."
-msgstr ""
+msgid "The participant QR code scan has been failed to confirm"
+msgstr "The participant QR code scan has been failed to confirm"
 
 #: front/pages/psyemVerifyqr.php:109
-msgid "Participant QR code link is INVALID."
-msgstr ""
+msgid "Participant QR code link is invalid"
+msgstr "Participant QR code link is invalid"
 
 #: front/psyemFront.php:261
-msgid "Event ticket price has been failed to calculate!"
-msgstr ""
+msgid "Event ticket price has been failed to calculate"
+msgstr "Event ticket price has been failed to calculate"
 
 #: front/psyemFront.php:278
-msgid "Event ticket price calculated!"
-msgstr ""
+msgid "Event ticket price calculated"
+msgstr "Event ticket price calculated"
 
-#: front/psyemFront.php:294 front/psyemFront.php:1426
-msgid "Payment intent has been failed to process!"
-msgstr ""
+#: front/psyemFront.php:294 front/psyemFront.php:1427
+msgid "Payment intent has been failed to process"
+msgstr "Payment intent has been failed to process"
 
 #: front/psyemFront.php:326 front/psyemFront.php:665
-msgid "Booking is not allowed for this event!"
-msgstr ""
+msgid "Booking is not allowed for this event"
+msgstr "Booking is not allowed for this event"
 
-#: front/psyemFront.php:378 front/psyemFront.php:1518 front/psyemFront.php:1610
-msgid "Payment intent created!"
-msgstr ""
+#: front/psyemFront.php:378 front/psyemFront.php:1519 front/psyemFront.php:1611
+msgid "Payment intent created"
+msgstr "Payment intent created"
 
 #: front/psyemFront.php:406 front/psyemFront.php:640
-msgid "Booking order has been failed to process!"
-msgstr ""
+msgid "Booking order has been failed to process"
+msgstr "Booking order has been failed to process"
 
 #: front/psyemFront.php:609 front/psyemFront.php:787
-msgid "Booking order has been successfully proccessed!"
-msgstr ""
+msgid "Booking order has been successfully proccessed"
+msgstr "Booking order has been successfully proccessed"
 
 #: front/psyemFront.php:625
-msgid "Booking order payment intent is empty!"
-msgstr ""
+msgid "Booking order payment intent is empty"
+msgstr "Booking order payment intent is empty"
 
 #: front/psyemFront.php:802
-msgid "Booking order failed to process!"
-msgstr ""
+msgid "Booking order failed to process"
+msgstr "Booking order failed to process"
 
 #: front/psyemFront.php:994
 msgid "Events data not found"
-msgstr ""
+msgstr "Events data not found"
 
 #: front/psyemFront.php:998
 msgid "Events data found"
-msgstr ""
+msgstr "Events data found"
 
 #: front/psyemFront.php:1013
 msgid "Event data not found"
-msgstr ""
+msgstr "Event data not found"
 
 #: front/psyemFront.php:1017
 msgid "Event data found"
-msgstr ""
+msgstr "Event data found"
 
 #: front/psyemFront.php:1029
 msgid "Login failed"
-msgstr ""
+msgstr "Login failed"
 
 #: front/psyemFront.php:1058
 msgid "Login successful"
-msgstr ""
+msgstr "Login successful"
 
 #: front/psyemFront.php:1068
 msgid "Logout failed"
-msgstr ""
+msgstr "Logout failed"
 
 #: front/psyemFront.php:1086
 msgid "Logout successful"
-msgstr ""
+msgstr "Logout successful"
 
-#: front/psyemFront.php:1175
-msgid "Project safe request has been failed to process!"
-msgstr ""
-
-#: front/psyemFront.php:1190
-msgid "Project safe request has been sucessfully submitted!"
-msgstr ""
+#: front/psyemFront.php:1176
+msgid "Project safe request has been failed to process"
+msgstr "Project safe request has been failed to process"
 
 #: front/psyemFront.php:1191
-msgid "Participant details are captured, Please submit contact informations!"
-msgstr ""
+msgid "Project safe request has been sucessfully submitted"
+msgstr "Project safe request has been sucessfully submitted"
 
-#: front/psyemFront.php:1340
-msgid "Donation amounts has been failed to fetch!"
-msgstr ""
+#: front/psyemFront.php:1192
+msgid "Participant details are captured, Please submit contact informations"
+msgstr "Participant details are captured, Please submit contact informations"
 
-#: front/psyemFront.php:1363
+#: front/psyemFront.php:1341
+msgid "Donation amounts has been failed to fetch"
+msgstr "Donation amounts has been failed to fetch"
+
+#: front/psyemFront.php:1364
 msgid "Donation amount records data found"
-msgstr ""
+msgstr "Donation amount records data found"
 
-#: front/psyemFront.php:1378
-msgid "Donation cart amount process has been failed!"
-msgstr ""
+#: front/psyemFront.php:1379
+msgid "Donation cart amount process has been failed"
+msgstr "Donation cart amount process has been failed"
 
-#: front/psyemFront.php:1402
-msgid "Donation checkout page is not linked."
-msgstr ""
+#: front/psyemFront.php:1403
+msgid "Donation checkout page is not linked"
+msgstr "Donation checkout page is not linked"
 
-#: front/psyemFront.php:1409
+#: front/psyemFront.php:1410
 msgid "Donation cart amount successfully processed"
-msgstr ""
+msgstr "Donation cart amount successfully processed"
 
-#: front/psyemFront.php:1447
-msgid "Payment intent action is invalid!"
-msgstr ""
+#: front/psyemFront.php:1448
+msgid "Payment intent action is invalid"
+msgstr "Payment intent action is invalid"
 
-#: front/psyemFront.php:1635
-msgid "Donation amount has been failed to process!"
-msgstr ""
+#: front/psyemFront.php:1636
+msgid "Donation amount has been failed to process"
+msgstr "Donation amount has been failed to process"
 
-#: front/psyemFront.php:1806
-msgid "Donation has been successfully proccessed!"
-msgstr ""
+#: front/psyemFront.php:1807
+msgid "Donation has been successfully proccessed"
+msgstr "Donation has been successfully proccessed"
 
-#: front/psyemFront.php:1824
-msgid "Donation payment intent is empty!"
-msgstr ""
-
-#: helpers/psyemHelper.php:12
-msgid "PSY Events Manager"
-msgstr ""
-
-#: helpers/psyemHelper.php:13
-msgid "https://smtlabs.io"
-msgstr ""
+#: front/psyemFront.php:1825
+msgid "Donation payment intent is empty"
+msgstr "Donation payment intent is empty"
 
 #: helpers/psyemHelper.php:14
-msgid "Custom Plugin for Events, Tickets, Sales and Orders Managements"
-msgstr ""
+msgid "PSY Events Manager"
+msgstr "PSY Events Manager"
 
 #: helpers/psyemHelper.php:15
+msgid "https://smtlabs.io"
+msgstr "https://smtlabs.io"
+
+#: helpers/psyemHelper.php:16
+msgid "Custom Plugin for Events, Tickets, Sales and Orders Managements"
+msgstr "Custom Plugin for Events, Tickets, Sales and Orders Managements"
+
+#: helpers/psyemHelper.php:17
 msgid "Pawan Kumar"
-msgstr ""
-
-#: helpers/psyemHelper.php:18
-msgid "Are you sure?"
-msgstr ""
-
-#: helpers/psyemHelper.php:19
-msgid "Are you sure want to permanently delete this record?"
-msgstr ""
+msgstr "Pawan Kumar"
 
 #: helpers/psyemHelper.php:20
-msgid "You wont be able to revert this!"
-msgstr ""
+msgid "Are you sure?"
+msgstr "Are you sure?"
 
 #: helpers/psyemHelper.php:21
-msgid "Want to create copy of clicked event?"
-msgstr ""
+msgid "Are you sure want to permanently delete this record?"
+msgstr "Are you sure want to permanently delete this record?"
 
 #: helpers/psyemHelper.php:22
-msgid "Want to send ticket to selected participants?"
-msgstr ""
+msgid "You wont be able to revert this"
+msgstr "You wont be able to revert this"
 
 #: helpers/psyemHelper.php:23
-msgid "Are you sure want to create new record?"
-msgstr ""
+msgid "Want to create copy of clicked event?"
+msgstr "Want to create copy of clicked event?"
 
 #: helpers/psyemHelper.php:24
-msgid "Sorry, You cannot meet the project requirement."
-msgstr ""
+msgid "Want to send ticket to selected participants?"
+msgstr "Want to send ticket to selected participants?"
 
 #: helpers/psyemHelper.php:25
+msgid "Are you sure want to create new record?"
+msgstr "Are you sure want to create new record?"
+
+#: helpers/psyemHelper.php:26
+msgid "Sorry, You cannot meet the project requirement"
+msgstr "Sorry, You cannot meet the project requirement"
+
+#: helpers/psyemHelper.php:27
 msgid "Want to create offline registration?"
-msgstr ""
-
-#: helpers/psyemHelper.php:33
-msgid "Please select a CSV file."
-msgstr ""
-
-#: helpers/psyemHelper.php:34
-msgid "Please select participant"
-msgstr ""
+msgstr "Want to create offline registration?"
 
 #: helpers/psyemHelper.php:35
-msgid "Shortcode slug is missing"
-msgstr ""
+msgid "Please select a CSV file"
+msgstr "Please select a CSV file"
 
 #: helpers/psyemHelper.php:36
-msgid "Please fill the type title"
-msgstr ""
+msgid "Please select participant"
+msgstr "Please select participant"
 
 #: helpers/psyemHelper.php:37
-msgid "Information has been failed to save!"
-msgstr ""
+msgid "Shortcode slug is missing"
+msgstr "Shortcode slug is missing"
 
 #: helpers/psyemHelper.php:38
-msgid "Payment info has been failed to update!"
-msgstr ""
+msgid "Please fill the type title"
+msgstr "Please fill the type title"
 
 #: helpers/psyemHelper.php:39
-msgid "At least one participant is required to book the ticket."
-msgstr ""
+msgid "Information has been failed to save"
+msgstr "Information has been failed to save"
 
 #: helpers/psyemHelper.php:40
-msgid "Number of participants must be greater than 0"
-msgstr ""
+msgid "Payment info has been failed to update"
+msgstr "Payment info has been failed to update"
 
 #: helpers/psyemHelper.php:41
-msgid ""
-"Your payment process was not successfull, and requires_payment_method, "
-"please try again."
-msgstr ""
+msgid "At least one participant is required to book the ticket"
+msgstr "At least one participant is required to book the ticket"
 
 #: helpers/psyemHelper.php:42
-msgid ""
-"Your payment process was not successful, and requires_action, please try "
-"again."
-msgstr ""
+msgid "Number of participants must be greater than 0"
+msgstr "Number of participants must be greater than 0"
 
 #: helpers/psyemHelper.php:43
-msgid "Payment process failed."
+msgid ""
+"Your payment process was not successfull, and requires_payment_method, "
+"please try again"
 msgstr ""
+"Your payment process was not successfull, and requires_payment_method, "
+"please try again"
 
 #: helpers/psyemHelper.php:44
-msgid "At least one ticket with participant is required to checkout."
+msgid ""
+"Your payment process was not successful, and requires_action, please try "
+"again"
 msgstr ""
+"Your payment process was not successful, and requires_action, please try "
+"again"
 
-#: helpers/psyemHelper.php:47 helpers/psyemValidationsHelper.php:369
+#: helpers/psyemHelper.php:45
+msgid "Payment process failed"
+msgstr "Payment process failed"
+
+#: helpers/psyemHelper.php:46
+msgid "At least one ticket with participant is required to checkout"
+msgstr "At least one ticket with participant is required to checkout"
+
+#: helpers/psyemHelper.php:49 helpers/psyemValidationsHelper.php:369
 msgid "First name field is required"
-msgstr ""
-
-#: helpers/psyemHelper.php:48
-msgid "First name is invalid, Add only alphabets [a-zA-Z]"
-msgstr ""
-
-#: helpers/psyemHelper.php:49 helpers/psyemValidationsHelper.php:372
-msgid "Last name field is required"
-msgstr ""
+msgstr "First name field is required"
 
 #: helpers/psyemHelper.php:50
-msgid "Last name is invalid, Add only alphabets [a-zA-Z]"
-msgstr ""
+msgid "First name is invalid, Add only alphabets [a-zA-Z]"
+msgstr "First name is invalid, Add only alphabets [a-zA-Z]"
 
-#: helpers/psyemHelper.php:51
-msgid "Please enter your name"
-msgstr ""
+#: helpers/psyemHelper.php:51 helpers/psyemValidationsHelper.php:372
+msgid "Last name field is required"
+msgstr "Last name field is required"
 
 #: helpers/psyemHelper.php:52
-msgid "Please enter valid name, Add only alphabets [a-zA-Z]"
-msgstr ""
+msgid "Last name is invalid, Add only alphabets [a-zA-Z]"
+msgstr "Last name is invalid, Add only alphabets [a-zA-Z]"
 
-#: helpers/psyemHelper.php:53 helpers/psyemValidationsHelper.php:432
-msgid "Phone field is required"
-msgstr ""
+#: helpers/psyemHelper.php:53
+msgid "Please enter your name"
+msgstr "Please enter your name"
 
 #: helpers/psyemHelper.php:54
-msgid "Phone field input is invalid, must be a 10 digits valid phone number."
-msgstr ""
+msgid "Please enter valid name, Add only alphabets [a-zA-Z]"
+msgstr "Please enter valid name, Add only alphabets [a-zA-Z]"
 
-#: helpers/psyemHelper.php:55
-msgid "Please enter your valid email"
-msgstr ""
+#: helpers/psyemHelper.php:55 helpers/psyemValidationsHelper.php:432
+msgid "Phone field is required"
+msgstr "Phone field is required"
 
 #: helpers/psyemHelper.php:56
-msgid "Please enter a valid email address"
-msgstr ""
+msgid "Phone field input is invalid, must be a 10 digits valid phone number"
+msgstr "Phone field input is invalid, must be a 10 digits valid phone number"
 
 #: helpers/psyemHelper.php:57
-msgid "Company field is required"
-msgstr ""
+msgid "Please enter your valid email"
+msgstr "Please enter your valid email"
 
 #: helpers/psyemHelper.php:58
-msgid "Company is invalid, Add only alphabets [a-zA-Z]"
-msgstr ""
+msgid "Please enter a valid email address"
+msgstr "Please enter a valid email address"
 
 #: helpers/psyemHelper.php:59
-msgid "Country field is required"
-msgstr ""
+msgid "Company field is required"
+msgstr "Company field is required"
 
 #: helpers/psyemHelper.php:60
-msgid "Country is invalid, Add only alphabets [a-zA-Z]"
-msgstr ""
+msgid "Company is invalid, Add only alphabets [a-zA-Z]"
+msgstr "Company is invalid, Add only alphabets [a-zA-Z]"
 
-#: helpers/psyemHelper.php:61 helpers/psyemValidationsHelper.php:441
-msgid "District field is required"
-msgstr ""
+#: helpers/psyemHelper.php:61
+msgid "Country field is required"
+msgstr "Country field is required"
 
 #: helpers/psyemHelper.php:62
-msgid "District is invalid, Add only alphabets [a-zA-Z]"
-msgstr ""
+msgid "Country is invalid, Add only alphabets [a-zA-Z]"
+msgstr "Country is invalid, Add only alphabets [a-zA-Z]"
 
-#: helpers/psyemHelper.php:63
-msgid "City field is required"
-msgstr ""
+#: helpers/psyemHelper.php:63 helpers/psyemValidationsHelper.php:441
+msgid "District field is required"
+msgstr "District field is required"
 
 #: helpers/psyemHelper.php:64
-msgid "City is invalid, Add only alphabets [a-zA-Z]"
-msgstr ""
+msgid "District is invalid, Add only alphabets [a-zA-Z]"
+msgstr "District is invalid, Add only alphabets [a-zA-Z]"
 
-#: helpers/psyemHelper.php:65 helpers/psyemValidationsHelper.php:444
-msgid "Address field is required"
-msgstr ""
+#: helpers/psyemHelper.php:65
+msgid "City field is required"
+msgstr "City field is required"
 
 #: helpers/psyemHelper.php:66
+msgid "City is invalid, Add only alphabets [a-zA-Z]"
+msgstr "City is invalid, Add only alphabets [a-zA-Z]"
+
+#: helpers/psyemHelper.php:67 helpers/psyemValidationsHelper.php:444
+msgid "Address field is required"
+msgstr "Address field is required"
+
+#: helpers/psyemHelper.php:68
 msgid "Please choose particpants count"
-msgstr ""
+msgstr "Please choose particpants count"
 
-#: helpers/psyemHelper.php:67
-msgid "Please enter some amount to process."
-msgstr ""
+#: helpers/psyemHelper.php:69
+msgid "Please enter some amount to process"
+msgstr "Please enter some amount to process"
 
-#: helpers/psyemHelper.php:68 helpers/psyemValidationsHelper.php:375
+#: helpers/psyemHelper.php:70 helpers/psyemValidationsHelper.php:375
 msgid "Gender field is required"
-msgstr ""
+msgstr "Gender field is required"
 
-#: helpers/psyemHelper.php:69 helpers/psyemValidationsHelper.php:378
+#: helpers/psyemHelper.php:71 helpers/psyemValidationsHelper.php:378
 msgid "DOB date field is required"
-msgstr ""
+msgstr "DOB date field is required"
 
-#: helpers/psyemHelper.php:70 helpers/psyemValidationsHelper.php:381
+#: helpers/psyemHelper.php:72 helpers/psyemValidationsHelper.php:381
 msgid "DOB month field is required"
-msgstr ""
+msgstr "DOB month field is required"
 
-#: helpers/psyemHelper.php:71 helpers/psyemValidationsHelper.php:384
+#: helpers/psyemHelper.php:73 helpers/psyemValidationsHelper.php:384
 msgid "DOB year field is required"
-msgstr ""
+msgstr "DOB year field is required"
 
-#: helpers/psyemHelper.php:72 helpers/psyemValidationsHelper.php:387
+#: helpers/psyemHelper.php:74 helpers/psyemValidationsHelper.php:387
 msgid "Sexual experience field is required"
-msgstr ""
+msgstr "Sexual experience field is required"
 
-#: helpers/psyemHelper.php:73 helpers/psyemValidationsHelper.php:390
+#: helpers/psyemHelper.php:75 helpers/psyemValidationsHelper.php:390
 msgid "Cervical screening field is required"
-msgstr ""
+msgstr "Cervical screening field is required"
 
-#: helpers/psyemHelper.php:74 helpers/psyemValidationsHelper.php:393
+#: helpers/psyemHelper.php:76 helpers/psyemValidationsHelper.php:393
 msgid "Undergoing treatment field is required"
-msgstr ""
+msgstr "Undergoing treatment field is required"
 
-#: helpers/psyemHelper.php:75 helpers/psyemValidationsHelper.php:396
+#: helpers/psyemHelper.php:77 helpers/psyemValidationsHelper.php:396
 msgid "Received HPV vaccine field is required"
-msgstr ""
+msgstr "Received HPV vaccine field is required"
 
-#: helpers/psyemHelper.php:76 helpers/psyemValidationsHelper.php:399
+#: helpers/psyemHelper.php:78 helpers/psyemValidationsHelper.php:399
 msgid "Are you pregnant field is required"
-msgstr ""
+msgstr "Are you pregnant field is required"
 
-#: helpers/psyemHelper.php:77 helpers/psyemValidationsHelper.php:402
+#: helpers/psyemHelper.php:79 helpers/psyemValidationsHelper.php:402
 msgid "Did you have a hysterectomy field is required"
-msgstr ""
+msgstr "Did you have a hysterectomy field is required"
 
-#: helpers/psyemHelper.php:78 helpers/psyemValidationsHelper.php:405
+#: helpers/psyemHelper.php:80 helpers/psyemValidationsHelper.php:405
 msgid "Clinical study consent field is required"
-msgstr ""
+msgstr "Clinical study consent field is required"
 
-#: helpers/psyemHelper.php:79 helpers/psyemValidationsHelper.php:408
+#: helpers/psyemHelper.php:81 helpers/psyemValidationsHelper.php:408
 msgid "Information sheet consent field is required"
-msgstr ""
+msgstr "Information sheet consent field is required"
 
-#: helpers/psyemHelper.php:80 helpers/psyemValidationsHelper.php:411
+#: helpers/psyemHelper.php:82 helpers/psyemValidationsHelper.php:411
 msgid "Voluntary participation consent field is required"
-msgstr ""
+msgstr "Voluntary participation consent field is required"
 
-#: helpers/psyemHelper.php:81
+#: helpers/psyemHelper.php:83
 msgid "Cervical screening program consent field is required"
-msgstr ""
+msgstr "Cervical screening program consent field is required"
 
-#: helpers/psyemHelper.php:82 helpers/psyemValidationsHelper.php:417
+#: helpers/psyemHelper.php:84 helpers/psyemValidationsHelper.php:417
 msgid "Professional opinion consent field is required"
-msgstr ""
+msgstr "Professional opinion consent field is required"
 
-#: helpers/psyemHelper.php:83 helpers/psyemValidationsHelper.php:420
+#: helpers/psyemHelper.php:85 helpers/psyemValidationsHelper.php:420
 msgid "Terms and conditions consent field is required"
-msgstr ""
+msgstr "Terms and conditions consent field is required"
 
-#: helpers/psyemHelper.php:84 helpers/psyemValidationsHelper.php:438
+#: helpers/psyemHelper.php:86 helpers/psyemValidationsHelper.php:438
 msgid "Region field is required"
-msgstr ""
+msgstr "Region field is required"
 
-#: helpers/psyemHelper.php:85 helpers/psyemValidationsHelper.php:447
+#: helpers/psyemHelper.php:87 helpers/psyemValidationsHelper.php:447
 msgid "Contact source field is required"
-msgstr ""
+msgstr "Contact source field is required"
 
-#: helpers/psyemHelper.php:86
+#: helpers/psyemHelper.php:88
 msgid "Please select event"
-msgstr ""
+msgstr "Please select event"
 
-#: helpers/psyemHelper.php:87
+#: helpers/psyemHelper.php:89
 msgid "Please enter number of participants"
-msgstr ""
+msgstr "Please enter number of participants"
 
-#: helpers/psyemHelper.php:549
-msgid "Your coupon code is expired!"
-msgstr ""
+#: helpers/psyemHelper.php:551
+msgid "Your coupon code is expired"
+msgstr "Your coupon code is expired"
 
-#: helpers/psyemHelper.php:552
-msgid "Your coupon code is invalid!"
-msgstr ""
+#: helpers/psyemHelper.php:554
+msgid "Your coupon code is invalid"
+msgstr "Your coupon code is invalid"
 
-#: helpers/psyemHelper.php:555
-msgid "Please check! Your coupon code is invalid!"
-msgstr ""
+#: helpers/psyemHelper.php:557
+msgid "Please check! Your coupon code is invalid"
+msgstr "Please check! Your coupon code is invalid"
 
-#: helpers/psyemHelper.php:558
-msgid "No coupons are allowed for booking this event!"
-msgstr ""
+#: helpers/psyemHelper.php:560
+msgid "No coupons are allowed for booking this event"
+msgstr "No coupons are allowed for booking this event"
 
-#: helpers/psyemHelper.php:1178
-msgid "Offline registration order has been failed to create!"
-msgstr ""
+#: helpers/psyemHelper.php:1180
+msgid "Offline registration order has been failed to create"
+msgstr "Offline registration order has been failed to create"
 
-#: helpers/psyemHelper.php:1201
-msgid "Registration is not allowed for this event!"
-msgstr ""
+#: helpers/psyemHelper.php:1203
+msgid "Registration is not allowed for this event"
+msgstr "Registration is not allowed for this event"
 
-#: helpers/psyemHelper.php:1324
-msgid "Offline registration order has been successfully created!"
-msgstr ""
+#: helpers/psyemHelper.php:1326
+msgid "Offline registration order has been successfully created"
+msgstr "Offline registration order has been successfully created"
 
-#: helpers/psyemHelper.php:1695
+#: helpers/psyemHelper.php:1697
 msgid ""
-"Your registration request for Project Safe has been successfully submitted."
+"Your registration request for Project Safe has been successfully submitted"
 msgstr ""
+"Your registration request for Project Safe has been successfully submitted"
 
-#: helpers/psyemHelper.php:1699
+#: helpers/psyemHelper.php:1701
 msgid ""
 "You are now registered to Project SAFE - Our partner PHASE Scientific will "
-"send you an email or sms for confirmation in 1-2 working days."
+"send you an email or sms for confirmation in 1-2 working days"
 msgstr ""
+"You are now registered to Project SAFE - Our partner PHASE Scientific will "
+"send you an email or sms for confirmation in 1-2 working days"
 
-#: helpers/psyemHelper.php:1700
+#: helpers/psyemHelper.php:1702
 msgid ""
 "Please call Kinetics Integrated Medical and Health Center within 2 weeks "
-"from your sign-up date to arrange an appointment for the screening."
+"from your sign-up date to arrange an appointment for the screening"
 msgstr ""
+"Please call Kinetics Integrated Medical and Health Center within 2 weeks "
+"from your sign-up date to arrange an appointment for the screening"
 
-#: helpers/psyemHelper.php:2063
-msgid "Your booking has been confirmed."
-msgstr ""
+#: helpers/psyemHelper.php:2065
+msgid "Your booking has been confirmed"
+msgstr "Your booking has been confirmed"
 
-#: helpers/psyemHelper.php:2066
+#: helpers/psyemHelper.php:2068
 msgid "Booking Order"
-msgstr ""
+msgstr "Booking Order"
 
 #: helpers/psyemValidationsHelper.php:8
-msgid "Settings are required to process the request!"
-msgstr ""
+msgid "Settings are required to process the request"
+msgstr "Settings are required to process the request"
 
 #: helpers/psyemValidationsHelper.php:11 helpers/psyemValidationsHelper.php:38
 #: helpers/psyemValidationsHelper.php:73 helpers/psyemValidationsHelper.php:101
@@ -3587,8 +3544,8 @@ msgstr ""
 #: helpers/psyemValidationsHelper.php:577
 #: helpers/psyemValidationsHelper.php:620
 #: helpers/psyemValidationsHelper.php:665
-msgid "Action is required to process the request!"
-msgstr ""
+msgid "Action is required to process the request"
+msgstr "Action is required to process the request"
 
 #: helpers/psyemValidationsHelper.php:14 helpers/psyemValidationsHelper.php:41
 #: helpers/psyemValidationsHelper.php:76 helpers/psyemValidationsHelper.php:104
@@ -3606,8 +3563,8 @@ msgstr ""
 #: helpers/psyemValidationsHelper.php:580
 #: helpers/psyemValidationsHelper.php:623
 #: helpers/psyemValidationsHelper.php:668
-msgid "Nonce is missing, Invalid request!"
-msgstr ""
+msgid "Nonce is missing, Invalid request"
+msgstr "Nonce is missing, Invalid request"
 
 #: helpers/psyemValidationsHelper.php:19 helpers/psyemValidationsHelper.php:47
 #: helpers/psyemValidationsHelper.php:82 helpers/psyemValidationsHelper.php:110
@@ -3625,8 +3582,8 @@ msgstr ""
 #: helpers/psyemValidationsHelper.php:585
 #: helpers/psyemValidationsHelper.php:629
 #: helpers/psyemValidationsHelper.php:674
-msgid "No kiddies please! Referer not matched!"
-msgstr ""
+msgid "No kiddies please! Referer not matched"
+msgstr "No kiddies please! Referer not matched"
 
 #: helpers/psyemValidationsHelper.php:23 helpers/psyemValidationsHelper.php:51
 #: helpers/psyemValidationsHelper.php:86 helpers/psyemValidationsHelper.php:114
@@ -3644,137 +3601,137 @@ msgstr ""
 #: helpers/psyemValidationsHelper.php:589
 #: helpers/psyemValidationsHelper.php:633
 #: helpers/psyemValidationsHelper.php:678
-msgid "No kiddies please! Security nonce not matched!"
-msgstr ""
+msgid "No kiddies please! Security nonce not matched"
+msgstr "No kiddies please! Security nonce not matched"
 
 #: helpers/psyemValidationsHelper.php:35 helpers/psyemValidationsHelper.php:70
 #: helpers/psyemValidationsHelper.php:126
-msgid "Order ID is required to process the request!"
-msgstr ""
+msgid "Order ID is required to process the request"
+msgstr "Order ID is required to process the request"
 
 #: helpers/psyemValidationsHelper.php:59
-msgid "Invalid file type. Only CSV files are allowed."
-msgstr ""
+msgid "Invalid file type. Only CSV files are allowed"
+msgstr "Invalid file type. Only CSV files are allowed"
 
 #: helpers/psyemValidationsHelper.php:98
-msgid "Event ID is required to process the request!"
-msgstr ""
+msgid "Event ID is required to process the request"
+msgstr "Event ID is required to process the request"
 
 #: helpers/psyemValidationsHelper.php:153
 #: helpers/psyemValidationsHelper.php:193
 #: helpers/psyemValidationsHelper.php:235
 #: helpers/psyemValidationsHelper.php:268
-msgid "Event key is required to process the request!"
-msgstr ""
+msgid "Event key is required to process the request"
+msgstr "Event key is required to process the request"
 
 #: helpers/psyemValidationsHelper.php:156
-msgid ""
-"At least one ticket with participant is required to process the request!"
+msgid "At least one ticket with participant is required to process the request"
 msgstr ""
+"At least one ticket with participant is required to process the request"
 
 #: helpers/psyemValidationsHelper.php:159
 msgid "Price calculation source is missing"
-msgstr ""
+msgstr "Price calculation source is missing"
 
 #: helpers/psyemValidationsHelper.php:187
 #: helpers/psyemValidationsHelper.php:229
 #: helpers/psyemValidationsHelper.php:262
-msgid "Participant name is required to process the request!"
-msgstr ""
+msgid "Participant name is required to process the request"
+msgstr "Participant name is required to process the request"
 
 #: helpers/psyemValidationsHelper.php:190
 #: helpers/psyemValidationsHelper.php:232
 #: helpers/psyemValidationsHelper.php:265
-msgid "Participant email required to process the request!"
-msgstr ""
+msgid "Participant email required to process the request"
+msgstr "Participant email required to process the request"
 
 #: helpers/psyemValidationsHelper.php:196
-msgid "Ticket is required to process the request!"
-msgstr ""
+msgid "Ticket is required to process the request"
+msgstr "Ticket is required to process the request"
 
 #: helpers/psyemValidationsHelper.php:223
 #: helpers/psyemValidationsHelper.php:614
-msgid "Payment intent is required to process the request!"
-msgstr ""
+msgid "Payment intent is required to process the request"
+msgstr "Payment intent is required to process the request"
 
 #: helpers/psyemValidationsHelper.php:226
 #: helpers/psyemValidationsHelper.php:617
-msgid "Payment status is required to process the request!"
-msgstr ""
+msgid "Payment status is required to process the request"
+msgstr "Payment status is required to process the request"
 
 #: helpers/psyemValidationsHelper.php:271
-msgid "Participants count is required to process the request!"
-msgstr ""
+msgid "Participants count is required to process the request"
+msgstr "Participants count is required to process the request"
 
 #: helpers/psyemValidationsHelper.php:299
-msgid "Event is required!"
-msgstr ""
+msgid "Event is required"
+msgstr "Event is required"
 
 #: helpers/psyemValidationsHelper.php:302
-msgid "Participant first name is required!"
-msgstr ""
+msgid "Participant first name is required"
+msgstr "Participant first name is required"
 
 #: helpers/psyemValidationsHelper.php:305
-msgid "Participant last name is required!"
-msgstr ""
+msgid "Participant last name is required"
+msgstr "Participant last name is required"
 
 #: helpers/psyemValidationsHelper.php:308
-msgid "Participant email is required!"
-msgstr ""
+msgid "Participant email is required"
+msgstr "Participant email is required"
 
 #: helpers/psyemValidationsHelper.php:311
-msgid "Participants count is required!"
-msgstr ""
+msgid "Participants count is required"
+msgstr "Participants count is required"
 
 #: helpers/psyemValidationsHelper.php:358
 msgid "Input source is missing"
-msgstr ""
+msgstr "Input source is missing"
 
 #: helpers/psyemValidationsHelper.php:362
 msgid "Input key is missing"
-msgstr ""
+msgstr "Input key is missing"
 
 #: helpers/psyemValidationsHelper.php:414
 msgid "Cervical screening programme consent field is required"
-msgstr ""
+msgstr "Cervical screening programme consent field is required"
 
 #: helpers/psyemValidationsHelper.php:429
 msgid "Contact way field is required"
-msgstr ""
+msgstr "Contact way field is required"
 
 #: helpers/psyemValidationsHelper.php:435
 msgid "Email field is required"
-msgstr ""
+msgstr "Email field is required"
 
 #: helpers/psyemValidationsHelper.php:524
 msgid "Amount type is required"
-msgstr ""
+msgstr "Amount type is required"
 
 #: helpers/psyemValidationsHelper.php:527
 #: helpers/psyemValidationsHelper.php:555
 #: helpers/psyemValidationsHelper.php:593
 msgid "Amount type is invalid"
-msgstr ""
+msgstr "Amount type is invalid"
 
 #: helpers/psyemValidationsHelper.php:559
 #: helpers/psyemValidationsHelper.php:563
 #: helpers/psyemValidationsHelper.php:597
 #: helpers/psyemValidationsHelper.php:601
 msgid "Amount must be greater than 1"
-msgstr ""
+msgstr "Amount must be greater than 1"
 
 #: helpers/psyemValidationsHelper.php:646
-msgid "Task is required to process the request!"
-msgstr ""
+msgid "Task is required to process the request"
+msgstr "Task is required to process the request"
 
 #: helpers/psyemValidationsHelper.php:649
-msgid "Task is invalid to process the request!"
-msgstr ""
+msgid "Task is invalid to process the request"
+msgstr "Task is invalid to process the request"
 
 #: helpers/psyemValidationsHelper.php:655
-msgid "Title is required to process the request!"
-msgstr ""
+msgid "Title is required to process the request"
+msgstr "Title is required to process the request"
 
 #: helpers/psyemValidationsHelper.php:660
-msgid "Record slug is required to process the request!"
-msgstr ""
+msgid "Record slug is required to process the request"
+msgstr "Record slug is required to process the request"

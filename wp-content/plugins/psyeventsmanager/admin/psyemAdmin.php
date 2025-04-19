@@ -285,7 +285,7 @@ class psyemAdminManager extends psyemEventsManager
                 'offline_nonce'    => esc_attr(wp_create_nonce('_nonce')),
                 'offline_action'   => PSYEM_PREFIX . 'manage_offline_signup',
                 'offline_redirect' => admin_url('edit.php?post_type=psyem-orders'),
-                'server_error'  =>  __('Something went wrong with server end, Please try later.', 'psyeventsmanager')
+                'server_error'  =>  __('Something went wrong with server end, Please try later', 'psyeventsmanager')
             ));
             wp_enqueue_script(PSYEM_PREFIX . 'offlinesignupadmjs');
 
@@ -303,7 +303,7 @@ class psyemAdminManager extends psyemEventsManager
                 'event_ajaxurl' => admin_url('admin-ajax.php'),
                 'event_nonce' => esc_attr(wp_create_nonce('_nonce')),
                 'event_copy_action' => PSYEM_PREFIX . 'manage_copy_event',
-                'server_error'  => __('Something went wrong with server end, Please try later.', 'psyeventsmanager')
+                'server_error'  => __('Something went wrong with server end, Please try later', 'psyeventsmanager')
             ));
             wp_enqueue_script(PSYEM_PREFIX . 'eventmetamediauploader');
             wp_enqueue_style(PSYEM_PREFIX . 'toasteradmcss');
@@ -383,7 +383,7 @@ class psyemAdminManager extends psyemEventsManager
                 'order_nonce' => esc_attr(wp_create_nonce('_nonce')),
                 'order_csv_action' => PSYEM_PREFIX . 'manage_participants_csv',
                 'order_send_ticket_action' => PSYEM_PREFIX . 'manage_order_send_tickets',
-                'server_error'  => __('Something went wrong with server end, Please try later.', 'psyeventsmanager')
+                'server_error'  => __('Something went wrong with server end, Please try later', 'psyeventsmanager')
             ));
             wp_enqueue_script(PSYEM_PREFIX . 'ordersadmjs');
 
@@ -478,7 +478,7 @@ class psyemAdminManager extends psyemEventsManager
 
         $resp      = array(
             'status'    => 'error',
-            'message'   => __('Settings has been failed to save!', 'psyeventsmanager'),
+            'message'   => __('Settings has been failed to save', 'psyeventsmanager'),
             'validation' => ''
         );
 
@@ -500,7 +500,7 @@ class psyemAdminManager extends psyemEventsManager
         }
         if ($affected > 0) {
             $resp['status']          = 'success';
-            $resp['message']         = __('Settings Data has been successfully saved!',  'psyeventsmanager');
+            $resp['message']         = __('Settings Data has been successfully saved',  'psyeventsmanager');
             $resp['insert_id']       = $affected;
         }
         wp_send_json($resp, 200);
@@ -510,7 +510,7 @@ class psyemAdminManager extends psyemEventsManager
     {
         $resp      = array(
             'status'    => 'error',
-            'message'   => __('Project safe type has been failed to save!', 'psyeventsmanager'),
+            'message'   => __('Project safe type has been failed to save', 'psyeventsmanager'),
             'validation' => ''
         );
 
@@ -554,7 +554,7 @@ class psyemAdminManager extends psyemEventsManager
             if ($affected > 0) {
                 $resp['status']          = 'success';
                 $resp['rhtml']           = $itemhtml;
-                $resp['message']         = __('Project safe type data has been successfully saved!',  'psyeventsmanager');
+                $resp['message']         = __('Project safe type data has been successfully saved',  'psyeventsmanager');
             }
         }
 
@@ -1030,7 +1030,7 @@ class psyemAdminManager extends psyemEventsManager
 
         $resp  = array(
             'status'     => 'error',
-            'message'    => __('Event data has been failed to copy!', 'psyeventsmanager'),
+            'message'    => __('Event data has been failed to copy', 'psyeventsmanager'),
             'validation' => []
         );
 
@@ -1087,7 +1087,7 @@ class psyemAdminManager extends psyemEventsManager
 
         if ($new_post_id > 0) {
             $resp['status']          = 'success';
-            $resp['message']         = __('Event Data has been successfully copied!',  'psyeventsmanager');
+            $resp['message']         = __('Event Data has been successfully copied',  'psyeventsmanager');
         }
         wp_send_json($resp, 200);
     }
@@ -1831,7 +1831,7 @@ class psyemAdminManager extends psyemEventsManager
             wp_die($isvalid[0]);
         }
         if (!current_user_can('manage_options')) {
-            wp_die(__('You are not authorize to export data!', 'psyeventsmanager'));
+            wp_die(__('You are not authorize to export data', 'psyeventsmanager'));
         }
         if (isset($getData['_nonce'])) {
             unset($getData['_nonce']);
@@ -2157,7 +2157,7 @@ class psyemAdminManager extends psyemEventsManager
                 if (!empty($orderParticipantsIds) && in_array($participant_id, $orderParticipantsIds)) {
                     $order_participant_data    = psyem_GetSinglePostWithMetaPrefix('psyem-participants', $participant_id, 'psyem_participant_');
                     if (empty($order_participant_data)) {
-                        wp_die(__('Print tickets has been failed to process!', 'psyeventsmanager'));
+                        wp_die(__('Print tickets has been failed to process', 'psyeventsmanager'));
                     }
                     $order_participants_arr[$participant_id]   = $order_participant_data;
                 }
@@ -2259,7 +2259,7 @@ class psyemAdminManager extends psyemEventsManager
             $dompdf->stream($fileName, array("Attachment" => false));
             exit;
         }
-        wp_die(__('Print tickets has been failed to process!', 'psyeventsmanager'));
+        wp_die(__('Print tickets has been failed to process', 'psyeventsmanager'));
     }
 
     // Ajax BGN
@@ -2267,7 +2267,7 @@ class psyemAdminManager extends psyemEventsManager
     {
         $resp      = array(
             'status'    => 'error',
-            'message'   => __('Csv has been failed to import!', 'psyeventsmanager'),
+            'message'   => __('Csv has been failed to import', 'psyeventsmanager'),
             'validation' => []
         );
 
@@ -2291,8 +2291,8 @@ class psyemAdminManager extends psyemEventsManager
             if ($totalParticipants >= $psyemOrderTotalSlots) {
                 $resp      = array(
                     'status'    => 'error',
-                    'message'   => __('Csv has been failed to import!', 'psyeventsmanager'),
-                    'validation' => [__('You can not upload more paticipants in this order.',  'psyeventsmanager')]
+                    'message'   => __('Csv has been failed to import', 'psyeventsmanager'),
+                    'validation' => [__('You can not upload more paticipants in this order',  'psyeventsmanager')]
                 );
                 wp_send_json($resp, 200);
             }
@@ -2379,7 +2379,7 @@ class psyemAdminManager extends psyemEventsManager
 
         if ($affected > 0) {
             $resp['status']          = 'success';
-            $resp['message']         = __('Csv Data has been successfully imported!',  'psyeventsmanager');
+            $resp['message']         = __('Csv Data has been successfully imported',  'psyeventsmanager');
             $resp['validation']      = [];
             $resp['total']           = ($affected - 1);
         }
@@ -2391,7 +2391,7 @@ class psyemAdminManager extends psyemEventsManager
 
         $resp      = array(
             'status'     => 'error',
-            'message'    => __('Event ticket has been failed to send!', 'psyeventsmanager'),
+            'message'    => __('Event ticket has been failed to send', 'psyeventsmanager'),
             'validation' => []
         );
 
@@ -2420,7 +2420,7 @@ class psyemAdminManager extends psyemEventsManager
                     if (!empty($orderParticipantsIds) && in_array($participant_id, $orderParticipantsIds)) {
                         $order_participant_data    = psyem_GetSinglePostWithMetaPrefix('psyem-participants', $participant_id, 'psyem_participant_');
                         if (empty($order_participant_data)) {
-                            $resp['message'] = __('Print tickets participants data not found!', 'psyeventsmanager');
+                            $resp['message'] = __('Print tickets participants data not found', 'psyeventsmanager');
                             wp_send_json($resp, 200);
                             break;
                         }
@@ -2495,7 +2495,7 @@ class psyemAdminManager extends psyemEventsManager
                         if (!empty($pdfTicketsHtml) && !empty($toEmail)) {
 
                             $message = __('Hello', 'psyeventsmanager') . '  ' . $fullName;
-                            $message .= '<p>' . __('Kindly find the attached document for event ticket reference.', 'psyeventsmanager') . ' <p>';
+                            $message .= '<p>' . __('Kindly find the attached document for event ticket reference', 'psyeventsmanager') . ' <p>';
                             $message .= '<p> ' . __('Event Address', 'psyeventsmanager') . ': ' . @$orderEventMeta['psyem_event_address'] . '<p>';
                             $message .= '<p> ' . __('See you soon', 'psyeventsmanager') . '.<p>';
                             $message .= '<p> ' . __('Thank You', 'psyeventsmanager') . '<p>';
@@ -2541,7 +2541,7 @@ class psyemAdminManager extends psyemEventsManager
             }
 
             $resp['status']          = 'success';
-            $resp['message']         = __('Event ticket has been successfully sent!',  'psyeventsmanager');
+            $resp['message']         = __('Event ticket has been successfully sent',  'psyeventsmanager');
             $resp['validation']      = [];
             $resp['file_url']        = '';
         }
@@ -2563,7 +2563,7 @@ class psyemAdminManager extends psyemEventsManager
     {
         $resp      = array(
             'status'     => 'error',
-            'message'    => __('Offline Registration has been failed to create!', 'psyeventsmanager'),
+            'message'    => __('Offline Registration has been failed to create', 'psyeventsmanager'),
             'validation' => ''
         );
 
@@ -2990,7 +2990,7 @@ class psyemAdminManager extends psyemEventsManager
             wp_die($isvalid[0]);
         }
         if (!current_user_can('manage_options')) {
-            wp_die(__('You are not authorize to export data!', 'psyeventsmanager'));
+            wp_die(__('You are not authorize to export data', 'psyeventsmanager'));
         }
         if (isset($getData['_nonce'])) {
             unset($getData['_nonce']);
@@ -3710,7 +3710,7 @@ class psyemAdminManager extends psyemEventsManager
         echo '<div class="form-field">
             <label for="category_icon_image_url">' . __("Category Icon Image URL", "psyeventsmanager") . '</label>
             <input type="text" name="category_icon_image_url" id="category_icon_image_url" value="" />
-            <p>' . __("Enter category icon image url.", "psyeventsmanager") . '</p>
+            <p>' . __("Enter category icon image url", "psyeventsmanager") . '</p>
         </div>';
     }
 
@@ -3722,7 +3722,7 @@ class psyemAdminManager extends psyemEventsManager
             <th scope="row"><label for="category_icon_image_url">' . __("Category Icon Image URL", "psyeventsmanager") . '</label></th>
             <td>
                 <input type="text" name="category_icon_image_url" id="category_icon_image_url" value="' . esc_attr(@$category_icon_image_url) . '" />
-                <p class="description">' . __("Enter category icon image url.", "psyeventsmanager") . '</p>
+                <p class="description">' . __("Enter category icon image url", "psyeventsmanager") . '</p>
             </td>
         </tr>';
     }

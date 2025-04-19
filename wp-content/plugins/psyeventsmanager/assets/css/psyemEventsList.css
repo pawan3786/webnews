@@ -481,7 +481,7 @@
 	letter-spacing: -.13px;
 	margin-bottom: 30px;
 	font-size: 1.6875em;
-    font-weight: lighter;
+	font-weight: lighter;
 }
 
 .post-tickets .counter {
@@ -726,6 +726,15 @@
 
 .psyemEventDetailCont {
 	border-right: solid 1px #F2F2F2;
+}
+
+.psyemEventDetailCont .aboutHeaDetailX {
+	font-size: 1.6875em;
+	line-height: 1;
+	font-weight: lighter;
+	letter-spacing: -0.24px;
+	margin-bottom: 20px;
+	text-transform: capitalize;
 }
 
 .psyemEventDetailSidebar .event-title {
@@ -1310,8 +1319,8 @@ a {
 	padding-bottom: 100%;
 }
 
-.psyemEventDetailSidebar .event-time{
+.psyemEventDetailSidebar .event-time {
 	font-weight: lighter;
-    font-size: 1.125em;
+	font-size: 1.125em;
 	color: #000;
 }

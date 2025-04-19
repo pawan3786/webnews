@@ -237,7 +237,9 @@ if (isset($psyem_options)) {
                                     <?php endforeach; ?>
                                 <?php endif; ?>
                             </select>
-                            <small><?= __('Will be use to redirect on donation second details page. donation 3rd option page', 'psyeventsmanager') ?></small>
+                            <small>
+                                <?= __('Will be use to redirect on donation second details page. donation 3rd option page', 'psyeventsmanager') ?>
+                            </small>
                         </div>
                     </div>
                 </div>

@@ -273,7 +273,7 @@ while (have_posts()) : the_post();
                                                                                     <?php else: ?>
                                                                                         <p class="text-danger mb-1">
                                                                                             <span class="dashicons dashicons-info"></span>
-                                                                                            <?= __('Registration for this event has been closed.', 'psyeventsmanager') ?>
+                                                                                            <?= __('Registration for this event has been closed', 'psyeventsmanager') ?>
                                                                                         </p>
                                                                                     <?php endif; ?>
                                                                                 </th>
@@ -373,7 +373,7 @@ while (have_posts()) : the_post();
                                                                     <?php else: ?>
                                                                         <p class="text-danger mb-1">
                                                                             <span class="dashicons dashicons-info"></span>
-                                                                            <?= __('Registration for this event has been closed.', 'psyeventsmanager') ?>
+                                                                            <?= __('Registration for this event has been closed', 'psyeventsmanager') ?>
                                                                         </p>
                                                                     <?php endif; ?>
                                                                 </div>
@@ -396,7 +396,7 @@ while (have_posts()) : the_post();
                                                                                     <div class="col-md-12 mb-3">
                                                                                         <div class="alert alert-danger" role="alert">
                                                                                             <span class="dashicons dashicons-info"></span>
-                                                                                            <?= __('Registration for this event has been closed.', 'psyeventsmanager') ?>
+                                                                                            <?= __('Registration for this event has been closed', 'psyeventsmanager') ?>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="col-md-12">
@@ -405,7 +405,7 @@ while (have_posts()) : the_post();
                                                                                             <a href="<?= psyem_GetPageLinkBySlug('psyem-events-list') ?>" class="alert-link">
                                                                                                 <?= __('here', 'psyeventsmanager') ?>
                                                                                             </a>
-                                                                                            <?= __('to view events or book new tickets.', 'psyeventsmanager') ?>
+                                                                                            <?= __('to view events or book new tickets', 'psyeventsmanager') ?>
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -433,7 +433,7 @@ while (have_posts()) : the_post();
                                         <div class="row">
                                             <div class="col-md-12 mb-3">
                                                 <div class="alert alert-danger" role="alert">
-                                                    <?= __('Event data not found to process checkout.', 'psyeventsmanager') ?>
+                                                    <?= __('Event data not found to process checkout', 'psyeventsmanager') ?>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
@@ -442,7 +442,7 @@ while (have_posts()) : the_post();
                                                     <a href="<?= psyem_GetPageLinkBySlug('psyem-events-list') ?>" class="alert-link">
                                                         <?= __('here', 'psyeventsmanager') ?>
                                                     </a>
-                                                    <?= __('to view events or book new tickets.', 'psyeventsmanager') ?>
+                                                    <?= __('to view events or book new tickets', 'psyeventsmanager') ?>
                                                 </div>
                                             </div>
                                         </div>

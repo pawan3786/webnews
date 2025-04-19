@@ -342,7 +342,7 @@ function psyemUpdatePaymentIntentResponseInDb(payment_intent_id, stripe_status) 
             },
             error: function (jqXHR, textStatus, errorThrown) {
                 psyemSetLoading(false);
-                displayToaster('Payment info has been failed to update!', 'error');
+                displayToaster('Payment info has been failed to update', 'error');
                 setTimeout(() => {
                     hidePanelLoader(psyemPaymentSection);
                 }, 2000);
@@ -366,16 +366,16 @@ jQuery(document).on('click', '#psyemContinuePaymentBtn', function () {
             return false;
         }
     } else {
-        displayToaster('Please enter your name!', 'error');
+        displayToaster('Please enter your name', 'error');
         return false;
     }
     if (psyemEmail && psyemEmail.length > 0) {
         if (!psyemIsValidEmail(psyemEmail)) {
-            displayToaster('Please enter a valid email address!', 'error');
+            displayToaster('Please enter a valid email address', 'error');
             return false;
         }
     } else {
-        displayToaster('Please enter your valid email!', 'error');
+        displayToaster('Please enter your valid email', 'error');
         return false;
     }
 
@@ -393,7 +393,7 @@ jQuery(document).on('click', '#psyemContinueFreeBtn', function () {
     var psyemEmail = (emailElm) ? emailElm.value : '';
 
     if (psyemTickets > 0) { } else {
-        displayToaster('Please choose particpants count!', 'error');
+        displayToaster('Please choose particpants count', 'error');
         return false;
     }
     if (psyemName && psyemName.length > 0) {
@@ -403,16 +403,16 @@ jQuery(document).on('click', '#psyemContinueFreeBtn', function () {
             return false;
         }
     } else {
-        displayToaster('Please enter your name!', 'error');
+        displayToaster('Please enter your name', 'error');
         return false;
     }
     if (psyemEmail && psyemEmail.length > 0) {
         if (!psyemIsValidEmail(psyemEmail)) {
-            displayToaster('Please enter a valid email address!', 'error');
+            displayToaster('Please enter a valid email address', 'error');
             return false;
         }
     } else {
-        displayToaster('Please enter your valid email!', 'error');
+        displayToaster('Please enter your valid email', 'error');
         return false;
     }
 
@@ -431,7 +431,7 @@ jQuery(document).on('change', 'input[name="psyem_tickets"]', function () {
             psyemCalculateTicketPrice(psyemTicketsCount, psyemCouponCode);
         }
     } else {
-        displayToaster('At least one participant is required to book the ticket.', 'error');
+        displayToaster('At least one participant is required to book the ticket', 'error');
     }
 });
 
@@ -447,7 +447,7 @@ jQuery(document).on('keyup', 'input[name="psyem_tickets"]', function () {
             psyemCalculateTicketPrice(psyemTicketsCount, psyemCouponCode);
         }
     } else {
-        displayToaster('At least one participant is required to book the ticket.', 'error');
+        displayToaster('At least one participant is required to book the ticket', 'error');
     }
 });
 
@@ -461,7 +461,7 @@ jQuery(document).on('click', '.psyemApplyCouponCode', function () {
             if (psyemTicketsCount > 0) {
                 psyemCalculateTicketPrice(psyemTicketsCount, psyemCouponCode);
             } else {
-                displayToaster('At least one participant is required to book the ticket.', 'error');
+                displayToaster('At least one participant is required to book the ticket', 'error');
             }
         }
     } else {
@@ -629,7 +629,7 @@ function psyemProcessFreeEventBooking() {
             displayToaster(message, status);
         },
         error: function (jqXHR, textStatus, errorThrown) {
-            displayToaster('Payment info has been failed to update!', 'error');
+            displayToaster('Payment info has been failed to update', 'error');
             setTimeout(() => {
                 hidePanelLoader(psyemPaymentSection);
             }, 2000);

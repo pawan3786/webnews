@@ -10,7 +10,7 @@
                         </h1>
                         <div class="node-teal-form__body">
                             <p>
-                                <?= __('Two simple steps to register.', 'psyeventsmanager') ?>
+                                <?= __('Two simple steps to register', 'psyeventsmanager') ?>
                             </p>
                         </div>
                     </header>
@@ -35,7 +35,7 @@
                             <div class="teal-form__content-inner">
                                 <p class="teal-form__intro">
                                     <input type="hidden" name="field_projectsafe_type" value="<?= (isset($projectsafe_type) && !empty($projectsafe_type)) ? $projectsafe_type : 'project-safe' ?>" />
-                                    <?= __('Please fill in the following information if you would like join the project. <br>All personal details will be kept strictly confidential.', 'psyeventsmanager') ?>
+                                    <?= __('Please fill in the following information if you would like join the project. <br>All personal details will be kept strictly confidential', 'psyeventsmanager') ?>
                                     <br>
                                     <span class="req-fields-info text-danger">
                                         * <?= __('Required field', 'psyeventsmanager') ?>
@@ -248,21 +248,30 @@
                                         <div class="form-item">
                                             <input name="field_agree_clinical" id="field_agree_clinical" type="checkbox" required />
                                             <label for="field_agree_clinical">
-                                                <?= __('I understand that this program is part of a clinical study and enrollment is only for participants who agree to the terms and conditions on the clinical study consent form presented at the clinic on the day of appointment.', 'psyeventsmanager') ?>
+                                                <?php
+                                                $tText = 'I understand that this program is part of a clinical study and enrollment is only for participants who agree to the terms and conditions on the clinical study consent form presented at the clinic on the day of appointment';
+                                                esc_html_e($tText, 'psyeventsmanager');
+                                                ?>.
                                                 <span class="text-danger">*</span>
                                             </label>
                                         </div>
                                         <div class="form-item">
                                             <input name="field_info_sheet" id="field_info_sheet" type="checkbox" required />
                                             <label for="field_info_sheet">
-                                                <?= __('I confirm, that I have read and understood the information sheet for the project and have had the opportunity to view and study the educational videos provided for a better overall grasp on how to protect myself against cervical cancer.', 'psyeventsmanager') ?>
+                                                <?php
+                                                $tText = 'I confirm, that I have read and understood the information sheet for the project and have had the opportunity to view and study the educational videos provided for a better overall grasp on how to protect myself against cervical cancer';
+                                                esc_html_e($tText, 'psyeventsmanager');
+                                                ?>.
                                                 <span class="text-danger">*</span>
                                             </label>
                                         </div>
                                         <div class="form-item">
                                             <input name="field_participation" id="field_participation" type="checkbox" required />
                                             <label for="field_participation">
-                                                <?= __('I understand that my participation is voluntary and that I am free to withdraw at any time, without giving any reason, without my medical care or legal rights being affected.', 'psyeventsmanager') ?>
+                                                <?php
+                                                $tText = 'I understand that my participation is voluntary and that I am free to withdraw at any time, without giving any reason, without my medical care or legal rights being affected';
+                                                esc_html_e($tText, 'psyeventsmanager');
+                                                ?>.
                                                 <span class="text-danger">*</span>
                                             </label>
                                         </div>
@@ -270,14 +279,17 @@
                                         <div class="form-item">
                                             <input name="field_agree_study" id="field_agree_study" type="checkbox" required />
                                             <label for="field_agree_study">
-                                                <?= __('I agree to take part in the above cervical screening programme.', 'psyeventsmanager') ?>
+                                                <?= __('I agree to take part in the above cervical screening programme', 'psyeventsmanager') ?>
                                                 <span class="text-danger">*</span>
                                             </label>
                                         </div>
                                         <div class="form-item">
                                             <input name="field_agree_doctor" id="field_agree_doctor" type="checkbox" required />
                                             <label for="field_agree_doctor">
-                                                <?= __('I here with acknowledge that, if I am currently experiencing irregular bleeding, spotting or pain during my menses, sex or randomly, I cannot join the project. We kindly encourage you to contact your GP immediately and seek a professional opinion.', 'psyeventsmanager') ?>
+                                                <?php
+                                                $tText = 'I here with acknowledge that, if I am currently experiencing irregular bleeding, spotting or pain during my menses, sex or randomly, I cannot join the project. We kindly encourage you to contact your GP immediately and seek a professional opinion';
+                                                esc_html_e($tText, 'psyeventsmanager');
+                                                ?>.
                                                 <span class="text-danger">*</span>
                                             </label>
                                         </div>
@@ -437,7 +449,7 @@
                                     </div>
                                 </div>
                                 <p class="teal-form__group-label">
-                                    <?= __('Let us know more about you.', 'psyeventsmanager') ?><span class="text-danger">*</span>
+                                    <?= __('Let us know more about you', 'psyeventsmanager') ?><span class="text-danger">*</span>
                                 </p>
                                 <div class="form-teal__fields">
                                     <div class="form-item">
@@ -484,12 +496,12 @@
                             <div class="teal-form__content-inner">
                                 <div class="form-teal__fields">
                                     <strong class="psyemTealThanksHeading">
-                                        <?= __('Thank you for your registration! We will put you in our first priority list.', 'psyeventsmanager') ?>
+                                        <?= __('Thank you for your registration! We will put you in our first priority list', 'psyeventsmanager') ?>
                                     </strong>
                                 </div>
                                 <div class="form-teal__fields">
                                     <p class="psyemTealThanksMesg">
-                                        <?= __('The project quota is full. You will be notified by an Email or Sms for successful registration.', 'psyeventsmanager') ?>
+                                        <?= __('The project quota is full. You will be notified by an Email or Sms for successful registration', 'psyeventsmanager') ?>
                                     </p>
                                 </div>
                                 <div class="form-teal__fields">

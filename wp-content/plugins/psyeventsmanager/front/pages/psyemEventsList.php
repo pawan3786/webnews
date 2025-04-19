@@ -177,7 +177,7 @@ while (have_posts()) : the_post();
                 <div class="row margin0 w-100">
                     <div class="col-md-12 text-center pAll-0">
                         <div class="alert alert-danger">
-                            <?= __('No records found.', 'psyeventsmanager') ?>
+                            <?= __('No records found', 'psyeventsmanager') ?>
                         </div>
                     </div>
                 </div>
@@ -215,7 +215,10 @@ while (have_posts()) : the_post();
                                                     <?= __('Become a Volunteer', 'psyeventsmanager') ?>
                                                 </h2>
                                                 <div class="block-text">
-                                                    <?= __('KLF is always looking for dedicated volunteers who are passionate about fighting women’s cancers or who simply want to assist the local community.', 'psyeventsmanager') ?>
+                                                    <?php
+                                                    $tText = 'KLF is always looking for dedicated volunteers who are passionate about fighting women’s cancers or who simply want to assist the local community';
+                                                    esc_html_e($tText, 'psyeventsmanager');
+                                                    ?>.                                                    
                                                 </div>
                                                 <a href="<?= (isset($MasterSettings['psyem_volunteer_url']) && !empty($MasterSettings['psyem_volunteer_url'])) ? $MasterSettings['psyem_volunteer_url'] : 'javascript:void(0);' ?>" class="linkcontact text-decoration-none">
                                                     <?= __('Contact Us', 'psyeventsmanager') ?>
@@ -239,7 +242,7 @@ while (have_posts()) : the_post();
                                                     <?= __('Get the Latest Update', 'psyeventsmanager') ?>
                                                 </h2>
                                                 <div class="block-text">
-                                                    <?= __('KLF is always looking for dedicated volunteers who are passionate about fighting women’s cancers or who simply want to assist the local community.', 'psyeventsmanager') ?>
+                                                    <?= __('KLF is always looking for dedicated volunteers who are passionate about fighting women’s cancers or who simply want to assist the local community', 'psyeventsmanager') ?>
                                                 </div>
                                                 <a href="<?= (isset($MasterSettings['psyem_contact_us_url']) && !empty($MasterSettings['psyem_contact_us_url'])) ? $MasterSettings['psyem_contact_us_url'] : 'javascript:void(0);' ?>" class="linkcontact text-white text-decoration-none" style="color:#fff !important;">
                                                     <?= __('Contact Us', 'psyeventsmanager') ?>

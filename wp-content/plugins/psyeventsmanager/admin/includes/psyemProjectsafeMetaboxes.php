@@ -126,37 +126,57 @@
                 <table class="table table-responsive table-hovered table-bordered">
                     <tbody>
                         <tr>
-                            <th> <?= __('I understand that this program is part of a clinical study and enrollment is only for participants who agree to the terms and conditions on the clinical study consent form presented at the clinic on the day of appointment.', 'psyeventsmanager') ?></th>
+                            <th>
+                                <?php
+                                $tText = 'I understand that this program is part of a clinical study and enrollment is only for participants who agree to the terms and conditions on the clinical study consent form presented at the clinic on the day of appointment';
+                                esc_html_e($tText, 'psyeventsmanager');
+                                ?>.
+                            </th>
                             <th class="text-center">
                                 <?= @$projectsafe_meta_data['psyem_projectsafe_check_clinical'] ?>
                             </th>
                         </tr>
                         <tr>
-                            <th> <?= __('I confirm, that I have read and understood the information sheet for the project and have had the opportunity to view and study the educational videos provided for a better overall grasp on how to protect myself against cervical cancer.', 'psyeventsmanager') ?></th>
+                            <th>
+                                <?php
+                                $tText = 'I confirm, that I have read and understood the information sheet for the project and have had the opportunity to view and study the educational videos provided for a better overall grasp on how to protect myself against cervical cancer';
+                                esc_html_e($tText, 'psyeventsmanager');
+                                ?>.
+                            </th>
                             <th class="text-center">
                                 <?= @$projectsafe_meta_data['psyem_projectsafe_check_infosheet'] ?>
                             </th>
                         </tr>
                         <tr>
-                            <th> <?= __('I understand that my participation is voluntary and that I am free to withdraw at any time, without giving any reason, without my medical care or legal rights being affected.', 'psyeventsmanager') ?></th>
+                            <th>
+                                <?php
+                                $tText = 'I understand that my participation is voluntary and that I am free to withdraw at any time, without giving any reason, without my medical care or legal rights being affected';
+                                esc_html_e($tText, 'psyeventsmanager');
+                                ?>.
+                            </th>
                             <th class="text-center">
                                 <?= @$projectsafe_meta_data['psyem_projectsafe_check_participation'] ?>
                             </th>
                         </tr>
                         <tr>
-                            <th> <?= __('I agree to take part in the above cervical screening programme.', 'psyeventsmanager') ?></th>
+                            <th> <?= esc_html__('I agree to take part in the above cervical screening programme', 'psyeventsmanager') ?></th>
                             <th class="text-center">
                                 <?= @$projectsafe_meta_data['psyem_projectsafe_check_study'] ?>
                             </th>
                         </tr>
                         <tr>
-                            <th> <?= __('I herewith acknowledge that, if I am currently experiencing irregular bleeding, spotting or pain during my menses, sex or randomly, I cannot join the project. We kindly encourage you to contact your GP immediately and seek a professional opinion.', 'psyeventsmanager') ?></th>
+                            <th>
+                                <?php
+                                $tText = 'I herewith acknowledge that, if I am currently experiencing irregular bleeding, spotting or pain during my menses, sex or randomly, I cannot join the project, We kindly encourage you to contact your GP immediately and seek a professional opinion';
+                                esc_html_e($tText, 'psyeventsmanager');
+                                ?>.
+                            </th>
                             <th class="text-center">
                                 <?= @$projectsafe_meta_data['psyem_projectsafe_check_doctor'] ?>
                             </th>
                         </tr>
                         <tr>
-                            <th> <?= __('Terms & Conditions', 'psyeventsmanager') ?></th>
+                            <th> <?= esc_html__('Terms & Conditions', 'psyeventsmanager') ?></th>
                             <th class="text-center">
                                 <?= @$projectsafe_meta_data['psyem_projectsafe_check_tandc'] ?>
                             </th>

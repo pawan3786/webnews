@@ -148,7 +148,7 @@ function psyemValidateAddToCart() {
     if (itemQuantity > 0 || itemQuantity == 0) {
         return 'TRUE';
     } else {
-        displayToaster('At least one ticket with participant is required to checkout.', 'error');
+        displayToaster('At least one ticket with participant is required to checkout', 'error');
     }
     return 'FALSE';
 }

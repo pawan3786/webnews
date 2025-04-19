@@ -258,7 +258,7 @@ class psyemFrontManager
 
         $resp      = array(
             'status'     => 'error',
-            'message'    => __('Event ticket price has been failed to calculate!', 'psyeventsmanager'),
+            'message'    => __('Event ticket price has been failed to calculate', 'psyeventsmanager'),
             'validation' => [],
             'data'       => []
         );
@@ -275,7 +275,7 @@ class psyemFrontManager
         if (!empty($psyemEventInfo)) {
             $resp      = array(
                 'status'     => 'success',
-                'message'    => __('Event ticket price calculated!', 'psyeventsmanager'),
+                'message'    => __('Event ticket price calculated', 'psyeventsmanager'),
                 'validation' => [],
                 'data'       => $paymentPrices
             );
@@ -291,7 +291,7 @@ class psyemFrontManager
 
         $resp      = array(
             'status'     => 'error',
-            'message'    => __('Payment intent has been failed to process!', 'psyeventsmanager'),
+            'message'    => __('Payment intent has been failed to process', 'psyeventsmanager'),
             'validation' => [],
             'data'       => array('clientSecret' => '', 'PaymentIntentId' => '')
         );
@@ -323,7 +323,7 @@ class psyemFrontManager
         if ($isBookingAllowed != 'Yes') {
             $resp      = array(
                 'status'     => 'error',
-                'message'    => __('Booking is not allowed for this event!', 'psyeventsmanager'),
+                'message'    => __('Booking is not allowed for this event', 'psyeventsmanager'),
                 'validation' => [],
                 'data'       => array('clientSecret' => '', 'PaymentIntentId' => '')
             );
@@ -375,7 +375,7 @@ class psyemFrontManager
 
                             $resp  = array(
                                 'status'     => 'success',
-                                'message'    => __('Payment intent created!', 'psyeventsmanager'),
+                                'message'    => __('Payment intent created', 'psyeventsmanager'),
                                 'validation' => [],
                                 'data'       => array('clientSecret' =>  $clientSecret, 'PaymentIntentId' => $PaymentIntentId)
                             );
@@ -403,7 +403,7 @@ class psyemFrontManager
 
         $resp      = array(
             'status'     => 'error',
-            'message'    => __('Booking order has been failed to process!', 'psyeventsmanager'),
+            'message'    => __('Booking order has been failed to process', 'psyeventsmanager'),
             'validation' => [],
             'data'       => []
         );
@@ -606,7 +606,7 @@ class psyemFrontManager
                         }
                         $resp      = array(
                             'status'     => 'success',
-                            'message'    => __('Booking order has been successfully proccessed!', 'psyeventsmanager'),
+                            'message'    => __('Booking order has been successfully proccessed', 'psyeventsmanager'),
                             'validation' => [],
                             'data'       => [
                                 'order_enc'      => $orderEnc,
@@ -622,7 +622,7 @@ class psyemFrontManager
         } else {
             $resp      = array(
                 'status'     => 'error',
-                'message'    => __('Booking order payment intent is empty!', 'psyeventsmanager'),
+                'message'    => __('Booking order payment intent is empty', 'psyeventsmanager'),
                 'validation' => [],
                 'data'       => []
             );
@@ -637,7 +637,7 @@ class psyemFrontManager
 
         $resp      = array(
             'status'     => 'error',
-            'message'    => __('Booking order has been failed to process!', 'psyeventsmanager'),
+            'message'    => __('Booking order has been failed to process', 'psyeventsmanager'),
             'validation' => [],
             'data'       => []
         );
@@ -662,7 +662,7 @@ class psyemFrontManager
         if ($isBookingAllowed != 'Yes') {
             $resp      = array(
                 'status'     => 'error',
-                'message'    => __('Booking is not allowed for this event!', 'psyeventsmanager'),
+                'message'    => __('Booking is not allowed for this event', 'psyeventsmanager'),
                 'validation' => [],
                 'data'       => []
             );
@@ -784,7 +784,7 @@ class psyemFrontManager
 
                     $resp      = array(
                         'status'     => 'success',
-                        'message'    => __('Booking order has been successfully proccessed!', 'psyeventsmanager'),
+                        'message'    => __('Booking order has been successfully proccessed', 'psyeventsmanager'),
                         'validation' => [],
                         'data'       => [
                             'order_enc'      => $orderEnc,
@@ -799,7 +799,7 @@ class psyemFrontManager
         } else {
             $resp      = array(
                 'status'     => 'error',
-                'message'    => __('Booking order failed to process!', 'psyeventsmanager'),
+                'message'    => __('Booking order failed to process', 'psyeventsmanager'),
                 'validation' => [],
                 'data'       => []
             );
@@ -1173,7 +1173,7 @@ class psyemFrontManager
 
         $resp      = array(
             'status'     => 'error',
-            'message'    => __('Project safe request has been failed to process!', 'psyeventsmanager'),
+            'message'    => __('Project safe request has been failed to process', 'psyeventsmanager'),
             'validation' => [],
             'data'       => []
         );
@@ -1188,8 +1188,8 @@ class psyemFrontManager
 
         if (!empty($saveResp)) {
             $record_id = @$saveResp['record_id'];
-            $mesgS = __('Project safe request has been sucessfully submitted!', 'psyeventsmanager');
-            $mesgI = __('Participant details are captured, Please submit contact informations!', 'psyeventsmanager');
+            $mesgS = __('Project safe request has been sucessfully submitted', 'psyeventsmanager');
+            $mesgI = __('Participant details are captured, Please submit contact informations', 'psyeventsmanager');
             $message   = ($record_id > 0) ? $mesgS : $mesgI;
 
             $resp      = array(
@@ -1338,7 +1338,7 @@ class psyemFrontManager
 
         $resp      = array(
             'status'     => 'error',
-            'message'    => __('Donation amounts has been failed to fetch!', 'psyeventsmanager'),
+            'message'    => __('Donation amounts has been failed to fetch', 'psyeventsmanager'),
             'phtml'       => ''
         );
 
@@ -1376,7 +1376,7 @@ class psyemFrontManager
 
         $resp      = array(
             'status'     => 'error',
-            'message'    => __('Donation cart amount process has been failed!', 'psyeventsmanager'),
+            'message'    => __('Donation cart amount process has been failed', 'psyeventsmanager'),
             'validation' => [],
             'redirectto' => ''
         );
@@ -1400,7 +1400,7 @@ class psyemFrontManager
             if (empty($donation_checkout_page_link)) {
                 $resp      = array(
                     'status'     => 'error',
-                    'message'    => __('Donation checkout page is not linked.', 'psyeventsmanager'),
+                    'message'    => __('Donation checkout page is not linked', 'psyeventsmanager'),
                     'validation' => [],
                     'redirectto' => ''
                 );
@@ -1424,7 +1424,7 @@ class psyemFrontManager
 
         $resp      = array(
             'status'     => 'error',
-            'message'    => __('Payment intent has been failed to process!', 'psyeventsmanager'),
+            'message'    => __('Payment intent has been failed to process', 'psyeventsmanager'),
             'validation' => [],
             'data'       => array('clientSecret' => '', 'PaymentIntentId' => '')
         );
@@ -1445,7 +1445,7 @@ class psyemFrontManager
         $amount             =  ($amount > 0) ?  $amount : 0.00;
 
         if ($reqAmountEnc != $amount_enc) {
-            $resp['message'] = __('Payment intent action is invalid!', 'psyeventsmanager');
+            $resp['message'] = __('Payment intent action is invalid', 'psyeventsmanager');
             wp_send_json($resp, 200);
         }
 
@@ -1516,7 +1516,7 @@ class psyemFrontManager
 
                             $resp  = array(
                                 'status'     => 'success',
-                                'message'    => __('Payment intent created!', 'psyeventsmanager'),
+                                'message'    => __('Payment intent created', 'psyeventsmanager'),
                                 'validation' => [],
                                 'data'       => array('clientSecret' =>  $clientSecret, 'PaymentIntentId' => $PaymentIntentId)
                             );
@@ -1608,7 +1608,7 @@ class psyemFrontManager
                                             $clientSecret  = @$StripePaymentIntent->client_secret;
                                             $resp       = array(
                                                 'status'     => 'success',
-                                                'message'    => __('Payment intent created!', 'psyeventsmanager'),
+                                                'message'    => __('Payment intent created', 'psyeventsmanager'),
                                                 'validation' => [],
                                                 'data'       => array('clientSecret' =>  $clientSecret, 'PaymentIntentId' => $PaymentIntentId)
                                             );
@@ -1633,7 +1633,7 @@ class psyemFrontManager
 
         $resp      = array(
             'status'     => 'error',
-            'message'    => __('Donation amount has been failed to process!', 'psyeventsmanager'),
+            'message'    => __('Donation amount has been failed to process', 'psyeventsmanager'),
             'validation' => [],
             'data'       => []
         );
@@ -1804,7 +1804,7 @@ class psyemFrontManager
 
                         $resp      = array(
                             'status'     => 'success',
-                            'message'    => __('Donation has been successfully proccessed!', 'psyeventsmanager'),
+                            'message'    => __('Donation has been successfully proccessed', 'psyeventsmanager'),
                             'validation' => [],
                             'data'       => [
                                 'donation_enc' => $orderEnc,
@@ -1822,7 +1822,7 @@ class psyemFrontManager
         } else {
             $resp      = array(
                 'status'     => 'error',
-                'message'    => __('Donation payment intent is empty!', 'psyeventsmanager'),
+                'message'    => __('Donation payment intent is empty', 'psyeventsmanager'),
                 'validation' => [],
                 'data'       => []
             );

@@ -23,10 +23,16 @@
                     <div class="content">
                         <h1 class="title"> <?= __('Make a Donation', 'psyeventsmanager') ?> </h1>
                         <p>
-                            <?= __('Your donation will go a long way in helping to save lives by supporting our efforts to promote prevention, early detection, and optimal treatment of gynaecological cancer in Hong Kong.', 'psyeventsmanager') ?>
+                            <?php
+                            $tText = 'Your donation will go a long way in helping to save lives by supporting our efforts to promote prevention, early detection, and optimal treatment of gynaecological cancer in Hong Kong';
+                            esc_html_e($tText, 'psyeventsmanager');
+                            ?>.
                         </p>
                         <p>
-                            <?= __('We are a registered charity in both the US and Hong Kong and are able to provide tax deductible receipts for both jurisdictions.', 'psyeventsmanager') ?>
+                            <?php
+                            $tText = 'We are a registered charity in both the US and Hong Kong and are able to provide tax deductible receipts for both jurisdictions';
+                            esc_html_e($tText, 'psyeventsmanager');
+                            ?>.
                         </p>
                         <p>&nbsp;</p>
                     </div>
@@ -36,7 +42,7 @@
                     <div class="right_section">
                         <div class="donation_type monthly">
                             <h2> <?= __('Monthly Donation', 'psyeventsmanager') ?></h2>
-                            <p> <?= __('Help keep our programs running.', 'psyeventsmanager') ?></p>
+                            <p> <?= __('Help keep our programs running', 'psyeventsmanager') ?></p>
                             <a href="javascript:void(0);"
                                 data-toggle="modal"
                                 data-target="#lab-slide-bottom-popup"
@@ -47,7 +53,7 @@
                         </div>
                         <div class="donation_type onetime">
                             <h2> <?= __('One Time Donation', 'psyeventsmanager') ?></h2>
-                            <p><?= __('Every penny counts.', 'psyeventsmanager') ?></p>
+                            <p><?= __('Every penny counts', 'psyeventsmanager') ?></p>
                             <a href="javascript:void(0);"
                                 class="donation-call-to-action psyemOnetimeDonationElm"
                                 data-donation-title="One Time Donation">
@@ -55,8 +61,8 @@
                             </a>
                         </div>
                         <div class="donation_type sponsorship">
-                            <h2><?= __('Donate towards our Core Objectives.', 'psyeventsmanager') ?></h2>
-                            <p><?= __('Make a targeted impact.', 'psyeventsmanager') ?></p>
+                            <h2><?= __('Donate towards our Core Objectives', 'psyeventsmanager') ?></h2>
+                            <p><?= __('Make a targeted impact', 'psyeventsmanager') ?></p>
                             <a href="<?= $onetime_donation_page_link ?>"
                                 class="sponsor-call-to-action">
                                 <?= __('Areas of Impact', 'psyeventsmanager') ?>

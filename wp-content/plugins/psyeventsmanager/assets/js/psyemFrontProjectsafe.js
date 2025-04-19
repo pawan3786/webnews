@@ -166,7 +166,7 @@ var PsyemProjectSafePanel = function () {
 
         if (isEligible == 'No') {
             Swal.fire({
-                text: "Sorry, You cannot meet the project requirement.",
+                text: "Sorry, You cannot meet the project requirement",
                 icon: 'warning',
                 showCancelButton: true,
                 showConfirmButton: false,
@@ -247,7 +247,7 @@ var PsyemProjectSafePanel = function () {
         } else {
             var isValidPhone = validatePhoneNumber(field_phone.val());
             if (!isValidPhone) {
-                displayToaster('Phone field input is invalid, must be a 10 digits valid phone number.', 'info');
+                displayToaster('Phone field input is invalid, must be a 10 digits valid phone number', 'info');
                 return 'FALSE';
             }
         }
@@ -258,7 +258,7 @@ var PsyemProjectSafePanel = function () {
         } else {
             var isValidEmail = validateEmailAddress(field_email.val());
             if (!isValidEmail) {
-                displayToaster('Email is not valid, Please enter valid email address.', 'info');
+                displayToaster('Email is not valid, Please enter valid email address', 'info');
                 return 'FALSE';
             }
         }

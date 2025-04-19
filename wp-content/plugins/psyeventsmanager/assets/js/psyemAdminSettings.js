@@ -193,7 +193,7 @@ function removeProjectSafeType(elm) {
             if ((row_slug && row_slug.length > 0)) {
                 Swal.fire({
                     title: 'Are you sure want to permanently delete this record?',
-                    text: "You won't be able to revert this!",
+                    text: "You won't be able to revert this",
                     icon: 'warning',
                     showCancelButton: true,
                     confirmButtonColor: '#3085d6',

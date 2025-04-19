@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PSY Events Manager 1.0.0\n"
-"POT-Creation-Date: 2025-04-17 16:04+0530\n"
-"PO-Revision-Date: 2025-04-17 16:08+0530\n"
+"POT-Creation-Date: 2025-04-19 14:56+0530\n"
+"PO-Revision-Date: 2025-04-19 14:58+0530\n"
 "Last-Translator: Pawan Kumar <pawan.yadav0446@gmail.com>\n"
 "Language-Team: Pawan Kumar <pawan.yadav0446@gmail.com>\n"
 "Language: zh_HK\n"
@@ -19,133 +19,133 @@ msgstr ""
 
 #: admin/includes/psyemAmountMetaboxes.php:9
 msgid "Amount Type"
-msgstr ""
+msgstr "金額類型"
 
 #: admin/includes/psyemAmountMetaboxes.php:12
 #: admin/includes/psyemOfflineSignup.php:29
 #: admin/includes/psyemParticipantMetaboxes.php:22
 #: admin/includes/psyemSettings.php:176 admin/includes/psyemSettings.php:204
-#: admin/includes/psyemSettings.php:232 admin/includes/psyemSettings.php:263
+#: admin/includes/psyemSettings.php:232 admin/includes/psyemSettings.php:265
 #: admin/includes/psyemTicketMetaboxes.php:15
 #: admin/includes/psyemTicketMetaboxes.php:52
 msgid "-- Select --"
-msgstr ""
+msgstr "-- 選擇 --"
 
 #: admin/includes/psyemAmountMetaboxes.php:15
 msgid "Monthly Charge"
-msgstr ""
+msgstr "每月費用"
 
 #: admin/includes/psyemAmountMetaboxes.php:18
 msgid "One Time Charge"
-msgstr ""
+msgstr "一次性收費"
 
 #: admin/includes/psyemAmountMetaboxes.php:24
 #: admin/includes/psyemDonationMetaboxes.php:71 admin/psyemAdmin.php:3107
 #: admin/psyemAdmin.php:3134
 msgid "Amount"
-msgstr ""
+msgstr "數量"
 
 #: admin/includes/psyemAmountMetaboxes.php:25
 msgid "Enter amount > 5$"
-msgstr ""
+msgstr "輸入金額 > 5$"
 
 #: admin/includes/psyemCouponMetaboxes.php:9
 msgid "Coupon Type"
-msgstr ""
+msgstr "優惠券類型"
 
 #: admin/includes/psyemCouponMetaboxes.php:12
 msgid "Order Fixed Price"
-msgstr ""
+msgstr "訂單固定價格"
 
 #: admin/includes/psyemCouponMetaboxes.php:15
 msgid "Order Percentage Price"
-msgstr ""
+msgstr "訂單百分比價格"
 
 #: admin/includes/psyemCouponMetaboxes.php:21
 #: front/pages/psyemOrderCheckout.php:231
 msgid "Coupon Code"
-msgstr ""
+msgstr "優惠券代碼"
 
 #: admin/includes/psyemCouponMetaboxes.php:22
 #: front/pages/psyemOrderCheckout.php:234
 msgid "Enter coupon code"
-msgstr ""
+msgstr "輸入優惠券代碼"
 
 #: admin/includes/psyemCouponMetaboxes.php:26
 msgid "Coupon Discount Amount"
-msgstr ""
+msgstr "優惠券折扣金額"
 
 #: admin/includes/psyemCouponMetaboxes.php:27
 msgid "Enter discount amount"
-msgstr ""
+msgstr "輸入折扣金額"
 
 #: admin/includes/psyemCouponMetaboxes.php:31
 msgid "Coupon Discount Percentage"
-msgstr ""
+msgstr "優惠券折扣百分比"
 
 #: admin/includes/psyemCouponMetaboxes.php:32
 msgid "Enter discount percentage"
-msgstr ""
+msgstr "輸入折扣百分比"
 
 #: admin/includes/psyemCouponMetaboxes.php:36
 msgid "Coupon Expiry Date"
-msgstr ""
+msgstr "優惠券到期日"
 
 #: admin/includes/psyemCouponMetaboxes.php:37
 msgid "Enter Coupon Expiry Date"
-msgstr ""
+msgstr "輸入優惠券到期日"
 
 #: admin/includes/psyemDonationMetaboxes.php:10
 msgid "Billing Information"
-msgstr ""
+msgstr "帳單資訊"
 
 #: admin/includes/psyemDonationMetaboxes.php:13
 #: front/pages/psyemDonationCheckout.php:72
 msgid "Country"
-msgstr ""
+msgstr "國家"
 
 #: admin/includes/psyemDonationMetaboxes.php:17
 msgid "City"
-msgstr ""
+msgstr "城市"
 
 #: admin/includes/psyemDonationMetaboxes.php:21
 #: admin/includes/psyemProjectsafeMetaboxes.php:52 admin/psyemAdmin.php:2848
 #: admin/psyemAdmin.php:3031 front/pages/psyemDonationCheckout.php:100
-#: front/pages/psyemProjectsafeForm.php:369
-#: front/pages/psyemProjectsafeForm.php:428
+#: front/pages/psyemProjectsafeForm.php:381
+#: front/pages/psyemProjectsafeForm.php:440
 msgid "District"
-msgstr ""
+msgstr "區"
 
 #: admin/includes/psyemDonationMetaboxes.php:25
 #: admin/includes/psyemProjectsafeMetaboxes.php:56 admin/psyemAdmin.php:949
 #: admin/psyemAdmin.php:2849 admin/psyemAdmin.php:3032
-#: front/pages/psyemEventDetails.php:116 front/pages/psyemOrderCheckout.php:135
-#: front/pages/psyemProjectsafeForm.php:433
-#: front/pages/psyemProjectsafeForm.php:435
+#: front/pages/psyemEventDetails.php:120 front/pages/psyemOrderCheckout.php:135
+#: front/pages/psyemProjectsafeForm.php:445
+#: front/pages/psyemProjectsafeForm.php:447
 msgid "Address"
-msgstr ""
+msgstr "地址"
 
 #: admin/includes/psyemDonationMetaboxes.php:29
 msgid "Address 2"
-msgstr ""
+msgstr "地址 2"
 
 #: admin/includes/psyemDonationMetaboxes.php:38
 msgid "Donor Information"
-msgstr ""
+msgstr "捐贈者訊息"
 
 #: admin/includes/psyemDonationMetaboxes.php:41
 #: admin/includes/psyemOrderTicket.php:111
 #: admin/includes/psyemProjectsafeMetaboxes.php:5 admin/psyemAdmin.php:3023
 #: front/pages/psyemDonationCheckout.php:119
 msgid "First Name"
-msgstr ""
+msgstr "名"
 
 #: admin/includes/psyemDonationMetaboxes.php:45
 #: admin/includes/psyemOrderTicket.php:117
 #: admin/includes/psyemProjectsafeMetaboxes.php:9 admin/psyemAdmin.php:3024
 #: front/pages/psyemDonationCheckout.php:126
 msgid "Last Name"
-msgstr ""
+msgstr "姓"
 
 #: admin/includes/psyemDonationMetaboxes.php:49
 #: admin/includes/psyemOrderMetaboxes.php:264
@@ -154,15 +154,15 @@ msgstr ""
 #: admin/psyemAdmin.php:2073 admin/psyemAdmin.php:2844
 #: admin/psyemAdmin.php:3027 front/pages/psyemOrderCheckout.php:225
 #: front/pages/psyemOrderCheckout.php:351
-#: front/pages/psyemProjectsafeForm.php:325
+#: front/pages/psyemProjectsafeForm.php:337
 msgid "Email"
-msgstr ""
+msgstr "電子郵件"
 
 #: admin/includes/psyemDonationMetaboxes.php:53
 #: admin/includes/psyemProjectsafeMetaboxes.php:17 admin/psyemAdmin.php:2843
 #: admin/psyemAdmin.php:3026
 msgid "Phone"
-msgstr ""
+msgstr "電話"
 
 #: admin/includes/psyemDonationMetaboxes.php:57
 #: admin/includes/psyemOrderMetaboxes.php:265
@@ -171,7 +171,7 @@ msgstr ""
 #: front/pages/psyemOrderCheckout.php:214
 #: front/pages/psyemOrderCheckout.php:357
 msgid "Company"
-msgstr ""
+msgstr "公司"
 
 #: admin/includes/psyemDonationMetaboxes.php:70
 #: admin/includes/psyemOrderMetaboxes.php:266
@@ -180,829 +180,799 @@ msgstr ""
 #: admin/psyemAdmin.php:2842 admin/psyemAdmin.php:3036
 #: admin/psyemAdmin.php:3215 admin/psyemAdmin.php:3365
 msgid "Type"
-msgstr ""
+msgstr "類型"
 
 #: admin/includes/psyemDonationMetaboxes.php:72
 #: admin/includes/psyemOrderMetaboxes.php:153
 msgid "Intent ID"
-msgstr ""
+msgstr "意圖 ID"
 
 #: admin/includes/psyemDonationMetaboxes.php:73
 #: admin/includes/psyemOrderMetaboxes.php:154
 msgid "Charge ID"
-msgstr ""
+msgstr "費用 ID"
 
 #: admin/includes/psyemDonationMetaboxes.php:74
 #: admin/includes/psyemOrderMetaboxes.php:155 admin/psyemAdmin.php:3366
 msgid "Payment Status"
-msgstr ""
+msgstr "付款狀態"
 
 #: admin/includes/psyemDonationMetaboxes.php:75
 #: admin/includes/psyemOrderMetaboxes.php:156
 msgid "Payment DateTime"
-msgstr ""
+msgstr "付款日期時間"
 
 #: admin/includes/psyemDonationMetaboxes.php:112
 #: admin/includes/psyemOrderMetaboxes.php:189
 msgid "Payment Payload"
-msgstr ""
+msgstr "付款有效載荷"
 
 #: admin/includes/psyemEventMetaboxes.php:10
 #: admin/includes/psyemOrderMetaboxes.php:15
 msgid "Event Start Date"
-msgstr ""
+msgstr "活動開始日期"
 
 #: admin/includes/psyemEventMetaboxes.php:11
 msgid "Enter event start date"
-msgstr ""
+msgstr "輸入活動開始日期"
 
 #: admin/includes/psyemEventMetaboxes.php:14
 #: admin/includes/psyemOrderMetaboxes.php:21
 msgid "Event Start Time"
-msgstr ""
+msgstr "活動開始時間"
 
 #: admin/includes/psyemEventMetaboxes.php:15
 msgid "Enter event start time"
-msgstr ""
+msgstr "輸入活動開始時間"
 
 #: admin/includes/psyemEventMetaboxes.php:18
 #: admin/includes/psyemOrderMetaboxes.php:25
 msgid "Event End Date"
-msgstr ""
+msgstr "活動結束日期"
 
 #: admin/includes/psyemEventMetaboxes.php:19
 msgid "Enter event end date"
-msgstr ""
+msgstr "輸入活動結束日期"
 
 #: admin/includes/psyemEventMetaboxes.php:22
 #: admin/includes/psyemOrderMetaboxes.php:29
 msgid "Event End Time"
-msgstr ""
+msgstr "活動結束時間"
 
 #: admin/includes/psyemEventMetaboxes.php:23
 msgid "Enter event end time"
-msgstr ""
+msgstr "輸入活動結束時間"
 
 #: admin/includes/psyemEventMetaboxes.php:29
 #: admin/includes/psyemOrderMetaboxes.php:44
-#: front/pages/psyemEventDetails.php:160 front/pages/psyemOrderCheckout.php:119
+#: front/pages/psyemEventDetails.php:164 front/pages/psyemOrderCheckout.php:119
 msgid "Registration Type"
-msgstr ""
+msgstr "註冊類型"
 
 #: admin/includes/psyemEventMetaboxes.php:32
 msgid "Registration Closed"
-msgstr ""
+msgstr "報名已結束"
 
 #: admin/includes/psyemEventMetaboxes.php:35
 msgid "Paid Registration"
-msgstr ""
+msgstr "付費註冊"
 
 #: admin/includes/psyemEventMetaboxes.php:38
 msgid "Free Registration"
-msgstr ""
+msgstr "免費註冊"
 
 #: admin/includes/psyemEventMetaboxes.php:44
 #: admin/includes/psyemOrderMetaboxes.php:49
 msgid "Registration Closing (In Days)"
-msgstr ""
+msgstr "註冊截止時間（天數）"
 
 #: admin/includes/psyemEventMetaboxes.php:45
 msgid "Enter  number of closing days"
-msgstr ""
+msgstr "輸入休息天數"
 
 #: admin/includes/psyemEventMetaboxes.php:46
-msgid "x days before event start day."
-msgstr ""
+msgid "x days before event start day"
+msgstr "活動開始日前 x 天"
 
 #: admin/includes/psyemEventMetaboxes.php:50
 #: admin/includes/psyemOrderMetaboxes.php:54
 msgid "Event Website"
-msgstr ""
+msgstr "活動網站"
 
 #: admin/includes/psyemEventMetaboxes.php:51
 msgid "Enter event website url"
-msgstr ""
+msgstr "輸入活動網站網址"
 
 #: admin/includes/psyemEventMetaboxes.php:52
-msgid "If applicable, Enter external website url."
-msgstr ""
+msgid "If applicable, Enter external website url"
+msgstr "如適用，請輸入外部網站網址"
 
 #: admin/includes/psyemEventMetaboxes.php:57
 msgid "Select applicable tickets for this event"
-msgstr ""
+msgstr "選擇適用於此活動的門票"
 
 #: admin/includes/psyemEventMetaboxes.php:59
 msgid "Event Tickets"
-msgstr ""
+msgstr "活動門票"
 
 #: admin/includes/psyemEventMetaboxes.php:62
 msgid "Select Ticket"
-msgstr ""
+msgstr "選擇票"
 
 #: admin/includes/psyemEventMetaboxes.php:82
 #: admin/includes/psyemOrderMetaboxes.php:61 admin/psyemAdmin.php:2499
-#: helpers/psyemHelper.php:2065
+#: helpers/psyemHelper.php:2067
 msgid "Event Address"
-msgstr ""
+msgstr "活動地址"
 
 #: admin/includes/psyemEventMetaboxes.php:83
 msgid "Enter event full addess"
-msgstr ""
+msgstr "輸入活動完整地址"
 
 #: admin/includes/psyemEventMetaboxes.php:88
 msgid "Preview"
-msgstr ""
+msgstr "預覽"
 
 #: admin/includes/psyemEventMetaboxes.php:93
-#: front/pages/psyemEventDetails.php:425
+#: front/pages/psyemEventDetails.php:429
 msgid "Event Disclaimer"
-msgstr ""
+msgstr "活動免責聲明"
 
 #: admin/includes/psyemEventMetaboxes.php:94
 msgid "Enter event disclaimer details"
-msgstr ""
+msgstr "輸入活動免責聲明詳情"
 
 #: admin/includes/psyemEventMetaboxes.php:100
 msgid "Facebook Url"
-msgstr ""
+msgstr "Facebook 網址"
 
 #: admin/includes/psyemEventMetaboxes.php:101
 msgid "Enter facebook url"
-msgstr ""
+msgstr "輸入 Facebook 網址"
 
 #: admin/includes/psyemEventMetaboxes.php:105
 msgid "Instagram Url"
-msgstr ""
+msgstr "Instagram 網址"
 
 #: admin/includes/psyemEventMetaboxes.php:106
 msgid "Enter instagram url"
-msgstr ""
+msgstr "輸入 Instagram 網址"
 
 #: admin/includes/psyemEventMetaboxes.php:111
 msgid "LinkedIn Url"
-msgstr ""
+msgstr "LinkedIn 網址"
 
 #: admin/includes/psyemEventMetaboxes.php:112
 msgid "Enter linkedin url"
-msgstr ""
+msgstr "輸入領英網址"
 
 #: admin/includes/psyemEventMetaboxes.php:116
 msgid "Twitter Url"
-msgstr ""
+msgstr "Twitter 網址"
 
 #: admin/includes/psyemEventMetaboxes.php:117
 msgid "Enter twitter url"
-msgstr ""
+msgstr "輸入推特網址"
 
 #: admin/includes/psyemEventMetaboxes.php:129
 msgid "Select event partners"
-msgstr ""
+msgstr "選擇活動夥伴"
 
 #: admin/includes/psyemEventMetaboxes.php:137
 msgid "Partner Type"
-msgstr ""
+msgstr "合作夥伴類型"
 
 #: admin/includes/psyemEventMetaboxes.php:141
 msgid "Select partners"
-msgstr ""
+msgstr "選擇合作夥伴"
 
 #: admin/includes/psyemEventMetaboxes.php:183
 msgid "Select event speakers"
-msgstr ""
+msgstr "選擇活動發言人"
 
 #: admin/includes/psyemEventMetaboxes.php:191
 msgid "Speaker Type"
-msgstr ""
+msgstr "揚聲器類型"
 
 #: admin/includes/psyemEventMetaboxes.php:195
 msgid "Select speakers"
-msgstr ""
+msgstr "選擇演講者"
 
 #: admin/includes/psyemEventMetaboxes.php:238
 msgid "Upload Event Media"
-msgstr ""
+msgstr "上傳活動媒體"
 
-#: admin/includes/psyemEventMetaboxes.php:256 helpers/psyemHelper.php:30
+#: admin/includes/psyemEventMetaboxes.php:256 helpers/psyemHelper.php:32
 msgid "Remove"
-msgstr ""
+msgstr "消除"
 
 #: admin/includes/psyemOfflineSignup.php:5
 msgid "Create Offline Registration"
-msgstr ""
+msgstr "建立離線註冊"
 
 #: admin/includes/psyemOfflineSignup.php:16
 #: admin/includes/psyemOfflineSignup.php:94
 msgid "Create"
-msgstr ""
+msgstr "創造"
 
 #: admin/includes/psyemOfflineSignup.php:25 admin/psyemAdmin.php:732
 #: admin/psyemAdmin.php:734 admin/psyemAdmin.php:761 admin/psyemAdmin.php:1867
 #: admin/psyemAdmin.php:2068
 msgid "Event"
-msgstr ""
+msgstr "事件"
 
 #: admin/includes/psyemOfflineSignup.php:46
 msgid "Participant First Name"
-msgstr ""
+msgstr "參與者名字"
 
 #: admin/includes/psyemOfflineSignup.php:49
 msgid "Enter Participant First Name"
-msgstr ""
+msgstr "輸入參與者名字"
 
 #: admin/includes/psyemOfflineSignup.php:56
 msgid "Participant Last Name"
-msgstr ""
+msgstr "參與者姓氏"
 
 #: admin/includes/psyemOfflineSignup.php:59
 msgid "Enter Participant Last Name"
-msgstr ""
+msgstr "輸入參與者姓氏"
 
 #: admin/includes/psyemOfflineSignup.php:67
 msgid "Registration Email"
-msgstr ""
+msgstr "註冊信箱"
 
 #: admin/includes/psyemOfflineSignup.php:70
 msgid "Enter Registration Email Address"
-msgstr ""
+msgstr "輸入註冊郵件地址"
 
 #: admin/includes/psyemOfflineSignup.php:75
 msgid "Company Name"
-msgstr ""
+msgstr "公司名稱"
 
 #: admin/includes/psyemOfflineSignup.php:77
 #: front/pages/psyemOrderCheckout.php:216
 #: front/pages/psyemOrderCheckout.php:359
 msgid "Enter company name"
-msgstr ""
+msgstr "輸入公司名稱"
 
 #: admin/includes/psyemOfflineSignup.php:82
 msgid "Number Of Participants"
-msgstr ""
+msgstr "參與人數"
 
 #: admin/includes/psyemOfflineSignup.php:85
 msgid "Enter Number Of Participants Count"
-msgstr ""
+msgstr "輸入參與人數"
 
 #: admin/includes/psyemOrderMetaboxes.php:36
 msgid "Registration Total Price"
-msgstr ""
+msgstr "註冊總價"
 
 #: admin/includes/psyemOrderMetaboxes.php:78 admin/psyemAdmin.php:2069
 msgid "Order ID"
-msgstr ""
+msgstr "訂單編號"
 
 #: admin/includes/psyemOrderMetaboxes.php:79 admin/psyemAdmin.php:953
 msgid "Total Slots"
-msgstr ""
+msgstr "總槽數"
 
 #: admin/includes/psyemOrderMetaboxes.php:80 admin/psyemAdmin.php:954
 msgid "Used Slots"
-msgstr ""
+msgstr "已使用插槽"
 
 #: admin/includes/psyemOrderMetaboxes.php:81
 msgid "Order Amount"
-msgstr ""
+msgstr "訂單金額"
 
 #: admin/includes/psyemOrderMetaboxes.php:82
 msgid "Order Coupon"
-msgstr ""
+msgstr "訂單優惠券"
 
 #: admin/includes/psyemOrderMetaboxes.php:83
 msgid "Total Discount"
-msgstr ""
+msgstr "總折扣"
 
 #: admin/includes/psyemOrderMetaboxes.php:109
 msgid "Tickets Informations"
-msgstr ""
+msgstr "門票資訊"
 
 #: admin/includes/psyemOrderMetaboxes.php:113
 #: admin/includes/psyemOrderTicket.php:49
 #: front/pages/psyemOrderCheckout.php:168
 msgid "Item"
-msgstr ""
+msgstr "物品"
 
 #: admin/includes/psyemOrderMetaboxes.php:114
 #: front/pages/psyemOrderCheckout.php:169
 msgid "Quantity"
-msgstr ""
+msgstr "數量"
 
 #: admin/includes/psyemOrderMetaboxes.php:115
-#: front/pages/psyemEventDetails.php:222 front/pages/psyemOrderCheckout.php:170
+#: front/pages/psyemEventDetails.php:285 front/pages/psyemOrderCheckout.php:170
 msgid "Total"
-msgstr ""
+msgstr "全部的"
 
 #: admin/includes/psyemOrderMetaboxes.php:148
 msgid "Payment Informations"
-msgstr ""
+msgstr "付款資訊"
 
 #: admin/includes/psyemOrderMetaboxes.php:152
 msgid "Currency"
-msgstr ""
+msgstr "貨幣"
 
 #: admin/includes/psyemOrderMetaboxes.php:223
 msgid "Print All tickets"
-msgstr ""
+msgstr "列印所有門票"
 
 #: admin/includes/psyemOrderMetaboxes.php:230
 msgid "Send Tickets"
-msgstr ""
+msgstr "和門票"
 
 #: admin/includes/psyemOrderMetaboxes.php:236
 msgid "Download Sample CSV"
-msgstr ""
+msgstr "下載範例 CSV"
 
 #: admin/includes/psyemOrderMetaboxes.php:247
 msgid "Import CSV"
-msgstr ""
+msgstr "導入 CSV"
 
 #: admin/includes/psyemOrderMetaboxes.php:262 admin/psyemAdmin.php:1862
 #: admin/psyemAdmin.php:3022
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: admin/includes/psyemOrderMetaboxes.php:263 admin/psyemAdmin.php:1863
 #: admin/psyemAdmin.php:2072 admin/psyemAdmin.php:2841
 #: front/pages/psyemOrderCheckout.php:208
 #: front/pages/psyemOrderCheckout.php:345
 msgid "Name"
-msgstr ""
+msgstr "姓名"
 
 #: admin/includes/psyemOrderMetaboxes.php:267
 #: admin/includes/psyemOrderMetaboxes.php:300
 msgid "Print"
-msgstr ""
+msgstr "列印"
 
 #: admin/includes/psyemOrderMetaboxes.php:268
 #: admin/includes/psyemOrderMetaboxes.php:305
 msgid "Edit"
-msgstr ""
+msgstr "編輯"
 
 #: admin/includes/psyemOrderMetaboxes.php:269
 msgid "Actions"
-msgstr ""
+msgstr "行動"
 
 #: admin/includes/psyemOrderMetaboxes.php:312
 msgid "Send Ticket"
-msgstr ""
+msgstr "寄票"
 
 #: admin/includes/psyemOrderMetaboxes.php:324
+#: front/pages/psyemEventsList.php:180
+#: front/pages/psyemKnowledgehubList.php:122 front/pages/psyemNewsList.php:167
+#: front/pages/psyemProgrammesList.php:93
 msgid "No records found"
-msgstr ""
+msgstr "未找到任何記錄"
 
 #: admin/includes/psyemOrderTicket.php:34
 msgid "Confirmation No"
-msgstr ""
+msgstr "確認號"
 
 #: admin/includes/psyemOrderTicket.php:42
-msgid "Print this ticket or save on your device & present it at the event."
-msgstr ""
+msgid "Print this ticket or save on your device & present it at the event"
+msgstr "列印此票或保存在您的裝置上並在活動中出示"
 
 #: admin/includes/psyemOrderTicket.php:58
 msgid "Start Date"
-msgstr ""
+msgstr "開始日期"
 
 #: admin/includes/psyemOrderTicket.php:64
 msgid "Start Time"
-msgstr ""
+msgstr "開始時間"
 
 #: admin/includes/psyemOrderTicket.php:72
 msgid "End Date"
-msgstr ""
+msgstr "結束日期"
 
 #: admin/includes/psyemOrderTicket.php:78
 msgid "End Time"
-msgstr ""
+msgstr "結束時間"
 
 #: admin/includes/psyemOrderTicket.php:87
 #: admin/includes/psyemProjectsafeMetaboxes.php:45
 msgid "Location"
-msgstr ""
+msgstr "地點"
 
 #: admin/includes/psyemOrderTicket.php:108
 msgid "Attendee Detail"
-msgstr ""
+msgstr "與會者詳情"
 
 #: admin/includes/psyemOrderTicket.php:145
 msgid "TERMS AND CONDITIONS OF SALE AND PURCHASE"
-msgstr ""
+msgstr "銷售和購買條款和條件"
 
 #: admin/includes/psyemOrderTicket.php:149
-msgid "All registrations are final, non-refundable and non-changeable."
-msgstr ""
+msgid "All registrations are final, non-refundable and non-changeable"
+msgstr "所有註冊均為最終決定，不可退款且不可更改"
 
 #: admin/includes/psyemParticipantMetaboxes.php:10
 msgid "Enter participant email address"
-msgstr ""
+msgstr "輸入參與者的電子郵件地址"
 
 #: admin/includes/psyemParticipantMetaboxes.php:15
 msgid "Enter participant company name"
-msgstr ""
+msgstr "輸入參與公司名稱"
 
 #: admin/includes/psyemParticipantMetaboxes.php:25
 msgid "Main"
-msgstr ""
+msgstr "主要的"
 
 #: admin/includes/psyemParticipantMetaboxes.php:28
 msgid "Member"
-msgstr ""
+msgstr "成員"
 
 #: admin/includes/psyemPartnerMetaboxes.php:9 admin/psyemAdmin.php:1594
 msgid "Sponsorship Level"
-msgstr ""
+msgstr "贊助等級"
 
 #: admin/includes/psyemPartnerMetaboxes.php:10
 msgid "Enter Partner Sponsorship Level"
-msgstr ""
+msgstr "輸入合作夥伴贊助級別"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:24 admin/psyemAdmin.php:2845
 #: admin/psyemAdmin.php:3028 front/pages/psyemProjectsafeForm.php:64
 msgid "Gender"
-msgstr ""
+msgstr "性別"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:28 admin/psyemAdmin.php:2846
 #: admin/psyemAdmin.php:3029
 msgid "DOB"
-msgstr ""
+msgstr "出生日期"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:32 admin/psyemAdmin.php:2850
 #: admin/psyemAdmin.php:3033
 msgid "Source"
-msgstr ""
+msgstr "來源"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:36 admin/psyemAdmin.php:2852
 msgid "Status"
-msgstr ""
+msgstr "地位"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:48 admin/psyemAdmin.php:2847
-#: admin/psyemAdmin.php:3030 front/pages/psyemProjectsafeForm.php:349
-#: front/pages/psyemProjectsafeForm.php:362
+#: admin/psyemAdmin.php:3030 front/pages/psyemProjectsafeForm.php:361
+#: front/pages/psyemProjectsafeForm.php:374
 msgid "Region"
-msgstr ""
+msgstr "地區"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:65
 msgid "Questionary"
-msgstr ""
+msgstr "問卷"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:69
 #: front/pages/psyemProjectsafeForm.php:154
 #: front/pages/psyemProjectsafeForm.php:164
 msgid "Do you have any sexual experience?"
-msgstr ""
+msgstr "您有性經驗嗎？"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:75
 #: front/pages/psyemProjectsafeForm.php:170
 #: front/pages/psyemProjectsafeForm.php:180
 msgid "Have you ever had any cervical screening in the last 3 years?"
-msgstr ""
+msgstr "過去 3 年內您有做過子宮頸篩檢嗎？"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:81
 #: front/pages/psyemProjectsafeForm.php:186
 #: front/pages/psyemProjectsafeForm.php:196
 msgid "Are you undergoing treatment for CIN or cervical cancer?"
-msgstr ""
+msgstr "您正在接受 CIN 或子宮頸癌治療嗎？"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:87
 #: front/pages/psyemProjectsafeForm.php:202
 #: front/pages/psyemProjectsafeForm.php:212
 msgid "Have you ever received HPV vaccine?"
-msgstr ""
+msgstr "您接種過HPV疫苗嗎？"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:93
 #: front/pages/psyemProjectsafeForm.php:218
 #: front/pages/psyemProjectsafeForm.php:228
 msgid "Are you pregnant?"
-msgstr ""
+msgstr "你懷孕了嗎？"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:99
 #: front/pages/psyemProjectsafeForm.php:234
 #: front/pages/psyemProjectsafeForm.php:244
 msgid "Did you have a hysterectomy?"
-msgstr ""
+msgstr "您做過子宮切除手術嗎？"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:105
-#: front/pages/psyemProjectsafeForm.php:311
+#: front/pages/psyemProjectsafeForm.php:323
 msgid "How would you like to be contacted for the program?"
-msgstr ""
+msgstr "您希望我們如何聯絡您參與該計劃？"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:111
-#: front/pages/psyemProjectsafeForm.php:446
-#: front/pages/psyemProjectsafeForm.php:465
+#: front/pages/psyemProjectsafeForm.php:458
+#: front/pages/psyemProjectsafeForm.php:477
 msgid "How have you heard about this study?"
-msgstr ""
+msgstr "您是如何得知這項研究的？"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:125
 msgid "Consents"
-msgstr ""
+msgstr "同意"
 
-#: admin/includes/psyemProjectsafeMetaboxes.php:129
-#: front/pages/psyemProjectsafeForm.php:251
-msgid ""
-"I understand that this program is part of a clinical study and enrollment is "
-"only for participants who agree to the terms and conditions on the clinical "
-"study consent form presented at the clinic on the day of appointment."
-msgstr ""
+#: admin/includes/psyemProjectsafeMetaboxes.php:162
+#: front/pages/psyemProjectsafeForm.php:282
+msgid "I agree to take part in the above cervical screening programme"
+msgstr "我同意參加上述子宮頸普查計畫"
 
-#: admin/includes/psyemProjectsafeMetaboxes.php:135
-#: front/pages/psyemProjectsafeForm.php:258
-msgid ""
-"I confirm, that I have read and understood the information sheet for the "
-"project and have had the opportunity to view and study the educational "
-"videos provided for a better overall grasp on how to protect myself against "
-"cervical cancer."
-msgstr ""
-
-#: admin/includes/psyemProjectsafeMetaboxes.php:141
-#: front/pages/psyemProjectsafeForm.php:265
-msgid ""
-"I understand that my participation is voluntary and that I am free to "
-"withdraw at any time, without giving any reason, without my medical care or "
-"legal rights being affected."
-msgstr ""
-
-#: admin/includes/psyemProjectsafeMetaboxes.php:147
-#: front/pages/psyemProjectsafeForm.php:273
-msgid "I agree to take part in the above cervical screening programme."
-msgstr ""
-
-#: admin/includes/psyemProjectsafeMetaboxes.php:153
-msgid ""
-"I herewith acknowledge that, if I am currently experiencing irregular "
-"bleeding, spotting or pain during my menses, sex or randomly, I cannot join "
-"the project. We kindly encourage you to contact your GP immediately and seek "
-"a professional opinion."
-msgstr ""
-
-#: admin/includes/psyemProjectsafeMetaboxes.php:159
+#: admin/includes/psyemProjectsafeMetaboxes.php:179
 #: front/pages/psyemDonationCheckout.php:174
-#: front/pages/psyemProjectsafeForm.php:288
+#: front/pages/psyemProjectsafeForm.php:300
 msgid "Terms & Conditions"
-msgstr ""
+msgstr "條款與條件"
 
 #: admin/includes/psyemSettings.php:11
 msgid "Psy Plugin Settings"
-msgstr ""
+msgstr "Psy插件設定"
 
 #: admin/includes/psyemSettings.php:24
 msgid "Project Safe Types With Form Shortcodes"
-msgstr ""
+msgstr "使用表單短代碼實現專案安全類型"
 
 #: admin/includes/psyemSettings.php:32
 msgid "Create Project Safe Type"
-msgstr ""
+msgstr "建立專案安全類型"
 
 #: admin/includes/psyemSettings.php:35
 msgid "Enter project safe type title"
-msgstr ""
+msgstr "輸入項目安全類型標題"
 
 #: admin/includes/psyemSettings.php:38
 msgid "Add"
-msgstr ""
+msgstr "添加"
 
 #: admin/includes/psyemSettings.php:46
 msgid "Project Safe Type shortcodes and title"
-msgstr ""
+msgstr "專案安全類型短代碼和標題"
 
-#: admin/includes/psyemSettings.php:78 admin/includes/psyemSettings.php:342
+#: admin/includes/psyemSettings.php:78 admin/includes/psyemSettings.php:344
 msgid "Save Settings"
-msgstr ""
+msgstr "儲存設定"
 
 #: admin/includes/psyemSettings.php:85
 msgid "Update Speakers Categories"
-msgstr ""
+msgstr "更新演講者類別"
 
 #: admin/includes/psyemSettings.php:93
 msgid "Update Partners Categories"
-msgstr ""
+msgstr "更新合作夥伴類別"
 
 #: admin/includes/psyemSettings.php:103
 msgid "Update News Categories"
-msgstr ""
+msgstr "更新新聞類別"
 
 #: admin/includes/psyemSettings.php:111
 msgid "Update Programmes Categories"
-msgstr ""
+msgstr "更新節目類別"
 
 #: admin/includes/psyemSettings.php:119
 msgid "Update Knowledge Categories"
-msgstr ""
+msgstr "更新知識類別"
 
 #: admin/includes/psyemSettings.php:132
 msgid "Knowledge Hub Posts List Shortcode"
-msgstr ""
+msgstr "知識中心帖子列表短代碼"
 
 #: admin/includes/psyemSettings.php:141
 msgid "News Posts List Shortcode"
-msgstr ""
+msgstr "新聞貼文列表簡碼"
 
 #: admin/includes/psyemSettings.php:150
 msgid "Programmes Posts List Shortcode"
-msgstr ""
+msgstr "節目貼文清單短代碼"
 
 #: admin/includes/psyemSettings.php:163
 msgid "Monthly and Onetime Donation Section Shortcode"
-msgstr ""
+msgstr "每月和一次性捐款部分簡碼"
 
 #: admin/includes/psyemSettings.php:172
 msgid "Donation page ID"
-msgstr ""
+msgstr "捐款頁面ID"
 
 #: admin/includes/psyemSettings.php:184
 msgid "Will be use as change donation amount page link"
-msgstr ""
+msgstr "將用作更改捐款金額頁面鏈接"
 
 #: admin/includes/psyemSettings.php:191
 msgid "Donation Checkout Shortcode"
-msgstr ""
+msgstr "捐贈結帳簡碼"
 
 #: admin/includes/psyemSettings.php:200
 msgid "Donation checkout page ID"
-msgstr ""
+msgstr "捐款結帳頁面 ID"
 
 #: admin/includes/psyemSettings.php:212
 msgid "Donation billing and payment checkout page"
-msgstr ""
+msgstr "捐款帳單和付款結帳頁面"
 
 #: admin/includes/psyemSettings.php:219
 msgid "Onetime Donation Element Shortcode"
-msgstr ""
+msgstr "一次性捐贈元素短代碼"
 
 #: admin/includes/psyemSettings.php:228
 msgid "One Time Donation page ID"
-msgstr ""
+msgstr "一次性捐款頁面 ID"
 
-#: admin/includes/psyemSettings.php:240
+#: admin/includes/psyemSettings.php:241
 msgid ""
 "Will be use to redirect on donation second details page. donation 3rd option "
 "page"
-msgstr ""
+msgstr "將用於重新導向至捐贈第二個詳細資訊頁面。捐款第三選項頁面"
 
-#: admin/includes/psyemSettings.php:251
+#: admin/includes/psyemSettings.php:253
 msgid "Currency Exchange Rate (USD [1$] to HKD [7.8hk$])"
-msgstr ""
+msgstr "貨幣匯率（美元[1$]兌港幣[7.8hk$]）"
 
-#: admin/includes/psyemSettings.php:260
+#: admin/includes/psyemSettings.php:262
 msgid "Stripe Payment Mode"
-msgstr ""
+msgstr "Stripe 支付模式"
 
-#: admin/includes/psyemSettings.php:265
+#: admin/includes/psyemSettings.php:267
 msgid "Sandbox"
-msgstr ""
+msgstr "沙盒"
 
-#: admin/includes/psyemSettings.php:268
+#: admin/includes/psyemSettings.php:270
 msgid "Live"
-msgstr ""
+msgstr "居住"
 
-#: admin/includes/psyemSettings.php:277
+#: admin/includes/psyemSettings.php:279
 msgid "Stripe Publish Key"
-msgstr ""
+msgstr "Stripe 公開金鑰"
 
-#: admin/includes/psyemSettings.php:280 admin/includes/psyemSettings.php:290
+#: admin/includes/psyemSettings.php:282 admin/includes/psyemSettings.php:292
 msgid "Enter stripe publish key"
-msgstr ""
+msgstr "輸入 Stripe 公開金鑰"
 
-#: admin/includes/psyemSettings.php:287
+#: admin/includes/psyemSettings.php:289
 msgid "Stripe Secret Key"
-msgstr ""
-
-#: admin/includes/psyemSettings.php:301
-msgid "Contact Us Page url"
-msgstr ""
+msgstr "Stripe 秘密金鑰"
 
 #: admin/includes/psyemSettings.php:303
-msgid "Enter Contact Us Page Url"
-msgstr ""
+msgid "Contact Us Page url"
+msgstr "聯絡我們頁面 URL"
 
-#: admin/includes/psyemSettings.php:310
-msgid "Terms and Condition Page url"
-msgstr ""
+#: admin/includes/psyemSettings.php:305
+msgid "Enter Contact Us Page Url"
+msgstr "輸入聯絡我們頁面 URL"
 
 #: admin/includes/psyemSettings.php:312
-msgid "Enter Terms and Condition Page Url"
-msgstr ""
+msgid "Terms and Condition Page url"
+msgstr "條款與條件頁面 URL"
 
-#: admin/includes/psyemSettings.php:319
-msgid "Volunteer Page url"
-msgstr ""
+#: admin/includes/psyemSettings.php:314
+msgid "Enter Terms and Condition Page Url"
+msgstr "輸入條款與條件頁面 URL"
 
 #: admin/includes/psyemSettings.php:321
-msgid "Enter Volunteer Page Url"
-msgstr ""
+msgid "Volunteer Page url"
+msgstr "志願者頁面 URL"
 
-#: admin/includes/psyemSettings.php:328
-msgid "Sponsor Page url"
-msgstr ""
+#: admin/includes/psyemSettings.php:323
+msgid "Enter Volunteer Page Url"
+msgstr "輸入志願者頁面 URL"
 
 #: admin/includes/psyemSettings.php:330
+msgid "Sponsor Page url"
+msgstr "贊助頁面 URL"
+
+#: admin/includes/psyemSettings.php:332
 msgid "Enter Sponsor Page Url"
-msgstr ""
+msgstr "輸入贊助頁面 URL"
 
 #: admin/includes/psyemSpeakerMetaboxes.php:9
 msgid "Speaker Designation"
-msgstr ""
+msgstr "講者職稱"
 
 #: admin/includes/psyemSpeakerMetaboxes.php:10
 msgid "Enter Speaker Designation"
-msgstr ""
+msgstr "輸入講者職稱"
 
 #: admin/includes/psyemTicketMetaboxes.php:11
 msgid "Ticket Type"
-msgstr ""
+msgstr "票種"
 
 #: admin/includes/psyemTicketMetaboxes.php:18
 msgid "Individual"
-msgstr ""
+msgstr "個人"
 
 #: admin/includes/psyemTicketMetaboxes.php:21
 msgid "Group"
-msgstr ""
+msgstr "團體"
 
 #: admin/includes/psyemTicketMetaboxes.php:28
 msgid "Ticket Price (USD)"
-msgstr ""
+msgstr "票價 (USD)"
 
 #: admin/includes/psyemTicketMetaboxes.php:30
 msgid "Enter ticket price in usd"
-msgstr ""
+msgstr "輸入票價 (美元)"
 
 #: admin/includes/psyemTicketMetaboxes.php:35
 msgid "Participant Count"
-msgstr ""
+msgstr "參與者人數"
 
 #: admin/includes/psyemTicketMetaboxes.php:37
 msgid "Enter group ticket participants count"
-msgstr ""
+msgstr "輸入團體票的參與者數量"
 
 #: admin/includes/psyemTicketMetaboxes.php:38
 msgid "Group Ticket Participant Count"
-msgstr ""
+msgstr "團體票參與者數量"
 
 #: admin/includes/psyemTicketMetaboxes.php:44
 msgid "Select applicable coupons for this ticket"
-msgstr ""
+msgstr "選擇適用於此票的優惠券"
 
 #: admin/includes/psyemTicketMetaboxes.php:48
 msgid "Ticket Coupons"
-msgstr ""
+msgstr "票券優惠"
 
 #: admin/psyemAdmin.php:288 admin/psyemAdmin.php:306 admin/psyemAdmin.php:386
-msgid "Something went wrong with server end, Please try later."
-msgstr ""
+msgid "Something went wrong with server end, Please try later"
+msgstr "伺服器出現問題，請稍後再試"
 
 #: admin/psyemAdmin.php:429 admin/psyemAdmin.php:430
 msgid "Psy Events Manager"
-msgstr ""
+msgstr "Psy 事件管理器"
 
 #: admin/psyemAdmin.php:440 admin/psyemAdmin.php:441
 msgid "Offline Registration"
-msgstr ""
+msgstr "離線註冊"
 
 #: admin/psyemAdmin.php:450 admin/psyemAdmin.php:451
 msgid "Settings"
-msgstr ""
+msgstr "設置"
 
 #: admin/psyemAdmin.php:481
-msgid "Settings has been failed to save!"
-msgstr ""
+msgid "Settings has been failed to save"
+msgstr "設置保存失敗"
 
 #: admin/psyemAdmin.php:503
-msgid "Settings Data has been successfully saved!"
-msgstr ""
+msgid "Settings Data has been successfully saved"
+msgstr "設置資料已成功保存"
 
 #: admin/psyemAdmin.php:513
-msgid "Project safe type has been failed to save!"
-msgstr ""
+msgid "Project safe type has been failed to save"
+msgstr "項目安全類型保存失敗"
 
 #: admin/psyemAdmin.php:557
-msgid "Project safe type data has been successfully saved!"
-msgstr ""
+msgid "Project safe type data has been successfully saved"
+msgstr "項目安全類型資料已成功保存"
 
 #: admin/psyemAdmin.php:568 admin/psyemAdmin.php:570 admin/psyemAdmin.php:950
 msgid "Tickets"
-msgstr ""
+msgstr "票券"
 
 #: admin/psyemAdmin.php:569 admin/psyemAdmin.php:571 admin/psyemAdmin.php:598
 msgid "Ticket"
-msgstr ""
+msgstr "票券"
 
 #: admin/psyemAdmin.php:572
 msgid "Ticket Archives"
-msgstr ""
+msgstr "票券檔案"
 
 #: admin/psyemAdmin.php:573
 msgid "Ticket Attributes"
-msgstr ""
+msgstr "票券屬性"
 
 #: admin/psyemAdmin.php:574
 msgid "Parent Ticket:"
-msgstr ""
+msgstr "父票券："
 
 #: admin/psyemAdmin.php:575
 msgid "All Tickets"
-msgstr ""
+msgstr "所有票券"
 
 #: admin/psyemAdmin.php:576
 msgid "Add New Ticket"
-msgstr ""
+msgstr "新增票券"
 
 #: admin/psyemAdmin.php:577 admin/psyemAdmin.php:740 admin/psyemAdmin.php:1121
 #: admin/psyemAdmin.php:1288 admin/psyemAdmin.php:1460
@@ -1011,31 +981,31 @@ msgstr ""
 #: admin/psyemAdmin.php:3259 admin/psyemAdmin.php:3416
 #: admin/psyemAdmin.php:3517 admin/psyemAdmin.php:3619
 msgid "Add New"
-msgstr ""
+msgstr "新增"
 
 #: admin/psyemAdmin.php:578
 msgid "New Ticket"
-msgstr ""
+msgstr "新票券"
 
 #: admin/psyemAdmin.php:579
 msgid "Edit Ticket"
-msgstr ""
+msgstr "編輯票券"
 
 #: admin/psyemAdmin.php:580
 msgid "Update Ticket"
-msgstr ""
+msgstr "更新票券"
 
 #: admin/psyemAdmin.php:581
 msgid "View Ticket"
-msgstr ""
+msgstr "查看票券"
 
 #: admin/psyemAdmin.php:582
 msgid "View Tickets"
-msgstr ""
+msgstr "查看票券"
 
 #: admin/psyemAdmin.php:583
 msgid "Search Ticket"
-msgstr ""
+msgstr "搜尋票券"
 
 #: admin/psyemAdmin.php:584 admin/psyemAdmin.php:747 admin/psyemAdmin.php:1128
 #: admin/psyemAdmin.php:1295 admin/psyemAdmin.php:1467
@@ -1044,7 +1014,7 @@ msgstr ""
 #: admin/psyemAdmin.php:3266 admin/psyemAdmin.php:3423
 #: admin/psyemAdmin.php:3524 admin/psyemAdmin.php:3626
 msgid "Not found"
-msgstr ""
+msgstr "找不到"
 
 #: admin/psyemAdmin.php:585 admin/psyemAdmin.php:748 admin/psyemAdmin.php:1129
 #: admin/psyemAdmin.php:1296 admin/psyemAdmin.php:1468
@@ -1053,7 +1023,7 @@ msgstr ""
 #: admin/psyemAdmin.php:3267 admin/psyemAdmin.php:3424
 #: admin/psyemAdmin.php:3525 admin/psyemAdmin.php:3627
 msgid "Not found in Trash"
-msgstr ""
+msgstr "回收站中找不到"
 
 #: admin/psyemAdmin.php:586 admin/psyemAdmin.php:749 admin/psyemAdmin.php:1130
 #: admin/psyemAdmin.php:1297 admin/psyemAdmin.php:1469
@@ -1062,7 +1032,7 @@ msgstr ""
 #: admin/psyemAdmin.php:3268 admin/psyemAdmin.php:3425
 #: admin/psyemAdmin.php:3526 admin/psyemAdmin.php:3628
 msgid "Featured Image"
-msgstr ""
+msgstr "特色圖片"
 
 #: admin/psyemAdmin.php:587 admin/psyemAdmin.php:750 admin/psyemAdmin.php:1131
 #: admin/psyemAdmin.php:1298 admin/psyemAdmin.php:1470
@@ -1071,7 +1041,7 @@ msgstr ""
 #: admin/psyemAdmin.php:3269 admin/psyemAdmin.php:3426
 #: admin/psyemAdmin.php:3527 admin/psyemAdmin.php:3629
 msgid "Set featured image"
-msgstr ""
+msgstr "設定特色圖片"
 
 #: admin/psyemAdmin.php:588 admin/psyemAdmin.php:751 admin/psyemAdmin.php:1132
 #: admin/psyemAdmin.php:1299 admin/psyemAdmin.php:1471
@@ -1080,7 +1050,7 @@ msgstr ""
 #: admin/psyemAdmin.php:3270 admin/psyemAdmin.php:3427
 #: admin/psyemAdmin.php:3528 admin/psyemAdmin.php:3630
 msgid "Remove featured image"
-msgstr ""
+msgstr "移除特色圖片"
 
 #: admin/psyemAdmin.php:589 admin/psyemAdmin.php:752 admin/psyemAdmin.php:1133
 #: admin/psyemAdmin.php:1300 admin/psyemAdmin.php:1472
@@ -1089,1515 +1059,1503 @@ msgstr ""
 #: admin/psyemAdmin.php:3271 admin/psyemAdmin.php:3428
 #: admin/psyemAdmin.php:3529 admin/psyemAdmin.php:3631
 msgid "Use as featured image"
-msgstr ""
+msgstr "設為特色圖片"
 
 #: admin/psyemAdmin.php:590
 msgid "Insert into ticket"
-msgstr ""
+msgstr "插入到票券"
 
 #: admin/psyemAdmin.php:591
 msgid "Uploaded to this ticket"
-msgstr ""
+msgstr "已上傳至此票券"
 
 #: admin/psyemAdmin.php:592
 msgid "Tickets list"
-msgstr ""
+msgstr "票券列表"
 
 #: admin/psyemAdmin.php:593
 msgid "Tickets list navigation"
-msgstr ""
+msgstr "票券列表導航"
 
 #: admin/psyemAdmin.php:594
 msgid "Filter Tickets list"
-msgstr ""
+msgstr "篩選票券列表"
 
 #: admin/psyemAdmin.php:599
 msgid "Ticket post Type for tickets"
-msgstr ""
+msgstr "票券的文章類型"
 
 #: admin/psyemAdmin.php:624
 msgid "Ticket Configurations"
-msgstr ""
+msgstr "票券設定"
 
 #: admin/psyemAdmin.php:690
 msgid "Price (USD)"
-msgstr ""
+msgstr "價格（美元）"
 
 #: admin/psyemAdmin.php:731 admin/psyemAdmin.php:733
 msgid "Events"
-msgstr ""
+msgstr "活動"
 
 #: admin/psyemAdmin.php:735
 msgid "Event Archives"
-msgstr ""
+msgstr "活動檔案"
 
 #: admin/psyemAdmin.php:736
 msgid "Event Attributes"
-msgstr ""
+msgstr "活動屬性"
 
 #: admin/psyemAdmin.php:737
 msgid "Parent Event:"
-msgstr ""
+msgstr "父級活動："
 
 #: admin/psyemAdmin.php:738 admin/psyemAdmin.php:1799
 msgid "All Events"
-msgstr ""
+msgstr "所有活動"
 
 #: admin/psyemAdmin.php:739
 msgid "Add New Event"
-msgstr ""
+msgstr "新增活動"
 
 #: admin/psyemAdmin.php:741
 msgid "New Event"
-msgstr ""
+msgstr "新活動"
 
 #: admin/psyemAdmin.php:742
 msgid "Edit Event"
-msgstr ""
+msgstr "編輯活動"
 
 #: admin/psyemAdmin.php:743
 msgid "Update Event"
-msgstr ""
+msgstr "更新活動"
 
 #: admin/psyemAdmin.php:744
 msgid "View Event"
-msgstr ""
+msgstr "查看活動"
 
 #: admin/psyemAdmin.php:745
 msgid "View Events"
-msgstr ""
+msgstr "查看活動"
 
 #: admin/psyemAdmin.php:746
 msgid "Search Event"
-msgstr ""
+msgstr "搜尋活動"
 
 #: admin/psyemAdmin.php:753
 msgid "Insert into event"
-msgstr ""
+msgstr "插入到活動"
 
 #: admin/psyemAdmin.php:754
 msgid "Uploaded to this event"
-msgstr ""
+msgstr "已上傳至此活動"
 
 #: admin/psyemAdmin.php:755
 msgid "Events list"
-msgstr ""
+msgstr "活動列表"
 
 #: admin/psyemAdmin.php:756
 msgid "Events list navigation"
-msgstr ""
+msgstr "活動列表導航"
 
 #: admin/psyemAdmin.php:757
 msgid "Filter Events list"
-msgstr ""
+msgstr "篩選活動列表"
 
 #: admin/psyemAdmin.php:762
 msgid "Event post Type for events"
-msgstr ""
+msgstr "活動的文章類型"
 
 #: admin/psyemAdmin.php:787
 msgid "Event Configurations"
-msgstr ""
+msgstr "活動設定"
 
-#: admin/psyemAdmin.php:796 front/pages/psyemEventDetails.php:309
+#: admin/psyemAdmin.php:796 front/pages/psyemEventDetails.php:313
 #: front/pages/psyemPartnerDetails.php:28
 msgid "Event Partners"
-msgstr ""
+msgstr "活動夥伴"
 
-#: admin/psyemAdmin.php:805 front/pages/psyemEventDetails.php:264
+#: admin/psyemAdmin.php:805 front/pages/psyemEventDetails.php:197
 #: front/pages/psyemSpeakerDetails.php:27
 msgid "Event Speakers"
-msgstr ""
+msgstr "活動講者"
 
-#: admin/psyemAdmin.php:814 front/pages/psyemEventDetails.php:347
+#: admin/psyemAdmin.php:814 front/pages/psyemEventDetails.php:351
 msgid "Event Media"
-msgstr ""
+msgstr "活動媒體"
 
 #: admin/psyemAdmin.php:951
 msgid "Schedules"
-msgstr ""
+msgstr "時間表"
 
 #: admin/psyemAdmin.php:952
 msgid "Reg. Type"
-msgstr ""
+msgstr "註冊類型"
 
 #: admin/psyemAdmin.php:955
 msgid "Copy Event"
-msgstr ""
+msgstr "複製活動"
 
 #: admin/psyemAdmin.php:1010
 msgid "Copy"
-msgstr ""
+msgstr "複製"
 
 #: admin/psyemAdmin.php:1033
-msgid "Event data has been failed to copy!"
-msgstr ""
+msgid "Event data has been failed to copy"
+msgstr "活動資料複製失敗"
 
 #: admin/psyemAdmin.php:1090
-msgid "Event Data has been successfully copied!"
-msgstr ""
+msgid "Event Data has been successfully copied"
+msgstr "活動資料已成功複製"
 
 #: admin/psyemAdmin.php:1100
 msgid "Preview Event"
-msgstr ""
+msgstr "預覽活動"
 
 #: admin/psyemAdmin.php:1112 admin/psyemAdmin.php:1114
 msgid "Coupons"
-msgstr ""
+msgstr "優惠券"
 
 #: admin/psyemAdmin.php:1113 admin/psyemAdmin.php:1115
 #: admin/psyemAdmin.php:1142
 msgid "Coupon"
-msgstr ""
+msgstr "優惠券"
 
 #: admin/psyemAdmin.php:1116
 msgid "Coupon Archives"
-msgstr ""
+msgstr "優惠券歸檔"
 
 #: admin/psyemAdmin.php:1117
 msgid "Coupon Attributes"
-msgstr ""
+msgstr "優惠券屬性"
 
 #: admin/psyemAdmin.php:1118
 msgid "Parent Coupon:"
-msgstr ""
+msgstr "上層優惠券："
 
 #: admin/psyemAdmin.php:1119
 msgid "All Coupons"
-msgstr ""
+msgstr "所有優惠券"
 
 #: admin/psyemAdmin.php:1120
 msgid "Add New Coupon"
-msgstr ""
+msgstr "新增優惠券"
 
 #: admin/psyemAdmin.php:1122
 msgid "New Coupon"
-msgstr ""
+msgstr "新優惠券"
 
 #: admin/psyemAdmin.php:1123
 msgid "Edit Coupon"
-msgstr ""
+msgstr "編輯優惠券"
 
 #: admin/psyemAdmin.php:1124
 msgid "Update Coupon"
-msgstr ""
+msgstr "更新優惠券"
 
 #: admin/psyemAdmin.php:1125
 msgid "View Coupon"
-msgstr ""
+msgstr "查看優惠券"
 
 #: admin/psyemAdmin.php:1126
 msgid "View Coupons"
-msgstr ""
+msgstr "查看所有優惠券"
 
 #: admin/psyemAdmin.php:1127
 msgid "Search Coupon"
-msgstr ""
+msgstr "搜尋優惠券"
 
 #: admin/psyemAdmin.php:1134
 msgid "Insert into coupon"
-msgstr ""
+msgstr "插入至優惠券"
 
 #: admin/psyemAdmin.php:1135
 msgid "Uploaded to this coupon"
-msgstr ""
+msgstr "上傳到此優惠券"
 
 #: admin/psyemAdmin.php:1136
 msgid "Coupons list"
-msgstr ""
+msgstr "優惠券列表"
 
 #: admin/psyemAdmin.php:1137
 msgid "Coupons list navigation"
-msgstr ""
+msgstr "優惠券列表導覽"
 
 #: admin/psyemAdmin.php:1138
 msgid "Filter Coupons list"
-msgstr ""
+msgstr "篩選優惠券列表"
 
 #: admin/psyemAdmin.php:1143
 msgid "Coupon post Type for Coupons"
-msgstr ""
+msgstr "優惠券的文章類型"
 
 #: admin/psyemAdmin.php:1168
 msgid "Coupon Configurations"
-msgstr ""
+msgstr "優惠券設定"
 
 #: admin/psyemAdmin.php:1223
 msgid "Code"
-msgstr ""
+msgstr "代碼"
 
 #: admin/psyemAdmin.php:1224
 msgid "Expiry"
-msgstr ""
+msgstr "到期日"
 
 #: admin/psyemAdmin.php:1225
 msgid "Amount/Percent"
-msgstr ""
+msgstr "金額/百分比"
 
 #: admin/psyemAdmin.php:1279 admin/psyemAdmin.php:1281
 msgid "Speakers"
-msgstr ""
+msgstr "講者"
 
 #: admin/psyemAdmin.php:1280 admin/psyemAdmin.php:1282
 #: admin/psyemAdmin.php:1309
 msgid "Speaker"
-msgstr ""
+msgstr "講者"
 
 #: admin/psyemAdmin.php:1283
 msgid "Speaker Archives"
-msgstr ""
+msgstr "講者歸檔"
 
 #: admin/psyemAdmin.php:1284
 msgid "Speaker Attributes"
-msgstr ""
+msgstr "講者屬性"
 
 #: admin/psyemAdmin.php:1285
 msgid "Parent Speaker:"
-msgstr ""
+msgstr "上層講者："
 
 #: admin/psyemAdmin.php:1286
 msgid "All Speakers"
-msgstr ""
+msgstr "所有講者"
 
 #: admin/psyemAdmin.php:1287
 msgid "Add New Speaker"
-msgstr ""
+msgstr "新增講者"
 
 #: admin/psyemAdmin.php:1289
 msgid "New Speaker"
-msgstr ""
+msgstr "新講者"
 
 #: admin/psyemAdmin.php:1290
 msgid "Edit Speaker"
-msgstr ""
+msgstr "編輯講者"
 
 #: admin/psyemAdmin.php:1291
 msgid "Update Speaker"
-msgstr ""
+msgstr "更新講者"
 
 #: admin/psyemAdmin.php:1292
 msgid "View Speaker"
-msgstr ""
+msgstr "查看講者"
 
 #: admin/psyemAdmin.php:1293
 msgid "View Speakers"
-msgstr ""
+msgstr "查看所有講者"
 
 #: admin/psyemAdmin.php:1294
 msgid "Search Speaker"
-msgstr ""
+msgstr "搜尋講者"
 
 #: admin/psyemAdmin.php:1301
 msgid "Insert into speaker"
-msgstr ""
+msgstr "插入至講者"
 
 #: admin/psyemAdmin.php:1302
 msgid "Uploaded to this speaker"
-msgstr ""
+msgstr "上傳到此講者"
 
 #: admin/psyemAdmin.php:1303
 msgid "Speakers list"
-msgstr ""
+msgstr "講者列表"
 
 #: admin/psyemAdmin.php:1304
 msgid "Speakers list navigation"
-msgstr ""
+msgstr "講者列表導覽"
 
 #: admin/psyemAdmin.php:1305
 msgid "Filter Speakers list"
-msgstr ""
+msgstr "篩選講者列表"
 
 #: admin/psyemAdmin.php:1310
 msgid "Speaker post Type for event speakers"
-msgstr ""
+msgstr "活動講者的文章類型"
 
 #: admin/psyemAdmin.php:1335 admin/psyemAdmin.php:1345
 msgid "Speaker Categories"
-msgstr ""
+msgstr "講者分類"
 
 #: admin/psyemAdmin.php:1336
 msgid "Speaker Category"
-msgstr ""
+msgstr "講者分類"
 
 #: admin/psyemAdmin.php:1337
 msgid "Search Speaker Categories"
-msgstr ""
+msgstr "搜尋講者分類"
 
 #: admin/psyemAdmin.php:1338
 msgid "All Speaker Categories"
-msgstr ""
+msgstr "所有講者分類"
 
 #: admin/psyemAdmin.php:1339
 msgid "Parent Speaker Category"
-msgstr ""
+msgstr "上層講者分類"
 
 #: admin/psyemAdmin.php:1340
 msgid "Parent Speaker Category:"
-msgstr ""
+msgstr "上層講者分類："
 
 #: admin/psyemAdmin.php:1341
 msgid "Edit Speaker Category"
-msgstr ""
+msgstr "編輯講者分類"
 
 #: admin/psyemAdmin.php:1342
 msgid "Update Speaker Category"
-msgstr ""
+msgstr "更新講者分類"
 
 #: admin/psyemAdmin.php:1343
 msgid "Add New Speaker Category"
-msgstr ""
+msgstr "新增講者分類"
 
 #: admin/psyemAdmin.php:1344
 msgid "New Speaker Category Name"
-msgstr ""
+msgstr "新講者分類名稱"
 
 #: admin/psyemAdmin.php:1368
 msgid "Speaker Informations"
-msgstr ""
+msgstr "講者資訊"
 
 #: admin/psyemAdmin.php:1421
 msgid "Designation"
-msgstr ""
+msgstr "職稱"
 
 #: admin/psyemAdmin.php:1451 admin/psyemAdmin.php:1453
 msgid "Partners"
-msgstr ""
+msgstr "合作夥伴"
 
 #: admin/psyemAdmin.php:1452 admin/psyemAdmin.php:1454
 #: admin/psyemAdmin.php:1481
 msgid "Partner"
-msgstr ""
+msgstr "合作夥伴"
 
 #: admin/psyemAdmin.php:1455
 msgid "Partner Archives"
-msgstr ""
+msgstr "合作夥伴歸檔"
 
 #: admin/psyemAdmin.php:1456
 msgid "Partner Attributes"
-msgstr ""
+msgstr "合作夥伴屬性"
 
 #: admin/psyemAdmin.php:1457
 msgid "Parent Partner:"
-msgstr ""
+msgstr "上層合作夥伴："
 
 #: admin/psyemAdmin.php:1458
 msgid "All Partners"
-msgstr ""
+msgstr "所有合作夥伴"
 
 #: admin/psyemAdmin.php:1459
 msgid "Add New Partner"
-msgstr ""
+msgstr "新增合作夥伴"
 
 #: admin/psyemAdmin.php:1461
 msgid "New Partner"
-msgstr ""
+msgstr "新合作夥伴"
 
 #: admin/psyemAdmin.php:1462
 msgid "Edit Partner"
-msgstr ""
+msgstr "編輯合作夥伴"
 
 #: admin/psyemAdmin.php:1463
 msgid "Update Partner"
-msgstr ""
+msgstr "更新合作夥伴"
 
 #: admin/psyemAdmin.php:1464
 msgid "View Partner"
-msgstr ""
+msgstr "查看合作夥伴"
 
 #: admin/psyemAdmin.php:1465
 msgid "View Partners"
-msgstr ""
+msgstr "查看合作夥伴們"
 
 #: admin/psyemAdmin.php:1466
 msgid "Search Partner"
-msgstr ""
+msgstr "搜尋合作夥伴"
 
 #: admin/psyemAdmin.php:1473
 msgid "Insert into partner"
-msgstr ""
+msgstr "插入至合作夥伴"
 
 #: admin/psyemAdmin.php:1474
 msgid "Uploaded to this partner"
-msgstr ""
+msgstr "已上傳至此合作夥伴"
 
 #: admin/psyemAdmin.php:1475
 msgid "Partners list"
-msgstr ""
+msgstr "合作夥伴列表"
 
 #: admin/psyemAdmin.php:1476
 msgid "Partners list navigation"
-msgstr ""
+msgstr "合作夥伴列表導覽"
 
 #: admin/psyemAdmin.php:1477
 msgid "Filter Partners list"
-msgstr ""
+msgstr "篩選合作夥伴列表"
 
 #: admin/psyemAdmin.php:1482
 msgid "Partner post Type for event partners"
-msgstr ""
+msgstr "活動合作夥伴的合作夥伴文章類型"
 
 #: admin/psyemAdmin.php:1508 admin/psyemAdmin.php:1518
 msgid "Partner Categories"
-msgstr ""
+msgstr "合作夥伴分類"
 
 #: admin/psyemAdmin.php:1509
 msgid "Partner Category"
-msgstr ""
+msgstr "合作夥伴分類"
 
 #: admin/psyemAdmin.php:1510
 msgid "Search Partner Categories"
-msgstr ""
+msgstr "搜尋合作夥伴分類"
 
 #: admin/psyemAdmin.php:1511
 msgid "All Partner Categories"
-msgstr ""
+msgstr "所有合作夥伴分類"
 
 #: admin/psyemAdmin.php:1512
 msgid "Parent Partner Category"
-msgstr ""
+msgstr "父層合作夥伴分類"
 
 #: admin/psyemAdmin.php:1513
 msgid "Parent Partner Category:"
-msgstr ""
+msgstr "父層合作夥伴分類："
 
 #: admin/psyemAdmin.php:1514
 msgid "Edit Partner Category"
-msgstr ""
+msgstr "編輯合作夥伴分類"
 
 #: admin/psyemAdmin.php:1515
 msgid "Update Partner Category"
-msgstr ""
+msgstr "更新合作夥伴分類"
 
 #: admin/psyemAdmin.php:1516
 msgid "Add New Partner Category"
-msgstr ""
+msgstr "新增合作夥伴分類"
 
 #: admin/psyemAdmin.php:1517
 msgid "New Partner Category Name"
-msgstr ""
+msgstr "新合作夥伴分類名稱"
 
 #: admin/psyemAdmin.php:1541
 msgid "Partner Informations"
-msgstr ""
+msgstr "合作夥伴資訊"
 
 #: admin/psyemAdmin.php:1625 admin/psyemAdmin.php:1627
 #: front/pages/psyemOrderCheckout.php:363
 msgid "Participants"
-msgstr ""
+msgstr "參與者"
 
 #: admin/psyemAdmin.php:1626 admin/psyemAdmin.php:1628
 #: admin/psyemAdmin.php:1655
 msgid "Participant"
-msgstr ""
+msgstr "參與者"
 
 #: admin/psyemAdmin.php:1629
 msgid "Participant Archives"
-msgstr ""
+msgstr "參與者歸檔"
 
 #: admin/psyemAdmin.php:1630
 msgid "Participant Attributes"
-msgstr ""
+msgstr "參與者屬性"
 
 #: admin/psyemAdmin.php:1631
 msgid "Parent Participant:"
-msgstr ""
+msgstr "父層參與者："
 
 #: admin/psyemAdmin.php:1632
 msgid "All Participants"
-msgstr ""
+msgstr "所有參與者"
 
 #: admin/psyemAdmin.php:1633
 msgid "Add New Participant"
-msgstr ""
+msgstr "新增參與者"
 
 #: admin/psyemAdmin.php:1635
 msgid "New Participant"
-msgstr ""
+msgstr "新參與者"
 
 #: admin/psyemAdmin.php:1636
 msgid "Edit Participant"
-msgstr ""
+msgstr "編輯參與者"
 
 #: admin/psyemAdmin.php:1637
 msgid "Update Participant"
-msgstr ""
+msgstr "更新參與者"
 
 #: admin/psyemAdmin.php:1638
 msgid "View Participant"
-msgstr ""
+msgstr "查看參與者"
 
 #: admin/psyemAdmin.php:1639
 msgid "View Participants"
-msgstr ""
+msgstr "查看參與者們"
 
 #: admin/psyemAdmin.php:1640
 msgid "Search Participant"
-msgstr ""
+msgstr "搜尋參與者"
 
 #: admin/psyemAdmin.php:1647 admin/psyemAdmin.php:2754
 msgid "Insert into participant"
-msgstr ""
+msgstr "插入至參與者"
 
 #: admin/psyemAdmin.php:1648 admin/psyemAdmin.php:2755
 msgid "Uploaded to this participant"
-msgstr ""
+msgstr "已上傳至此參與者"
 
 #: admin/psyemAdmin.php:1649
 msgid "Participants list"
-msgstr ""
+msgstr "參與者列表"
 
 #: admin/psyemAdmin.php:1650
 msgid "Participants list navigation"
-msgstr ""
+msgstr "參與者列表導覽"
 
 #: admin/psyemAdmin.php:1651
 msgid "Filter Participants list"
-msgstr ""
+msgstr "篩選參與者列表"
 
 #: admin/psyemAdmin.php:1656
 msgid "Participant post type for event attendees"
-msgstr ""
+msgstr "活動參加者的參與者文章類型"
 
 #: admin/psyemAdmin.php:1681
 msgid "Participant Informations"
-msgstr ""
+msgstr "參與者資訊"
 
 #: admin/psyemAdmin.php:1734
 msgid "Participant Name"
-msgstr ""
+msgstr "參與者姓名"
 
 #: admin/psyemAdmin.php:1735
 msgid "Participant Email"
-msgstr ""
+msgstr "參與者電子郵件"
 
 #: admin/psyemAdmin.php:1736
 msgid "Participant Type"
-msgstr ""
+msgstr "參與者類型"
 
 #: admin/psyemAdmin.php:1815 admin/psyemAdmin.php:2974
 msgid "Export to XLSX"
-msgstr ""
+msgstr "匯出為 XLSX"
 
 #: admin/psyemAdmin.php:1834 admin/psyemAdmin.php:2993
-msgid "You are not authorize to export data!"
-msgstr ""
+msgid "You are not authorize to export data"
+msgstr "您未被授權匯出資料"
 
 #: admin/psyemAdmin.php:1868 admin/psyemAdmin.php:3035
 msgid "Date"
-msgstr ""
+msgstr "日期"
 
 #: admin/psyemAdmin.php:1930
 msgid "Event Orders"
-msgstr ""
+msgstr "活動訂單"
 
 #: admin/psyemAdmin.php:1931
 msgid "Event Order"
-msgstr ""
+msgstr "活動訂單"
 
 #: admin/psyemAdmin.php:1932
 msgid "Orders"
-msgstr ""
+msgstr "訂單"
 
 #: admin/psyemAdmin.php:1933 admin/psyemAdmin.php:1960
 msgid "Order"
-msgstr ""
+msgstr "訂單"
 
 #: admin/psyemAdmin.php:1934
 msgid "Order Archives"
-msgstr ""
+msgstr "訂單歸檔"
 
 #: admin/psyemAdmin.php:1935
 msgid "Order Attributes"
-msgstr ""
+msgstr "訂單屬性"
 
 #: admin/psyemAdmin.php:1936
 msgid "Parent Order:"
-msgstr ""
+msgstr "父層訂單："
 
 #: admin/psyemAdmin.php:1937
 msgid "All Orders"
-msgstr ""
+msgstr "所有訂單"
 
 #: admin/psyemAdmin.php:1938
 msgid "Add New Order"
-msgstr ""
+msgstr "新增訂單"
 
 #: admin/psyemAdmin.php:1940
 msgid "New Order"
-msgstr ""
+msgstr "新訂單"
 
 #: admin/psyemAdmin.php:1941
 msgid "Edit Order"
-msgstr ""
+msgstr "編輯訂單"
 
 #: admin/psyemAdmin.php:1942
 msgid "Update Order"
-msgstr ""
+msgstr "更新訂單"
 
 #: admin/psyemAdmin.php:1943
 msgid "View Order"
-msgstr ""
+msgstr "查看訂單"
 
 #: admin/psyemAdmin.php:1944
 msgid "View Orders"
-msgstr ""
+msgstr "查看訂單們"
 
 #: admin/psyemAdmin.php:1945
 msgid "Search Order"
-msgstr ""
+msgstr "搜尋訂單"
 
 #: admin/psyemAdmin.php:1952
 msgid "Insert into order"
-msgstr ""
+msgstr "插入至訂單"
 
 #: admin/psyemAdmin.php:1953
 msgid "Uploaded to this order"
-msgstr ""
+msgstr "已上傳至此訂單"
 
 #: admin/psyemAdmin.php:1954
 msgid "Orders list"
-msgstr ""
+msgstr "訂單列表"
 
 #: admin/psyemAdmin.php:1955
 msgid "Orders list navigation"
-msgstr ""
+msgstr "訂單列表導覽"
 
 #: admin/psyemAdmin.php:1956
 msgid "Filter Orders list"
-msgstr ""
+msgstr "篩選訂單列表"
 
 #: admin/psyemAdmin.php:1961
 msgid "Order post type for event attendees"
-msgstr ""
+msgstr "活動參加者的訂單文章類型"
 
 #: admin/psyemAdmin.php:1987
 msgid "Event Informations"
-msgstr ""
+msgstr "活動資訊"
 
 #: admin/psyemAdmin.php:1996
 msgid "Order Informations"
-msgstr ""
+msgstr "訂單資訊"
 
 #: admin/psyemAdmin.php:2005
 msgid "Participants Informations"
-msgstr ""
+msgstr "參與者資訊"
 
 #: admin/psyemAdmin.php:2070
 msgid "Total Tickets"
-msgstr ""
+msgstr "票券總數"
 
 #: admin/psyemAdmin.php:2071
 msgid "Dates"
-msgstr ""
+msgstr "日期"
 
 #: admin/psyemAdmin.php:2160 admin/psyemAdmin.php:2262
-msgid "Print tickets has been failed to process!"
-msgstr ""
+msgid "Print tickets has been failed to process"
+msgstr "列印票券處理失敗"
 
 #: admin/psyemAdmin.php:2270 admin/psyemAdmin.php:2294
-msgid "Csv has been failed to import!"
-msgstr ""
+msgid "Csv has been failed to import"
+msgstr "CSV 匯入失敗"
 
 #: admin/psyemAdmin.php:2295
-msgid "You can not upload more paticipants in this order."
-msgstr ""
+msgid "You can not upload more paticipants in this order"
+msgstr "您無法在此訂單中上傳更多參與者"
 
 #: admin/psyemAdmin.php:2382
-msgid "Csv Data has been successfully imported!"
-msgstr ""
+msgid "Csv Data has been successfully imported"
+msgstr "CSV 資料已成功匯入"
 
 #: admin/psyemAdmin.php:2394
-msgid "Event ticket has been failed to send!"
-msgstr ""
+msgid "Event ticket has been failed to send"
+msgstr "活動票券寄送失敗"
 
 #: admin/psyemAdmin.php:2423
-msgid "Print tickets participants data not found!"
-msgstr ""
+msgid "Print tickets participants data not found"
+msgstr "找不到參與者資料以列印票券"
 
 #: admin/psyemAdmin.php:2497
 msgid "Hello"
-msgstr ""
+msgstr "您好"
 
-#: admin/psyemAdmin.php:2498 helpers/psyemHelper.php:2064
-msgid "Kindly find the attached document for event ticket reference."
-msgstr ""
+#: admin/psyemAdmin.php:2498 helpers/psyemHelper.php:2066
+msgid "Kindly find the attached document for event ticket reference"
+msgstr "請查閱附件中的活動票券文件作為參考"
 
-#: admin/psyemAdmin.php:2500 helpers/psyemHelper.php:1701
-#: helpers/psyemHelper.php:2067
+#: admin/psyemAdmin.php:2500 helpers/psyemHelper.php:1703
+#: helpers/psyemHelper.php:2069
 msgid "See you soon"
-msgstr ""
+msgstr "期待再見"
 
 #: admin/psyemAdmin.php:2501 front/pages/psyemDonationCheckout.php:250
-#: helpers/psyemHelper.php:1702 helpers/psyemHelper.php:2068
+#: helpers/psyemHelper.php:1704 helpers/psyemHelper.php:2070
 msgid "Thank You"
-msgstr ""
+msgstr "謝謝您"
 
 #: admin/psyemAdmin.php:2544
-msgid "Event ticket has been successfully sent!"
-msgstr ""
+msgid "Event ticket has been successfully sent"
+msgstr "活動票券已成功寄出"
 
 #: admin/psyemAdmin.php:2566
-msgid "Offline Registration has been failed to create!"
-msgstr ""
+msgid "Offline Registration has been failed to create"
+msgstr "離線報名建立失敗"
 
 #: admin/psyemAdmin.php:2732 admin/psyemAdmin.php:2734
 msgid "Projectsafes"
-msgstr ""
+msgstr "安全計畫"
 
 #: admin/psyemAdmin.php:2733 admin/psyemAdmin.php:2735
 #: admin/psyemAdmin.php:2762
 msgid "Projectsafe"
-msgstr ""
+msgstr "安全計畫"
 
 #: admin/psyemAdmin.php:2736
 msgid "Projectsafe Archives"
-msgstr ""
+msgstr "安全計畫封存"
 
 #: admin/psyemAdmin.php:2737
 msgid "Projectsafe Attributes"
-msgstr ""
+msgstr "安全計畫屬性"
 
 #: admin/psyemAdmin.php:2738
 msgid "Parent Projectsafe:"
-msgstr ""
+msgstr "上層安全計畫："
 
 #: admin/psyemAdmin.php:2739
 msgid "All Projectsafes"
-msgstr ""
+msgstr "所有安全計畫"
 
 #: admin/psyemAdmin.php:2740
 msgid "Add New Projectsafe"
-msgstr ""
+msgstr "新增安全計畫"
 
 #: admin/psyemAdmin.php:2742
 msgid "New Projectsafe"
-msgstr ""
+msgstr "新的安全計畫"
 
 #: admin/psyemAdmin.php:2743
 msgid "Edit Projectsafe"
-msgstr ""
+msgstr "編輯安全計畫"
 
 #: admin/psyemAdmin.php:2744
 msgid "Update Projectsafe"
-msgstr ""
+msgstr "更新安全計畫"
 
 #: admin/psyemAdmin.php:2745
 msgid "View Projectsafe"
-msgstr ""
+msgstr "查看安全計畫"
 
 #: admin/psyemAdmin.php:2746
 msgid "View Projectsafes"
-msgstr ""
+msgstr "查看安全計畫列表"
 
 #: admin/psyemAdmin.php:2747
 msgid "Search Projectsafe"
-msgstr ""
+msgstr "搜尋安全計畫"
 
 #: admin/psyemAdmin.php:2756
 msgid "Projectsafes list"
-msgstr ""
+msgstr "安全計畫列表"
 
 #: admin/psyemAdmin.php:2757
 msgid "Projectsafes list navigation"
-msgstr ""
+msgstr "安全計畫列表導覽"
 
 #: admin/psyemAdmin.php:2758
 msgid "Filter Projectsafes list"
-msgstr ""
+msgstr "篩選安全計畫列表"
 
 #: admin/psyemAdmin.php:2763
 msgid "Projectsafe post type"
-msgstr ""
+msgstr "安全計畫文章類型"
 
 #: admin/psyemAdmin.php:2788
 msgid "Project safe Informations"
-msgstr ""
+msgstr "安全計畫資訊"
 
 #: admin/psyemAdmin.php:2851 admin/psyemAdmin.php:3034
 msgid "Method"
-msgstr ""
+msgstr "方式"
 
 #: admin/psyemAdmin.php:2961
 msgid "All Project Safe Types"
-msgstr ""
+msgstr "所有安全計畫類型"
 
 #: admin/psyemAdmin.php:3025
 msgid "FullName"
-msgstr ""
+msgstr "全名"
 
 #: admin/psyemAdmin.php:3104
 msgid "Donation Amounts"
-msgstr ""
+msgstr "捐款金額"
 
 #: admin/psyemAdmin.php:3105
 msgid "Donation Amount"
-msgstr ""
+msgstr "捐款金額"
 
 #: admin/psyemAdmin.php:3106
 msgid "Amounts"
-msgstr ""
+msgstr "金額"
 
 #: admin/psyemAdmin.php:3108
 msgid "Amount Archives"
-msgstr ""
+msgstr "金額封存"
 
 #: admin/psyemAdmin.php:3109
 msgid "Amount Attributes"
-msgstr ""
+msgstr "金額屬性"
 
 #: admin/psyemAdmin.php:3110
 msgid "Parent Amount:"
-msgstr ""
+msgstr "上層金額："
 
 #: admin/psyemAdmin.php:3111
 msgid "All Amounts"
-msgstr ""
+msgstr "所有金額"
 
 #: admin/psyemAdmin.php:3112
 msgid "Add New Amount"
-msgstr ""
+msgstr "新增金額"
 
 #: admin/psyemAdmin.php:3114
 msgid "New Amount"
-msgstr ""
+msgstr "新的金額"
 
 #: admin/psyemAdmin.php:3115
 msgid "Edit Amount"
-msgstr ""
+msgstr "編輯金額"
 
 #: admin/psyemAdmin.php:3116
 msgid "Update Amount"
-msgstr ""
+msgstr "更新金額"
 
 #: admin/psyemAdmin.php:3117
 msgid "View Amount"
-msgstr ""
+msgstr "查看金額"
 
 #: admin/psyemAdmin.php:3118
 msgid "View Amounts"
-msgstr ""
+msgstr "查看所有金額"
 
 #: admin/psyemAdmin.php:3119
 msgid "Search Amount"
-msgstr ""
+msgstr "搜尋金額"
 
 #: admin/psyemAdmin.php:3126
 msgid "Insert into amount"
-msgstr ""
+msgstr "插入至金額"
 
 #: admin/psyemAdmin.php:3127
 msgid "Uploaded to this amount"
-msgstr ""
+msgstr "上傳至此金額"
 
 #: admin/psyemAdmin.php:3128
 msgid "Amounts list"
-msgstr ""
+msgstr "金額列表"
 
 #: admin/psyemAdmin.php:3129
 msgid "Amounts list navigation"
-msgstr ""
+msgstr "金額列表導覽"
 
 #: admin/psyemAdmin.php:3130
 msgid "Filter Amounts list"
-msgstr ""
+msgstr "過濾金額列表"
 
 #: admin/psyemAdmin.php:3135
 msgid "Amount post type for donations"
-msgstr ""
+msgstr "捐款金額文章類型"
 
 #: admin/psyemAdmin.php:3160
 msgid "Amount Informations"
-msgstr ""
+msgstr "金額資訊"
 
 #: admin/psyemAdmin.php:3213
 msgid "Amount Name"
-msgstr ""
+msgstr "金額名稱"
 
 #: admin/psyemAdmin.php:3214 admin/psyemAdmin.php:3364
 msgid "Price"
-msgstr ""
+msgstr "價格"
 
 #: admin/psyemAdmin.php:3250 admin/psyemAdmin.php:3252
 msgid "Donations"
-msgstr ""
+msgstr "捐款"
 
 #: admin/psyemAdmin.php:3251 admin/psyemAdmin.php:3253
 #: admin/psyemAdmin.php:3280 front/pages/psyemDonationCheckout.php:47
 msgid "Donation"
-msgstr ""
+msgstr "捐款"
 
 #: admin/psyemAdmin.php:3254
 msgid "Donation Archives"
-msgstr ""
+msgstr "捐款檔案"
 
 #: admin/psyemAdmin.php:3255
 msgid "Donation Attributes"
-msgstr ""
+msgstr "捐款屬性"
 
 #: admin/psyemAdmin.php:3256
 msgid "Parent Donation:"
-msgstr ""
+msgstr "父級捐款："
 
 #: admin/psyemAdmin.php:3257
 msgid "All Donations"
-msgstr ""
+msgstr "所有捐款"
 
 #: admin/psyemAdmin.php:3258
 msgid "Add New Donation"
-msgstr ""
+msgstr "新增捐款"
 
 #: admin/psyemAdmin.php:3260
 msgid "New Donation"
-msgstr ""
+msgstr "新增捐款"
 
 #: admin/psyemAdmin.php:3261
 msgid "Edit Donation"
-msgstr ""
+msgstr "編輯捐款"
 
 #: admin/psyemAdmin.php:3262
 msgid "Update Donation"
-msgstr ""
+msgstr "更新捐款"
 
 #: admin/psyemAdmin.php:3263
 msgid "View Donation"
-msgstr ""
+msgstr "查看捐款"
 
 #: admin/psyemAdmin.php:3264
 msgid "View Donations"
-msgstr ""
+msgstr "查看捐款"
 
 #: admin/psyemAdmin.php:3265
 msgid "Search Donation"
-msgstr ""
+msgstr "搜尋捐款"
 
 #: admin/psyemAdmin.php:3272 admin/psyemAdmin.php:3429
 #: admin/psyemAdmin.php:3530 admin/psyemAdmin.php:3632
 msgid "Insert into donation"
-msgstr ""
+msgstr "插入至捐款"
 
 #: admin/psyemAdmin.php:3273 admin/psyemAdmin.php:3430
 #: admin/psyemAdmin.php:3531 admin/psyemAdmin.php:3633
 msgid "Uploaded to this donation"
-msgstr ""
+msgstr "已上傳至此捐款"
 
 #: admin/psyemAdmin.php:3274
 msgid "Donations list"
-msgstr ""
+msgstr "捐款列表"
 
 #: admin/psyemAdmin.php:3275
 msgid "Donations list navigation"
-msgstr ""
+msgstr "捐款列表導航"
 
 #: admin/psyemAdmin.php:3276
 msgid "Filter Donations list"
-msgstr ""
+msgstr "過濾捐款列表"
 
 #: admin/psyemAdmin.php:3281
 msgid "Donation post type for donations"
-msgstr ""
+msgstr "捐款的捐款文章類型"
 
 #: admin/psyemAdmin.php:3306
 msgid "Donation Informations"
-msgstr ""
+msgstr "捐款資訊"
 
 #: admin/psyemAdmin.php:3363
 msgid "Donation Name"
-msgstr ""
+msgstr "捐款名稱"
 
 #: admin/psyemAdmin.php:3407 admin/psyemAdmin.php:3408
 #: admin/psyemAdmin.php:3409 admin/psyemAdmin.php:3410
 #: admin/psyemAdmin.php:3437
 msgid "Knowledge"
-msgstr ""
+msgstr "知識"
 
 #: admin/psyemAdmin.php:3411
 msgid "Knowledge Archives"
-msgstr ""
+msgstr "知識檔案"
 
 #: admin/psyemAdmin.php:3412
 msgid "Knowledge Attributes"
-msgstr ""
+msgstr "知識屬性"
 
 #: admin/psyemAdmin.php:3413
 msgid "Parent Knowledge:"
-msgstr ""
+msgstr "父級知識："
 
 #: admin/psyemAdmin.php:3414
 msgid "All Knowledges"
-msgstr ""
+msgstr "所有知識"
 
 #: admin/psyemAdmin.php:3415
 msgid "Add New Knowledge"
-msgstr ""
+msgstr "新增知識"
 
 #: admin/psyemAdmin.php:3417
 msgid "New Knowledge"
-msgstr ""
+msgstr "新增知識"
 
 #: admin/psyemAdmin.php:3418
 msgid "Edit Knowledge"
-msgstr ""
+msgstr "編輯知識"
 
 #: admin/psyemAdmin.php:3419
 msgid "Update Knowledge"
-msgstr ""
+msgstr "更新知識"
 
 #: admin/psyemAdmin.php:3420 admin/psyemAdmin.php:3421
 msgid "View Knowledge"
-msgstr ""
+msgstr "查看知識"
 
 #: admin/psyemAdmin.php:3422
 msgid "Search Knowledge"
-msgstr ""
+msgstr "搜尋知識"
 
 #: admin/psyemAdmin.php:3431
 msgid "Knowledge list"
-msgstr ""
+msgstr "知識列表"
 
 #: admin/psyemAdmin.php:3432
 msgid "Knowledge list navigation"
-msgstr ""
+msgstr "知識列表導航"
 
 #: admin/psyemAdmin.php:3433
 msgid "Filter Knowledge list"
-msgstr ""
+msgstr "過濾知識列表"
 
 #: admin/psyemAdmin.php:3438
 msgid "Knowledge post type for knowledge"
-msgstr ""
+msgstr "知識的知識文章類型"
 
 #: admin/psyemAdmin.php:3472 admin/psyemAdmin.php:3482
 msgid "Knowledge Categories"
-msgstr ""
+msgstr "知識類別"
 
 #: admin/psyemAdmin.php:3473
 msgid "Knowledge Category"
-msgstr ""
+msgstr "知識類別"
 
 #: admin/psyemAdmin.php:3474
 msgid "Search Knowledge Categories"
-msgstr ""
+msgstr "搜尋知識類別"
 
 #: admin/psyemAdmin.php:3475
 msgid "All Knowledge Categories"
-msgstr ""
+msgstr "所有知識類別"
 
 #: admin/psyemAdmin.php:3476
 msgid "Parent Knowledge Category"
-msgstr ""
+msgstr "父級知識類別"
 
 #: admin/psyemAdmin.php:3477
 msgid "Parent Knowledge Category:"
-msgstr ""
+msgstr "父級知識類別："
 
 #: admin/psyemAdmin.php:3478
 msgid "Edit Knowledge Category"
-msgstr ""
+msgstr "編輯知識類別"
 
 #: admin/psyemAdmin.php:3479
 msgid "Update Knowledge Category"
-msgstr ""
+msgstr "更新知識類別"
 
 #: admin/psyemAdmin.php:3480
 msgid "Add New Knowledge Category"
-msgstr ""
+msgstr "新增知識類別"
 
 #: admin/psyemAdmin.php:3481
 msgid "New Knowledge Category Name"
-msgstr ""
+msgstr "新的知識類別名稱"
 
 #: admin/psyemAdmin.php:3508 admin/psyemAdmin.php:3509
 #: admin/psyemAdmin.php:3510 admin/psyemAdmin.php:3511
 #: admin/psyemAdmin.php:3538
 msgid "News"
-msgstr ""
+msgstr "新聞"
 
 #: admin/psyemAdmin.php:3512
 msgid "News Archives"
-msgstr ""
+msgstr "新聞檔案"
 
 #: admin/psyemAdmin.php:3513
 msgid "News Attributes"
-msgstr ""
+msgstr "新聞屬性"
 
 #: admin/psyemAdmin.php:3514
 msgid "Parent News:"
-msgstr ""
+msgstr "父級新聞："
 
 #: admin/psyemAdmin.php:3515
 msgid "All News"
-msgstr ""
+msgstr "所有新聞"
 
 #: admin/psyemAdmin.php:3516
 msgid "Add New News"
-msgstr ""
+msgstr "新增新聞"
 
 #: admin/psyemAdmin.php:3518
 msgid "New News"
-msgstr ""
+msgstr "新增新聞"
 
 #: admin/psyemAdmin.php:3519
 msgid "Edit News"
-msgstr ""
+msgstr "編輯新聞"
 
 #: admin/psyemAdmin.php:3520
 msgid "Update News"
-msgstr ""
+msgstr "更新新聞"
 
 #: admin/psyemAdmin.php:3521 admin/psyemAdmin.php:3522
 msgid "View News"
-msgstr ""
+msgstr "查看新聞"
 
 #: admin/psyemAdmin.php:3523
 msgid "Search News"
-msgstr ""
+msgstr "搜尋新聞"
 
 #: admin/psyemAdmin.php:3532
 msgid "News list"
-msgstr ""
+msgstr "新聞列表"
 
 #: admin/psyemAdmin.php:3533
 msgid "News list navigation"
-msgstr ""
+msgstr "新聞列表導航"
 
 #: admin/psyemAdmin.php:3534
 msgid "Filter News list"
-msgstr ""
+msgstr "過濾新聞列表"
 
 #: admin/psyemAdmin.php:3539
 msgid "News post type for news"
-msgstr ""
+msgstr "新聞的新聞文章類型"
 
 #: admin/psyemAdmin.php:3573 admin/psyemAdmin.php:3583
 msgid "News Categories"
-msgstr ""
+msgstr "新聞類別"
 
 #: admin/psyemAdmin.php:3574
 msgid "News Category"
-msgstr ""
+msgstr "新聞類別"
 
 #: admin/psyemAdmin.php:3575
 msgid "Search News Categories"
-msgstr ""
+msgstr "搜尋新聞類別"
 
 #: admin/psyemAdmin.php:3576
 msgid "All News Categories"
-msgstr ""
+msgstr "所有新聞類別"
 
 #: admin/psyemAdmin.php:3577
 msgid "Parent News Category"
-msgstr ""
+msgstr "父級新聞類別"
 
 #: admin/psyemAdmin.php:3578
 msgid "Parent News Category:"
-msgstr ""
+msgstr "父級新聞類別："
 
 #: admin/psyemAdmin.php:3579
 msgid "Edit News Category"
-msgstr ""
+msgstr "編輯新聞類別"
 
 #: admin/psyemAdmin.php:3580
 msgid "Update News Category"
-msgstr ""
+msgstr "更新新聞類別"
 
 #: admin/psyemAdmin.php:3581
 msgid "Add New News Category"
-msgstr ""
+msgstr "新增新聞類別"
 
 #: admin/psyemAdmin.php:3582
 msgid "New News Category Name"
-msgstr ""
+msgstr "新的新聞類別名稱"
 
 #: admin/psyemAdmin.php:3610 admin/psyemAdmin.php:3611
 #: admin/psyemAdmin.php:3612 admin/psyemAdmin.php:3613
 #: admin/psyemAdmin.php:3640
 msgid "Programmes"
-msgstr ""
+msgstr "課程"
 
 #: admin/psyemAdmin.php:3614
 msgid "Programmes Archives"
-msgstr ""
+msgstr "課程檔案"
 
 #: admin/psyemAdmin.php:3615
 msgid "Programmes Attributes"
-msgstr ""
+msgstr "課程屬性"
 
 #: admin/psyemAdmin.php:3616
 msgid "Parent Programmes:"
-msgstr ""
+msgstr "父級課程："
 
 #: admin/psyemAdmin.php:3617
 msgid "All Programmes"
-msgstr ""
+msgstr "所有課程"
 
 #: admin/psyemAdmin.php:3618
 msgid "Add New Programmes"
-msgstr ""
+msgstr "新增課程"
 
 #: admin/psyemAdmin.php:3620
 msgid "New Programmes"
-msgstr ""
+msgstr "新增課程"
 
 #: admin/psyemAdmin.php:3621
 msgid "Edit Programmes"
-msgstr ""
+msgstr "編輯課程"
 
 #: admin/psyemAdmin.php:3622
 msgid "Update Programmes"
-msgstr ""
+msgstr "更新課程"
 
 #: admin/psyemAdmin.php:3623 admin/psyemAdmin.php:3624
 msgid "View Programmes"
-msgstr ""
+msgstr "查看課程"
 
 #: admin/psyemAdmin.php:3625
 msgid "Search Programmes"
-msgstr ""
+msgstr "搜尋課程"
 
 #: admin/psyemAdmin.php:3634
 msgid "Programmes list"
-msgstr ""
+msgstr "課程列表"
 
 #: admin/psyemAdmin.php:3635
 msgid "Programmes list navigation"
-msgstr ""
+msgstr "課程列表導航"
 
 #: admin/psyemAdmin.php:3636
 msgid "Filter Programmes list"
-msgstr ""
+msgstr "過濾課程列表"
 
 #: admin/psyemAdmin.php:3641
 msgid "Programmes post type for programmes"
-msgstr ""
+msgstr "課程的課程文章類型"
 
 #: admin/psyemAdmin.php:3675 admin/psyemAdmin.php:3685
 msgid "Programmes Categories"
-msgstr ""
+msgstr "課程類別"
 
 #: admin/psyemAdmin.php:3676
 msgid "Programmes Category"
-msgstr ""
+msgstr "課程類別"
 
 #: admin/psyemAdmin.php:3677
 msgid "Search Programmes Categories"
-msgstr ""
+msgstr "搜尋課程類別"
 
 #: admin/psyemAdmin.php:3678
 msgid "All Programmes Categories"
-msgstr ""
+msgstr "所有課程類別"
 
 #: admin/psyemAdmin.php:3679
 msgid "Parent Programmes Category"
-msgstr ""
+msgstr "父級課程類別"
 
 #: admin/psyemAdmin.php:3680
 msgid "Parent Programmes Category:"
-msgstr ""
+msgstr "父級課程類別："
 
 #: admin/psyemAdmin.php:3681
 msgid "Edit Programmes Category"
-msgstr ""
+msgstr "編輯課程類別"
 
 #: admin/psyemAdmin.php:3682
 msgid "Update Programmes Category"
-msgstr ""
+msgstr "更新課程類別"
 
 #: admin/psyemAdmin.php:3683
 msgid "Add New Programmes Category"
-msgstr ""
+msgstr "新增課程類別"
 
 #: admin/psyemAdmin.php:3684
 msgid "New Programmes Category Name"
-msgstr ""
+msgstr "新的課程類別名稱"
 
 #: admin/psyemAdmin.php:3711 admin/psyemAdmin.php:3722
 msgid "Category Icon Image URL"
-msgstr ""
+msgstr "類別圖示圖片網址"
 
 #: admin/psyemAdmin.php:3713 admin/psyemAdmin.php:3725
-msgid "Enter category icon image url."
-msgstr ""
+msgid "Enter category icon image url"
+msgstr "輸入類別圖示圖片網址"
 
 #: front/pages/psyemDonationAmountsModal.php:5
-#: front/pages/psyemDonationForm.php:38
+#: front/pages/psyemDonationForm.php:44
 msgid "Monthly Donation"
-msgstr ""
+msgstr "每月捐款"
 
 #: front/pages/psyemDonationAmountsModal.php:6
-#: front/pages/psyemDonationForm.php:49
+#: front/pages/psyemDonationForm.php:55
 msgid "One Time Donation"
-msgstr ""
+msgstr "一次性捐款"
 
 #: front/pages/psyemDonationAmountsModal.php:44
-#: front/pages/psyemProjectsafeForm.php:296
+#: front/pages/psyemProjectsafeForm.php:308
 msgid "Next"
-msgstr ""
+msgstr "下一步"
 
 #: front/pages/psyemDonationCheckout.php:45
 msgid "Donation Summary"
-msgstr ""
+msgstr "捐款摘要"
 
 #: front/pages/psyemDonationCheckout.php:53
 msgid "Change Amount?"
-msgstr ""
+msgstr "更改金額？"
 
 #: front/pages/psyemDonationCheckout.php:59
 msgid "Card & Billing"
-msgstr ""
+msgstr "卡片與帳單"
 
 #: front/pages/psyemDonationCheckout.php:67
 msgid "Billing Address"
-msgstr ""
+msgstr "帳單地址"
 
 #: front/pages/psyemDonationCheckout.php:79
 msgid "Address Line 1"
-msgstr ""
+msgstr "地址行 1"
 
 #: front/pages/psyemDonationCheckout.php:86
 msgid "Address Line 2"
-msgstr ""
+msgstr "地址行 2"
 
 #: front/pages/psyemDonationCheckout.php:93
 msgid "Town/City"
-msgstr ""
+msgstr "城鎮/城市"
 
 #: front/pages/psyemDonationCheckout.php:113
 msgid "Additional Details"
-msgstr ""
+msgstr "附加詳情"
 
 #: front/pages/psyemDonationCheckout.php:133
-#: front/pages/psyemProjectsafeForm.php:341
-#: front/pages/psyemProjectsafeForm.php:343
+#: front/pages/psyemProjectsafeForm.php:353
+#: front/pages/psyemProjectsafeForm.php:355
 msgid "Email Address"
-msgstr ""
+msgstr "電子郵件地址"
 
 #: front/pages/psyemDonationCheckout.php:140
 msgid "Phone Number"
-msgstr ""
+msgstr "電話號碼"
 
 #: front/pages/psyemDonationCheckout.php:147
 msgid "Company/Organisation"
-msgstr ""
+msgstr "公司/組織"
 
 #: front/pages/psyemDonationCheckout.php:162
 msgid "Sign up for our Newsletter"
-msgstr ""
+msgstr "訂閱我們的電子報"
 
 #: front/pages/psyemDonationCheckout.php:172
 msgid "I agree to the"
-msgstr ""
+msgstr "我同意"
 
 #: front/pages/psyemDonationCheckout.php:187
 #: front/pages/psyemOrderCheckout.php:271
 msgid "Continue to Payment"
-msgstr ""
+msgstr "繼續付款"
 
 #: front/pages/psyemDonationCheckout.php:200
 msgid "Card Details"
-msgstr ""
+msgstr "卡片詳情"
 
 #: front/pages/psyemDonationCheckout.php:215
-msgid "Please wait..."
-msgstr ""
+#: front/pages/psyemOrderCheckout.php:301
+msgid "Please wait"
+msgstr "請稍候"
 
 #: front/pages/psyemDonationCheckout.php:226
 #: front/pages/psyemOrderCheckout.php:312
 msgid ""
 "By submitting payment details, I hereby agreed with the terms & conditions"
-msgstr ""
+msgstr "提交付款詳情，即表示我同意條款和條件"
 
 #: front/pages/psyemDonationCheckout.php:234
 msgid "Donate & Confirm"
-msgstr ""
+msgstr "捐款並確認"
 
 #: front/pages/psyemDonationCheckout.php:257
-msgid "Thank you for your donation!"
-msgstr ""
+msgid "Thank you for your donation"
+msgstr "感謝您的捐款"
 
 #: front/pages/psyemDonationCheckout.php:261
-#: front/pages/psyemOrderThankyou.php:45
+#: front/pages/psyemOrderThankyou.php:48
 msgid "REFERENCE ID"
-msgstr ""
+msgstr "參考ID"
 
 #: front/pages/psyemDonationCheckout.php:266
-#: front/pages/psyemProjectsafeForm.php:503
+#: front/pages/psyemProjectsafeForm.php:515
 msgid "BACK TO HOMEPAGE"
-msgstr ""
+msgstr "返回首頁"
 
 #: front/pages/psyemDonationCheckout.php:286
-msgid "Please select an amount first to proceed with the donation checkout."
-msgstr ""
+msgid "Please select an amount first to proceed with the donation checkout"
+msgstr "請先選擇金額以繼續捐款結帳"
 
 #: front/pages/psyemDonationForm.php:24
 msgid "Make a Donation"
-msgstr ""
+msgstr "進行捐款"
 
-#: front/pages/psyemDonationForm.php:26
-msgid ""
-"Your donation will go a long way in helping to save lives by supporting our "
-"efforts to promote prevention, early detection, and optimal treatment of "
-"gynaecological cancer in Hong Kong."
-msgstr ""
+#: front/pages/psyemDonationForm.php:45
+msgid "Help keep our programs running"
+msgstr "幫助我們維持項目運行"
 
-#: front/pages/psyemDonationForm.php:29
-msgid ""
-"We are a registered charity in both the US and Hong Kong and are able to "
-"provide tax deductible receipts for both jurisdictions."
-msgstr ""
-
-#: front/pages/psyemDonationForm.php:39
-msgid "Help keep our programs running."
-msgstr ""
-
-#: front/pages/psyemDonationForm.php:45 front/pages/psyemDonationForm.php:54
+#: front/pages/psyemDonationForm.php:51 front/pages/psyemDonationForm.php:60
 msgid "Select Amount"
-msgstr ""
+msgstr "選擇金額"
 
-#: front/pages/psyemDonationForm.php:50
-msgid "Every penny counts."
-msgstr ""
+#: front/pages/psyemDonationForm.php:56
+msgid "Every penny counts"
+msgstr "每一分錢都很重要"
 
-#: front/pages/psyemDonationForm.php:58
-msgid "Donate towards our Core Objectives."
-msgstr ""
+#: front/pages/psyemDonationForm.php:64
+msgid "Donate towards our Core Objectives"
+msgstr "捐款支持我們的核心目標"
 
-#: front/pages/psyemDonationForm.php:59
-msgid "Make a targeted impact."
-msgstr ""
+#: front/pages/psyemDonationForm.php:65
+msgid "Make a targeted impact"
+msgstr "實現有針對性的影響"
 
-#: front/pages/psyemDonationForm.php:62
+#: front/pages/psyemDonationForm.php:68
 msgid "Areas of Impact"
-msgstr ""
+msgstr "影響範圍"
 
 #: front/pages/psyemEventDetails.php:54 front/pages/psyemOrderCheckout.php:54
 msgid "Our Events"
-msgstr ""
+msgstr "我們的活動"
 
-#: front/pages/psyemEventDetails.php:97
+#: front/pages/psyemEventDetails.php:90
+msgid "Learn More"
+msgstr "了解更多"
+
+#: front/pages/psyemEventDetails.php:101
 msgid "About the event"
-msgstr ""
+msgstr "關於活動"
 
-#: front/pages/psyemEventDetails.php:126
+#: front/pages/psyemEventDetails.php:130
 msgid "Start date time"
-msgstr ""
+msgstr "開始日期和時間"
 
-#: front/pages/psyemEventDetails.php:136
+#: front/pages/psyemEventDetails.php:140
 msgid "End date time"
-msgstr ""
+msgstr "結束日期和時間"
 
-#: front/pages/psyemEventDetails.php:147
+#: front/pages/psyemEventDetails.php:151
 msgid "Registration Fee"
-msgstr ""
+msgstr "註冊費用"
 
-#: front/pages/psyemEventDetails.php:229
-msgid "Add To Cart"
-msgstr ""
-
-#: front/pages/psyemEventDetails.php:246
+#: front/pages/psyemEventDetails.php:179
 msgid "Additional Information"
-msgstr ""
+msgstr "附加信息"
 
-#: front/pages/psyemEventDetails.php:285 front/pages/psyemEventsList.php:269
+#: front/pages/psyemEventDetails.php:218 front/pages/psyemEventsList.php:272
 #: front/pages/psyemKnowledgehubList.php:74
 #: front/pages/psyemKnowledgehubList.php:102 front/pages/psyemSinglePost.php:15
 #: front/pages/psyemSinglePost.php:37 front/pages/psyemSinglePost.php:58
@@ -2607,969 +2565,950 @@ msgstr ""
 #: front/pages/psyemSinglePost.php:232 front/pages/psyemSinglePost.php:265
 #: front/pages/psyemSinglePost.php:288
 msgid "More"
-msgstr ""
+msgstr "更多"
 
-#: front/pages/psyemEventDetails.php:379
+#: front/pages/psyemEventDetails.php:292
+msgid "Add To Cart"
+msgstr "加入購物車"
+
+#: front/pages/psyemEventDetails.php:383
 msgid "Social Media"
-msgstr ""
+msgstr "社交媒體"
 
-#: front/pages/psyemEventDetails.php:446 front/pages/psyemEventsList.php:282
+#: front/pages/psyemEventDetails.php:450 front/pages/psyemEventsList.php:285
 #: front/pages/psyemPartnerDetails.php:86
 #: front/pages/psyemSpeakerDetails.php:78
 msgid "Tagged "
-msgstr ""
+msgstr "標籤 "
 
 #: front/pages/psyemEventsList.php:51 front/pages/psyemKnowledgehubList.php:37
 #: front/pages/psyemNewsList.php:38 front/pages/psyemProgrammesList.php:37
 msgid "Search"
-msgstr ""
+msgstr "搜尋"
 
 #: front/pages/psyemEventsList.php:58
 msgid "UPCOMING EVENTS"
-msgstr ""
+msgstr "即將舉行的活動"
 
 #: front/pages/psyemEventsList.php:63
 msgid "PAST EVENTS"
-msgstr ""
+msgstr "過去的活動"
 
 #: front/pages/psyemEventsList.php:68
 msgid "VIEW ALL"
-msgstr ""
-
-#: front/pages/psyemEventsList.php:180
-#: front/pages/psyemKnowledgehubList.php:122 front/pages/psyemNewsList.php:167
-#: front/pages/psyemProgrammesList.php:93
-msgid "No records found."
-msgstr ""
+msgstr "查看全部"
 
 #: front/pages/psyemEventsList.php:193
 #: front/pages/psyemKnowledgehubList.php:135 front/pages/psyemNewsList.php:180
 #: front/pages/psyemProgrammesList.php:106
 msgid "<<"
-msgstr ""
+msgstr "<<"
 
 #: front/pages/psyemEventsList.php:194
 #: front/pages/psyemKnowledgehubList.php:136 front/pages/psyemNewsList.php:181
 #: front/pages/psyemProgrammesList.php:107
 msgid ">>"
-msgstr ""
+msgstr ">>"
 
 #: front/pages/psyemEventsList.php:215
 msgid "Become a Volunteer"
-msgstr ""
+msgstr "成為志願者"
 
-#: front/pages/psyemEventsList.php:218 front/pages/psyemEventsList.php:242
+#: front/pages/psyemEventsList.php:224 front/pages/psyemEventsList.php:248
+msgid "Contact Us"
+msgstr "聯繫我們"
+
+#: front/pages/psyemEventsList.php:242
+msgid "Get the Latest Update"
+msgstr "獲取最新更新"
+
+#: front/pages/psyemEventsList.php:245
 msgid ""
 "KLF is always looking for dedicated volunteers who are passionate about "
-"fighting women’s cancers or who simply want to assist the local community."
-msgstr ""
-
-#: front/pages/psyemEventsList.php:221 front/pages/psyemEventsList.php:245
-msgid "Contact Us"
-msgstr ""
-
-#: front/pages/psyemEventsList.php:239
-msgid "Get the Latest Update"
-msgstr ""
-
-#: front/pages/psyemEventsList.php:263
-msgid "Become a Sponsor"
-msgstr ""
+"fighting women’s cancers or who simply want to assist the local community"
+msgstr "KLF 始終在尋找熱衷於抗擊女性癌症或希望幫助當地社區的志願者"
 
 #: front/pages/psyemEventsList.php:266
+msgid "Become a Sponsor"
+msgstr "成為贊助商"
+
+#: front/pages/psyemEventsList.php:269
 msgid ""
 "All our sponsorship opportunities include a range of attractive benefits"
-msgstr ""
+msgstr "我們的所有贊助機會均包括一系列吸引人的福利"
 
 #: front/pages/psyemKnowledgehubList.php:53 front/pages/psyemNewsList.php:54
 #: front/pages/psyemProgrammesList.php:53
 msgid "View All"
-msgstr ""
+msgstr "查看全部"
 
 #: front/pages/psyemOrderCheckout.php:59
 msgid "Checkout"
-msgstr ""
+msgstr "結帳"
 
 #: front/pages/psyemOrderCheckout.php:100
 msgid "Event Info"
-msgstr ""
+msgstr "活動信息"
 
 #: front/pages/psyemOrderCheckout.php:106
 msgid "Start Date Time"
-msgstr ""
+msgstr "開始日期和時間"
 
 #: front/pages/psyemOrderCheckout.php:112
 msgid "End Date Time"
-msgstr ""
+msgstr "結束日期與時間"
 
 #: front/pages/psyemOrderCheckout.php:127
 msgid "Registration Ticket Price"
-msgstr ""
+msgstr "報名票價"
 
 #: front/pages/psyemOrderCheckout.php:143
 msgid "Disclaimer"
-msgstr ""
+msgstr "免責聲明"
 
 #: front/pages/psyemOrderCheckout.php:157
 msgid "Order Summary"
-msgstr ""
+msgstr "訂單摘要"
 
 #: front/pages/psyemOrderCheckout.php:210
 #: front/pages/psyemOrderCheckout.php:347
 msgid "Enter your name"
-msgstr ""
+msgstr "請輸入您的姓名"
 
 #: front/pages/psyemOrderCheckout.php:227
 #: front/pages/psyemOrderCheckout.php:353
 msgid "Enter your valid email"
-msgstr ""
+msgstr "請輸入您的有效電子郵件"
 
 #: front/pages/psyemOrderCheckout.php:236
 msgid "Apply"
-msgstr ""
+msgstr "應用"
 
 #: front/pages/psyemOrderCheckout.php:249
 msgid "Total Ticket Price"
-msgstr ""
+msgstr "票價總計"
 
 #: front/pages/psyemOrderCheckout.php:255
 msgid "Total Discount Price"
-msgstr ""
+msgstr "折扣總計"
 
 #: front/pages/psyemOrderCheckout.php:261
 msgid "Total Checkout Price"
-msgstr ""
+msgstr "結帳總計"
 
 #: front/pages/psyemOrderCheckout.php:276
 #: front/pages/psyemOrderCheckout.php:376
 #: front/pages/psyemOrderCheckout.php:399
-msgid "Registration for this event has been closed."
-msgstr ""
-
-#: front/pages/psyemOrderCheckout.php:301
-msgid "Please wait"
-msgstr ""
+msgid "Registration for this event has been closed"
+msgstr "該活動的報名已結束"
 
 #: front/pages/psyemOrderCheckout.php:320
 msgid "PAY NOW"
-msgstr ""
+msgstr "立即付款"
 
 #: front/pages/psyemOrderCheckout.php:338
 msgid "Participants Info"
-msgstr ""
+msgstr "參與者資訊"
 
 #: front/pages/psyemOrderCheckout.php:365
 msgid "Select total participants"
-msgstr ""
+msgstr "選擇參與人數"
 
 #: front/pages/psyemOrderCheckout.php:371
 msgid "Submit to Book"
-msgstr ""
+msgstr "提交預訂"
 
 #: front/pages/psyemOrderCheckout.php:404
-#: front/pages/psyemOrderCheckout.php:441 front/pages/psyemOrderThankyou.php:47
+#: front/pages/psyemOrderCheckout.php:441 front/pages/psyemOrderThankyou.php:50
 #: front/pages/psyemVerifyqr.php:83 front/pages/psyemVerifyqr.php:115
 msgid "Click"
-msgstr ""
+msgstr "點擊"
 
 #: front/pages/psyemOrderCheckout.php:406
-#: front/pages/psyemOrderCheckout.php:443 front/pages/psyemOrderThankyou.php:49
+#: front/pages/psyemOrderCheckout.php:443 front/pages/psyemOrderThankyou.php:52
 #: front/pages/psyemVerifyqr.php:85 front/pages/psyemVerifyqr.php:117
 msgid "here"
-msgstr ""
+msgstr "這裡"
 
 #: front/pages/psyemOrderCheckout.php:408
 #: front/pages/psyemOrderCheckout.php:445
-msgid "to view events or book new tickets."
-msgstr ""
+msgid "to view events or book new tickets"
+msgstr "查看活動或預訂新票"
 
 #: front/pages/psyemOrderCheckout.php:436
-msgid "Event data not found to process checkout."
-msgstr ""
+msgid "Event data not found to process checkout"
+msgstr "未找到活動數據以處理結帳"
 
 #: front/pages/psyemOrderThankyou.php:35
 msgid "Booking confirmed"
-msgstr ""
+msgstr "預訂確認"
 
-#: front/pages/psyemOrderThankyou.php:42
-msgid ""
-"We are delighted to inform you that your booking has been successfully "
-"confirmed, and your payment has been processed. We look forward to serving "
-"you and ensuring you have a wonderful experience"
-msgstr ""
-
-#: front/pages/psyemOrderThankyou.php:51
-msgid "to view more events or book new tickets."
-msgstr ""
+#: front/pages/psyemOrderThankyou.php:54
+msgid "to view more events or book new tickets"
+msgstr "查看更多活動或預訂新票"
 
 #: front/pages/psyemPartnerDetails.php:64
 msgid "About the Partner"
-msgstr ""
+msgstr "關於合作夥伴"
 
 #: front/pages/psyemProjectsafeForm.php:9
 msgid "Register For Project SAFE"
-msgstr ""
+msgstr "註冊參加 Project SAFE"
 
 #: front/pages/psyemProjectsafeForm.php:13
-msgid "Two simple steps to register."
-msgstr ""
+msgid "Two simple steps to register"
+msgstr "兩個簡單步驟來註冊"
 
 #: front/pages/psyemProjectsafeForm.php:22
 msgid "Participant Information"
-msgstr ""
+msgstr "參與者信息"
 
 #: front/pages/psyemProjectsafeForm.php:27
 msgid "Contact information"
-msgstr ""
+msgstr "聯絡資料"
 
 #: front/pages/psyemProjectsafeForm.php:38
 msgid ""
 "Please fill in the following information if you would like join the project. "
-"<br>All personal details will be kept strictly confidential."
-msgstr ""
+"<br>All personal details will be kept strictly confidential"
+msgstr "如果您想參加該項目，請填寫以下信息。<br>所有個人資料將會嚴格保密"
 
 #: front/pages/psyemProjectsafeForm.php:41
-#: front/pages/psyemProjectsafeForm.php:307
+#: front/pages/psyemProjectsafeForm.php:319
 msgid "Required field"
-msgstr ""
+msgstr "必填欄位"
 
 #: front/pages/psyemProjectsafeForm.php:47
 #: front/pages/psyemProjectsafeForm.php:49
 msgid "First Name (Same with HKID)"
-msgstr ""
+msgstr "名字（與香港身份證相同）"
 
 #: front/pages/psyemProjectsafeForm.php:55
 #: front/pages/psyemProjectsafeForm.php:57
 msgid "Last Name (Same with HKID)"
-msgstr ""
+msgstr "姓氏（與香港身份證相同）"
 
 #: front/pages/psyemProjectsafeForm.php:67
 msgid "Female"
-msgstr ""
+msgstr "女性"
 
 #: front/pages/psyemProjectsafeForm.php:70
 msgid "Male"
-msgstr ""
+msgstr "男性"
 
 #: front/pages/psyemProjectsafeForm.php:78
 #: front/pages/psyemProjectsafeForm.php:113
 msgid "Day of Birth"
-msgstr ""
+msgstr "出生日期"
 
 #: front/pages/psyemProjectsafeForm.php:119
 #: front/pages/psyemProjectsafeForm.php:135
 msgid "Month of Birth"
-msgstr ""
+msgstr "出生月份"
 
 #: front/pages/psyemProjectsafeForm.php:121
 msgid "January"
-msgstr ""
+msgstr "一月"
 
 #: front/pages/psyemProjectsafeForm.php:122
 msgid "February"
-msgstr ""
+msgstr "二月"
 
 #: front/pages/psyemProjectsafeForm.php:123
 msgid "March"
-msgstr ""
+msgstr "三月"
 
 #: front/pages/psyemProjectsafeForm.php:124
 msgid "April"
-msgstr ""
+msgstr "四月"
 
 #: front/pages/psyemProjectsafeForm.php:125
 msgid "May"
-msgstr ""
+msgstr "五月"
 
 #: front/pages/psyemProjectsafeForm.php:126
 msgid "June"
-msgstr ""
+msgstr "六月"
 
 #: front/pages/psyemProjectsafeForm.php:127
 msgid "July"
-msgstr ""
+msgstr "七月"
 
 #: front/pages/psyemProjectsafeForm.php:128
 msgid "August"
-msgstr ""
+msgstr "八月"
 
 #: front/pages/psyemProjectsafeForm.php:129
 msgid "September"
-msgstr ""
+msgstr "九月"
 
 #: front/pages/psyemProjectsafeForm.php:130
 msgid "October"
-msgstr ""
+msgstr "十月"
 
 #: front/pages/psyemProjectsafeForm.php:131
 msgid "November"
-msgstr ""
+msgstr "十一月"
 
 #: front/pages/psyemProjectsafeForm.php:132
 msgid "December"
-msgstr ""
+msgstr "十二月"
 
 #: front/pages/psyemProjectsafeForm.php:141
 #: front/pages/psyemProjectsafeForm.php:148
 msgid "Year of Birth"
-msgstr ""
+msgstr "出生年份"
 
 #: front/pages/psyemProjectsafeForm.php:157
 #: front/pages/psyemProjectsafeForm.php:173
 #: front/pages/psyemProjectsafeForm.php:189
 #: front/pages/psyemProjectsafeForm.php:205
 #: front/pages/psyemProjectsafeForm.php:221
-#: front/pages/psyemProjectsafeForm.php:237 helpers/psyemHelper.php:28
+#: front/pages/psyemProjectsafeForm.php:237 helpers/psyemHelper.php:30
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: front/pages/psyemProjectsafeForm.php:160
 #: front/pages/psyemProjectsafeForm.php:176
 #: front/pages/psyemProjectsafeForm.php:192
 #: front/pages/psyemProjectsafeForm.php:208
 #: front/pages/psyemProjectsafeForm.php:224
-#: front/pages/psyemProjectsafeForm.php:240 helpers/psyemHelper.php:29
+#: front/pages/psyemProjectsafeForm.php:240 helpers/psyemHelper.php:31
 msgid "No"
-msgstr ""
+msgstr "否"
 
-#: front/pages/psyemProjectsafeForm.php:280
-msgid ""
-"I here with acknowledge that, if I am currently experiencing irregular "
-"bleeding, spotting or pain during my menses, sex or randomly, I cannot join "
-"the project. We kindly encourage you to contact your GP immediately and seek "
-"a professional opinion."
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:287
+#: front/pages/psyemProjectsafeForm.php:299
 msgid "I have read and agree to the"
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:319
-msgid "SMS"
-msgstr ""
+msgstr "我已閱讀並同意"
 
 #: front/pages/psyemProjectsafeForm.php:331
+msgid "SMS"
+msgstr "短信"
+
+#: front/pages/psyemProjectsafeForm.php:343
 msgid "Contact Details"
-msgstr ""
+msgstr "聯絡資料"
 
-#: front/pages/psyemProjectsafeForm.php:335
-#: front/pages/psyemProjectsafeForm.php:337
+#: front/pages/psyemProjectsafeForm.php:347
+#: front/pages/psyemProjectsafeForm.php:349
 msgid "Phone number"
-msgstr ""
+msgstr "電話號碼"
 
-#: front/pages/psyemProjectsafeForm.php:352
+#: front/pages/psyemProjectsafeForm.php:364
 msgid "Hong Kong Island"
-msgstr ""
+msgstr "香港島"
 
-#: front/pages/psyemProjectsafeForm.php:355
+#: front/pages/psyemProjectsafeForm.php:367
 msgid "Kowloon"
-msgstr ""
+msgstr "九龍"
 
-#: front/pages/psyemProjectsafeForm.php:358
+#: front/pages/psyemProjectsafeForm.php:370
 msgid "New Territories"
-msgstr ""
+msgstr "新界"
 
-#: front/pages/psyemProjectsafeForm.php:372
+#: front/pages/psyemProjectsafeForm.php:384
 msgid "Central and Western"
-msgstr ""
+msgstr "中西區"
 
-#: front/pages/psyemProjectsafeForm.php:375
+#: front/pages/psyemProjectsafeForm.php:387
 msgid "Eastern"
-msgstr ""
+msgstr "東區"
 
-#: front/pages/psyemProjectsafeForm.php:378
+#: front/pages/psyemProjectsafeForm.php:390
 msgid "Southern"
-msgstr ""
+msgstr "南區"
 
-#: front/pages/psyemProjectsafeForm.php:381
+#: front/pages/psyemProjectsafeForm.php:393
 msgid "Wan Chai"
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:385
-msgid "Sham Shui Po"
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:388
-msgid "Kowloon City"
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:391
-msgid "Kwun Tong"
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:394
-msgid "Wong Tai Sin"
-msgstr ""
+msgstr "灣仔"
 
 #: front/pages/psyemProjectsafeForm.php:397
-msgid "Yau Tsim Mong"
-msgstr ""
+msgid "Sham Shui Po"
+msgstr "深水埗"
 
 #: front/pages/psyemProjectsafeForm.php:400
-msgid "Islands"
-msgstr ""
+msgid "Kowloon City"
+msgstr "九龍城"
 
 #: front/pages/psyemProjectsafeForm.php:403
-msgid "Kwai Tsing"
-msgstr ""
+msgid "Kwun Tong"
+msgstr "觀塘"
 
 #: front/pages/psyemProjectsafeForm.php:406
-msgid "North"
-msgstr ""
+msgid "Wong Tai Sin"
+msgstr "黃大仙"
 
 #: front/pages/psyemProjectsafeForm.php:409
-msgid "Sai Kung"
-msgstr ""
+msgid "Yau Tsim Mong"
+msgstr "油尖旺"
 
 #: front/pages/psyemProjectsafeForm.php:412
-msgid "Sha Tin"
-msgstr ""
+msgid "Islands"
+msgstr "離島"
 
 #: front/pages/psyemProjectsafeForm.php:415
-msgid "Tai Po"
-msgstr ""
+msgid "Kwai Tsing"
+msgstr "葵青"
 
 #: front/pages/psyemProjectsafeForm.php:418
-msgid "Tsuen Wan"
-msgstr ""
+msgid "North"
+msgstr "北區"
 
 #: front/pages/psyemProjectsafeForm.php:421
-msgid "Tuen Mun"
-msgstr ""
+msgid "Sai Kung"
+msgstr "西貢"
 
 #: front/pages/psyemProjectsafeForm.php:424
+msgid "Sha Tin"
+msgstr "沙田"
+
+#: front/pages/psyemProjectsafeForm.php:427
+msgid "Tai Po"
+msgstr "大埔"
+
+#: front/pages/psyemProjectsafeForm.php:430
+msgid "Tsuen Wan"
+msgstr "荃灣"
+
+#: front/pages/psyemProjectsafeForm.php:433
+msgid "Tuen Mun"
+msgstr "屯門"
+
+#: front/pages/psyemProjectsafeForm.php:436
 msgid "Yuen Long"
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:440
-msgid "Let us know more about you."
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:449
-msgid "Karen Leung Foundation Website"
-msgstr ""
+msgstr "元朗"
 
 #: front/pages/psyemProjectsafeForm.php:452
-msgid "PHASE Scientific"
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:455
-msgid "Social Media (eg. Facebook, Instagram, etc)"
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:458
-msgid "School News"
-msgstr ""
+msgid "Let us know more about you"
+msgstr "讓我們更了解你"
 
 #: front/pages/psyemProjectsafeForm.php:461
+msgid "Karen Leung Foundation Website"
+msgstr "Karen Leung 基金會網站"
+
+#: front/pages/psyemProjectsafeForm.php:464
+msgid "PHASE Scientific"
+msgstr "科研公司"
+
+#: front/pages/psyemProjectsafeForm.php:467
+msgid "Social Media (eg. Facebook, Instagram, etc)"
+msgstr "社交媒體（如 Facebook、Instagram 等）"
+
+#: front/pages/psyemProjectsafeForm.php:470
+msgid "School News"
+msgstr "學校消息"
+
+#: front/pages/psyemProjectsafeForm.php:473
 msgid "Health Talk by Karen Leung Foundation"
-msgstr ""
+msgstr "Karen Leung 基金會健康講座"
 
-#: front/pages/psyemProjectsafeForm.php:471
+#: front/pages/psyemProjectsafeForm.php:483
 msgid "Back"
-msgstr ""
-
-#: front/pages/psyemProjectsafeForm.php:475
-msgid "Submit"
-msgstr ""
+msgstr "返回"
 
 #: front/pages/psyemProjectsafeForm.php:487
-msgid ""
-"Thank you for your registration! We will put you in our first priority list."
-msgstr ""
+msgid "Submit"
+msgstr "提交"
 
-#: front/pages/psyemProjectsafeForm.php:492
+#: front/pages/psyemProjectsafeForm.php:499
+msgid ""
+"Thank you for your registration! We will put you in our first priority list"
+msgstr "感謝你的登記！我們將你列入優先名單"
+
+#: front/pages/psyemProjectsafeForm.php:504
 msgid ""
 "The project quota is full. You will be notified by an Email or Sms for "
-"successful registration."
-msgstr ""
+"successful registration"
+msgstr "本項目名額已滿。成功登記後，你將會收到電郵或短信通知"
 
-#: front/pages/psyemProjectsafeForm.php:497
+#: front/pages/psyemProjectsafeForm.php:509
 msgid "Reference no"
-msgstr ""
+msgstr "參考編號"
 
 #: front/pages/psyemSinglePost.php:13 front/pages/psyemSinglePost.php:35
 #: front/pages/psyemSinglePost.php:56 front/pages/psyemSinglePost.php:88
 #: front/pages/psyemSinglePost.php:111
 msgid "Posted on"
-msgstr ""
+msgstr "發佈於"
 
 #: front/pages/psyemSpeakerDetails.php:54
 msgid "About the Speaker"
-msgstr ""
+msgstr "關於講者"
 
 #: front/pages/psyemVerifyqr.php:66
 msgid "QR Scan successfully confirmed"
-msgstr ""
+msgstr "QR 掃描成功確認"
 
 #: front/pages/psyemVerifyqr.php:73
 msgid "Welcome"
-msgstr ""
+msgstr "歡迎"
 
 #: front/pages/psyemVerifyqr.php:76
 msgid "Thank you, Your booking ticket scan for"
-msgstr ""
+msgstr "感謝你，您的預訂票已掃描"
 
 #: front/pages/psyemVerifyqr.php:77
 msgid "EVENT"
-msgstr ""
+msgstr "活動"
 
 #: front/pages/psyemVerifyqr.php:78
-msgid "has been successfully confirmed."
-msgstr ""
+msgid "has been successfully confirmed"
+msgstr "已成功確認"
 
 #: front/pages/psyemVerifyqr.php:87 front/pages/psyemVerifyqr.php:119
-msgid "to visit the site."
-msgstr ""
+msgid "to visit the site"
+msgstr "以訪問網站"
 
 #: front/pages/psyemVerifyqr.php:96
-msgid "The QR code scan was unsuccessful."
-msgstr ""
+msgid "The QR code scan was unsuccessful"
+msgstr "QR 碼掃描未成功"
 
 #: front/pages/psyemVerifyqr.php:104
-msgid "The participant QR code scan has been failed to confirm."
-msgstr ""
+msgid "The participant QR code scan has been failed to confirm"
+msgstr "參加者的 QR 碼掃描確認失敗"
 
 #: front/pages/psyemVerifyqr.php:109
-msgid "Participant QR code link is INVALID."
-msgstr ""
+msgid "Participant QR code link is invalid"
+msgstr "參加者的 QR 碼連結無效"
 
 #: front/psyemFront.php:261
-msgid "Event ticket price has been failed to calculate!"
-msgstr ""
+msgid "Event ticket price has been failed to calculate"
+msgstr "活動門票價格計算失敗"
 
 #: front/psyemFront.php:278
-msgid "Event ticket price calculated!"
-msgstr ""
+msgid "Event ticket price calculated"
+msgstr "活動門票價格已計算"
 
-#: front/psyemFront.php:294 front/psyemFront.php:1426
-msgid "Payment intent has been failed to process!"
-msgstr ""
+#: front/psyemFront.php:294 front/psyemFront.php:1427
+msgid "Payment intent has been failed to process"
+msgstr "付款意向處理失敗"
 
 #: front/psyemFront.php:326 front/psyemFront.php:665
-msgid "Booking is not allowed for this event!"
-msgstr ""
+msgid "Booking is not allowed for this event"
+msgstr "此活動不允許預訂"
 
-#: front/psyemFront.php:378 front/psyemFront.php:1518 front/psyemFront.php:1610
-msgid "Payment intent created!"
-msgstr ""
+#: front/psyemFront.php:378 front/psyemFront.php:1519 front/psyemFront.php:1611
+msgid "Payment intent created"
+msgstr "付款意向已建立"
 
 #: front/psyemFront.php:406 front/psyemFront.php:640
-msgid "Booking order has been failed to process!"
-msgstr ""
+msgid "Booking order has been failed to process"
+msgstr "預訂訂單處理失敗"
 
 #: front/psyemFront.php:609 front/psyemFront.php:787
-msgid "Booking order has been successfully proccessed!"
-msgstr ""
+msgid "Booking order has been successfully proccessed"
+msgstr "預訂訂單已成功處理"
 
 #: front/psyemFront.php:625
-msgid "Booking order payment intent is empty!"
-msgstr ""
+msgid "Booking order payment intent is empty"
+msgstr "預訂訂單的付款意向為空"
 
 #: front/psyemFront.php:802
-msgid "Booking order failed to process!"
-msgstr ""
+msgid "Booking order failed to process"
+msgstr "預訂訂單處理失敗"
 
 #: front/psyemFront.php:994
 msgid "Events data not found"
-msgstr ""
+msgstr "找不到活動資料"
 
 #: front/psyemFront.php:998
 msgid "Events data found"
-msgstr ""
+msgstr "已找到活動資料"
 
 #: front/psyemFront.php:1013
 msgid "Event data not found"
-msgstr ""
+msgstr "找不到活動資料"
 
 #: front/psyemFront.php:1017
 msgid "Event data found"
-msgstr ""
+msgstr "已找到活動資料"
 
 #: front/psyemFront.php:1029
 msgid "Login failed"
-msgstr ""
+msgstr "登入失敗"
 
 #: front/psyemFront.php:1058
 msgid "Login successful"
-msgstr ""
+msgstr "登入成功"
 
 #: front/psyemFront.php:1068
 msgid "Logout failed"
-msgstr ""
+msgstr "登出失敗"
 
 #: front/psyemFront.php:1086
 msgid "Logout successful"
-msgstr ""
+msgstr "登出成功"
 
-#: front/psyemFront.php:1175
-msgid "Project safe request has been failed to process!"
-msgstr ""
-
-#: front/psyemFront.php:1190
-msgid "Project safe request has been sucessfully submitted!"
-msgstr ""
+#: front/psyemFront.php:1176
+msgid "Project safe request has been failed to process"
+msgstr "安全項目請求處理失敗"
 
 #: front/psyemFront.php:1191
-msgid "Participant details are captured, Please submit contact informations!"
-msgstr ""
+msgid "Project safe request has been sucessfully submitted"
+msgstr "安全項目請求已成功提交"
 
-#: front/psyemFront.php:1340
-msgid "Donation amounts has been failed to fetch!"
-msgstr ""
+#: front/psyemFront.php:1192
+msgid "Participant details are captured, Please submit contact informations"
+msgstr "已擷取參加者詳情，請提交聯絡資料"
 
-#: front/psyemFront.php:1363
+#: front/psyemFront.php:1341
+msgid "Donation amounts has been failed to fetch"
+msgstr "捐款金額擷取失敗"
+
+#: front/psyemFront.php:1364
 msgid "Donation amount records data found"
-msgstr ""
+msgstr "找到捐款金額記錄資料"
 
-#: front/psyemFront.php:1378
-msgid "Donation cart amount process has been failed!"
-msgstr ""
+#: front/psyemFront.php:1379
+msgid "Donation cart amount process has been failed"
+msgstr "捐款購物車金額處理失敗"
 
-#: front/psyemFront.php:1402
-msgid "Donation checkout page is not linked."
-msgstr ""
+#: front/psyemFront.php:1403
+msgid "Donation checkout page is not linked"
+msgstr "捐款結帳頁面未連結"
 
-#: front/psyemFront.php:1409
+#: front/psyemFront.php:1410
 msgid "Donation cart amount successfully processed"
-msgstr ""
+msgstr "捐款購物車金額已成功處理"
 
-#: front/psyemFront.php:1447
-msgid "Payment intent action is invalid!"
-msgstr ""
+#: front/psyemFront.php:1448
+msgid "Payment intent action is invalid"
+msgstr "付款意向操作無效"
 
-#: front/psyemFront.php:1635
-msgid "Donation amount has been failed to process!"
-msgstr ""
+#: front/psyemFront.php:1636
+msgid "Donation amount has been failed to process"
+msgstr "捐款金額處理失敗"
 
-#: front/psyemFront.php:1806
-msgid "Donation has been successfully proccessed!"
-msgstr ""
+#: front/psyemFront.php:1807
+msgid "Donation has been successfully proccessed"
+msgstr "捐款已成功處理"
 
-#: front/psyemFront.php:1824
-msgid "Donation payment intent is empty!"
-msgstr ""
-
-#: helpers/psyemHelper.php:12
-msgid "PSY Events Manager"
-msgstr ""
-
-#: helpers/psyemHelper.php:13
-msgid "https://smtlabs.io"
-msgstr ""
+#: front/psyemFront.php:1825
+msgid "Donation payment intent is empty"
+msgstr "捐款付款意向為空"
 
 #: helpers/psyemHelper.php:14
-msgid "Custom Plugin for Events, Tickets, Sales and Orders Managements"
-msgstr ""
+msgid "PSY Events Manager"
+msgstr "PSY 活動管理系統"
 
 #: helpers/psyemHelper.php:15
+msgid "https://smtlabs.io"
+msgstr "https://smtlabs.io"
+
+#: helpers/psyemHelper.php:16
+msgid "Custom Plugin for Events, Tickets, Sales and Orders Managements"
+msgstr "用於活動、票券、銷售及訂單管理的自訂插件"
+
+#: helpers/psyemHelper.php:17
 msgid "Pawan Kumar"
-msgstr ""
-
-#: helpers/psyemHelper.php:18
-msgid "Are you sure?"
-msgstr ""
-
-#: helpers/psyemHelper.php:19
-msgid "Are you sure want to permanently delete this record?"
-msgstr ""
+msgstr "Pawan Kumar"
 
 #: helpers/psyemHelper.php:20
-msgid "You wont be able to revert this!"
-msgstr ""
+msgid "Are you sure?"
+msgstr "你確定嗎？"
 
 #: helpers/psyemHelper.php:21
-msgid "Want to create copy of clicked event?"
-msgstr ""
+msgid "Are you sure want to permanently delete this record?"
+msgstr "你確定要永久刪除此記錄嗎？"
 
 #: helpers/psyemHelper.php:22
-msgid "Want to send ticket to selected participants?"
-msgstr ""
+msgid "You wont be able to revert this"
+msgstr "此操作無法還原"
 
 #: helpers/psyemHelper.php:23
-msgid "Are you sure want to create new record?"
-msgstr ""
+msgid "Want to create copy of clicked event?"
+msgstr "是否要複製所點擊的活動？"
 
 #: helpers/psyemHelper.php:24
-msgid "Sorry, You cannot meet the project requirement."
-msgstr ""
+msgid "Want to send ticket to selected participants?"
+msgstr "是否要將票券發送給所選參加者？"
 
 #: helpers/psyemHelper.php:25
+msgid "Are you sure want to create new record?"
+msgstr "你確定要建立新記錄嗎？"
+
+#: helpers/psyemHelper.php:26
+msgid "Sorry, You cannot meet the project requirement"
+msgstr "很抱歉，你不符合本項目的要求"
+
+#: helpers/psyemHelper.php:27
 msgid "Want to create offline registration?"
-msgstr ""
-
-#: helpers/psyemHelper.php:33
-msgid "Please select a CSV file."
-msgstr ""
-
-#: helpers/psyemHelper.php:34
-msgid "Please select participant"
-msgstr ""
+msgstr "是否要建立離線登記？"
 
 #: helpers/psyemHelper.php:35
-msgid "Shortcode slug is missing"
-msgstr ""
+msgid "Please select a CSV file"
+msgstr "請選擇一個 CSV 檔案"
 
 #: helpers/psyemHelper.php:36
-msgid "Please fill the type title"
-msgstr ""
+msgid "Please select participant"
+msgstr "請選擇參加者"
 
 #: helpers/psyemHelper.php:37
-msgid "Information has been failed to save!"
-msgstr ""
+msgid "Shortcode slug is missing"
+msgstr "缺少短代碼識別碼"
 
 #: helpers/psyemHelper.php:38
-msgid "Payment info has been failed to update!"
-msgstr ""
+msgid "Please fill the type title"
+msgstr "請填寫類型標題"
 
 #: helpers/psyemHelper.php:39
-msgid "At least one participant is required to book the ticket."
-msgstr ""
+msgid "Information has been failed to save"
+msgstr "資訊儲存失敗"
 
 #: helpers/psyemHelper.php:40
-msgid "Number of participants must be greater than 0"
-msgstr ""
+msgid "Payment info has been failed to update"
+msgstr "付款資訊更新失敗"
 
 #: helpers/psyemHelper.php:41
-msgid ""
-"Your payment process was not successfull, and requires_payment_method, "
-"please try again."
-msgstr ""
+msgid "At least one participant is required to book the ticket"
+msgstr "預訂票券至少需要一位參加者"
 
 #: helpers/psyemHelper.php:42
-msgid ""
-"Your payment process was not successful, and requires_action, please try "
-"again."
-msgstr ""
+msgid "Number of participants must be greater than 0"
+msgstr "參加者人數必須大於 0"
 
 #: helpers/psyemHelper.php:43
-msgid "Payment process failed."
-msgstr ""
+msgid ""
+"Your payment process was not successfull, and requires_payment_method, "
+"please try again"
+msgstr "付款程序未成功，需進一步操作，請再試一次"
 
 #: helpers/psyemHelper.php:44
-msgid "At least one ticket with participant is required to checkout."
-msgstr ""
+msgid ""
+"Your payment process was not successful, and requires_action, please try "
+"again"
+msgstr "付款程序未成功，需進一步操作，請再試一次"
 
-#: helpers/psyemHelper.php:47 helpers/psyemValidationsHelper.php:369
+#: helpers/psyemHelper.php:45
+msgid "Payment process failed"
+msgstr "付款程序失敗"
+
+#: helpers/psyemHelper.php:46
+msgid "At least one ticket with participant is required to checkout"
+msgstr "結帳時至少需要一張含有參加者的票券"
+
+#: helpers/psyemHelper.php:49 helpers/psyemValidationsHelper.php:369
 msgid "First name field is required"
-msgstr ""
-
-#: helpers/psyemHelper.php:48
-msgid "First name is invalid, Add only alphabets [a-zA-Z]"
-msgstr ""
-
-#: helpers/psyemHelper.php:49 helpers/psyemValidationsHelper.php:372
-msgid "Last name field is required"
-msgstr ""
+msgstr "名字欄位為必填"
 
 #: helpers/psyemHelper.php:50
-msgid "Last name is invalid, Add only alphabets [a-zA-Z]"
-msgstr ""
+msgid "First name is invalid, Add only alphabets [a-zA-Z]"
+msgstr "名字無效，請僅輸入英文字母 [a-zA-Z]"
 
-#: helpers/psyemHelper.php:51
-msgid "Please enter your name"
-msgstr ""
+#: helpers/psyemHelper.php:51 helpers/psyemValidationsHelper.php:372
+msgid "Last name field is required"
+msgstr "姓氏欄位為必填"
 
 #: helpers/psyemHelper.php:52
-msgid "Please enter valid name, Add only alphabets [a-zA-Z]"
-msgstr ""
+msgid "Last name is invalid, Add only alphabets [a-zA-Z]"
+msgstr "姓氏無效，請僅輸入英文字母 [a-zA-Z]"
 
-#: helpers/psyemHelper.php:53 helpers/psyemValidationsHelper.php:432
-msgid "Phone field is required"
-msgstr ""
+#: helpers/psyemHelper.php:53
+msgid "Please enter your name"
+msgstr "請輸入你的姓名"
 
 #: helpers/psyemHelper.php:54
-msgid "Phone field input is invalid, must be a 10 digits valid phone number."
-msgstr ""
+msgid "Please enter valid name, Add only alphabets [a-zA-Z]"
+msgstr "請輸入有效姓名，僅可包含英文字母 [a-zA-Z]"
 
-#: helpers/psyemHelper.php:55
-msgid "Please enter your valid email"
-msgstr ""
+#: helpers/psyemHelper.php:55 helpers/psyemValidationsHelper.php:432
+msgid "Phone field is required"
+msgstr "電話欄位為必填"
 
 #: helpers/psyemHelper.php:56
-msgid "Please enter a valid email address"
-msgstr ""
+msgid "Phone field input is invalid, must be a 10 digits valid phone number"
+msgstr "電話號碼格式無效，必須為 10 位數的有效電話號碼"
 
 #: helpers/psyemHelper.php:57
-msgid "Company field is required"
-msgstr ""
+msgid "Please enter your valid email"
+msgstr "請輸入有效的電子郵件地址"
 
 #: helpers/psyemHelper.php:58
-msgid "Company is invalid, Add only alphabets [a-zA-Z]"
-msgstr ""
+msgid "Please enter a valid email address"
+msgstr "請輸入正確的電子郵件地址"
 
 #: helpers/psyemHelper.php:59
-msgid "Country field is required"
-msgstr ""
+msgid "Company field is required"
+msgstr "公司欄位為必填"
 
 #: helpers/psyemHelper.php:60
-msgid "Country is invalid, Add only alphabets [a-zA-Z]"
-msgstr ""
+msgid "Company is invalid, Add only alphabets [a-zA-Z]"
+msgstr "公司名稱無效，請僅輸入英文字母 [a-zA-Z]"
 
-#: helpers/psyemHelper.php:61 helpers/psyemValidationsHelper.php:441
-msgid "District field is required"
-msgstr ""
+#: helpers/psyemHelper.php:61
+msgid "Country field is required"
+msgstr "國家欄位為必填"
 
 #: helpers/psyemHelper.php:62
-msgid "District is invalid, Add only alphabets [a-zA-Z]"
-msgstr ""
+msgid "Country is invalid, Add only alphabets [a-zA-Z]"
+msgstr "國家名稱無效，請僅輸入英文字母 [a-zA-Z]"
 
-#: helpers/psyemHelper.php:63
-msgid "City field is required"
-msgstr ""
+#: helpers/psyemHelper.php:63 helpers/psyemValidationsHelper.php:441
+msgid "District field is required"
+msgstr "地區欄位為必填"
 
 #: helpers/psyemHelper.php:64
-msgid "City is invalid, Add only alphabets [a-zA-Z]"
-msgstr ""
+msgid "District is invalid, Add only alphabets [a-zA-Z]"
+msgstr "地區名稱無效，請僅輸入英文字母 [a-zA-Z]"
 
-#: helpers/psyemHelper.php:65 helpers/psyemValidationsHelper.php:444
-msgid "Address field is required"
-msgstr ""
+#: helpers/psyemHelper.php:65
+msgid "City field is required"
+msgstr "城市欄位為必填"
 
 #: helpers/psyemHelper.php:66
+msgid "City is invalid, Add only alphabets [a-zA-Z]"
+msgstr "城市名稱無效，請僅輸入英文字母 [a-zA-Z]"
+
+#: helpers/psyemHelper.php:67 helpers/psyemValidationsHelper.php:444
+msgid "Address field is required"
+msgstr "地址欄位為必填"
+
+#: helpers/psyemHelper.php:68
 msgid "Please choose particpants count"
-msgstr ""
+msgstr "請選擇參加者人數"
 
-#: helpers/psyemHelper.php:67
-msgid "Please enter some amount to process."
-msgstr ""
+#: helpers/psyemHelper.php:69
+msgid "Please enter some amount to process"
+msgstr "請輸入金額以便處理"
 
-#: helpers/psyemHelper.php:68 helpers/psyemValidationsHelper.php:375
+#: helpers/psyemHelper.php:70 helpers/psyemValidationsHelper.php:375
 msgid "Gender field is required"
-msgstr ""
+msgstr "性別欄位為必填"
 
-#: helpers/psyemHelper.php:69 helpers/psyemValidationsHelper.php:378
+#: helpers/psyemHelper.php:71 helpers/psyemValidationsHelper.php:378
 msgid "DOB date field is required"
-msgstr ""
+msgstr "出生日期欄位為必填"
 
-#: helpers/psyemHelper.php:70 helpers/psyemValidationsHelper.php:381
+#: helpers/psyemHelper.php:72 helpers/psyemValidationsHelper.php:381
 msgid "DOB month field is required"
-msgstr ""
+msgstr "出生月份欄位為必填"
 
-#: helpers/psyemHelper.php:71 helpers/psyemValidationsHelper.php:384
+#: helpers/psyemHelper.php:73 helpers/psyemValidationsHelper.php:384
 msgid "DOB year field is required"
-msgstr ""
+msgstr "出生年份欄位為必填"
 
-#: helpers/psyemHelper.php:72 helpers/psyemValidationsHelper.php:387
+#: helpers/psyemHelper.php:74 helpers/psyemValidationsHelper.php:387
 msgid "Sexual experience field is required"
-msgstr ""
+msgstr "性經驗欄位為必填"
 
-#: helpers/psyemHelper.php:73 helpers/psyemValidationsHelper.php:390
+#: helpers/psyemHelper.php:75 helpers/psyemValidationsHelper.php:390
 msgid "Cervical screening field is required"
-msgstr ""
+msgstr "子宮頸篩查欄位為必填"
 
-#: helpers/psyemHelper.php:74 helpers/psyemValidationsHelper.php:393
+#: helpers/psyemHelper.php:76 helpers/psyemValidationsHelper.php:393
 msgid "Undergoing treatment field is required"
-msgstr ""
+msgstr "治療中欄位為必填"
 
-#: helpers/psyemHelper.php:75 helpers/psyemValidationsHelper.php:396
+#: helpers/psyemHelper.php:77 helpers/psyemValidationsHelper.php:396
 msgid "Received HPV vaccine field is required"
-msgstr ""
+msgstr "接種 HPV 疫苗欄位為必填"
 
-#: helpers/psyemHelper.php:76 helpers/psyemValidationsHelper.php:399
+#: helpers/psyemHelper.php:78 helpers/psyemValidationsHelper.php:399
 msgid "Are you pregnant field is required"
-msgstr ""
+msgstr "是否懷孕欄位為必填"
 
-#: helpers/psyemHelper.php:77 helpers/psyemValidationsHelper.php:402
+#: helpers/psyemHelper.php:79 helpers/psyemValidationsHelper.php:402
 msgid "Did you have a hysterectomy field is required"
-msgstr ""
+msgstr "是否進行子宮切除手術欄位為必填"
 
-#: helpers/psyemHelper.php:78 helpers/psyemValidationsHelper.php:405
+#: helpers/psyemHelper.php:80 helpers/psyemValidationsHelper.php:405
 msgid "Clinical study consent field is required"
-msgstr ""
+msgstr "臨床研究同意欄位為必填"
 
-#: helpers/psyemHelper.php:79 helpers/psyemValidationsHelper.php:408
+#: helpers/psyemHelper.php:81 helpers/psyemValidationsHelper.php:408
 msgid "Information sheet consent field is required"
-msgstr ""
+msgstr "資訊說明書同意欄位為必填"
 
-#: helpers/psyemHelper.php:80 helpers/psyemValidationsHelper.php:411
+#: helpers/psyemHelper.php:82 helpers/psyemValidationsHelper.php:411
 msgid "Voluntary participation consent field is required"
-msgstr ""
+msgstr "自願參與同意欄位為必填"
 
-#: helpers/psyemHelper.php:81
+#: helpers/psyemHelper.php:83
 msgid "Cervical screening program consent field is required"
-msgstr ""
+msgstr "子宮頸篩查計畫同意欄位為必填"
 
-#: helpers/psyemHelper.php:82 helpers/psyemValidationsHelper.php:417
+#: helpers/psyemHelper.php:84 helpers/psyemValidationsHelper.php:417
 msgid "Professional opinion consent field is required"
-msgstr ""
+msgstr "專業意見同意欄位為必填"
 
-#: helpers/psyemHelper.php:83 helpers/psyemValidationsHelper.php:420
+#: helpers/psyemHelper.php:85 helpers/psyemValidationsHelper.php:420
 msgid "Terms and conditions consent field is required"
-msgstr ""
+msgstr "條款與條件同意欄位為必填"
 
-#: helpers/psyemHelper.php:84 helpers/psyemValidationsHelper.php:438
+#: helpers/psyemHelper.php:86 helpers/psyemValidationsHelper.php:438
 msgid "Region field is required"
-msgstr ""
+msgstr "地區欄位為必填"
 
-#: helpers/psyemHelper.php:85 helpers/psyemValidationsHelper.php:447
+#: helpers/psyemHelper.php:87 helpers/psyemValidationsHelper.php:447
 msgid "Contact source field is required"
-msgstr ""
+msgstr "聯絡來源欄位為必填"
 
-#: helpers/psyemHelper.php:86
+#: helpers/psyemHelper.php:88
 msgid "Please select event"
-msgstr ""
+msgstr "請選擇活動"
 
-#: helpers/psyemHelper.php:87
+#: helpers/psyemHelper.php:89
 msgid "Please enter number of participants"
-msgstr ""
+msgstr "請輸入參加者人數"
 
-#: helpers/psyemHelper.php:549
-msgid "Your coupon code is expired!"
-msgstr ""
+#: helpers/psyemHelper.php:551
+msgid "Your coupon code is expired"
+msgstr "您的優惠碼已過期"
 
-#: helpers/psyemHelper.php:552
-msgid "Your coupon code is invalid!"
-msgstr ""
+#: helpers/psyemHelper.php:554
+msgid "Your coupon code is invalid"
+msgstr "您的優惠碼無效"
 
-#: helpers/psyemHelper.php:555
-msgid "Please check! Your coupon code is invalid!"
-msgstr ""
+#: helpers/psyemHelper.php:557
+msgid "Please check! Your coupon code is invalid"
+msgstr "請檢查！您的優惠碼無效"
 
-#: helpers/psyemHelper.php:558
-msgid "No coupons are allowed for booking this event!"
-msgstr ""
+#: helpers/psyemHelper.php:560
+msgid "No coupons are allowed for booking this event"
+msgstr "此活動不接受任何優惠碼預訂"
 
-#: helpers/psyemHelper.php:1178
-msgid "Offline registration order has been failed to create!"
-msgstr ""
+#: helpers/psyemHelper.php:1180
+msgid "Offline registration order has been failed to create"
+msgstr "離線註冊訂單建立失敗"
 
-#: helpers/psyemHelper.php:1201
-msgid "Registration is not allowed for this event!"
-msgstr ""
+#: helpers/psyemHelper.php:1203
+msgid "Registration is not allowed for this event"
+msgstr "此活動不允許註冊"
 
-#: helpers/psyemHelper.php:1324
-msgid "Offline registration order has been successfully created!"
-msgstr ""
+#: helpers/psyemHelper.php:1326
+msgid "Offline registration order has been successfully created"
+msgstr "離線註冊訂單已成功建立"
 
-#: helpers/psyemHelper.php:1695
+#: helpers/psyemHelper.php:1697
 msgid ""
-"Your registration request for Project Safe has been successfully submitted."
-msgstr ""
+"Your registration request for Project Safe has been successfully submitted"
+msgstr "您對 Project Safe 的註冊申請已成功提交"
 
-#: helpers/psyemHelper.php:1699
+#: helpers/psyemHelper.php:1701
 msgid ""
 "You are now registered to Project SAFE - Our partner PHASE Scientific will "
-"send you an email or sms for confirmation in 1-2 working days."
+"send you an email or sms for confirmation in 1-2 working days"
 msgstr ""
+"您已成功註冊 Project SAFE，我們的合作夥伴 PHASE Scientific 將於 1-2 個工作日 "
+"內透過電郵或簡訊與您確認"
 
-#: helpers/psyemHelper.php:1700
+#: helpers/psyemHelper.php:1702
 msgid ""
 "Please call Kinetics Integrated Medical and Health Center within 2 weeks "
-"from your sign-up date to arrange an appointment for the screening."
-msgstr ""
+"from your sign-up date to arrange an appointment for the screening"
+msgstr "請於報名日起兩週內致電 Kinetics 綜合醫療健康中心預約篩查時間"
 
-#: helpers/psyemHelper.php:2063
-msgid "Your booking has been confirmed."
-msgstr ""
+#: helpers/psyemHelper.php:2065
+msgid "Your booking has been confirmed"
+msgstr "您的預約已確認"
 
-#: helpers/psyemHelper.php:2066
+#: helpers/psyemHelper.php:2068
 msgid "Booking Order"
-msgstr ""
+msgstr "預約訂單"
 
 #: helpers/psyemValidationsHelper.php:8
-msgid "Settings are required to process the request!"
-msgstr ""
+msgid "Settings are required to process the request"
+msgstr "處理此請求需要相關設定"
 
 #: helpers/psyemValidationsHelper.php:11 helpers/psyemValidationsHelper.php:38
 #: helpers/psyemValidationsHelper.php:73 helpers/psyemValidationsHelper.php:101
@@ -3587,8 +3526,8 @@ msgstr ""
 #: helpers/psyemValidationsHelper.php:577
 #: helpers/psyemValidationsHelper.php:620
 #: helpers/psyemValidationsHelper.php:665
-msgid "Action is required to process the request!"
-msgstr ""
+msgid "Action is required to process the request"
+msgstr "執行動作為處理此請求所必需"
 
 #: helpers/psyemValidationsHelper.php:14 helpers/psyemValidationsHelper.php:41
 #: helpers/psyemValidationsHelper.php:76 helpers/psyemValidationsHelper.php:104
@@ -3606,8 +3545,8 @@ msgstr ""
 #: helpers/psyemValidationsHelper.php:580
 #: helpers/psyemValidationsHelper.php:623
 #: helpers/psyemValidationsHelper.php:668
-msgid "Nonce is missing, Invalid request!"
-msgstr ""
+msgid "Nonce is missing, Invalid request"
+msgstr "驗證碼遺失，請求無效"
 
 #: helpers/psyemValidationsHelper.php:19 helpers/psyemValidationsHelper.php:47
 #: helpers/psyemValidationsHelper.php:82 helpers/psyemValidationsHelper.php:110
@@ -3625,8 +3564,8 @@ msgstr ""
 #: helpers/psyemValidationsHelper.php:585
 #: helpers/psyemValidationsHelper.php:629
 #: helpers/psyemValidationsHelper.php:674
-msgid "No kiddies please! Referer not matched!"
-msgstr ""
+msgid "No kiddies please! Referer not matched"
+msgstr "請勿帶小孩！參照來源不符"
 
 #: helpers/psyemValidationsHelper.php:23 helpers/psyemValidationsHelper.php:51
 #: helpers/psyemValidationsHelper.php:86 helpers/psyemValidationsHelper.php:114
@@ -3644,137 +3583,260 @@ msgstr ""
 #: helpers/psyemValidationsHelper.php:589
 #: helpers/psyemValidationsHelper.php:633
 #: helpers/psyemValidationsHelper.php:678
-msgid "No kiddies please! Security nonce not matched!"
-msgstr ""
+msgid "No kiddies please! Security nonce not matched"
+msgstr "請勿帶小孩！安全驗證碼不符"
 
 #: helpers/psyemValidationsHelper.php:35 helpers/psyemValidationsHelper.php:70
 #: helpers/psyemValidationsHelper.php:126
-msgid "Order ID is required to process the request!"
-msgstr ""
+msgid "Order ID is required to process the request"
+msgstr "處理請求需要訂單 ID"
 
 #: helpers/psyemValidationsHelper.php:59
-msgid "Invalid file type. Only CSV files are allowed."
-msgstr ""
+msgid "Invalid file type. Only CSV files are allowed"
+msgstr "無效的檔案類型。僅允許 CSV 檔案"
 
 #: helpers/psyemValidationsHelper.php:98
-msgid "Event ID is required to process the request!"
-msgstr ""
+msgid "Event ID is required to process the request"
+msgstr "處理請求需要事件 ID"
 
 #: helpers/psyemValidationsHelper.php:153
 #: helpers/psyemValidationsHelper.php:193
 #: helpers/psyemValidationsHelper.php:235
 #: helpers/psyemValidationsHelper.php:268
-msgid "Event key is required to process the request!"
-msgstr ""
+msgid "Event key is required to process the request"
+msgstr "處理請求需要事件密鑰"
 
 #: helpers/psyemValidationsHelper.php:156
-msgid ""
-"At least one ticket with participant is required to process the request!"
-msgstr ""
+msgid "At least one ticket with participant is required to process the request"
+msgstr "處理請求需要至少一張帶有參與者的票"
 
 #: helpers/psyemValidationsHelper.php:159
 msgid "Price calculation source is missing"
-msgstr ""
+msgstr "缺少價格計算來源"
 
 #: helpers/psyemValidationsHelper.php:187
 #: helpers/psyemValidationsHelper.php:229
 #: helpers/psyemValidationsHelper.php:262
-msgid "Participant name is required to process the request!"
-msgstr ""
+msgid "Participant name is required to process the request"
+msgstr "處理請求需要參與者姓名"
 
 #: helpers/psyemValidationsHelper.php:190
 #: helpers/psyemValidationsHelper.php:232
 #: helpers/psyemValidationsHelper.php:265
-msgid "Participant email required to process the request!"
-msgstr ""
+msgid "Participant email required to process the request"
+msgstr "處理請求需要參與者電子郵件"
 
 #: helpers/psyemValidationsHelper.php:196
-msgid "Ticket is required to process the request!"
-msgstr ""
+msgid "Ticket is required to process the request"
+msgstr "處理請求需要票券"
 
 #: helpers/psyemValidationsHelper.php:223
 #: helpers/psyemValidationsHelper.php:614
-msgid "Payment intent is required to process the request!"
-msgstr ""
+msgid "Payment intent is required to process the request"
+msgstr "處理請求需要付款意圖"
 
 #: helpers/psyemValidationsHelper.php:226
 #: helpers/psyemValidationsHelper.php:617
-msgid "Payment status is required to process the request!"
-msgstr ""
+msgid "Payment status is required to process the request"
+msgstr "處理請求需要付款狀態"
 
 #: helpers/psyemValidationsHelper.php:271
-msgid "Participants count is required to process the request!"
-msgstr ""
+msgid "Participants count is required to process the request"
+msgstr "處理請求需要參與者人數"
 
 #: helpers/psyemValidationsHelper.php:299
-msgid "Event is required!"
-msgstr ""
+msgid "Event is required"
+msgstr "需要事件"
 
 #: helpers/psyemValidationsHelper.php:302
-msgid "Participant first name is required!"
-msgstr ""
+msgid "Participant first name is required"
+msgstr "需要參與者名字"
 
 #: helpers/psyemValidationsHelper.php:305
-msgid "Participant last name is required!"
-msgstr ""
+msgid "Participant last name is required"
+msgstr "需要參與者姓氏"
 
 #: helpers/psyemValidationsHelper.php:308
-msgid "Participant email is required!"
-msgstr ""
+msgid "Participant email is required"
+msgstr "需要參與者電子郵件"
 
 #: helpers/psyemValidationsHelper.php:311
-msgid "Participants count is required!"
-msgstr ""
+msgid "Participants count is required"
+msgstr "需要參與者人數"
 
 #: helpers/psyemValidationsHelper.php:358
 msgid "Input source is missing"
-msgstr ""
+msgstr "缺少輸入來源"
 
 #: helpers/psyemValidationsHelper.php:362
 msgid "Input key is missing"
-msgstr ""
+msgstr "缺少輸入鍵"
 
 #: helpers/psyemValidationsHelper.php:414
 msgid "Cervical screening programme consent field is required"
-msgstr ""
+msgstr "需要宮頸篩查計劃同意欄位"
 
 #: helpers/psyemValidationsHelper.php:429
 msgid "Contact way field is required"
-msgstr ""
+msgstr "需要聯繫方式欄位"
 
 #: helpers/psyemValidationsHelper.php:435
 msgid "Email field is required"
-msgstr ""
+msgstr "需要電子郵件欄位"
 
 #: helpers/psyemValidationsHelper.php:524
 msgid "Amount type is required"
-msgstr ""
+msgstr "需要金額類型"
 
 #: helpers/psyemValidationsHelper.php:527
 #: helpers/psyemValidationsHelper.php:555
 #: helpers/psyemValidationsHelper.php:593
 msgid "Amount type is invalid"
-msgstr ""
+msgstr "金額類型無效"
 
 #: helpers/psyemValidationsHelper.php:559
 #: helpers/psyemValidationsHelper.php:563
 #: helpers/psyemValidationsHelper.php:597
 #: helpers/psyemValidationsHelper.php:601
 msgid "Amount must be greater than 1"
-msgstr ""
+msgstr "金額必須大於 1"
 
 #: helpers/psyemValidationsHelper.php:646
-msgid "Task is required to process the request!"
-msgstr ""
+msgid "Task is required to process the request"
+msgstr "處理請求需要任務"
 
 #: helpers/psyemValidationsHelper.php:649
-msgid "Task is invalid to process the request!"
-msgstr ""
+msgid "Task is invalid to process the request"
+msgstr "任務無效，無法處理請求"
 
 #: helpers/psyemValidationsHelper.php:655
-msgid "Title is required to process the request!"
-msgstr ""
+msgid "Title is required to process the request"
+msgstr "處理請求需要標題"
 
 #: helpers/psyemValidationsHelper.php:660
-msgid "Record slug is required to process the request!"
-msgstr ""
+msgid "Record slug is required to process the request"
+msgstr "處理請求需要記錄別名"
+
+#~ msgid ""
+#~ "Your donation will go a long way in helping to save lives by supporting "
+#~ "our efforts to promote prevention, early detection, and optimal treatment "
+#~ "of gynaecological cancer in Hong Kong"
+#~ msgstr ""
+#~ "您的捐款將大大有助於拯救生命，支持我們在香港推廣婦科癌症的預防、早期檢測"
+#~ "及 最佳治療的工作"
+
+#~ msgid ""
+#~ "We are a registered charity in both the US and Hong Kong and are able to "
+#~ "provide tax deductible receipts for both jurisdictions"
+#~ msgstr "我們在美國和香港都是註冊的慈善機構，並能提供兩地的免稅收據"
+
+#~ msgid "No records found."
+#~ msgstr "未找到記錄"
+
+#~ msgid ""
+#~ "We are delighted to inform you that your booking has been successfully "
+#~ "confirmed, and your payment has been processed. We look forward to "
+#~ "serving you and ensuring you have a wonderful experience"
+#~ msgstr ""
+#~ "我們很高興通知您，您的預約已成功確認，付款亦已處理。我們期待為您提供服務，"
+#~ "並確保您有一次愉快的體驗"
+
+#~ msgid "Please wait..."
+#~ msgstr "請稍候..."
+
+#~ msgid ""
+#~ "I confirm, that I have read and understood the information sheet for the "
+#~ "project and have had the opportunity to view and study the educational "
+#~ "videos provided for a better overall grasp on how to protect myself "
+#~ "against cervical cancer"
+#~ msgstr ""
+#~ "我確認我已閱讀並理解有關此項目的資料說明，並且有機會觀看並學習提供的教育"
+#~ "影 片，以更全面地了解如何保護自己免受子宮頸癌的影響"
+
+#~ msgid ""
+#~ "I understand that my participation is voluntary and that I am free to "
+#~ "withdraw at any time, without giving any reason, without my medical care "
+#~ "or legal rights being affected"
+#~ msgstr ""
+#~ "我明白我的參與是自願的，我可以在任何時間退出，無需提供任何理由，而這不會"
+#~ "影 響我的醫療照顧或法律權益"
+
+#~ msgid ""
+#~ "I herewith acknowledge that, if I am currently experiencing irregular "
+#~ "bleeding, spotting or pain during my menses, sex or randomly, I cannot "
+#~ "join the project, We kindly encourage you to contact your GP immediately "
+#~ "and seek a professional opinion"
+#~ msgstr ""
+#~ "本人在此確認，如我目前正經歷月經期間、性交期間或隨機出現的不規則出血、點滴"
+#~ "出血或疼痛，我將無法參與此項目。我們誠意建議您立即聯絡您的家庭醫生，並尋求"
+#~ "專業意見"
+
+#~ msgid ""
+#~ "I understand that this program is part of a clinical study and enrollment "
+#~ "is only for participants who agree to the terms and conditions on the "
+#~ "clinical study consent form presented at the clinic on the day of "
+#~ "appointment"
+#~ msgstr ""
+#~ "我理解該計劃是臨床研究的一部分，只有同意預約當天在診所出示的臨床研究同意書"
+#~ "上的條款和條件的參與者才可以報名"
+
+#~ msgid ""
+#~ "I here with acknowledge that, if I am currently experiencing irregular "
+#~ "bleeding, spotting or pain during my menses, sex or randomly, I cannot "
+#~ "join the project. We kindly encourage you to contact your GP immediately "
+#~ "and seek a professional opinion"
+#~ msgstr ""
+#~ "本人在此確認，如我目前正經歷月經期間、性交期間或隨機出現的不規則出血、點滴"
+#~ "出血或疼痛，我將無法參與此項目。我們誠意建議您立即聯絡您的家庭醫生，並尋求"
+#~ "專業意見"
+
+#~ msgid ""
+#~ "I confirm, that I have read and understood the information sheet for the "
+#~ "project and have had the opportunity to view and study the educational "
+#~ "videos provided for a better overall grasp on how to protect myself "
+#~ "against cervical cancer."
+#~ msgstr ""
+#~ "我確認我已閱讀並理解有關此項目的資料說明，並且有機會觀看並學習提供的教育影"
+#~ "片，以更全面地了解如何保護自己免受子宮頸癌的影響"
+
+#~ msgid "I agree to take part in the above cervical screening programme."
+#~ msgstr "我同意參加上述子宮頸普查計畫"
+
+#~ msgid ""
+#~ "I confirm, that I have read and understood the information sheet for th"
+#~ msgstr ""
+#~ "我確認，我已經閱讀並理解了該項目的資訊表，並且有機會觀看和學習所提供的教育"
+#~ "視頻，以便更好地了解如何保護自己免受子宮頸癌的侵害"
+
+#~ msgid "I understand that my participation is voluntary and that I am free t"
+#~ msgstr ""
+#~ "我明白我的參與是自願的，我可以隨時退出，無需給出任何理由，也不會影響我的醫"
+#~ "療或合法權利"
+
+#~ msgid "I herewith acknowledge that, if I am currently experiencing irregula"
+#~ msgstr ""
+#~ "我在此確認，如果我目前在月經期間、性交期間或隨機情況下出現不規則出血、點滴"
+#~ "出血或疼痛，我將無法參加該計畫。我們懇請您立即聯繫您的全科醫生並尋求專業意"
+#~ "見"
+
+#~ msgid ""
+#~ "Your donation will go a long way in helping to save lives by supporting ou"
+#~ msgstr ""
+#~ "您的捐款將大有助於挽救生命，支持我們在香港推廣婦科癌症的預防、早期檢測和最"
+#~ "佳治療的努力"
+
+#~ msgid ""
+#~ "We are delighted to inform you that your booking has been successfull"
+#~ msgstr ""
+#~ "我們很高興地通知您，您的預訂已成功確認，並且您的付款已處理 我們期待為您服"
+#~ "務，並確保您擁有一個美好的體驗"
+
+#~ msgid ""
+#~ "I here with acknowledge that, if I am currently experiencing irregula"
+#~ msgstr ""
+#~ "我在此確認，如果我目前正在經歷月經不規則出血、點滴出血或在性行為或隨機情況"
+#~ "下的疼痛. 我無法參加此項目。請務必聯絡您的家庭醫生並尋求專業意見"
+
+#~ msgid ""
+#~ "Your payment process was not successfull, and requires_payment_method"
+#~ msgstr "付款程序未成功，缺少付款方式，請再試一次"

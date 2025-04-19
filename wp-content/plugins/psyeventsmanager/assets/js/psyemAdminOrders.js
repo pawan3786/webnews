@@ -110,7 +110,7 @@ function uploadParticipantCsvData() {
     }
 
     if (!participant_csv_file) {
-        displayToaster('Please select a CSV file.', 'error');
+        displayToaster('Please select a CSV file', 'error');
         return;
     }
 

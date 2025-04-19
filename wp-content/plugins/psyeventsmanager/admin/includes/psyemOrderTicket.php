@@ -39,7 +39,7 @@ if (isset($pdf_content_type) && $pdf_content_type == 'Event') {
                     </td>
                     <td style="padding:10px;width:50%;">
                         <p style="font-size:15px;">
-                            *<?= __('Print this ticket or save on your device & present it at the event.', 'psyeventsmanager') ?>
+                            *<?= __('Print this ticket or save on your device & present it at the event', 'psyeventsmanager') ?>
                         </p>
                     </td>
                 </tr>
@@ -146,7 +146,7 @@ if (isset($pdf_content_type) && $pdf_content_type == 'Footer') { ?>
                         </a>
                     </h1>
                     <p style="text-align: left; font-size: 10px; margin-bottom: 10px; font-weight:400; color: #7e7e7e; margin-top:0;">
-                        <?= __('All registrations are final, non-refundable and non-changeable.', 'psyeventsmanager') ?>
+                        <?= __('All registrations are final, non-refundable and non-changeable', 'psyeventsmanager') ?>
                     </p>
                 </td>
             </tr>

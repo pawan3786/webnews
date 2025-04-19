@@ -90,7 +90,7 @@ $AllNewsCategories       = psyem_GetAllCategoriesWithPosts('psyem-programmes-cat
             <?php else: ?>
                 <div class="col-md-12 text-center pAll-0">
                     <div class="alert alert-danger">
-                        <?= __('No records found.', 'psyeventsmanager') ?>
+                        <?= __('No records found', 'psyeventsmanager') ?>
                     </div>
                 </div>
             <?php endif; ?>

@@ -212,7 +212,7 @@ if (!empty($amount_enc)):
                                                     <div class="stripeLoader">
                                                         <span class="spinner-border spinner-border-sm" role="status"
                                                             aria-hidden="true"></span>
-                                                        <?= __('Please wait...', 'psyeventsmanager') ?>
+                                                        <?= __('Please wait', 'psyeventsmanager') ?>
                                                     </div>
                                                 </div>
                                                 <div class="input-box d-block mb-2">
@@ -254,7 +254,7 @@ if (!empty($amount_enc)):
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="alert alert-success mb-5" role="alert">
-                                            <?= __('Thank you for your donation!', 'psyeventsmanager') ?>
+                                            <?= __('Thank you for your donation', 'psyeventsmanager') ?>
                                         </div>
                                         <div class="alert alert-success" role="alert">
                                             <strong>
@@ -283,7 +283,7 @@ if (!empty($amount_enc)):
                     <div class="col-md-12">
                         <div class="alert alert-info" role="alert">
                             <strong>
-                                <?= __('Please select an amount first to proceed with the donation checkout.', 'psyeventsmanager') ?>
+                                <?= __('Please select an amount first to proceed with the donation checkout', 'psyeventsmanager') ?>
                             </strong>
                         </div>
                     </div>

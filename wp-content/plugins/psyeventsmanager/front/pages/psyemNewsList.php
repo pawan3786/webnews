@@ -164,7 +164,7 @@ $AllNewsCategories       = psyem_GetAllCategoriesWithPosts('psyem-news-category'
             <div class="row margin0 w-100">
                 <div class="col-md-12 text-center pAll-0">
                     <div class="alert alert-danger">
-                        <?= __('No records found.', 'psyeventsmanager') ?>
+                        <?= __('No records found', 'psyeventsmanager') ?>
                     </div>
                 </div>
             </div>

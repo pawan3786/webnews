@@ -5,24 +5,26 @@ use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 use Dompdf\Dompdf;
 
+
+
 function psyem_AdditionalTranslationKeywords()
 {
 	$array = [
 		'plugin' => [
 			'name' 							=> __('PSY Events Manager', 'psyeventsmanager'),
-			'uri' 							=> __('https://smtlabs.io', 'psyeventsmanager'),
-			'desc' 							=> __('Custom Plugin for Events, Tickets, Sales and Orders Managements', 'psyeventsmanager'),
+			'uri' 							=> esc_html__('https://smtlabs.io', 'psyeventsmanager'),
+			'desc' 							=> esc_html__('Custom Plugin for Events, Tickets, Sales and Orders Managements', 'psyeventsmanager'),
 			'author' 						=> __('Pawan Kumar', 'psyeventsmanager'),
 		],
 		'alerts' => [
-			'confirm' 						=> __('Are you sure?', 'psyeventsmanager'),
-			'del_title' 					=> __('Are you sure want to permanently delete this record?', 'psyeventsmanager'),
-			'del_text' 						=> __('You wont be able to revert this!', 'psyeventsmanager'),
-			'copy_text' 					=> __('Want to create copy of clicked event?', 'psyeventsmanager'),
-			'ticket_text' 					=> __('Want to send ticket to selected participants?', 'psyeventsmanager'),
-			'create_title' 					=> __('Are you sure want to create new record?', 'psyeventsmanager'),
-			'projectsafe_text' 				=> __('Sorry, You cannot meet the project requirement.', 'psyeventsmanager'),
-			'offline_title' 				=> __('Want to create offline registration?', 'psyeventsmanager'),
+			'confirm' 						=> esc_html__('Are you sure?', 'psyeventsmanager'),
+			'del_title' 					=> esc_html__('Are you sure want to permanently delete this record?', 'psyeventsmanager'),
+			'del_text' 						=> esc_html__('You wont be able to revert this', 'psyeventsmanager'),
+			'copy_text' 					=> esc_html__('Want to create copy of clicked event?', 'psyeventsmanager'),
+			'ticket_text' 					=> esc_html__('Want to send ticket to selected participants?', 'psyeventsmanager'),
+			'create_title' 					=> esc_html__('Are you sure want to create new record?', 'psyeventsmanager'),
+			'projectsafe_text' 				=> esc_html__('Sorry, You cannot meet the project requirement', 'psyeventsmanager'),
+			'offline_title' 				=> esc_html__('Want to create offline registration?', 'psyeventsmanager'),
 		],
 		'common' => [
 			'yes' 							=> __('Yes', 'psyeventsmanager'),
@@ -30,18 +32,18 @@ function psyem_AdditionalTranslationKeywords()
 			'remove' 						=> __('Remove', 'psyeventsmanager'),
 		],
 		'messages' => [
-			'select_csv' 					=> __('Please select a CSV file.', 'psyeventsmanager'),
+			'select_csv' 					=> __('Please select a CSV file', 'psyeventsmanager'),
 			'select_participant' 			=> __('Please select participant', 'psyeventsmanager'),
 			'slug_missing' 					=> __('Shortcode slug is missing', 'psyeventsmanager'),
 			'type_missing' 					=> __('Please fill the type title', 'psyeventsmanager'),
-			'save_failed' 					=> __('Information has been failed to save!', 'psyeventsmanager'),
-			'payment_save_failed'   		=> __('Payment info has been failed to update!', 'psyeventsmanager'),
-			'one_participant'   			=> __('At least one participant is required to book the ticket.', 'psyeventsmanager'),
+			'save_failed' 					=> __('Information has been failed to save', 'psyeventsmanager'),
+			'payment_save_failed'   		=> __('Payment info has been failed to update', 'psyeventsmanager'),
+			'one_participant'   			=> __('At least one participant is required to book the ticket', 'psyeventsmanager'),
 			'participants_number' 			=> __('Number of participants must be greater than 0', 'psyeventsmanager'),
-			'requires_payment_method' 		=> __('Your payment process was not successfull, and requires_payment_method, please try again.', 'psyeventsmanager'),
-			'requires_action' 				=> __('Your payment process was not successful, and requires_action, please try again.', 'psyeventsmanager'),
-			'payment_failed.' 				=> __('Payment process failed.', 'psyeventsmanager'),
-			'one_ticket'   					=> __('At least one ticket with participant is required to checkout.', 'psyeventsmanager'),
+			'requires_payment_method' 		=> __('Your payment process was not successfull, and requires_payment_method, please try again', 'psyeventsmanager'),
+			'requires_action' 				=> __('Your payment process was not successful, and requires_action, please try again', 'psyeventsmanager'),
+			'payment_failed' 				=> __('Payment process failed', 'psyeventsmanager'),
+			'one_ticket'   					=> __('At least one ticket with participant is required to checkout', 'psyeventsmanager'),
 		],
 		'validations' => [
 			'firstname_required' 			=> __('First name field is required', 'psyeventsmanager'),
@@ -51,7 +53,7 @@ function psyem_AdditionalTranslationKeywords()
 			'name_required' 				=> __('Please enter your name', 'psyeventsmanager'),
 			'name_invalid' 					=> __('Please enter valid name, Add only alphabets [a-zA-Z]', 'psyeventsmanager'),
 			'phone_required' 				=> __('Phone field is required', 'psyeventsmanager'),
-			'phone_invalid' 				=> __('Phone field input is invalid, must be a 10 digits valid phone number.', 'psyeventsmanager'),
+			'phone_invalid' 				=> __('Phone field input is invalid, must be a 10 digits valid phone number', 'psyeventsmanager'),
 			'email_required' 				=> __('Please enter your valid email', 'psyeventsmanager'),
 			'email_invalid' 				=> __('Please enter a valid email address', 'psyeventsmanager'),
 			'company_required' 				=> __('Company field is required', 'psyeventsmanager'),
@@ -64,7 +66,7 @@ function psyem_AdditionalTranslationKeywords()
 			'city_invalid' 					=> __('City is invalid, Add only alphabets [a-zA-Z]', 'psyeventsmanager'),
 			'address_required' 				=> __('Address field is required', 'psyeventsmanager'),
 			'participants_count' 			=> __('Please choose particpants count', 'psyeventsmanager'),
-			'amount_required' 				=> __('Please enter some amount to process.', 'psyeventsmanager'),
+			'amount_required' 				=> __('Please enter some amount to process', 'psyeventsmanager'),
 			'gender_required' 				=> __('Gender field is required', 'psyeventsmanager'),
 			'dobdate_required' 				=> __('DOB date field is required', 'psyeventsmanager'),
 			'dobmonth_required' 			=> __('DOB month field is required', 'psyeventsmanager'),
@@ -546,16 +548,16 @@ function psyem_GetEventCheckoutPrices($CheckoutTickets = [], $event = [], $coupo
 												$total_discount    = ($discounted_amount > 0) ? psyem_roundPrecision(($discount_price + $total_discount)) : $total_discount;
 											}
 										} else {
-											$resp['coupon_message'] =  __('Your coupon code is expired!', 'psyeventsmanager');
+											$resp['coupon_message'] =  __('Your coupon code is expired', 'psyeventsmanager');
 										}
 									} else {
-										$resp['coupon_message'] =  __('Your coupon code is invalid!', 'psyeventsmanager');
+										$resp['coupon_message'] =  __('Your coupon code is invalid', 'psyeventsmanager');
 									}
 								} else {
-									$resp['coupon_message'] =  __('Please check! Your coupon code is invalid!', 'psyeventsmanager');
+									$resp['coupon_message'] =  __('Please check! Your coupon code is invalid', 'psyeventsmanager');
 								}
 							} else {
-								$resp['coupon_message'] =  __('No coupons are allowed for booking this event!', 'psyeventsmanager');
+								$resp['coupon_message'] =  __('No coupons are allowed for booking this event', 'psyeventsmanager');
 							}
 						}
 					}
@@ -1175,7 +1177,7 @@ function psyem_ManageCreateOfflineRegistration($postData)
 
 	$resp      = array(
 		'status'     => 'error',
-		'message'    => __('Offline registration order has been failed to create!', 'psyeventsmanager'),
+		'message'    => __('Offline registration order has been failed to create', 'psyeventsmanager'),
 		'data'       => []
 	);
 
@@ -1198,7 +1200,7 @@ function psyem_ManageCreateOfflineRegistration($postData)
 	if ($isBookingAllowed != 'Yes') {
 		$resp      = array(
 			'status'     => 'error',
-			'message'    => __('Registration is not allowed for this event!', 'psyeventsmanager'),
+			'message'    => __('Registration is not allowed for this event', 'psyeventsmanager'),
 			'data'       => []
 		);
 		return $resp;
@@ -1321,7 +1323,7 @@ function psyem_ManageCreateOfflineRegistration($postData)
 
 				$resp      = array(
 					'status'     => 'success',
-					'message'    => __('Offline registration order has been successfully created!', 'psyeventsmanager'),
+					'message'    => __('Offline registration order has been successfully created', 'psyeventsmanager'),
 					'data'       => [
 						'order_enc'      => $orderEnc,
 						'order_id'       => $inserted_order_id,
@@ -1692,12 +1694,12 @@ function psyem_ManageProjectsafeFormData($post = [])
 					update_post_meta($inserted_ps_id, 'psyem_projectsafe_check_tandc', $agree_tnc);
 
 					try {
-						$subject =  __('Your registration request for Project Safe has been successfully submitted.', 'psyeventsmanager');
+						$subject =  __('Your registration request for Project Safe has been successfully submitted', 'psyeventsmanager');
 						$headers = array('Content-Type: text/html; charset=UTF-8');
 
 						$message = '<p><strong> Hello ' . $participant_name . '</strong></p>';
-						$message .= '<p>' . __('You are now registered to Project SAFE - Our partner PHASE Scientific will send you an email or sms for confirmation in 1-2 working days.', 'psyeventsmanager') . '<p>';
-						$message .= '<p>' . __('Please call Kinetics Integrated Medical and Health Center within 2 weeks from your sign-up date to arrange an appointment for the screening.', 'psyeventsmanager') . '<p>';
+						$message .= '<p>' . __('You are now registered to Project SAFE - Our partner PHASE Scientific will send you an email or sms for confirmation in 1-2 working days', 'psyeventsmanager') . '<p>';
+						$message .= '<p>' . __('Please call Kinetics Integrated Medical and Health Center within 2 weeks from your sign-up date to arrange an appointment for the screening', 'psyeventsmanager') . '<p>';
 						$message .= '<p>' . __('See you soon', 'psyeventsmanager') . '<p>';
 						$message .= '<p>' . __('Thank You', 'psyeventsmanager') . '<p>';
 
@@ -2060,8 +2062,8 @@ function psyem_SendEventOrderBookingEmail($event_id = 0, $order_id = 0, $partici
 				if (!empty($pdfTicketsHtml) && !empty($toEmail)) {
 
 					$message  = 'Hello ' . $fullName;
-					$message  = '<p><strong>' . __('Your booking has been confirmed.', 'psyeventsmanager') . '</strong></p>';
-					$message .= '<p>' . __('Kindly find the attached document for event ticket reference.', 'psyeventsmanager') . '<p>';
+					$message  = '<p><strong>' . __('Your booking has been confirmed', 'psyeventsmanager') . '</strong></p>';
+					$message .= '<p>' . __('Kindly find the attached document for event ticket reference', 'psyeventsmanager') . '<p>';
 					$message .= '<p>' . __('Event Address', 'psyeventsmanager') . ': ' . @$orderEventMeta['psyem_event_address'] . '<p>';
 					$message .= '<p>' . __('Booking Order', 'psyeventsmanager') . ': ' . @$order_id . '<p>';
 					$message .= '<p>' . __('See you soon', 'psyeventsmanager') . '<p>';

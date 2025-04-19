@@ -75,7 +75,7 @@ while (have_posts()) : the_post();
                                         <div class="alert alert-success mb-5" role="alert">
                                             <?= __('Thank you, Your booking ticket scan for', 'psyeventsmanager') ?>
                                             <strong> <?= __('EVENT', 'psyeventsmanager') ?>: <?= @$event_name ?> </strong>
-                                            <?= __('has been successfully confirmed.', 'psyeventsmanager') ?>
+                                            <?= __('has been successfully confirmed', 'psyeventsmanager') ?>
                                         </div>
                                     </div>
 
@@ -84,7 +84,7 @@ while (have_posts()) : the_post();
                                         <a href="<?= get_site_url() ?>" class="alert-link">
                                             <?= __('here', 'psyeventsmanager') ?>
                                         </a>
-                                        <?= __('to visit the site.', 'psyeventsmanager') ?>
+                                        <?= __('to visit the site', 'psyeventsmanager') ?>
                                     </div>
                                 </div>
                             </div>
@@ -93,7 +93,7 @@ while (have_posts()) : the_post();
                         <div class="card">
                             <div class="card-header">
                                 <h5 class="card-title">
-                                    <?= __('The QR code scan was unsuccessful.', 'psyeventsmanager') ?>
+                                    <?= __('The QR code scan was unsuccessful', 'psyeventsmanager') ?>
                                 </h5>
                             </div>
                             <div class="card-body">
@@ -101,12 +101,12 @@ while (have_posts()) : the_post();
                                     <div class="col-md-12">
                                         <div class="alert alert-danger" role="alert">
                                             <strong>
-                                                <?= __('The participant QR code scan has been failed to confirm.', 'psyeventsmanager') ?>
+                                                <?= __('The participant QR code scan has been failed to confirm', 'psyeventsmanager') ?>
                                             </strong>
                                         </div>
                                         <div class="alert alert-danger mb-5" role="alert">
                                             <strong>
-                                                <?= __('Participant QR code link is INVALID.', 'psyeventsmanager') ?>
+                                                <?= __('Participant QR code link is invalid', 'psyeventsmanager') ?>
                                             </strong>
                                         </div>
                                     </div>
@@ -116,7 +116,7 @@ while (have_posts()) : the_post();
                                         <a href="<?= get_site_url() ?>" class="alert-link">
                                             <?= __('here', 'psyeventsmanager') ?>
                                         </a>
-                                        <?= __('to visit the site.', 'psyeventsmanager') ?>
+                                        <?= __('to visit the site', 'psyeventsmanager') ?>
                                     </div>
                                 </div>
                             </div>
