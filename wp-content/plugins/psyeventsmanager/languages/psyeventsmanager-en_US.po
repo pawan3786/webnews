@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PSY Events Manager 1.0.0\n"
-"POT-Creation-Date: 2025-04-19 14:57+0530\n"
-"PO-Revision-Date: 2025-04-19 14:59+0530\n"
+"POT-Creation-Date: 2025-04-21 18:49+0530\n"
+"PO-Revision-Date: 2025-04-21 18:49+0530\n"
 "Last-Translator: Pawan Kumar <pawan.yadav0446@gmail.com>\n"
 "Language-Team: Pawan Kumar <pawan.yadav0446@gmail.com>\n"
 "Language: en_US\n"
@@ -100,7 +100,7 @@ msgid "Billing Information"
 msgstr "Billing Information"
 
 #: admin/includes/psyemDonationMetaboxes.php:13
-#: front/pages/psyemDonationCheckout.php:72
+#: front/pages/psyemDonationCheckout.php:79
 msgid "Country"
 msgstr "Country"
 
@@ -110,7 +110,7 @@ msgstr "City"
 
 #: admin/includes/psyemDonationMetaboxes.php:21
 #: admin/includes/psyemProjectsafeMetaboxes.php:52 admin/psyemAdmin.php:2848
-#: admin/psyemAdmin.php:3031 front/pages/psyemDonationCheckout.php:100
+#: admin/psyemAdmin.php:3031 front/pages/psyemDonationCheckout.php:107
 #: front/pages/psyemProjectsafeForm.php:381
 #: front/pages/psyemProjectsafeForm.php:440
 msgid "District"
@@ -136,14 +136,14 @@ msgstr "Donor Information"
 #: admin/includes/psyemDonationMetaboxes.php:41
 #: admin/includes/psyemOrderTicket.php:111
 #: admin/includes/psyemProjectsafeMetaboxes.php:5 admin/psyemAdmin.php:3023
-#: front/pages/psyemDonationCheckout.php:119
+#: front/pages/psyemDonationCheckout.php:126
 msgid "First Name"
 msgstr "First Name"
 
 #: admin/includes/psyemDonationMetaboxes.php:45
 #: admin/includes/psyemOrderTicket.php:117
 #: admin/includes/psyemProjectsafeMetaboxes.php:9 admin/psyemAdmin.php:3024
-#: front/pages/psyemDonationCheckout.php:126
+#: front/pages/psyemDonationCheckout.php:133
 msgid "Last Name"
 msgstr "Last Name"
 
@@ -301,7 +301,7 @@ msgstr "Select Ticket"
 
 #: admin/includes/psyemEventMetaboxes.php:82
 #: admin/includes/psyemOrderMetaboxes.php:61 admin/psyemAdmin.php:2499
-#: helpers/psyemHelper.php:2067
+#: helpers/psyemHelper.php:2073
 msgid "Event Address"
 msgstr "Event Address"
 
@@ -703,7 +703,7 @@ msgid "I agree to take part in the above cervical screening programme"
 msgstr "I agree to take part in the above cervical screening programme"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:179
-#: front/pages/psyemDonationCheckout.php:174
+#: front/pages/psyemDonationCheckout.php:181
 #: front/pages/psyemProjectsafeForm.php:300
 msgid "Terms & Conditions"
 msgstr "Terms & Conditions"
@@ -1790,17 +1790,17 @@ msgstr "Print tickets participants data not found"
 msgid "Hello"
 msgstr "Hello"
 
-#: admin/psyemAdmin.php:2498 helpers/psyemHelper.php:2066
+#: admin/psyemAdmin.php:2498 helpers/psyemHelper.php:2072
 msgid "Kindly find the attached document for event ticket reference"
 msgstr "Kindly find the attached document for event ticket reference"
 
-#: admin/psyemAdmin.php:2500 helpers/psyemHelper.php:1703
-#: helpers/psyemHelper.php:2069
+#: admin/psyemAdmin.php:2500 helpers/psyemHelper.php:1707
+#: helpers/psyemHelper.php:2075
 msgid "See you soon"
 msgstr "See you soon"
 
-#: admin/psyemAdmin.php:2501 front/pages/psyemDonationCheckout.php:250
-#: helpers/psyemHelper.php:1704 helpers/psyemHelper.php:2070
+#: admin/psyemAdmin.php:2501 front/pages/psyemDonationCheckout.php:259
+#: helpers/psyemHelper.php:1708 helpers/psyemHelper.php:2076
 msgid "Thank You"
 msgstr "Thank You"
 
@@ -1994,7 +1994,7 @@ msgid "Donations"
 msgstr "Donations"
 
 #: admin/psyemAdmin.php:3251 admin/psyemAdmin.php:3253
-#: admin/psyemAdmin.php:3280 front/pages/psyemDonationCheckout.php:47
+#: admin/psyemAdmin.php:3280 front/pages/psyemDonationCheckout.php:54
 msgid "Donation"
 msgstr "Donation"
 
@@ -2405,100 +2405,108 @@ msgstr "One Time Donation"
 msgid "Next"
 msgstr "Next"
 
-#: front/pages/psyemDonationCheckout.php:45
+#: front/pages/psyemDonationCheckout.php:46
 msgid "Donation Summary"
 msgstr "Donation Summary"
 
-#: front/pages/psyemDonationCheckout.php:53
+#: front/pages/psyemDonationCheckout.php:49
+msgid "Monthly"
+msgstr "Monthly"
+
+#: front/pages/psyemDonationCheckout.php:52
+msgid "One time"
+msgstr "One time"
+
+#: front/pages/psyemDonationCheckout.php:60
 msgid "Change Amount?"
 msgstr "Change Amount?"
 
-#: front/pages/psyemDonationCheckout.php:59
+#: front/pages/psyemDonationCheckout.php:66
 msgid "Card & Billing"
 msgstr "Card & Billing"
 
-#: front/pages/psyemDonationCheckout.php:67
+#: front/pages/psyemDonationCheckout.php:74
 msgid "Billing Address"
 msgstr "Billing Address"
 
-#: front/pages/psyemDonationCheckout.php:79
+#: front/pages/psyemDonationCheckout.php:86
 msgid "Address Line 1"
 msgstr "Address Line 1"
 
-#: front/pages/psyemDonationCheckout.php:86
+#: front/pages/psyemDonationCheckout.php:93
 msgid "Address Line 2"
 msgstr "Address Line 2"
 
-#: front/pages/psyemDonationCheckout.php:93
+#: front/pages/psyemDonationCheckout.php:100
 msgid "Town/City"
 msgstr "Town/City"
 
-#: front/pages/psyemDonationCheckout.php:113
+#: front/pages/psyemDonationCheckout.php:120
 msgid "Additional Details"
 msgstr "Additional Details"
 
-#: front/pages/psyemDonationCheckout.php:133
+#: front/pages/psyemDonationCheckout.php:140
 #: front/pages/psyemProjectsafeForm.php:353
 #: front/pages/psyemProjectsafeForm.php:355
 msgid "Email Address"
 msgstr "Email Address"
 
-#: front/pages/psyemDonationCheckout.php:140
+#: front/pages/psyemDonationCheckout.php:147
 msgid "Phone Number"
 msgstr "Phone Number"
 
-#: front/pages/psyemDonationCheckout.php:147
+#: front/pages/psyemDonationCheckout.php:154
 msgid "Company/Organisation"
 msgstr "Company/Organisation"
 
-#: front/pages/psyemDonationCheckout.php:162
+#: front/pages/psyemDonationCheckout.php:169
 msgid "Sign up for our Newsletter"
 msgstr "Sign up for our Newsletter"
 
-#: front/pages/psyemDonationCheckout.php:172
+#: front/pages/psyemDonationCheckout.php:179
 msgid "I agree to the"
 msgstr "I agree to the"
 
-#: front/pages/psyemDonationCheckout.php:187
+#: front/pages/psyemDonationCheckout.php:196
 #: front/pages/psyemOrderCheckout.php:271
 msgid "Continue to Payment"
 msgstr "Continue to Payment"
 
-#: front/pages/psyemDonationCheckout.php:200
+#: front/pages/psyemDonationCheckout.php:209
 msgid "Card Details"
 msgstr "Card Details"
 
-#: front/pages/psyemDonationCheckout.php:215
+#: front/pages/psyemDonationCheckout.php:224
 #: front/pages/psyemOrderCheckout.php:301
 msgid "Please wait"
 msgstr "Please wait"
 
-#: front/pages/psyemDonationCheckout.php:226
+#: front/pages/psyemDonationCheckout.php:235
 #: front/pages/psyemOrderCheckout.php:312
 msgid ""
 "By submitting payment details, I hereby agreed with the terms & conditions"
 msgstr ""
 "By submitting payment details, I hereby agreed with the terms & conditions"
 
-#: front/pages/psyemDonationCheckout.php:234
+#: front/pages/psyemDonationCheckout.php:243
 msgid "Donate & Confirm"
 msgstr "Donate & Confirm"
 
-#: front/pages/psyemDonationCheckout.php:257
+#: front/pages/psyemDonationCheckout.php:266
 msgid "Thank you for your donation"
 msgstr "Thank you for your donation"
 
-#: front/pages/psyemDonationCheckout.php:261
+#: front/pages/psyemDonationCheckout.php:270
 #: front/pages/psyemOrderThankyou.php:48
 msgid "REFERENCE ID"
 msgstr "REFERENCE ID"
 
-#: front/pages/psyemDonationCheckout.php:266
+#: front/pages/psyemDonationCheckout.php:275
 #: front/pages/psyemProjectsafeForm.php:515
 msgid "BACK TO HOMEPAGE"
 msgstr "BACK TO HOMEPAGE"
 
-#: front/pages/psyemDonationCheckout.php:286
+#: front/pages/psyemDonationCheckout.php:295
 msgid "Please select an amount first to proceed with the donation checkout"
 msgstr "Please select an amount first to proceed with the donation checkout"
 
@@ -2617,7 +2625,7 @@ msgstr ">>"
 msgid "Become a Volunteer"
 msgstr "Become a Volunteer"
 
-#: front/pages/psyemEventsList.php:224 front/pages/psyemEventsList.php:248
+#: front/pages/psyemEventsList.php:224
 msgid "Contact Us"
 msgstr "Contact Us"
 
@@ -2632,6 +2640,10 @@ msgid ""
 msgstr ""
 "KLF is always looking for dedicated volunteers who are passionate about "
 "fighting women’s cancers or who simply want to assist the local community"
+
+#: front/pages/psyemEventsList.php:248
+msgid "Subscribe"
+msgstr "Subscribe"
 
 #: front/pages/psyemEventsList.php:266
 msgid "Become a Sponsor"
@@ -2726,13 +2738,13 @@ msgstr "Submit to Book"
 
 #: front/pages/psyemOrderCheckout.php:404
 #: front/pages/psyemOrderCheckout.php:441 front/pages/psyemOrderThankyou.php:50
-#: front/pages/psyemVerifyqr.php:83 front/pages/psyemVerifyqr.php:115
+#: front/pages/psyemVerifyqr.php:87 front/pages/psyemVerifyqr.php:127
 msgid "Click"
 msgstr "Click"
 
 #: front/pages/psyemOrderCheckout.php:406
 #: front/pages/psyemOrderCheckout.php:443 front/pages/psyemOrderThankyou.php:52
-#: front/pages/psyemVerifyqr.php:85 front/pages/psyemVerifyqr.php:117
+#: front/pages/psyemVerifyqr.php:89 front/pages/psyemVerifyqr.php:129
 msgid "here"
 msgstr "here"
 
@@ -3046,39 +3058,47 @@ msgstr "Posted on"
 msgid "About the Speaker"
 msgstr "About the Speaker"
 
-#: front/pages/psyemVerifyqr.php:66
+#: front/pages/psyemVerifyqr.php:71
 msgid "QR Scan successfully confirmed"
 msgstr "QR Scan successfully confirmed"
 
-#: front/pages/psyemVerifyqr.php:73
+#: front/pages/psyemVerifyqr.php:78
 msgid "Welcome"
 msgstr "Welcome"
 
-#: front/pages/psyemVerifyqr.php:76
+#: front/pages/psyemVerifyqr.php:81
 msgid "Thank you, Your booking ticket scan for"
 msgstr "Thank you, Your booking ticket scan for"
 
-#: front/pages/psyemVerifyqr.php:77
+#: front/pages/psyemVerifyqr.php:82 front/pages/psyemVerifyqr.php:114
 msgid "EVENT"
 msgstr "EVENT"
 
-#: front/pages/psyemVerifyqr.php:78
+#: front/pages/psyemVerifyqr.php:83
 msgid "has been successfully confirmed"
 msgstr "has been successfully confirmed"
 
-#: front/pages/psyemVerifyqr.php:87 front/pages/psyemVerifyqr.php:119
+#: front/pages/psyemVerifyqr.php:91 front/pages/psyemVerifyqr.php:131
 msgid "to visit the site"
 msgstr "to visit the site"
 
-#: front/pages/psyemVerifyqr.php:96
+#: front/pages/psyemVerifyqr.php:100
 msgid "The QR code scan was unsuccessful"
 msgstr "The QR code scan was unsuccessful"
 
-#: front/pages/psyemVerifyqr.php:104
+#: front/pages/psyemVerifyqr.php:108
 msgid "The participant QR code scan has been failed to confirm"
 msgstr "The participant QR code scan has been failed to confirm"
 
-#: front/pages/psyemVerifyqr.php:109
+#: front/pages/psyemVerifyqr.php:113
+msgid "Your booking ticket is ALREADY scanned for"
+msgstr "Your booking ticket is ALREADY scanned for"
+
+#: front/pages/psyemVerifyqr.php:115
+msgid "Please contact to administrator"
+msgstr "Please contact to administrator"
+
+#: front/pages/psyemVerifyqr.php:120
 msgid "Participant QR code link is invalid"
 msgstr "Participant QR code link is invalid"
 
@@ -3482,33 +3502,33 @@ msgstr "Please check! Your coupon code is invalid"
 msgid "No coupons are allowed for booking this event"
 msgstr "No coupons are allowed for booking this event"
 
-#: helpers/psyemHelper.php:1180
+#: helpers/psyemHelper.php:1184
 msgid "Offline registration order has been failed to create"
 msgstr "Offline registration order has been failed to create"
 
-#: helpers/psyemHelper.php:1203
+#: helpers/psyemHelper.php:1207
 msgid "Registration is not allowed for this event"
 msgstr "Registration is not allowed for this event"
 
-#: helpers/psyemHelper.php:1326
+#: helpers/psyemHelper.php:1330
 msgid "Offline registration order has been successfully created"
 msgstr "Offline registration order has been successfully created"
 
-#: helpers/psyemHelper.php:1697
-msgid ""
-"Your registration request for Project Safe has been successfully submitted"
-msgstr ""
-"Your registration request for Project Safe has been successfully submitted"
-
 #: helpers/psyemHelper.php:1701
 msgid ""
+"Your registration request for Project Safe has been successfully submitted"
+msgstr ""
+"Your registration request for Project Safe has been successfully submitted"
+
+#: helpers/psyemHelper.php:1705
+msgid ""
 "You are now registered to Project SAFE - Our partner PHASE Scientific will "
 "send you an email or sms for confirmation in 1-2 working days"
 msgstr ""
 "You are now registered to Project SAFE - Our partner PHASE Scientific will "
 "send you an email or sms for confirmation in 1-2 working days"
 
-#: helpers/psyemHelper.php:1702
+#: helpers/psyemHelper.php:1706
 msgid ""
 "Please call Kinetics Integrated Medical and Health Center within 2 weeks "
 "from your sign-up date to arrange an appointment for the screening"
@@ -3516,11 +3536,11 @@ msgstr ""
 "Please call Kinetics Integrated Medical and Health Center within 2 weeks "
 "from your sign-up date to arrange an appointment for the screening"
 
-#: helpers/psyemHelper.php:2065
+#: helpers/psyemHelper.php:2071
 msgid "Your booking has been confirmed"
 msgstr "Your booking has been confirmed"
 
-#: helpers/psyemHelper.php:2068
+#: helpers/psyemHelper.php:2074
 msgid "Booking Order"
 msgstr "Booking Order"
 

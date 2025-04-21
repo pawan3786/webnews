@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PSY Events Manager 1.0.0\n"
-"POT-Creation-Date: 2025-04-19 14:56+0530\n"
-"PO-Revision-Date: 2025-04-19 14:58+0530\n"
+"POT-Creation-Date: 2025-04-21 18:49+0530\n"
+"PO-Revision-Date: 2025-04-21 18:50+0530\n"
 "Last-Translator: Pawan Kumar <pawan.yadav0446@gmail.com>\n"
 "Language-Team: Pawan Kumar <pawan.yadav0446@gmail.com>\n"
 "Language: zh_HK\n"
@@ -100,7 +100,7 @@ msgid "Billing Information"
 msgstr "帳單資訊"
 
 #: admin/includes/psyemDonationMetaboxes.php:13
-#: front/pages/psyemDonationCheckout.php:72
+#: front/pages/psyemDonationCheckout.php:79
 msgid "Country"
 msgstr "國家"
 
@@ -110,7 +110,7 @@ msgstr "城市"
 
 #: admin/includes/psyemDonationMetaboxes.php:21
 #: admin/includes/psyemProjectsafeMetaboxes.php:52 admin/psyemAdmin.php:2848
-#: admin/psyemAdmin.php:3031 front/pages/psyemDonationCheckout.php:100
+#: admin/psyemAdmin.php:3031 front/pages/psyemDonationCheckout.php:107
 #: front/pages/psyemProjectsafeForm.php:381
 #: front/pages/psyemProjectsafeForm.php:440
 msgid "District"
@@ -136,14 +136,14 @@ msgstr "捐贈者訊息"
 #: admin/includes/psyemDonationMetaboxes.php:41
 #: admin/includes/psyemOrderTicket.php:111
 #: admin/includes/psyemProjectsafeMetaboxes.php:5 admin/psyemAdmin.php:3023
-#: front/pages/psyemDonationCheckout.php:119
+#: front/pages/psyemDonationCheckout.php:126
 msgid "First Name"
 msgstr "名"
 
 #: admin/includes/psyemDonationMetaboxes.php:45
 #: admin/includes/psyemOrderTicket.php:117
 #: admin/includes/psyemProjectsafeMetaboxes.php:9 admin/psyemAdmin.php:3024
-#: front/pages/psyemDonationCheckout.php:126
+#: front/pages/psyemDonationCheckout.php:133
 msgid "Last Name"
 msgstr "姓"
 
@@ -301,7 +301,7 @@ msgstr "選擇票"
 
 #: admin/includes/psyemEventMetaboxes.php:82
 #: admin/includes/psyemOrderMetaboxes.php:61 admin/psyemAdmin.php:2499
-#: helpers/psyemHelper.php:2067
+#: helpers/psyemHelper.php:2073
 msgid "Event Address"
 msgstr "活動地址"
 
@@ -703,7 +703,7 @@ msgid "I agree to take part in the above cervical screening programme"
 msgstr "我同意參加上述子宮頸普查計畫"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:179
-#: front/pages/psyemDonationCheckout.php:174
+#: front/pages/psyemDonationCheckout.php:181
 #: front/pages/psyemProjectsafeForm.php:300
 msgid "Terms & Conditions"
 msgstr "條款與條件"
@@ -1788,17 +1788,17 @@ msgstr "找不到參與者資料以列印票券"
 msgid "Hello"
 msgstr "您好"
 
-#: admin/psyemAdmin.php:2498 helpers/psyemHelper.php:2066
+#: admin/psyemAdmin.php:2498 helpers/psyemHelper.php:2072
 msgid "Kindly find the attached document for event ticket reference"
 msgstr "請查閱附件中的活動票券文件作為參考"
 
-#: admin/psyemAdmin.php:2500 helpers/psyemHelper.php:1703
-#: helpers/psyemHelper.php:2069
+#: admin/psyemAdmin.php:2500 helpers/psyemHelper.php:1707
+#: helpers/psyemHelper.php:2075
 msgid "See you soon"
 msgstr "期待再見"
 
-#: admin/psyemAdmin.php:2501 front/pages/psyemDonationCheckout.php:250
-#: helpers/psyemHelper.php:1704 helpers/psyemHelper.php:2070
+#: admin/psyemAdmin.php:2501 front/pages/psyemDonationCheckout.php:259
+#: helpers/psyemHelper.php:1708 helpers/psyemHelper.php:2076
 msgid "Thank You"
 msgstr "謝謝您"
 
@@ -1992,7 +1992,7 @@ msgid "Donations"
 msgstr "捐款"
 
 #: admin/psyemAdmin.php:3251 admin/psyemAdmin.php:3253
-#: admin/psyemAdmin.php:3280 front/pages/psyemDonationCheckout.php:47
+#: admin/psyemAdmin.php:3280 front/pages/psyemDonationCheckout.php:54
 msgid "Donation"
 msgstr "捐款"
 
@@ -2403,99 +2403,107 @@ msgstr "一次性捐款"
 msgid "Next"
 msgstr "下一步"
 
-#: front/pages/psyemDonationCheckout.php:45
+#: front/pages/psyemDonationCheckout.php:46
 msgid "Donation Summary"
 msgstr "捐款摘要"
 
-#: front/pages/psyemDonationCheckout.php:53
+#: front/pages/psyemDonationCheckout.php:49
+msgid "Monthly"
+msgstr "每月"
+
+#: front/pages/psyemDonationCheckout.php:52
+msgid "One time"
+msgstr "一度"
+
+#: front/pages/psyemDonationCheckout.php:60
 msgid "Change Amount?"
 msgstr "更改金額？"
 
-#: front/pages/psyemDonationCheckout.php:59
+#: front/pages/psyemDonationCheckout.php:66
 msgid "Card & Billing"
 msgstr "卡片與帳單"
 
-#: front/pages/psyemDonationCheckout.php:67
+#: front/pages/psyemDonationCheckout.php:74
 msgid "Billing Address"
 msgstr "帳單地址"
 
-#: front/pages/psyemDonationCheckout.php:79
+#: front/pages/psyemDonationCheckout.php:86
 msgid "Address Line 1"
 msgstr "地址行 1"
 
-#: front/pages/psyemDonationCheckout.php:86
+#: front/pages/psyemDonationCheckout.php:93
 msgid "Address Line 2"
 msgstr "地址行 2"
 
-#: front/pages/psyemDonationCheckout.php:93
+#: front/pages/psyemDonationCheckout.php:100
 msgid "Town/City"
 msgstr "城鎮/城市"
 
-#: front/pages/psyemDonationCheckout.php:113
+#: front/pages/psyemDonationCheckout.php:120
 msgid "Additional Details"
 msgstr "附加詳情"
 
-#: front/pages/psyemDonationCheckout.php:133
+#: front/pages/psyemDonationCheckout.php:140
 #: front/pages/psyemProjectsafeForm.php:353
 #: front/pages/psyemProjectsafeForm.php:355
 msgid "Email Address"
 msgstr "電子郵件地址"
 
-#: front/pages/psyemDonationCheckout.php:140
+#: front/pages/psyemDonationCheckout.php:147
 msgid "Phone Number"
 msgstr "電話號碼"
 
-#: front/pages/psyemDonationCheckout.php:147
+#: front/pages/psyemDonationCheckout.php:154
 msgid "Company/Organisation"
 msgstr "公司/組織"
 
-#: front/pages/psyemDonationCheckout.php:162
+#: front/pages/psyemDonationCheckout.php:169
 msgid "Sign up for our Newsletter"
 msgstr "訂閱我們的電子報"
 
-#: front/pages/psyemDonationCheckout.php:172
+#: front/pages/psyemDonationCheckout.php:179
 msgid "I agree to the"
 msgstr "我同意"
 
-#: front/pages/psyemDonationCheckout.php:187
+#: front/pages/psyemDonationCheckout.php:196
 #: front/pages/psyemOrderCheckout.php:271
 msgid "Continue to Payment"
 msgstr "繼續付款"
 
-#: front/pages/psyemDonationCheckout.php:200
+#: front/pages/psyemDonationCheckout.php:209
 msgid "Card Details"
 msgstr "卡片詳情"
 
-#: front/pages/psyemDonationCheckout.php:215
+#: front/pages/psyemDonationCheckout.php:224
 #: front/pages/psyemOrderCheckout.php:301
 msgid "Please wait"
 msgstr "請稍候"
 
-#: front/pages/psyemDonationCheckout.php:226
+#: front/pages/psyemDonationCheckout.php:235
 #: front/pages/psyemOrderCheckout.php:312
 msgid ""
 "By submitting payment details, I hereby agreed with the terms & conditions"
 msgstr "提交付款詳情，即表示我同意條款和條件"
 
-#: front/pages/psyemDonationCheckout.php:234
+#: front/pages/psyemDonationCheckout.php:243
 msgid "Donate & Confirm"
 msgstr "捐款並確認"
 
-#: front/pages/psyemDonationCheckout.php:257
+#: front/pages/psyemDonationCheckout.php:266
 msgid "Thank you for your donation"
 msgstr "感謝您的捐款"
 
-#: front/pages/psyemDonationCheckout.php:261
+#: front/pages/psyemDonationCheckout.php:270
 #: front/pages/psyemOrderThankyou.php:48
 msgid "REFERENCE ID"
 msgstr "參考ID"
 
-#: front/pages/psyemDonationCheckout.php:266
+#: front/pages/psyemDonationCheckout.php:275
 #: front/pages/psyemProjectsafeForm.php:515
 msgid "BACK TO HOMEPAGE"
 msgstr "返回首頁"
 
-#: front/pages/psyemDonationCheckout.php:286
+#: front/pages/psyemDonationCheckout.php:295
 msgid "Please select an amount first to proceed with the donation checkout"
 msgstr "請先選擇金額以繼續捐款結帳"
 
@@ -2614,7 +2622,7 @@ msgstr ">>"
 msgid "Become a Volunteer"
 msgstr "成為志願者"
 
-#: front/pages/psyemEventsList.php:224 front/pages/psyemEventsList.php:248
+#: front/pages/psyemEventsList.php:224
 msgid "Contact Us"
 msgstr "聯繫我們"
 
@@ -2627,6 +2635,10 @@ msgid ""
 "KLF is always looking for dedicated volunteers who are passionate about "
 "fighting women’s cancers or who simply want to assist the local community"
 msgstr "KLF 始終在尋找熱衷於抗擊女性癌症或希望幫助當地社區的志願者"
+
+#: front/pages/psyemEventsList.php:248
+msgid "Subscribe"
+msgstr "訂閱"
 
 #: front/pages/psyemEventsList.php:266
 msgid "Become a Sponsor"
@@ -2720,13 +2732,13 @@ msgstr "提交預訂"
 
 #: front/pages/psyemOrderCheckout.php:404
 #: front/pages/psyemOrderCheckout.php:441 front/pages/psyemOrderThankyou.php:50
-#: front/pages/psyemVerifyqr.php:83 front/pages/psyemVerifyqr.php:115
+#: front/pages/psyemVerifyqr.php:87 front/pages/psyemVerifyqr.php:127
 msgid "Click"
 msgstr "點擊"
 
 #: front/pages/psyemOrderCheckout.php:406
 #: front/pages/psyemOrderCheckout.php:443 front/pages/psyemOrderThankyou.php:52
-#: front/pages/psyemVerifyqr.php:85 front/pages/psyemVerifyqr.php:117
+#: front/pages/psyemVerifyqr.php:89 front/pages/psyemVerifyqr.php:129
 msgid "here"
 msgstr "這裡"
 
@@ -3035,39 +3047,47 @@ msgstr "發佈於"
 msgid "About the Speaker"
 msgstr "關於講者"
 
-#: front/pages/psyemVerifyqr.php:66
+#: front/pages/psyemVerifyqr.php:71
 msgid "QR Scan successfully confirmed"
 msgstr "QR 掃描成功確認"
 
-#: front/pages/psyemVerifyqr.php:73
+#: front/pages/psyemVerifyqr.php:78
 msgid "Welcome"
 msgstr "歡迎"
 
-#: front/pages/psyemVerifyqr.php:76
+#: front/pages/psyemVerifyqr.php:81
 msgid "Thank you, Your booking ticket scan for"
 msgstr "感謝你，您的預訂票已掃描"
 
-#: front/pages/psyemVerifyqr.php:77
+#: front/pages/psyemVerifyqr.php:82 front/pages/psyemVerifyqr.php:114
 msgid "EVENT"
 msgstr "活動"
 
-#: front/pages/psyemVerifyqr.php:78
+#: front/pages/psyemVerifyqr.php:83
 msgid "has been successfully confirmed"
 msgstr "已成功確認"
 
-#: front/pages/psyemVerifyqr.php:87 front/pages/psyemVerifyqr.php:119
+#: front/pages/psyemVerifyqr.php:91 front/pages/psyemVerifyqr.php:131
 msgid "to visit the site"
 msgstr "以訪問網站"
 
-#: front/pages/psyemVerifyqr.php:96
+#: front/pages/psyemVerifyqr.php:100
 msgid "The QR code scan was unsuccessful"
 msgstr "QR 碼掃描未成功"
 
-#: front/pages/psyemVerifyqr.php:104
+#: front/pages/psyemVerifyqr.php:108
 msgid "The participant QR code scan has been failed to confirm"
 msgstr "參加者的 QR 碼掃描確認失敗"
 
-#: front/pages/psyemVerifyqr.php:109
+#: front/pages/psyemVerifyqr.php:113
+msgid "Your booking ticket is ALREADY scanned for"
+msgstr "您的車票已經被掃描"
+
+#: front/pages/psyemVerifyqr.php:115
+msgid "Please contact to administrator"
+msgstr "請聯絡管理員"
+
+#: front/pages/psyemVerifyqr.php:120
 msgid "Participant QR code link is invalid"
 msgstr "參加者的 QR 碼連結無效"
 
@@ -3467,24 +3487,24 @@ msgstr "請檢查！您的優惠碼無效"
 msgid "No coupons are allowed for booking this event"
 msgstr "此活動不接受任何優惠碼預訂"
 
-#: helpers/psyemHelper.php:1180
+#: helpers/psyemHelper.php:1184
 msgid "Offline registration order has been failed to create"
 msgstr "離線註冊訂單建立失敗"
 
-#: helpers/psyemHelper.php:1203
+#: helpers/psyemHelper.php:1207
 msgid "Registration is not allowed for this event"
 msgstr "此活動不允許註冊"
 
-#: helpers/psyemHelper.php:1326
+#: helpers/psyemHelper.php:1330
 msgid "Offline registration order has been successfully created"
 msgstr "離線註冊訂單已成功建立"
 
-#: helpers/psyemHelper.php:1697
+#: helpers/psyemHelper.php:1701
 msgid ""
 "Your registration request for Project Safe has been successfully submitted"
 msgstr "您對 Project Safe 的註冊申請已成功提交"
 
-#: helpers/psyemHelper.php:1701
+#: helpers/psyemHelper.php:1705
 msgid ""
 "You are now registered to Project SAFE - Our partner PHASE Scientific will "
 "send you an email or sms for confirmation in 1-2 working days"
@@ -3492,17 +3512,17 @@ msgstr ""
 "您已成功註冊 Project SAFE，我們的合作夥伴 PHASE Scientific 將於 1-2 個工作日 "
 "內透過電郵或簡訊與您確認"
 
-#: helpers/psyemHelper.php:1702
+#: helpers/psyemHelper.php:1706
 msgid ""
 "Please call Kinetics Integrated Medical and Health Center within 2 weeks "
 "from your sign-up date to arrange an appointment for the screening"
 msgstr "請於報名日起兩週內致電 Kinetics 綜合醫療健康中心預約篩查時間"
 
-#: helpers/psyemHelper.php:2065
+#: helpers/psyemHelper.php:2071
 msgid "Your booking has been confirmed"
 msgstr "您的預約已確認"
 
-#: helpers/psyemHelper.php:2068
+#: helpers/psyemHelper.php:2074
 msgid "Booking Order"
 msgstr "預約訂單"
 
