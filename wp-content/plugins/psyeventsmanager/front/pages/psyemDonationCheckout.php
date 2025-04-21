@@ -5,6 +5,7 @@ $sessKey       = 'donation_cart';
 $donationCart  = (isset($_SESSION[$sessKey])) ? $_SESSION[$sessKey] :  [];
 $amount_enc    = (isset($donationCart['amount_enc'])) ? $donationCart['amount_enc'] :  [];
 $amount        = (isset($donationCart['amount'])) ? $donationCart['amount'] :  [];
+$amount_for    = (isset($donationCart['amount_for'])) ? $donationCart['amount_for'] :  '';
 $amount        =  ($amount > 0) ?  $amount : 0.00;
 if (!empty($amount_enc)):
     $CurrenyType                    = psyem_GetCurrenyType();
@@ -44,7 +45,13 @@ if (!empty($amount_enc)):
                     <div class="leftChangeAmount">
                         <h6><?= __('Donation Summary', 'psyeventsmanager') ?></h6>
                         <small class="d-block psyemDonationType">
-                            <?= $amount_type ?> <?= __('Donation', 'psyeventsmanager') ?>
+                            <?php if ($amount_for == 'Monthly') { ?>
+                                <?= __('Monthly', 'psyeventsmanager') ?>
+                            <?php  } ?>
+                            <?php if ($amount_for == 'Onetime') { ?>
+                                <?= __('One time', 'psyeventsmanager') ?>
+                            <?php  } ?>
+                            <?= __('Donation', 'psyeventsmanager') ?>
                         </small>
                         <h2>
                             <?= formatPriceWithComma($cartAmount) ?>
@@ -184,6 +191,8 @@ if (!empty($amount_enc)):
                                     <div class="row">
                                         <div class="col-md-12">
                                             <button type="button" class="donateConirm" id="psyemContinuePaymentBtn">
+                                                <span class="spinner-border spinner-border-sm buttonLoader" role="status"
+                                                    aria-hidden="true" style="display: none;"></span>
                                                 <?= __('Continue to Payment', 'psyeventsmanager') ?>
                                             </button>
                                         </div>

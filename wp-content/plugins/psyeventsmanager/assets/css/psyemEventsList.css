@@ -738,7 +738,7 @@
 }
 
 .psyemEventDetailSidebar .event-title {
-	font-weight: lighter;
+	font-weight: normal;
 	font-size: 1.25em;
 	letter-spacing: -0.18px;
 	line-height: 1.5;
@@ -747,7 +747,7 @@
 }
 
 .psyemEventDetailSidebar .event-date {
-	font-weight: lighter;
+	font-weight: normal;
 	font-size: 1.5em;
 	letter-spacing: -0.22px;
 	line-height: 1.5;
@@ -1320,7 +1320,12 @@ a {
 }
 
 .psyemEventDetailSidebar .event-time {
-	font-weight: lighter;
+	font-weight: normal;
 	font-size: 1.125em;
 	color: #000;
+}
+
+.psyemEventDetailSidebar .gotoTickets{
+	font-weight: 600;
+	color: #000 !important;
 }

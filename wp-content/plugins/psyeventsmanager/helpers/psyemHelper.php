@@ -389,7 +389,7 @@ function psyem_GetCurrenyType()
 
 function psyem_GetCurrentLocale()
 {
-	$current_lang = 'en';
+	$current_lang = '';
 	if (function_exists('pll_current_language')) {
 		$current_lang = pll_current_language(); // Polylang
 	} elseif (function_exists('wpml_current_language')) {
@@ -397,8 +397,8 @@ function psyem_GetCurrentLocale()
 	} else {
 		$current_lang = get_locale(); // Default WordPress
 	}
-	return 'en';
-	//return (!empty($current_lang)) ? $current_lang : 'en';
+
+	return strtolower((!empty($current_lang) && in_array($current_lang, ['en', 'zh'])) ? $current_lang : 'en');
 }
 
 function psyem_FloatToInt($amount, $precision = 2)
@@ -755,6 +755,10 @@ function psyem_UpdateOrderUsedSlotsCount($order, $event, $participant)
 
 			$orderUsedSlotsInfoArr  = get_post_meta(@$order_id, 'psyem_order_used_slots_info', true);
 			$orderUsedSlotsInfoArr  = (!empty($orderUsedSlotsInfoArr) && is_array($orderUsedSlotsInfoArr)) ? $orderUsedSlotsInfoArr : [];
+
+			if (isset($orderUsedSlotsInfoArr[$participant_id]) && !empty($orderUsedSlotsInfoArr[$participant_id])) {
+				return array('status' => 'Already');
+			}
 
 			if ($participant_id > 0) {
 				$orderUsedSlotsInfoArr[$participant_id] = array('Event' => $event_id, 'Order' => $order_id);
@@ -1952,10 +1956,12 @@ function psyem_UnsetDonationCheckoutData($postData = [])
 
 function psyem_GetFormattedDatetime($format = 'Y-m-d H:i:s', $datetime = NULL, $timezone = NULL)
 {
-
+	$clocale  = psyem_GetCurrentLocale();
 	$format   = ($format != NULL) ? $format : 'Y-m-d H:i:s';
 	$timezone = ($timezone != NULL) ? $timezone : 'UTC';
-	$date = '';
+	$locale   = ($clocale == 'he') ? 'zh_HK' : 'en_US';
+
+	$date     = '';
 	try {
 		if (is_numeric($datetime) && !is_float($datetime) && $datetime != NULL) {
 			$datetimeob1 = new DateTime($datetime, new DateTimeZone($timezone));

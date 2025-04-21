@@ -75,10 +75,10 @@ var psyemDonationPanel = function () {
         });
 
         jQuery('body').on('click', '.submit-donation', function (ev) {
-            var sBtn = jQuery(this);
-            var amountFor = 'Check';
-            var amountEnc = '123';
-            var amount = 10;
+            var sBtn        = jQuery(this);
+            var amountFor   = 'Check';
+            var amountEnc   = '123';
+            var amount      = 10;
 
             var psyemCartForm = jQuery('body').find('.donation-amount-select');
             jQuery.each(psyemCartForm.find('.donation-amount'), function (index, item) {
@@ -232,6 +232,7 @@ const stripe = Stripe(stripePublicKey);
 async function psyemInitializeIntent(fromsrc) {
 
     showPanelLoader(stripeSectionCont);
+    showHideButtonLoader(psyemContinuePaymentBtn, 'Show');
 
     // Create a FormData object
     const formData = new FormData(psyemDonationCheckoutForm[0]);
@@ -277,6 +278,7 @@ async function psyemInitializeIntent(fromsrc) {
                 stripeSectionCont.show('fast');
                 psyemContinuePaymentBtn.hide('fast');
                 psyemSetLoading(false);
+                showHideButtonLoader(psyemContinuePaymentBtn, 'Hide');
             }
         } else {
             psyemContinuePaymentBtn.prop('disabled', false);
@@ -288,7 +290,9 @@ async function psyemInitializeIntent(fromsrc) {
         psyemContinuePaymentBtn.prop('disabled', false);
     }
 
+    psyemSetLoading(false);
     hidePanelLoader(stripeSectionCont);
+    showHideButtonLoader(psyemContinuePaymentBtn, 'Hide');
 
 }
 

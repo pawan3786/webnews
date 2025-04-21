@@ -245,7 +245,7 @@ while (have_posts()) : the_post();
                                                     <?= __('KLF is always looking for dedicated volunteers who are passionate about fighting women’s cancers or who simply want to assist the local community', 'psyeventsmanager') ?>
                                                 </div>
                                                 <a href="<?= (isset($MasterSettings['psyem_contact_us_url']) && !empty($MasterSettings['psyem_contact_us_url'])) ? $MasterSettings['psyem_contact_us_url'] : 'javascript:void(0);' ?>" class="linkcontact text-white text-decoration-none" style="color:#fff !important;">
-                                                    <?= __('Contact Us', 'psyeventsmanager') ?>
+                                                    <?= __('Subscribe', 'psyeventsmanager') ?>
                                                 </a>
                                             </div>
                                         </div>

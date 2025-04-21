@@ -40,8 +40,13 @@ while (have_posts()) : the_post();
         $participant_data     = psyem_GetSinglePostWithMetaPrefix('psyem-participants', $participant_id, 'psyem_participant_');
         $participant_meta     = @$participant_data['meta_data'];
         $participant_name     = @$participant_data['title'];
+        $scanStatus           = '';
         if ($is_valid) {
-            psyem_UpdateOrderUsedSlotsCount($order_data, $event_data, $participant_data);
+            $scanResp         = psyem_UpdateOrderUsedSlotsCount($order_data, $event_data, $participant_data);
+            $scanStatus       = (isset($scanResp['status']) && !empty($scanResp['status'])) ? $scanResp['status'] : '';
+            if ($scanStatus == 'Already') {
+                $is_valid = false;
+            }
         }
     }
 ?>
@@ -78,7 +83,6 @@ while (have_posts()) : the_post();
                                             <?= __('has been successfully confirmed', 'psyeventsmanager') ?>
                                         </div>
                                     </div>
-
                                     <div class="col-md-12">
                                         <?= __('Click', 'psyeventsmanager') ?>
                                         <a href="<?= get_site_url() ?>" class="alert-link">
@@ -104,11 +108,19 @@ while (have_posts()) : the_post();
                                                 <?= __('The participant QR code scan has been failed to confirm', 'psyeventsmanager') ?>
                                             </strong>
                                         </div>
-                                        <div class="alert alert-danger mb-5" role="alert">
-                                            <strong>
-                                                <?= __('Participant QR code link is invalid', 'psyeventsmanager') ?>
-                                            </strong>
-                                        </div>
+                                        <?php if ($scanStatus == 'Already'): ?>
+                                            <div class="alert alert-danger mb-5" role="alert">
+                                                <?= __('Your booking ticket is ALREADY scanned for', 'psyeventsmanager') ?>
+                                                <strong> <?= __('EVENT', 'psyeventsmanager') ?>: <?= @$event_name ?> </strong>
+                                                <?= __('Please contact to administrator', 'psyeventsmanager') ?>.
+                                            </div>
+                                        <?php else: ?>
+                                            <div class="alert alert-danger mb-5" role="alert">
+                                                <strong>
+                                                    <?= __('Participant QR code link is invalid', 'psyeventsmanager') ?>
+                                                </strong>
+                                            </div>
+                                        <?php endif; ?>
                                     </div>
 
                                     <div class="col-md-12">
@@ -116,7 +128,7 @@ while (have_posts()) : the_post();
                                         <a href="<?= get_site_url() ?>" class="alert-link">
                                             <?= __('here', 'psyeventsmanager') ?>
                                         </a>
-                                        <?= __('to visit the site', 'psyeventsmanager') ?>
+                                        <?= __('to visit the site', 'psyeventsmanager') ?>.
                                     </div>
                                 </div>
                             </div>
