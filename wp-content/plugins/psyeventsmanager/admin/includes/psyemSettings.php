@@ -132,7 +132,7 @@ if (isset($psyem_options)) {
 
                     <div class="col-sm-6 mt-3">
                         <div class="form-group">
-                            <label class="control-label fw-bold" for="psyem_events_listing_page_id">
+                            <label class="control-label fw-bold" for="psyem_event_listing_page_id">
                                 <?= __('Events Listing Section Shortcode', 'psyeventsmanager') ?>
                             </label>
                         </div>
@@ -141,14 +141,14 @@ if (isset($psyem_options)) {
 
                     <div class="col-sm-6 mt-3">
                         <div class="form-group">
-                            <label class="control-label fw-bold" for="psyem_events_listing_page_id">
+                            <label class="control-label fw-bold" for="psyem_event_listing_page_id">
                                 <?= __('Events Listing page ID', 'psyeventsmanager') ?>
                             </label>
 
-                            <select class="form-control form-control-sm " name="Settings[psyem_events_listing_page_id]">
+                            <select class="form-control form-control-sm " name="Settings[psyem_event_listing_page_id]">
                                 <option value=""><?= __('-- Select --', 'psyeventsmanager') ?></option>
                                 <?php if (isset($all_pages) && !empty($all_pages)): foreach ($all_pages as $spage): ?>
-                                        <option value="<?= esc_attr($spage->ID) ?>" <?php selected(@$psyem_events_listing_page_id, @$spage->ID); ?>>
+                                        <option value="<?= esc_attr($spage->ID) ?>" <?php selected(@$psyem_event_listing_page_id, @$spage->ID); ?>>
                                             <?= esc_html($spage->post_title) ?>
                                         </option>
                                     <?php endforeach; ?>

@@ -35,6 +35,9 @@ $total_price        = (isset($cartInfoData['total_price']) && !empty($cartInfoDa
 $total_discount     = (isset($cartInfoData['total_discount']) && !empty($cartInfoData['total_discount'])) ? $cartInfoData['total_discount'] : 0.00;
 $coupon_data        = (isset($cartInfoData['coupon_data']) && !empty($cartInfoData['coupon_data'])) ? $cartInfoData['coupon_data'] : [];
 $cart_data          = (isset($cartInfoData['cart_data']) && !empty($cartInfoData['cart_data'])) ? $cartInfoData['cart_data'] : [];
+
+$psyem_options                  = psyem_GetOptionsWithPrefix();
+$psyem_event_listing_page_id    = @$psyem_options['psyem_event_listing_page_id'];
 ?>
 <div class="psyemEventsCheckoutCont" style="display: none;">
     <section class="topBradcampImage" style="background:url(<?= $fetauredImage ?>); background-position: center; background-repeat: no-repeat; background-size: cover;">
@@ -42,7 +45,7 @@ $cart_data          = (isset($cartInfoData['cart_data']) && !empty($cartInfoData
             <div class="row justify-content-between mrAll-0">
                 <div class="col-md-12 pAll-0">
                     <p class="bradCamp">
-                        <a href="<?= psyem_GetPageLinkBySlug('psyem-events-list') ?>">
+                        <a href="<?= psyem_GetPageLinkByID($psyem_event_listing_page_id) ?>">
                             <?= __('Our Events', 'psyeventsmanager') ?> >
                         </a>
                         <a href="<?= @$psyemEventInfo['link'] ?>">
@@ -390,7 +393,7 @@ $cart_data          = (isset($cartInfoData['cart_data']) && !empty($cartInfoData
                                                                                 <div class="col-md-12">
                                                                                     <div class="alert alert-info" role="alert">
                                                                                         <?= __('Click', 'psyeventsmanager') ?>
-                                                                                        <a href="<?= psyem_GetPageLinkBySlug('psyem-events-list') ?>" class="alert-link">
+                                                                                        <a href="<?= psyem_GetPageLinkByID($psyem_event_listing_page_id) ?>" class="alert-link">
                                                                                             <?= __('here', 'psyeventsmanager') ?>
                                                                                         </a>
                                                                                         <?= __('to view events or book new tickets', 'psyeventsmanager') ?>
@@ -427,7 +430,7 @@ $cart_data          = (isset($cartInfoData['cart_data']) && !empty($cartInfoData
                                         <div class="col-md-12">
                                             <div class="alert alert-info" role="alert">
                                                 <?= __('Click', 'psyeventsmanager') ?>
-                                                <a href="<?= psyem_GetPageLinkBySlug('psyem-events-list') ?>" class="alert-link">
+                                                <a href="<?= psyem_GetPageLinkByID($psyem_event_listing_page_id) ?>" class="alert-link">
                                                     <?= __('here', 'psyeventsmanager') ?>
                                                 </a>
                                                 <?= __('to view events or book new tickets', 'psyeventsmanager') ?>

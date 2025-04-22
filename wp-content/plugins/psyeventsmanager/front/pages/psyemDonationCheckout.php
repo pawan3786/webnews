@@ -13,7 +13,7 @@ if (!empty($amount_enc)):
     $psyem_currency_exchange_rate   = @$psyem_options['psyem_currency_exchange_rate'];
     $psyem_donation_page_id         = @$psyem_options['psyem_donation_page_id'];
 
-    $donation_page_link             = get_permalink($psyem_donation_page_id);
+    $donation_page_link             = psyem_GetPageLinkByID($psyem_donation_page_id);
     $donation_page_link             = (!empty($donation_page_link)) ? $donation_page_link : 'javascript:void(0);';
 
     $amount_id     = 0;

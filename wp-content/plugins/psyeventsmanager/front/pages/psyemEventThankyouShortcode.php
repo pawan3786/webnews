@@ -7,6 +7,9 @@
 <?php
 $REQData            = (isset($_GET) && !empty($_GET)) ? $_GET : [];
 $booking_order_id   = (isset($REQData['checkkey']) && !empty($REQData['checkkey'])) ? $REQData['checkkey'] :  '';
+
+$psyem_options                  = psyem_GetOptionsWithPrefix();
+$psyem_event_listing_page_id    = @$psyem_options['psyem_event_listing_page_id'];
 ?>
 <div class="psyemOrderThankyouCont" style="display: none;">
     <div class="container">
@@ -25,15 +28,20 @@ $booking_order_id   = (isset($REQData['checkkey']) && !empty($REQData['checkkey'
                                     <div class="col-md-12">
                                         <div class="alert alert-success mb-5" role="alert">
                                             <?php
-                                            $tText = 'We are delighted to inform you that your booking has been successfully confirmed, and your payment has been processed. We look forward to serving you and ensuring you have a wonderful experience';
-                                            esc_html_e($tText, 'psyeventsmanager');
+                                            esc_html_e('We are delighted to inform you that your booking has been successfully confirmed', 'psyeventsmanager');
+                                            ?>,&nbsp;
+                                            <?php
+                                            esc_html_e('and your payment has been processed', 'psyeventsmanager');
+                                            ?>.&nbsp;
+                                            <?php
+                                            esc_html_e('We look forward to serving you and ensuring you have a wonderful experience', 'psyeventsmanager');
                                             ?>.
                                         </div>
                                         <div class="alert alert-success" role="alert">
                                             <strong> <?= __('REFERENCE ID', 'psyeventsmanager') ?>: <?= @$booking_order_id ?> </strong>
                                             <br />
                                             <?= __('Click', 'psyeventsmanager') ?>
-                                            <a href="<?= psyem_GetPageLinkBySlug('psyem-events-list') ?>" class="alert-link">
+                                            <a href="<?= psyem_GetPageLinkByID($psyem_event_listing_page_id) ?>" class="alert-link">
                                                 <?= __('here', 'psyeventsmanager') ?>
                                             </a>
                                             <?= __('to view more events or book new tickets', 'psyeventsmanager') ?>

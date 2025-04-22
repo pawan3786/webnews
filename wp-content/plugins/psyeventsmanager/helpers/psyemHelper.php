@@ -349,29 +349,54 @@ function psyem_getPostByMetakeyAndValue($post_type = '', $meta_key = '', $meta_v
 	return $resp;
 }
 
-function psyem_GetPageLinkBySlug($slug, $post_type = '')
+function psyem_GetPageLinkBySlug($slug, $post_type = 'page')
 {
-	global $wpdb;
-	$permalink = '';
-	$args = array(
-		'name'          => $slug,
-		'max_num_posts' => 1
-	);
 
-	if (empty($post_type)) {
-		$post_type = 'page';
+	$args = [
+		'name'        => $slug,
+		'post_type'   => $post_type,
+		'post_status' => 'publish',
+		'numberposts' => 1,
+	];
+
+	$posts = get_posts($args);
+
+	if (!empty($posts)) {
+		$post_id = @$posts[0]->ID;
+		// Polylang support: get translated post ID
+		if (function_exists('pll_get_post')) {
+			$translated_id = pll_get_post($post_id);
+			if ($translated_id > 0) {
+				$post_id = $translated_id;
+			}
+		}
+
+		return get_permalink($post_id);
 	}
-	if ('' != $post_type) {
-		$args = array_merge($args, array('post_type' => $post_type));
-	}
-	$query = new WP_Query($args);
-	if ($query->have_posts()) {
-		$query->the_post();
-		$permalink = get_permalink(get_the_ID());
-		wp_reset_postdata();
-	}
-	return (!empty($permalink)) ? $permalink : 'javascript:void(0);';
+
+	return 'javascript:void(0);';
 }
+
+function psyem_GetPageLinkByID($post_id, $post_type = 'page')
+{
+	$permalink  = '';
+	$post_id 	= ($post_id > 0) ? $post_id : 0;
+	$post 		= get_post($post_id);
+
+	if ($post && ($post->post_type === $post_type || empty($post_type))) {
+		// Polylang support: get translated post ID
+		if (function_exists('pll_get_post')) {
+			$translated_id = pll_get_post($post_id);
+			if ($translated_id > 0) {
+				$post_id = $translated_id;
+			}
+		}
+		$permalink = get_permalink($post_id);
+	}
+
+	return (!empty($permalink) && !is_wp_error($permalink)) ? $permalink : 'javascript:void(0);';
+}
+
 
 function psyem_GetCurrenySign()
 {
@@ -463,8 +488,10 @@ function psyem_GetEventCheckoutPrices($CheckoutTickets = [], $event = [], $coupo
 		$event_tickets       = get_post_meta(@$eventId, 'psyem_event_tickets', true);
 		$event_tickets       = (!empty($event_tickets)) ? $event_tickets : [];
 		$checkout_key        = psyem_safe_b64encode_id($eventId);
-		$cart_checkout_url   = psyem_GetPageLinkBySlug('psyem-checkout') . '?checkkey=' . $checkout_key;
-		$cart_checkout_url   = psyem_GetPageLinkBySlug('new-checkout-en') . '?checkkey=' . $checkout_key;
+
+		$psyem_options                  = psyem_GetOptionsWithPrefix();
+		$psyem_event_checkout_page_id   = @$psyem_options['psyem_event_checkout_page_id'];
+		$cart_checkout_url   			= psyem_GetPageLinkByID($psyem_event_checkout_page_id)  . '?checkkey=' . $checkout_key;
 
 		// PSYTODO - add checkout page link in settings
 		$resp['redirect_to'] = $cart_checkout_url;
@@ -2041,7 +2068,9 @@ function psyem_SendEventOrderBookingEmail($event_id = 0, $order_id = 0, $partici
 			$participantInfo 	=  $Participant;
 
 			$scanKey            = psyem_safe_b64encode($participantID . '@_@' . $order_id);
-			$verifyQrPageLink   = psyem_GetPageLinkBySlug('psyem-verifyqr');
+			$psyem_event_verifyqr_page_id   = @$MasterSettings['psyem_event_verifyqr_page_id'];
+			$verifyQrPageLink   = psyem_GetPageLinkByID($psyem_event_verifyqr_page_id);
+
 			try {
 				$get_scan_data = http_build_query(array(
 					'ticketinfo'    => $scanKey,

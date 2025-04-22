@@ -252,7 +252,7 @@ class psyemAdminManager extends psyemEventsManager
         $screen = get_current_screen();
         $current_screen_page = ($screen && $screen->id)  ? $screen->id : '';
 
-        if ($current_screen_page === 'psy-events-manager_page_psyem_settings') {
+        if (($current_screen_page === 'psy-events-manager_page_psyem_settings') || (strpos($current_screen_page, 'psyem_settings') !== false)) {
 
             wp_enqueue_script('jquery');
             wp_enqueue_script(PSYEM_PREFIX . 'bootstrap5admjs');
@@ -272,7 +272,7 @@ class psyemAdminManager extends psyemEventsManager
             wp_enqueue_style(PSYEM_PREFIX . 'helperadmcss');
         }
 
-        if ($current_screen_page === 'psy-events-manager_page_psyem_offline_signup') {
+        if (($current_screen_page === 'psy-events-manager_page_psyem_offline_signup') || (strpos($current_screen_page, 'psyem_offline_signup') !== false)) {
 
             wp_enqueue_script('jquery');
             wp_enqueue_script(PSYEM_PREFIX . 'bootstrap5admjs');
@@ -2144,6 +2144,9 @@ class psyemAdminManager extends psyemEventsManager
             wp_die($isvalid[0]);
         }
 
+        $psyem_options                  = psyem_GetOptionsWithPrefix();
+        $psyem_event_verifyqr_page_id   = @$psyem_options['psyem_event_verifyqr_page_id'];
+
         $order_id               = @$postData['order_id'];
         $participant_id         = @$postData['participant'];
         $order_info_data        = psyem_GetSinglePostWithMetaPrefix('psyem-orders', $order_id, 'psyem_order_');
@@ -2191,7 +2194,7 @@ class psyemAdminManager extends psyemEventsManager
             if (!empty($order_participants_arr) && is_array($order_participants_arr) && count($order_participants_arr) > 0) {
                 foreach ($order_participants_arr as $participantID => $participantInfo) {
                     $scanKey            = psyem_safe_b64encode($participantID . '@_@' . $order_id);
-                    $verifyQrPageLink   = psyem_GetPageLinkBySlug('psyem-verifyqr');
+                    $verifyQrPageLink   = psyem_GetPageLinkByID($psyem_event_verifyqr_page_id);
 
                     try {
                         $get_scan_data = http_build_query(array(
@@ -2404,6 +2407,9 @@ class psyemAdminManager extends psyemEventsManager
             wp_send_json($resp, 200);
         }
 
+        $psyem_options                  = psyem_GetOptionsWithPrefix();
+        $psyem_event_verifyqr_page_id   = @$psyem_options['psyem_event_verifyqr_page_id'];
+
         $order_id               = @$postData['order_id'];
         $participants           = @$postData['participants'];
 
@@ -2465,7 +2471,8 @@ class psyemAdminManager extends psyemEventsManager
             if (!empty($order_participants_arr) && is_array($order_participants_arr) && count($order_participants_arr) > 0) {
                 foreach ($order_participants_arr as $participantID => $participantInfo) {
                     $scanKey            = psyem_safe_b64encode($participantID . '@_@' . $order_id);
-                    $verifyQrPageLink   = psyem_GetPageLinkBySlug('psyem-verifyqr');
+                    $verifyQrPageLink   = psyem_GetPageLinkByID($psyem_event_verifyqr_page_id);
+
                     try {
                         $get_scan_data = http_build_query(array(
                             'ticketinfo'    => $scanKey,

@@ -113,22 +113,6 @@ class psyemFrontManager
     function psyem_EnqueueEventsManagerFrontScripts()
     {
 
-        if (is_page('psyem-events-list')) {
-            wp_enqueue_script('jquery');
-            wp_enqueue_script(PSYEM_PREFIX . 'bootstrap5frntjs');
-            wp_enqueue_script(PSYEM_PREFIX . 'select2frntjs');
-            wp_enqueue_script(PSYEM_PREFIX . 'toasterfrntjs');
-            wp_enqueue_script(PSYEM_PREFIX . 'swal2frntjs');
-            wp_enqueue_script(PSYEM_PREFIX . 'helperfrntjs');
-            wp_enqueue_script(PSYEM_PREFIX . 'eventslistfrntjs');
-
-            wp_enqueue_style(PSYEM_PREFIX . 'bootstrap5frntcss');
-            wp_enqueue_style(PSYEM_PREFIX . 'select2frntcss');
-            wp_enqueue_style(PSYEM_PREFIX . 'toasterfrntcss');
-            wp_enqueue_style(PSYEM_PREFIX . 'swal2frntcss');
-            wp_enqueue_style(PSYEM_PREFIX . 'helperfrntcss');
-            wp_enqueue_style(PSYEM_PREFIX . 'eventslistfrntcss');
-        }
 
         if (is_singular('psyem-events')) {
             wp_enqueue_script('jquery');
@@ -174,74 +158,23 @@ class psyemFrontManager
             wp_enqueue_style(PSYEM_PREFIX . 'helperfrntcss');
             wp_enqueue_style(PSYEM_PREFIX . 'eventslistfrntcss');
         }
-
-        if (is_page('psyem-checkout')) {
-            $psyem_options            = psyem_GetOptionsWithPrefix();
-            $psyem_stripe_publish_key = @$psyem_options['psyem_stripe_publish_key'];
-
-            wp_enqueue_script('jquery');
-            wp_enqueue_script(PSYEM_PREFIX . 'bootstrap5frntjs');
-            wp_enqueue_script(PSYEM_PREFIX . 'toasterfrntjs');
-            wp_enqueue_script(PSYEM_PREFIX . 'swal2frntjs');
-            wp_enqueue_script(PSYEM_PREFIX . 'stripefrntjs');
-            wp_enqueue_script(PSYEM_PREFIX . 'helperfrntjs');
-
-            wp_localize_script(PSYEM_PREFIX . 'checkoutfrntjs', 'psyem_order_ajax', array(
-                'order_ajaxurl' => admin_url('admin-ajax.php'),
-                'order_nonce' => esc_attr(wp_create_nonce('_nonce')),
-                'order_price_action' => PSYEM_PREFIX . 'manage_cart_prices',
-                'order_intent_action' => PSYEM_PREFIX . 'manage_stripe_intent',
-                'order_save_action' => PSYEM_PREFIX . 'manage_stripe_payment',
-                'order_send_ticket_action' => PSYEM_PREFIX . 'manage_order_send_tickets',
-                'order_free_booking_action' => PSYEM_PREFIX . 'manage_free_booking',
-                'order_thankou_url'  => psyem_GetPageLinkBySlug('psyem-thankyou'),
-                'stripe_public_key'  => $psyem_stripe_publish_key,
-                'server_error'           => esc_html('Something went wrong with server end, Please try later', 'psyeventsmanager')
-            ));
-            wp_enqueue_script(PSYEM_PREFIX . 'checkoutfrntjs');
-
-            wp_enqueue_style(PSYEM_PREFIX . 'bootstrap5frntcss');
-            wp_enqueue_style(PSYEM_PREFIX . 'toasterfrntcss');
-            wp_enqueue_style(PSYEM_PREFIX . 'swal2frntcss');
-            wp_enqueue_style(PSYEM_PREFIX . 'helperfrntcss');
-        }
-
-        if (is_page('psyem-thankyou')) {
-            wp_enqueue_script('jquery');
-            wp_enqueue_script(PSYEM_PREFIX . 'bootstrap5frntjs');
-            wp_enqueue_style(PSYEM_PREFIX . 'bootstrap5frntcss');
-        }
-
-        if (is_page('psyem-verifyqr')) {
-            wp_enqueue_script('jquery');
-            wp_enqueue_script(PSYEM_PREFIX . 'bootstrap5frntjs');
-            wp_enqueue_style(PSYEM_PREFIX . 'bootstrap5frntcss');
-        }
     }
 
     function psyem_AssignFrontPageTemplates($page_template)
     {
-        if (is_page('psyem-events-list')) {
-            $page_template = PSYEM_PATH . 'front/pages/psyemEventsList.php';
-        }
+
         if (is_singular('psyem-events')) {
             $page_template = PSYEM_PATH . 'front/pages/psyemEventDetails.php';
         }
+
         if (is_singular('psyem-partners')) {
             $page_template = PSYEM_PATH . 'front/pages/psyemPartnerDetails.php';
         }
+
         if (is_singular('psyem-speakers')) {
             $page_template = PSYEM_PATH . 'front/pages/psyemSpeakerDetails.php';
         }
-        if (is_page('psyem-checkout')) {
-            $page_template = PSYEM_PATH . 'front/pages/psyemOrderCheckout.php';
-        }
-        if (is_page('psyem-thankyou')) {
-            $page_template = PSYEM_PATH . 'front/pages/psyemOrderThankyou.php';
-        }
-        if (is_page('psyem-verifyqr')) {
-            $page_template = PSYEM_PATH . 'front/pages/psyemVerifyqr.php';
-        }
+
         return $page_template;
     }
 
@@ -1138,6 +1071,8 @@ class psyemFrontManager
         if ($type == 'Checkout') {
             wp_enqueue_script(PSYEM_PREFIX . 'stripefrntjs');
             $psyem_options                  = psyem_GetOptionsWithPrefix();
+            $psyem_event_thankyou_page_id   = @$psyem_options['psyem_event_thankyou_page_id'];
+
             $psyem_stripe_publish_key       = @$psyem_options['psyem_stripe_publish_key'];
             wp_localize_script(PSYEM_PREFIX . 'checkoutfrntjs', 'psyem_order_ajax', array(
                 'order_ajaxurl'             => admin_url('admin-ajax.php'),
@@ -1147,7 +1082,7 @@ class psyemFrontManager
                 'order_save_action'         => PSYEM_PREFIX . 'manage_stripe_payment',
                 'order_send_ticket_action'  => PSYEM_PREFIX . 'manage_order_send_tickets',
                 'order_free_booking_action' => PSYEM_PREFIX . 'manage_free_booking',
-                'order_thankou_url'         => psyem_GetPageLinkBySlug('psyem-thankyou'),
+                'order_thankou_url'         => psyem_GetPageLinkByID($psyem_event_thankyou_page_id),
                 'stripe_public_key'         => $psyem_stripe_publish_key,
                 'server_error'              => esc_html('Something went wrong with server end, Please try later', 'psyeventsmanager')
             ));
@@ -1400,7 +1335,7 @@ class psyemFrontManager
 
         $psyem_options                  = psyem_GetOptionsWithPrefix();
         $onetime_donation_page_id       = @$psyem_options['psyem_onetime_donation_page_id'];
-        $onetime_donation_page_link     = get_permalink($onetime_donation_page_id);
+        $onetime_donation_page_link     = psyem_GetPageLinkByID($onetime_donation_page_id);
         $onetime_donation_page_link     = (!empty($onetime_donation_page_link)) ? $onetime_donation_page_link : 'javascript:void(0);';
 
         $shortcodeOutput = '';
@@ -1432,7 +1367,7 @@ class psyemFrontManager
 
         $psyem_options                  = psyem_GetOptionsWithPrefix();
         $onetime_donation_page_id       = @$psyem_options['psyem_onetime_donation_page_id'];
-        $onetime_donation_page_link     = get_permalink($onetime_donation_page_id);
+        $onetime_donation_page_link     = psyem_GetPageLinkByID($onetime_donation_page_id);
         $onetime_donation_page_link     = (!empty($onetime_donation_page_link)) ? $onetime_donation_page_link : 'javascript:void(0);';
 
         $shortcodeOutput = '';
@@ -1538,7 +1473,7 @@ class psyemFrontManager
         if (!empty($donationCart)) {
             $psyem_options               = psyem_GetOptionsWithPrefix();
             $donation_checkout_page_id   = @$psyem_options['psyem_donation_checkout_page_id'];
-            $donation_checkout_page_link = get_permalink($donation_checkout_page_id);
+            $donation_checkout_page_link = psyem_GetPageLinkByID($donation_checkout_page_id);
             if (empty($donation_checkout_page_link)) {
                 $resp      = array(
                     'status'     => 'error',

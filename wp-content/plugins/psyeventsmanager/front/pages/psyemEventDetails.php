@@ -11,10 +11,12 @@ if (! defined('ABSPATH')) {
 get_header();
 while (have_posts()) : the_post();
     $GET  = (isset($_GET) && !empty($_GET)) ? $_GET : array();
-    $isPreview          = (isset($GET['preview']) && ($GET['preview'] == true || $GET['preview'] == 'true')) ? true : false;
-    $EventId            = get_the_ID();
+    $isPreview                      = (isset($GET['preview']) && ($GET['preview'] == true || $GET['preview'] == 'true')) ? true : false;
+    $EventId                        = get_the_ID();
     $psyem_options                  = psyem_GetOptionsWithPrefix();
     $currency_exchange_rate         = @$psyem_options['psyem_currency_exchange_rate'];
+    $psyem_event_checkout_page_id   = @$psyem_options['psyem_event_checkout_page_id'];
+
 
     $psyemEventInfo     = psyem_GetSinglePostWithMetaPrefix('psyem-events', $EventId, 'psyem_event_');
     $psyemEventMeta     = @$psyemEventInfo['meta_data'];
@@ -22,7 +24,7 @@ while (have_posts()) : the_post();
     $event_partners     = get_post_meta(@$EventId, 'psyem_event_partners', true);
     $event_medias       = get_post_meta(@$EventId, 'psyem_event_media_urls', true);
     $checkout_key       = psyem_safe_b64encode_id($EventId);
-    $event_checkout_url = psyem_GetPageLinkBySlug('psyem-checkout') . '?checkkey=' . $checkout_key;
+    $event_checkout_url = psyem_GetPageLinkByID($psyem_event_checkout_page_id)  . '?checkkey=' . $checkout_key;
     $isBookingAllowed   = psyem_IsEventBookingAllowed(0, $psyemEventInfo);
     $eventRegType       = (isset($psyemEventMeta['psyem_event_registration_type'])) ? $psyemEventMeta['psyem_event_registration_type'] :  '';
     $bookingUrlHtml     = ($isBookingAllowed == 'Yes' && $isPreview == false && $eventRegType == 'Free') ? '<a class="bookNowButton text-white" href="' . $event_checkout_url . '">Book Now</a>' : '';
@@ -43,6 +45,8 @@ while (have_posts()) : the_post();
     $event_endtime      = @$psyemEventMeta['psyem_event_endtime'];
     $end_date           = psyem_GetFormattedDatetime('d F Y', $event_enddate);
     $end_time           = psyem_GetFormattedDatetime('h:i a', $event_startdate . '' . $event_endtime);
+
+    $psyem_event_listing_page_id    = @$psyem_options['psyem_event_listing_page_id'];
 ?>
     <main id="content" <?php post_class('site-main psyemEventInfo'); ?> style="max-width: 100%; overflow: hidden;">
         <section class="topBradcampImage" style="background:url(<?= $fetauredImage ?>); background-position: center; background-repeat: no-repeat; background-size: cover;">
@@ -50,7 +54,7 @@ while (have_posts()) : the_post();
                 <div class="row justify-content-between mrAll-0">
                     <div class="col-md-12 pAll-0">
                         <p class="bradCamp">
-                            <a href="<?= psyem_GetPageLinkBySlug('psyem-events-list') ?>">
+                            <a href="<?= psyem_GetPageLinkByID($psyem_event_listing_page_id) ?>">
                                 <?= __('Our Events', 'psyeventsmanager') ?> >
                             </a>
                             <?= @$psyemEventInfo['title'] ?>

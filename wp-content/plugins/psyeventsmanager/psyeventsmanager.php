@@ -76,63 +76,6 @@ class psyemEventsManagerInitials
         global $post;
         $user_id = get_current_user_id();
         global $user_ID;
-
-        // create event list page
-        if (!get_option('psyem_events_list_page_id')) :
-            $psyemEventPageArr = array(
-                'post_title'        => 'Events List',
-                'post_content'      => '',
-                'post_status'       => 'publish',
-                'post_type'         => 'page',
-                'post_name'         => 'psyem-events-list',
-                'post_author'       => $user_id,
-                'post_date'         => date('Y-m-d H:i:s')
-            );
-            $psyemEventPageID = wp_insert_post($psyemEventPageArr);
-            psyem_updateOption('psyem_events_list_page_id', $psyemEventPageID);
-        endif;
-        // create event checkout page
-        if (!get_option('psyem_event_checkout_page_id')) :
-            $psyemEventCheckoutPageArr = array(
-                'post_title'        => 'Event Checkout',
-                'post_content'      => '',
-                'post_status'       => 'publish',
-                'post_type'         => 'page',
-                'post_name'         => 'psyem-checkout',
-                'post_author'       => $user_id,
-                'post_date'         => date('Y-m-d H:i:s')
-            );
-            $psyemEventCheckoutPageID = wp_insert_post($psyemEventCheckoutPageArr);
-            psyem_updateOption('psyem_event_checkout_page_id', $psyemEventCheckoutPageID);
-        endif;
-        // create event thankyou page
-        if (!get_option('psyem_event_thankyou_page_id')) :
-            $psyemEventThankyouPageArr = array(
-                'post_title'        => 'Event Thank You',
-                'post_content'      => '',
-                'post_status'       => 'publish',
-                'post_type'         => 'page',
-                'post_name'         => 'psyem-thankyou',
-                'post_author'       => $user_id,
-                'post_date'         => date('Y-m-d H:i:s')
-            );
-            $psyemEventThankyouPageID = wp_insert_post($psyemEventThankyouPageArr);
-            psyem_updateOption('psyem_event_thankyou_page_id', $psyemEventThankyouPageID);
-        endif;
-        // create event verify qr page
-        if (!get_option('psyem_event_verifyqr_page_id')) :
-            $psyemEventVerifyqrPageArr = array(
-                'post_title'        => 'Verify Event QR',
-                'post_content'      => '',
-                'post_status'       => 'publish',
-                'post_type'         => 'page',
-                'post_name'         => 'psyem-verifyqr',
-                'post_author'       => $user_id,
-                'post_date'         => date('Y-m-d H:i:s')
-            );
-            $psyemEventVerifyqrPageID = wp_insert_post($psyemEventVerifyqrPageArr);
-            psyem_updateOption('psyem_event_verifyqr_page_id', $psyemEventVerifyqrPageID);
-        endif;
     }
 
     public static function psyemEventsManagerInitial_DeactivateCallback()
