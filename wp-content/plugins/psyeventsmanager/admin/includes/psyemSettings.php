@@ -94,9 +94,7 @@ if (isset($psyem_options)) {
                             </a>
                         </p>
                     </div>
-                </div>
 
-                <div class="row mb-3">
                     <div class="col-sm-4 mt-3 mb-3 text-start">
                         <p>
                             <a href="<?= $newsCategoriesUrl ?>" class="btn btn-info">
@@ -119,6 +117,125 @@ if (isset($psyem_options)) {
                                 <?= __('Update Knowledge Categories', 'psyeventsmanager') ?>
                             </a>
                         </p>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div class="row mt-3">
+                    <div class="col-sm-12 mt-3">
+                        <label class="control-label fw-bold" for="">
+                            <?= __('Event Manager Shortcodes', 'psyeventsmanager') ?>
+                        </label>
+                    </div>
+
+
+                    <div class="col-sm-6 mt-3">
+                        <div class="form-group">
+                            <label class="control-label fw-bold" for="psyem_events_listing_page_id">
+                                <?= __('Events Listing Section Shortcode', 'psyeventsmanager') ?>
+                            </label>
+                        </div>
+                        <code>[psyem-events-list]</code>
+                    </div>
+
+                    <div class="col-sm-6 mt-3">
+                        <div class="form-group">
+                            <label class="control-label fw-bold" for="psyem_events_listing_page_id">
+                                <?= __('Events Listing page ID', 'psyeventsmanager') ?>
+                            </label>
+
+                            <select class="form-control form-control-sm " name="Settings[psyem_events_listing_page_id]">
+                                <option value=""><?= __('-- Select --', 'psyeventsmanager') ?></option>
+                                <?php if (isset($all_pages) && !empty($all_pages)): foreach ($all_pages as $spage): ?>
+                                        <option value="<?= esc_attr($spage->ID) ?>" <?php selected(@$psyem_events_listing_page_id, @$spage->ID); ?>>
+                                            <?= esc_html($spage->post_title) ?>
+                                        </option>
+                                    <?php endforeach; ?>
+                                <?php endif; ?>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 mt-3">
+                        <div class="form-group">
+                            <label class="control-label fw-bold" for="psyem_event_checkout_page_id">
+                                <?= __('Event Checkout Section Shortcode', 'psyeventsmanager') ?>
+                            </label>
+                        </div>
+                        <code>[psyem-event-checkout]</code>
+                    </div>
+
+                    <div class="col-sm-6 mt-3">
+                        <div class="form-group">
+                            <label class="control-label fw-bold" for="psyem_event_checkout_page_id">
+                                <?= __('Event Checkout Checkout page ID', 'psyeventsmanager') ?>
+                            </label>
+
+                            <select class="form-control form-control-sm " name="Settings[psyem_event_checkout_page_id]">
+                                <option value=""><?= __('-- Select --', 'psyeventsmanager') ?></option>
+                                <?php if (isset($all_pages) && !empty($all_pages)): foreach ($all_pages as $spage): ?>
+                                        <option value="<?= esc_attr($spage->ID) ?>" <?php selected(@$psyem_event_checkout_page_id, @$spage->ID); ?>>
+                                            <?= esc_html($spage->post_title) ?>
+                                        </option>
+                                    <?php endforeach; ?>
+                                <?php endif; ?>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 mt-3">
+                        <div class="form-group">
+                            <label class="control-label fw-bold" for="psyem_event_thankyou_page_id">
+                                <?= __('Event Order Thankyou Section Shortcode', 'psyeventsmanager') ?>
+                            </label>
+                        </div>
+                        <code> [psyem-event-thankyou] </code>
+                    </div>
+
+                    <div class="col-sm-6 mt-3">
+                        <div class="form-group">
+                            <label class="control-label fw-bold" for="psyem_event_thankyou_page_id">
+                                <?= __('Event Order Thankyou page ID', 'psyeventsmanager') ?>
+                            </label>
+
+                            <select class="form-control form-control-sm " name="Settings[psyem_event_thankyou_page_id]">
+                                <option value=""><?= __('-- Select --', 'psyeventsmanager') ?></option>
+                                <?php if (isset($all_pages) && !empty($all_pages)): foreach ($all_pages as $spage): ?>
+                                        <option value="<?= esc_attr($spage->ID) ?>" <?php selected(@$psyem_event_thankyou_page_id, @$spage->ID); ?>>
+                                            <?= esc_html($spage->post_title) ?>
+                                        </option>
+                                    <?php endforeach; ?>
+                                <?php endif; ?>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6 mt-3">
+                        <div class="form-group">
+                            <label class="control-label fw-bold" for="psyem_event_verifyqr_page_id">
+                                <?= __('Verify Participant QRCODE Shortcode', 'psyeventsmanager') ?>
+                            </label>
+                        </div>
+                        <code> [psyem-event-order-verifyqr] </code>
+                    </div>
+
+                    <div class="col-sm-6 mt-3">
+                        <div class="form-group">
+                            <label class="control-label fw-bold" for="psyem_event_verifyqr_page_id">
+                                <?= __('Verify QRCODE page ID', 'psyeventsmanager') ?>
+                            </label>
+
+                            <select class="form-control form-control-sm " name="Settings[psyem_event_verifyqr_page_id]">
+                                <option value=""><?= __('-- Select --', 'psyeventsmanager') ?></option>
+                                <?php if (isset($all_pages) && !empty($all_pages)): foreach ($all_pages as $spage): ?>
+                                        <option value="<?= esc_attr($spage->ID) ?>" <?php selected(@$psyem_event_verifyqr_page_id, @$spage->ID); ?>>
+                                            <?= esc_html($spage->post_title) ?>
+                                        </option>
+                                    <?php endforeach; ?>
+                                <?php endif; ?>
+                            </select>
+                        </div>
                     </div>
                 </div>
 

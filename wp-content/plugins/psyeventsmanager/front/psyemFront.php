@@ -93,10 +93,11 @@ class psyemFrontManager
         wp_register_script(PSYEM_PREFIX . 'donationfrntjs', PSYEM_ASSETS . '/js/psyemFrontDonation.js', array('jquery'), time(), true);
         wp_register_script(PSYEM_PREFIX . 'psyemlistingfrntjs', PSYEM_ASSETS . '/js/psyemPostsListing.js', array('jquery'), time(), true);
         wp_register_script(PSYEM_PREFIX . 'eventslistfrntjs', PSYEM_ASSETS . '/js/psyemEventsList.js', array('jquery'), time(), true);
+        wp_register_script(PSYEM_PREFIX . 'eventverifyqrfrntjs', PSYEM_ASSETS . '/js/psyemOrderVerifyQr.js', array('jquery'), time(), true);
+        wp_register_script(PSYEM_PREFIX . 'orderthankyoufrntjs', PSYEM_ASSETS . '/js/psyemOrderThankyou.js', array('jquery'), time(), true);
 
         wp_register_script(PSYEM_PREFIX . 'selectizefrntjs',   PSYEM_ASSETS . '/libs/selectize/selectize.min.js', array('jquery'), PSYEM_VERSION, true);
         wp_register_script(PSYEM_PREFIX . 'stripefrntjs', 'https://js.stripe.com/v3/', array('jquery'), PSYEM_VERSION, true);
-
         // css
         wp_register_style(PSYEM_PREFIX . 'bootstrap5frntcss',   PSYEM_ASSETS . '/css/bootstrap.min.css', array(), PSYEM_VERSION);
         wp_register_style(PSYEM_PREFIX . 'select2frntcss',   PSYEM_ASSETS . '/libs/select2/select2.min.css', array(), PSYEM_VERSION);
@@ -138,10 +139,10 @@ class psyemFrontManager
             wp_enqueue_script(PSYEM_PREFIX . 'helperfrntjs');
 
             wp_localize_script(PSYEM_PREFIX . 'eventdetailsfrntjs', 'psyem_cart_ajax', array(
-                'cart_ajaxurl' => admin_url('admin-ajax.php'),
-                'cart_nonce' => esc_attr(wp_create_nonce('_nonce')),
-                'cart_price_action' => PSYEM_PREFIX . 'manage_cart_prices',
-                'server_error'  => 'Something went wrong with server end, Please try later.'
+                'cart_ajaxurl'           => admin_url('admin-ajax.php'),
+                'cart_nonce'             => esc_attr(wp_create_nonce('_nonce')),
+                'cart_price_action'      => PSYEM_PREFIX . 'manage_cart_prices',
+                'server_error'           => esc_html('Something went wrong with server end, Please try later', 'psyeventsmanager')
             ));
             wp_enqueue_script(PSYEM_PREFIX . 'eventdetailsfrntjs');
 
@@ -195,7 +196,7 @@ class psyemFrontManager
                 'order_free_booking_action' => PSYEM_PREFIX . 'manage_free_booking',
                 'order_thankou_url'  => psyem_GetPageLinkBySlug('psyem-thankyou'),
                 'stripe_public_key'  => $psyem_stripe_publish_key,
-                'server_error'  => 'Something went wrong with server end, Please try later.'
+                'server_error'           => esc_html('Something went wrong with server end, Please try later', 'psyeventsmanager')
             ));
             wp_enqueue_script(PSYEM_PREFIX . 'checkoutfrntjs');
 
@@ -1097,18 +1098,159 @@ class psyemFrontManager
 
     function psyem_ManageAllShortcodes()
     {
-        add_shortcode('psyem-projectsafe-form', array(&$this, PSYEM_PREFIX . 'ManageProjectsafeFormShortcode'));
-        add_shortcode('psyem-donation-form', array(&$this, PSYEM_PREFIX . 'ManageDonationFormShortcode'));
-        add_shortcode('psyem-donation-onetime', array(&$this, PSYEM_PREFIX . 'ManageDonationOnetimeFormShortcode'));
-        add_shortcode('psyem-donation-checkout', array(&$this, PSYEM_PREFIX . 'ManageDonationCheckoutFormShortcode'));
+        add_shortcode('psyem-projectsafe-form',     array(&$this, PSYEM_PREFIX . 'ManageProjectsafeFormShortcode'));
+        add_shortcode('psyem-donation-form',        array(&$this, PSYEM_PREFIX . 'ManageDonationFormShortcode'));
+        add_shortcode('psyem-donation-onetime',     array(&$this, PSYEM_PREFIX . 'ManageDonationOnetimeFormShortcode'));
+        add_shortcode('psyem-donation-checkout',    array(&$this, PSYEM_PREFIX . 'ManageDonationCheckoutFormShortcode'));
 
-        add_shortcode('psyem-knowledgehub-list', array(&$this, PSYEM_PREFIX . 'ManageKnowledgehubListShortcode'));
-        add_shortcode('psyem-programmes-list', array(&$this, PSYEM_PREFIX . 'ManageProgrammesListShortcode'));
-        add_shortcode('psyem-news-list', array(&$this, PSYEM_PREFIX . 'ManageNewsListShortcode'));
+        add_shortcode('psyem-knowledgehub-list',    array(&$this, PSYEM_PREFIX . 'ManageKnowledgehubListShortcode'));
+        add_shortcode('psyem-programmes-list',      array(&$this, PSYEM_PREFIX . 'ManageProgrammesListShortcode'));
+        add_shortcode('psyem-news-list',            array(&$this, PSYEM_PREFIX . 'ManageNewsListShortcode'));
+
+        add_shortcode('psyem-events-list',          array(&$this, PSYEM_PREFIX . 'ManageEventsListShortcode'));
+        add_shortcode('psyem-event-checkout',       array(&$this, PSYEM_PREFIX . 'ManageEventCheckoutShortcode'));
+        add_shortcode('psyem-event-thankyou',       array(&$this, PSYEM_PREFIX . 'ManageEventOrderThankyouShortcode'));
+        add_shortcode('psyem-event-order-verifyqr', array(&$this, PSYEM_PREFIX . 'ManageEventOrderVerifyqrShortcode'));
 
         add_filter('widget_text', 'shortcode_unautop');
         add_filter('widget_text', 'do_shortcode', 11);
     }
+
+    /* Event shortcodes BGN */
+
+    function psyem_EnqueueEventsShortcodeScripts($type = '')
+    {
+
+        wp_enqueue_script('jquery');
+        wp_enqueue_script(PSYEM_PREFIX . 'bootstrap5frntjs');
+        wp_enqueue_script(PSYEM_PREFIX . 'toasterfrntjs');
+        wp_enqueue_script(PSYEM_PREFIX . 'helperfrntjs');
+
+        wp_enqueue_style(PSYEM_PREFIX . 'bootstrap5frntcss');
+        wp_enqueue_style(PSYEM_PREFIX . 'toasterfrntcss');
+        wp_enqueue_style(PSYEM_PREFIX . 'helperfrntcss');
+
+        if ($type == 'List') {
+            wp_enqueue_script(PSYEM_PREFIX . 'eventslistfrntjs');
+            wp_enqueue_style(PSYEM_PREFIX . 'eventslistfrntcss');
+        }
+
+        if ($type == 'Checkout') {
+            wp_enqueue_script(PSYEM_PREFIX . 'stripefrntjs');
+            $psyem_options                  = psyem_GetOptionsWithPrefix();
+            $psyem_stripe_publish_key       = @$psyem_options['psyem_stripe_publish_key'];
+            wp_localize_script(PSYEM_PREFIX . 'checkoutfrntjs', 'psyem_order_ajax', array(
+                'order_ajaxurl'             => admin_url('admin-ajax.php'),
+                'order_nonce'               => esc_attr(wp_create_nonce('_nonce')),
+                'order_price_action'        => PSYEM_PREFIX . 'manage_cart_prices',
+                'order_intent_action'       => PSYEM_PREFIX . 'manage_stripe_intent',
+                'order_save_action'         => PSYEM_PREFIX . 'manage_stripe_payment',
+                'order_send_ticket_action'  => PSYEM_PREFIX . 'manage_order_send_tickets',
+                'order_free_booking_action' => PSYEM_PREFIX . 'manage_free_booking',
+                'order_thankou_url'         => psyem_GetPageLinkBySlug('psyem-thankyou'),
+                'stripe_public_key'         => $psyem_stripe_publish_key,
+                'server_error'              => esc_html('Something went wrong with server end, Please try later', 'psyeventsmanager')
+            ));
+            wp_enqueue_script(PSYEM_PREFIX . 'checkoutfrntjs');
+        }
+
+        if ($type == 'Thankyou') {
+            wp_enqueue_script(PSYEM_PREFIX . 'orderthankyoufrntjs');
+        }
+    }
+
+    function psyem_EnqueueOrderVerifyqrShortcodeScripts()
+    {
+        wp_enqueue_script('jquery');
+        wp_enqueue_script(PSYEM_PREFIX . 'bootstrap5frntjs');
+        wp_enqueue_script(PSYEM_PREFIX . 'helperfrntjs');
+        wp_enqueue_script(PSYEM_PREFIX . 'eventverifyqrfrntjs');
+
+        wp_enqueue_style(PSYEM_PREFIX . 'bootstrap5frntcss');
+        wp_enqueue_style(PSYEM_PREFIX . 'helperfrntcss');
+    }
+
+    function psyem_ManageEventsListShortcode($atts)
+    {
+        global $wpdb;
+        $args = shortcode_atts(
+            array('type' => ''),
+            $atts,
+            'psyem-events-list'
+        );
+
+        $this->psyem_EnqueueEventsShortcodeScripts('List');
+
+        $shortcodeOutput = '';
+        $pfFilePath = PSYEM_PATH . 'front/pages/psyemEventsListShortcode.php';
+        if (@is_file($pfFilePath) && @file_exists($pfFilePath)) {
+            $shortcodeOutput .= require $pfFilePath;
+        }
+
+        return $shortcodeOutput;
+    }
+
+    function psyem_ManageEventCheckoutShortcode($atts)
+    {
+        global $wpdb;
+        $args = shortcode_atts(
+            array('type' => ''),
+            $atts,
+            'psyem-event-checkout'
+        );
+
+        $this->psyem_EnqueueEventsShortcodeScripts('Checkout');
+
+        $shortcodeOutput = '';
+        $pfFilePath = PSYEM_PATH . 'front/pages/psyemEventCheckoutShortcode.php';
+        if (@is_file($pfFilePath) && @file_exists($pfFilePath)) {
+            $shortcodeOutput .= require $pfFilePath;
+        }
+
+        return $shortcodeOutput;
+    }
+
+    function psyem_ManageEventOrderThankyouShortcode($atts)
+    {
+        global $wpdb;
+        $args = shortcode_atts(
+            array('type' => ''),
+            $atts,
+            'psyem-event-thankyou'
+        );
+
+        $this->psyem_EnqueueEventsShortcodeScripts('Thankyou');
+
+        $shortcodeOutput = '';
+        $pfFilePath = PSYEM_PATH . 'front/pages/psyemEventThankyouShortcode.php';
+        if (@is_file($pfFilePath) && @file_exists($pfFilePath)) {
+            $shortcodeOutput .= require $pfFilePath;
+        }
+
+        return $shortcodeOutput;
+    }
+
+    function psyem_ManageEventOrderVerifyqrShortcode($atts)
+    {
+        global $wpdb;
+        $args = shortcode_atts(
+            array('type' => ''),
+            $atts,
+            'psyem-event-order-verifyqr'
+        );
+        $this->psyem_EnqueueOrderVerifyqrShortcodeScripts();
+
+
+        $shortcodeOutput = '';
+        $pfFilePath = PSYEM_PATH . 'front/pages/psyemOrderVerifyqrShortcode.php';
+        if (@is_file($pfFilePath) && @file_exists($pfFilePath)) {
+            $shortcodeOutput .= require $pfFilePath;
+        }
+
+        return $shortcodeOutput;
+    }
+
+    /* Event shortcodes END */
 
     function psyem_EnqueueProjectsafeShortcodeScripts()
     {
@@ -1126,7 +1268,7 @@ class psyemFrontManager
             'projectsafe_nonce'         => esc_attr(wp_create_nonce('_nonce')),
             'projectsafe_key'           => psyem_safe_b64encode(time()),
             'projectsafe_form_action'   => PSYEM_PREFIX . 'manage_projectsafe_form',
-            'server_error'              => 'Something went wrong with server end, Please try later.'
+            'server_error'           => esc_html('Something went wrong with server end, Please try later', 'psyeventsmanager')
         ));
 
         wp_enqueue_script(PSYEM_PREFIX . 'projectsafefrntjs');
@@ -1219,7 +1361,7 @@ class psyemFrontManager
             'donation_process_action' => PSYEM_PREFIX . 'manage_process_amounts',
             'donation_intent_action'  => PSYEM_PREFIX . 'manage_donation_intent',
             'donation_payment_action' => PSYEM_PREFIX . 'manage_donation_payment',
-            'server_error'            => 'Something went wrong with server end, Please try later.'
+            'server_error'            => esc_html('Something went wrong with server end, Please try later', 'psyeventsmanager')
         );
 
         $psyem_options            = psyem_GetOptionsWithPrefix();

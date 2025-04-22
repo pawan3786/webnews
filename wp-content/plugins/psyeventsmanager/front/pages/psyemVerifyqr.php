@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: Psyem Events List
+ * Template Name: Psyem Order verify qr
  */
 ?>
 <?php

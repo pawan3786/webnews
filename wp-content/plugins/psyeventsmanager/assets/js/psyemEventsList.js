@@ -43,3 +43,11 @@ jQuery(function () {
         }
     });
 });
+
+
+window.onload = function () {
+    var psyemEventsListCont = document.querySelector('.psyemEventsListCont');
+    if (psyemEventsListCont) {
+        psyemEventsListCont.style.display = 'block';
+    }
+};

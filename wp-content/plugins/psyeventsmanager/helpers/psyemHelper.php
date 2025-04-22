@@ -464,6 +464,9 @@ function psyem_GetEventCheckoutPrices($CheckoutTickets = [], $event = [], $coupo
 		$event_tickets       = (!empty($event_tickets)) ? $event_tickets : [];
 		$checkout_key        = psyem_safe_b64encode_id($eventId);
 		$cart_checkout_url   = psyem_GetPageLinkBySlug('psyem-checkout') . '?checkkey=' . $checkout_key;
+		$cart_checkout_url   = psyem_GetPageLinkBySlug('new-checkout-en') . '?checkkey=' . $checkout_key;
+
+		// PSYTODO - add checkout page link in settings
 		$resp['redirect_to'] = $cart_checkout_url;
 
 

@@ -666,3 +666,10 @@ function psyemSendOrderTickets(order, participant_id) {
         });
     }
 }
+
+window.onload = function () {
+    var psyemEventsCheckoutCont = document.querySelector('.psyemEventsCheckoutCont');
+    if (psyemEventsCheckoutCont) {
+        psyemEventsCheckoutCont.style.display = 'block';
+    }
+};
