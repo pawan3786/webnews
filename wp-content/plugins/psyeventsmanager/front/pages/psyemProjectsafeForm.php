@@ -250,7 +250,7 @@
                                             <label for="field_agree_clinical">
                                                 <?php
                                                 $tText = 'I understand that this program is part of a clinical study and enrollment is only for participants who agree to the terms and conditions on the clinical study consent form presented at the clinic on the day of appointment';
-                                                esc_html_e($tText, 'psyeventsmanager');
+                                                esc_html_e('I understand that this program is part of a clinical study and enrollment is only for participants who agree to the terms and conditions on the clinical study consent form presented at the clinic on the day of appointment', 'psyeventsmanager');
                                                 ?>.
                                                 <span class="text-danger">*</span>
                                             </label>
@@ -260,7 +260,7 @@
                                             <label for="field_info_sheet">
                                                 <?php
                                                 $tText = 'I confirm, that I have read and understood the information sheet for the project and have had the opportunity to view and study the educational videos provided for a better overall grasp on how to protect myself against cervical cancer';
-                                                esc_html_e($tText, 'psyeventsmanager');
+                                                esc_html_e('I confirm, that I have read and understood the information sheet for the project and have had the opportunity to view and study the educational videos provided for a better overall grasp on how to protect myself against cervical cancer', 'psyeventsmanager');
                                                 ?>.
                                                 <span class="text-danger">*</span>
                                             </label>
@@ -270,7 +270,7 @@
                                             <label for="field_participation">
                                                 <?php
                                                 $tText = 'I understand that my participation is voluntary and that I am free to withdraw at any time, without giving any reason, without my medical care or legal rights being affected';
-                                                esc_html_e($tText, 'psyeventsmanager');
+                                                esc_html_e('I understand that my participation is voluntary and that I am free to withdraw at any time, without giving any reason, without my medical care or legal rights being affected', 'psyeventsmanager');
                                                 ?>.
                                                 <span class="text-danger">*</span>
                                             </label>
@@ -288,7 +288,7 @@
                                             <label for="field_agree_doctor">
                                                 <?php
                                                 $tText = 'I here with acknowledge that, if I am currently experiencing irregular bleeding, spotting or pain during my menses, sex or randomly, I cannot join the project. We kindly encourage you to contact your GP immediately and seek a professional opinion';
-                                                esc_html_e($tText, 'psyeventsmanager');
+                                                esc_html_e('I here with acknowledge that, if I am currently experiencing irregular bleeding, spotting or pain during my menses, sex or randomly, I cannot join the project. We kindly encourage you to contact your GP immediately and seek a professional opinion', 'psyeventsmanager');
                                                 ?>.
                                                 <span class="text-danger">*</span>
                                             </label>

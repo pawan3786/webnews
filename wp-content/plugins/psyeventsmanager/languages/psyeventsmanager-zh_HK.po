@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PSY Events Manager 1.0.0\n"
-"POT-Creation-Date: 2025-04-22 19:02+0530\n"
-"PO-Revision-Date: 2025-04-22 19:07+0530\n"
+"POT-Creation-Date: 2025-04-23 19:35+0530\n"
+"PO-Revision-Date: 2025-04-23 19:36+0530\n"
 "Last-Translator: Pawan Kumar <pawan.yadav0446@gmail.com>\n"
 "Language-Team: Pawan Kumar <pawan.yadav0446@gmail.com>\n"
 "Language: zh_HK\n"
@@ -702,10 +702,53 @@ msgstr "您是如何得知這項研究的？"
 msgid "Consents"
 msgstr "同意"
 
+#: admin/includes/psyemProjectsafeMetaboxes.php:132
+#: front/pages/psyemProjectsafeForm.php:253
+msgid ""
+"I understand that this program is part of a clinical study and enrollment is "
+"only for participants who agree to the terms and conditions on the clinical "
+"study consent form presented at the clinic on the day of appointment"
+msgstr ""
+"我理解該計劃是臨床研究的一部分，只有同意預約當天在診所出示的臨床研究同意書上"
+"的條款和條件的參與者才可以報名"
+
+#: admin/includes/psyemProjectsafeMetaboxes.php:143
+#: front/pages/psyemProjectsafeForm.php:263
+msgid ""
+"I confirm, that I have read and understood the information sheet for the "
+"project and have had the opportunity to view and study the educational "
+"videos provided for a better overall grasp on how to protect myself against "
+"cervical cancer"
+msgstr ""
+"我確認我已閱讀並理解有關此項目的資料說明，並且有機會觀看並學習提供的教育影 "
+"片，以更全面地了解如何保護自己免受子宮頸癌的影響"
+
+#: admin/includes/psyemProjectsafeMetaboxes.php:154
+#: front/pages/psyemProjectsafeForm.php:273
+msgid ""
+"I understand that my participation is voluntary and that I am free to "
+"withdraw at any time, without giving any reason, without my medical care or "
+"legal rights being affected"
+msgstr ""
+"我明白我的參與是自願的，我可以在任何時間退出，無需提供任何理由，而這不會影 響"
+"我的醫療照顧或法律權益"
+
 #: admin/includes/psyemProjectsafeMetaboxes.php:162
 #: front/pages/psyemProjectsafeForm.php:282
 msgid "I agree to take part in the above cervical screening programme"
 msgstr "我同意參加上述子宮頸普查計畫"
+
+#: admin/includes/psyemProjectsafeMetaboxes.php:171
+#: front/pages/psyemProjectsafeForm.php:291
+msgid ""
+"I here with acknowledge that, if I am currently experiencing irregular "
+"bleeding, spotting or pain during my menses, sex or randomly, I cannot join "
+"the project. We kindly encourage you to contact your GP immediately and seek "
+"a professional opinion"
+msgstr ""
+"本人在此確認，如我目前正經歷月經期間、性交期間或隨機出現的不規則出血、點滴出"
+"血或疼痛，我將無法參與此項目。我們誠意建議您立即聯絡您的家庭醫生，並尋求專業"
+"意見"
 
 #: admin/includes/psyemProjectsafeMetaboxes.php:179
 #: front/pages/psyemDonationCheckout.php:181
@@ -3821,45 +3864,9 @@ msgstr "處理請求需要記錄別名"
 #~ msgstr "請稍候..."
 
 #~ msgid ""
-#~ "I confirm, that I have read and understood the information sheet for the "
-#~ "project and have had the opportunity to view and study the educational "
-#~ "videos provided for a better overall grasp on how to protect myself "
-#~ "against cervical cancer"
-#~ msgstr ""
-#~ "我確認我已閱讀並理解有關此項目的資料說明，並且有機會觀看並學習提供的教育"
-#~ "影 片，以更全面地了解如何保護自己免受子宮頸癌的影響"
-
-#~ msgid ""
-#~ "I understand that my participation is voluntary and that I am free to "
-#~ "withdraw at any time, without giving any reason, without my medical care "
-#~ "or legal rights being affected"
-#~ msgstr ""
-#~ "我明白我的參與是自願的，我可以在任何時間退出，無需提供任何理由，而這不會"
-#~ "影 響我的醫療照顧或法律權益"
-
-#~ msgid ""
 #~ "I herewith acknowledge that, if I am currently experiencing irregular "
 #~ "bleeding, spotting or pain during my menses, sex or randomly, I cannot "
 #~ "join the project, We kindly encourage you to contact your GP immediately "
-#~ "and seek a professional opinion"
-#~ msgstr ""
-#~ "本人在此確認，如我目前正經歷月經期間、性交期間或隨機出現的不規則出血、點滴"
-#~ "出血或疼痛，我將無法參與此項目。我們誠意建議您立即聯絡您的家庭醫生，並尋求"
-#~ "專業意見"
-
-#~ msgid ""
-#~ "I understand that this program is part of a clinical study and enrollment "
-#~ "is only for participants who agree to the terms and conditions on the "
-#~ "clinical study consent form presented at the clinic on the day of "
-#~ "appointment"
-#~ msgstr ""
-#~ "我理解該計劃是臨床研究的一部分，只有同意預約當天在診所出示的臨床研究同意書"
-#~ "上的條款和條件的參與者才可以報名"
-
-#~ msgid ""
-#~ "I here with acknowledge that, if I am currently experiencing irregular "
-#~ "bleeding, spotting or pain during my menses, sex or randomly, I cannot "
-#~ "join the project. We kindly encourage you to contact your GP immediately "
 #~ "and seek a professional opinion"
 #~ msgstr ""
 #~ "本人在此確認，如我目前正經歷月經期間、性交期間或隨機出現的不規則出血、點滴"
