@@ -735,6 +735,7 @@
 	letter-spacing: -0.24px;
 	margin-bottom: 20px;
 	text-transform: capitalize;
+	color: #000;
 }
 
 .psyemEventDetailSidebar .event-title {
@@ -863,7 +864,7 @@ a {
 
 .searchSection {
 	position: relative;
-	padding: 50px 0px;
+	padding: 10px 0px;
 }
 
 .searchSection input.search-text {

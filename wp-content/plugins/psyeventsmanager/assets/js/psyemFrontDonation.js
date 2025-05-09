@@ -17,12 +17,12 @@ var psyemDonationPanel = function () {
     var psyemRunSetupPanelData = function () {
         jQuery(document).on('click', '.psyemMonthlyDonationElm', function (ev) {
             var $btn = jQuery(this);
-            psyemRunGetDonationAmountsHtml('Monthly');
+            psyemRunGetDonationAmountsHtml('Monthly', $btn);
         });
 
         jQuery(document).on('click', '.psyemOnetimeDonationElm', function (ev) {
             var $btn = jQuery(this);
-            psyemRunGetDonationAmountsHtml('Onetime');
+            psyemRunGetDonationAmountsHtml('Onetime', $btn);
         });
 
         jQuery('#psyemDonationModal').on('shown.bs.modal', function (ev) {
@@ -75,10 +75,10 @@ var psyemDonationPanel = function () {
         });
 
         jQuery('body').on('click', '.submit-donation', function (ev) {
-            var sBtn        = jQuery(this);
-            var amountFor   = 'Check';
-            var amountEnc   = '123';
-            var amount      = 10;
+            var sBtn = jQuery(this);
+            var amountFor = 'Check';
+            var amountEnc = '123';
+            var amount = 10;
 
             var psyemCartForm = jQuery('body').find('.donation-amount-select');
             jQuery.each(psyemCartForm.find('.donation-amount'), function (index, item) {
@@ -109,14 +109,18 @@ var psyemDonationPanel = function () {
         });
     };
 
-    var psyemRunGetDonationAmountsHtml = function (prices_type) {
+    var psyemRunGetDonationAmountsHtml = function (prices_type, elm) {
 
         const formData = new FormData();
+        var mtitle = elm.attr('data-donation-title');
+        mtitle = (mtitle && mtitle != 'undefined') ? mtitle : '';
+
         formData.append("amount_type", prices_type);
         formData.append("amount_for", prices_type);
         formData.append('action', psyem_pAction);
         formData.append('_nonce', psyem_nonce);
-
+        formData.append('modal_title', mtitle);
+        
         jQuery.ajax({
             url: psyem_ajaxUrl,
             type: 'POST',
@@ -579,8 +583,8 @@ var psyemDonationCheckoutPanel = function () {
         } else {
             var isValidPhone = validatePhoneNumber(phone);
             if (!isValidPhone) {
-                jQuery('.error_phone').text('Phone field input is invalid, must be a 10 digits valid phone number.');
-                errorCount = parseInt((errorCount + 1));
+                //jQuery('.error_phone').text('Phone field input is invalid, must be a 10 digits valid phone number.');
+                // errorCount = parseInt((errorCount + 1));
             }
         }
 

@@ -5,7 +5,7 @@ $searchq                 = (isset($REQData['search_key'])) ? $REQData['search_ke
 $searchCat               = (isset($REQData['search_cat'])) ? $REQData['search_cat'] : 0;
 $cpage                   = (isset($REQData['cpage'])) ? $REQData['cpage'] : '';
 
-$REQData['limit']        = 20;
+$REQData['limit']        = 10;
 $REQData['search_key']   = $searchq;
 $REQData['search_cat']   = $searchCat;
 $REQData['cpage']        = $cpage;

@@ -738,13 +738,15 @@ function psyem_IsEventBookingAllowed($EventId = 0, $eventWithMetaInfo = [])
 				return 'No';
 			}
 
-
+			$currentDateTime = new DateTime();
+			if ($startDateTimeObj < $currentDateTime) {
+				return 'No';
+			}
 
 			// closing days
 			$EventRegistrationClosingDays   = @$psyemEventMeta['psyem_event_registration_closing'];
 			if ($EventRegistrationClosingDays > 0) {
 				$startDateTimeObj->modify('+' . $EventRegistrationClosingDays . ' days');
-				$currentDateTime = new DateTime();
 				if ($currentDateTime >= $startDateTimeObj) {
 					return 'No';
 				}
@@ -913,8 +915,9 @@ function psyem_GetAllEventsForOrder($params = array())
 		'posts_per_page' => $limit,
 		'paged'          => $current_page,
 		'post_status'    => 'publish',
-		'orderby'        => 'ID',
-		'order'          => 'DESC'
+		'meta_key' 		 => 'psyem_event_startdate',
+		'orderby'  		 => 'meta_value',
+		'order'    		 => 'DESC',
 	);
 
 	$meta_query = array(
@@ -1833,7 +1836,7 @@ function psyem_GetAllListingPosts($params = array())
 		'posts_per_page' => $limit,
 		'paged'          => $current_page,
 		'post_status'    => 'publish',
-		'orderby'        => 'ID',
+		'orderby'        => 'date',
 		'order'          => 'DESC',
 		'lang'           => $lang,
 	);

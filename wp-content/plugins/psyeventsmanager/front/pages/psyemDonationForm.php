@@ -47,7 +47,7 @@
                                 data-toggle="modal"
                                 data-target="#lab-slide-bottom-popup"
                                 class="donation-call-to-action psyemMonthlyDonationElm"
-                                data-donation-title="Monthly Donation">
+                                data-donation-title="<?= __('Monthly Donation', 'psyeventsmanager') ?>">
                                 <?= __('Select Amount', 'psyeventsmanager') ?>
                             </a>
                         </div>
@@ -56,7 +56,7 @@
                             <p><?= __('Every penny counts', 'psyeventsmanager') ?></p>
                             <a href="javascript:void(0);"
                                 class="donation-call-to-action psyemOnetimeDonationElm"
-                                data-donation-title="One Time Donation">
+                                data-donation-title="<?= __('One Time Donation', 'psyeventsmanager') ?>">
                                 <?= __('Select Amount', 'psyeventsmanager') ?>
                             </a>
                         </div>

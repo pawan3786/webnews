@@ -231,7 +231,7 @@
                     </button>
                 </div>
                 <div class="col-sm-3 text-center">
-                    <a class="btn btn-sm btn-primary" href="<?= @$psyem_sample_csv_url ?>">
+                    <a class="btn btn-sm btn-primary" download="participants-sample.csv" href="<?= @$psyem_sample_csv_url ?>">
                         <span class="dashicons dashicons-download"></span>
                         <?= __('Download Sample CSV', 'psyeventsmanager') ?>
                     </a>

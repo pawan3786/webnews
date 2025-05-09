@@ -6,7 +6,7 @@ $searchq                 = (isset($REQData['search_key'])) ? $REQData['search_ke
 $searchCat               = (isset($REQData['search_cat'])) ? $REQData['search_cat'] : 0;
 $cpage                   = (isset($REQData['cpage'])) ? $REQData['cpage'] : '';
 
-$REQData['limit']        = 19;
+$REQData['limit']        = 11;
 $REQData['search_key']   = $searchq;
 $REQData['search_cat']   = $searchCat;
 $REQData['cpage']        = $cpage;
@@ -44,7 +44,7 @@ $AllNewsCategories       = psyem_GetAllCategoriesWithPosts('psyem-news-category'
                             <?php foreach ($AllNewsCategories as $ccatid => $ccatInfo): ?>
                                 <li class="psyemShowCatCont" data-term="<?= @$ccatInfo['term_id'] ?>">
                                     <img src="<?= @$ccatInfo['term_image'] ?>" alt="<?= @$ccatInfo['term_name'] ?>" class="psyemCatImg rounded-circle" style="width: 30px;" />
-                                    <a href="javascript:void(0);" class="<?=($searchCat == @$ccatInfo['term_id']) ? 'actual-active': ''?>">
+                                    <a href="javascript:void(0);" class="<?= ($searchCat == @$ccatInfo['term_id']) ? 'actual-active' : '' ?>">
                                         <?= @$ccatInfo['term_name'] ?> (<?= @$ccatInfo['term_count'] ?>)
                                     </a>
                                 </li>
@@ -105,15 +105,15 @@ $AllNewsCategories       = psyem_GetAllCategoriesWithPosts('psyem-news-category'
             }
         endforeach;
         echo '
-    <div class="firstSectionBlog">
-            <div class="row margin0 w-100">
-            ' . $largeBlock . '
-            <div class="col-md-12 col-lg-6 padding0">
-                ' . $firstBlock . '
-                ' . $secondBlock . '
-            </div>
-        </div>
-    </div>';
+        <div class="firstSectionBlog">
+                <div class="row margin0 w-100">
+                ' . $largeBlock . '
+                    <div class="col-md-12 col-lg-6 padding0">
+                        ' . $firstBlock . '
+                        ' . $secondBlock . '
+                    </div>
+                </div>
+        </div>';
     endif;
     /*  firstSectionBlog - END */
 
@@ -159,7 +159,23 @@ $AllNewsCategories       = psyem_GetAllCategoriesWithPosts('psyem-news-category'
 
     /*  secondSectionFold - END */
 
-    if (!empty($AllPosts) && is_array($AllPosts) && count($AllPosts) > 0): else: ?>
+    if (!empty($AllPosts) && is_array($AllPosts) && count($AllPosts) > 0): ?>
+        <div class="row text-center mt-4 mb-4">
+            <div class="col-md-12 text-center">
+                <div class="psyPagination page_nav pagination" style="justify-content: normal; margin: 0px;">
+                    <?php
+                    echo paginate_links(array(
+                        'base'      => add_query_arg('cpage', '%#%'),
+                        'prev_text' => __('<<'),
+                        'next_text' => __('>>'),
+                        'total'     => @$PaginationData['total_page'] ?? 0,
+                        'current'   => max(1, get_query_var('cpage'))
+                    ));
+                    ?>
+                </div>
+            </div>
+        </div>
+    <?php else: ?>
         <div class="secondSectionFold">
             <div class="row margin0 w-100">
                 <div class="col-md-12 text-center pAll-0">
@@ -171,20 +187,5 @@ $AllNewsCategories       = psyem_GetAllCategoriesWithPosts('psyem-news-category'
         </div>
     <?php endif; ?>
 
-    <div class="row text-center mt-4 mb-4">
-        <div class="col-md-12 text-center">
-            <div class="psyPagination page_nav pagination" style="justify-content: normal; margin: 0px;">
-                <?php
-                echo paginate_links(array(
-                    'base'      => add_query_arg('cpage', '%#%'),
-                    'prev_text' => __('<<'),
-                    'next_text' => __('>>'),
-                    'total'     => @$PaginationData['total_page'] ?? 0,
-                    'current'   => max(1, get_query_var('cpage'))
-                ));
-                ?>
-            </div>
-        </div>
-    </div>
 </div>
 <?php return ob_get_clean(); ?>

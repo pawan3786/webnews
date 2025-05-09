@@ -142,7 +142,7 @@ if (!empty($amount_enc)):
                                                     <span class="field-error error_email"></span>
                                                 </div>
                                                 <div class="form-group col-md-12 mt-2">
-                                                    <input type="text" placeholder=" " class="strict_space strict_integer strict_phone" id="phone" name="phone" value="">
+                                                    <input type="text" placeholder=" " class="strict_space strict_integer" id="phone" name="phone" value="">
                                                     <label for="phone">
                                                         <?= __('Phone Number', 'psyeventsmanager') ?> <span class="required">*</span>
                                                     </label>

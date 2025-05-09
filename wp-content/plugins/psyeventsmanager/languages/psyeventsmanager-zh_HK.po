@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PSY Events Manager 1.0.0\n"
-"POT-Creation-Date: 2025-04-23 19:35+0530\n"
-"PO-Revision-Date: 2025-04-23 19:36+0530\n"
+"POT-Creation-Date: 2025-05-09 12:54+0530\n"
+"PO-Revision-Date: 2025-05-09 12:54+0530\n"
 "Last-Translator: Pawan Kumar <pawan.yadav0446@gmail.com>\n"
 "Language-Team: Pawan Kumar <pawan.yadav0446@gmail.com>\n"
 "Language: zh_HK\n"
@@ -305,7 +305,7 @@ msgstr "選擇票"
 
 #: admin/includes/psyemEventMetaboxes.php:82
 #: admin/includes/psyemOrderMetaboxes.php:61 admin/psyemAdmin.php:2506
-#: helpers/psyemHelper.php:2105
+#: helpers/psyemHelper.php:2104
 msgid "Event Address"
 msgstr "活動地址"
 
@@ -552,7 +552,7 @@ msgstr "寄票"
 
 #: admin/includes/psyemOrderMetaboxes.php:324
 #: front/pages/psyemEventsListShortcode.php:162
-#: front/pages/psyemKnowledgehubList.php:122 front/pages/psyemNewsList.php:167
+#: front/pages/psyemKnowledgehubList.php:122 front/pages/psyemNewsList.php:183
 #: front/pages/psyemProgrammesList.php:93
 msgid "No records found"
 msgstr "未找到任何記錄"
@@ -1872,17 +1872,17 @@ msgstr "找不到參與者資料以列印票券"
 msgid "Hello"
 msgstr "您好"
 
-#: admin/psyemAdmin.php:2505 helpers/psyemHelper.php:2104
+#: admin/psyemAdmin.php:2505 helpers/psyemHelper.php:2103
 msgid "Kindly find the attached document for event ticket reference"
 msgstr "請查閱附件中的活動票券文件作為參考"
 
-#: admin/psyemAdmin.php:2507 helpers/psyemHelper.php:1737
-#: helpers/psyemHelper.php:2107
+#: admin/psyemAdmin.php:2507 helpers/psyemHelper.php:1736
+#: helpers/psyemHelper.php:2106
 msgid "See you soon"
 msgstr "期待再見"
 
 #: admin/psyemAdmin.php:2508 front/pages/psyemDonationCheckout.php:259
-#: helpers/psyemHelper.php:1738 helpers/psyemHelper.php:2108
+#: helpers/psyemHelper.php:1737 helpers/psyemHelper.php:2107
 msgid "Thank You"
 msgstr "謝謝您"
 
@@ -2473,16 +2473,24 @@ msgid "Enter category icon image url"
 msgstr "輸入類別圖示圖片網址"
 
 #: front/pages/psyemDonationAmountsModal.php:5
-#: front/pages/psyemDonationForm.php:44
+#: front/pages/psyemDonationForm.php:44 front/pages/psyemDonationForm.php:50
 msgid "Monthly Donation"
 msgstr "每月捐款"
 
 #: front/pages/psyemDonationAmountsModal.php:6
-#: front/pages/psyemDonationForm.php:55
+#: front/pages/psyemDonationForm.php:55 front/pages/psyemDonationForm.php:59
 msgid "One Time Donation"
 msgstr "一次性捐款"
 
-#: front/pages/psyemDonationAmountsModal.php:44
+#: front/pages/psyemDonationAmountsModal.php:8
+msgid "Make a targeted impact towards our core objectives"
+msgstr "針對我們的核心目標作出具體影響"
+
+#: front/pages/psyemDonationAmountsModal.php:13
+msgid "Type Amount"
+msgstr "其他捐款金額"
+
+#: front/pages/psyemDonationAmountsModal.php:47
 #: front/pages/psyemProjectsafeForm.php:308
 msgid "Next"
 msgstr "下一步"
@@ -2816,13 +2824,13 @@ msgid "VIEW ALL"
 msgstr "查看全部"
 
 #: front/pages/psyemEventsListShortcode.php:175
-#: front/pages/psyemKnowledgehubList.php:135 front/pages/psyemNewsList.php:180
+#: front/pages/psyemKnowledgehubList.php:135 front/pages/psyemNewsList.php:169
 #: front/pages/psyemProgrammesList.php:106
 msgid "<<"
 msgstr "<<"
 
 #: front/pages/psyemEventsListShortcode.php:176
-#: front/pages/psyemKnowledgehubList.php:136 front/pages/psyemNewsList.php:181
+#: front/pages/psyemKnowledgehubList.php:136 front/pages/psyemNewsList.php:170
 #: front/pages/psyemProgrammesList.php:107
 msgid ">>"
 msgstr ">>"
@@ -3174,7 +3182,7 @@ msgstr "活動門票價格計算失敗"
 msgid "Event ticket price calculated"
 msgstr "活動門票價格已計算"
 
-#: front/psyemFront.php:228 front/psyemFront.php:1504
+#: front/psyemFront.php:228 front/psyemFront.php:1506
 msgid "Payment intent has been failed to process"
 msgstr "付款意向處理失敗"
 
@@ -3182,7 +3190,7 @@ msgstr "付款意向處理失敗"
 msgid "Booking is not allowed for this event"
 msgstr "此活動不允許預訂"
 
-#: front/psyemFront.php:312 front/psyemFront.php:1596 front/psyemFront.php:1688
+#: front/psyemFront.php:312 front/psyemFront.php:1598 front/psyemFront.php:1690
 msgid "Payment intent created"
 msgstr "付款意向已建立"
 
@@ -3250,35 +3258,35 @@ msgstr "已擷取參加者詳情，請提交聯絡資料"
 msgid "Donation amounts has been failed to fetch"
 msgstr "捐款金額擷取失敗"
 
-#: front/psyemFront.php:1441
+#: front/psyemFront.php:1443
 msgid "Donation amount records data found"
 msgstr "找到捐款金額記錄資料"
 
-#: front/psyemFront.php:1456
+#: front/psyemFront.php:1458
 msgid "Donation cart amount process has been failed"
 msgstr "捐款購物車金額處理失敗"
 
-#: front/psyemFront.php:1480
+#: front/psyemFront.php:1482
 msgid "Donation checkout page is not linked"
 msgstr "捐款結帳頁面未連結"
 
-#: front/psyemFront.php:1487
+#: front/psyemFront.php:1489
 msgid "Donation cart amount successfully processed"
 msgstr "捐款購物車金額已成功處理"
 
-#: front/psyemFront.php:1525
+#: front/psyemFront.php:1527
 msgid "Payment intent action is invalid"
 msgstr "付款意向操作無效"
 
-#: front/psyemFront.php:1713
+#: front/psyemFront.php:1715
 msgid "Donation amount has been failed to process"
 msgstr "捐款金額處理失敗"
 
-#: front/psyemFront.php:1884
+#: front/psyemFront.php:1886
 msgid "Donation has been successfully proccessed"
 msgstr "捐款已成功處理"
 
-#: front/psyemFront.php:1902
+#: front/psyemFront.php:1904
 msgid "Donation payment intent is empty"
 msgstr "捐款付款意向為空"
 
@@ -3562,24 +3570,24 @@ msgstr "請檢查！您的優惠碼無效"
 msgid "No coupons are allowed for booking this event"
 msgstr "此活動不接受任何優惠碼預訂"
 
-#: helpers/psyemHelper.php:1214
+#: helpers/psyemHelper.php:1213
 msgid "Offline registration order has been failed to create"
 msgstr "離線註冊訂單建立失敗"
 
-#: helpers/psyemHelper.php:1237
+#: helpers/psyemHelper.php:1236
 msgid "Registration is not allowed for this event"
 msgstr "此活動不允許註冊"
 
-#: helpers/psyemHelper.php:1360
+#: helpers/psyemHelper.php:1359
 msgid "Offline registration order has been successfully created"
 msgstr "離線註冊訂單已成功建立"
 
-#: helpers/psyemHelper.php:1731
+#: helpers/psyemHelper.php:1730
 msgid ""
 "Your registration request for Project Safe has been successfully submitted"
 msgstr "您對 Project Safe 的註冊申請已成功提交"
 
-#: helpers/psyemHelper.php:1735
+#: helpers/psyemHelper.php:1734
 msgid ""
 "You are now registered to Project SAFE - Our partner PHASE Scientific will "
 "send you an email or sms for confirmation in 1-2 working days"
@@ -3587,17 +3595,17 @@ msgstr ""
 "您已成功註冊 Project SAFE，我們的合作夥伴 PHASE Scientific 將於 1-2 個工作日 "
 "內透過電郵或簡訊與您確認"
 
-#: helpers/psyemHelper.php:1736
+#: helpers/psyemHelper.php:1735
 msgid ""
 "Please call Kinetics Integrated Medical and Health Center within 2 weeks "
 "from your sign-up date to arrange an appointment for the screening"
 msgstr "請於報名日起兩週內致電 Kinetics 綜合醫療健康中心預約篩查時間"
 
-#: helpers/psyemHelper.php:2103
+#: helpers/psyemHelper.php:2102
 msgid "Your booking has been confirmed"
 msgstr "您的預約已確認"
 
-#: helpers/psyemHelper.php:2106
+#: helpers/psyemHelper.php:2105
 msgid "Booking Order"
 msgstr "預約訂單"
 
@@ -3811,6 +3819,9 @@ msgstr "處理請求需要標題"
 #: helpers/psyemValidationsHelper.php:660
 msgid "Record slug is required to process the request"
 msgstr "處理請求需要記錄別名"
+
+#~ msgid "Enter Amount"
+#~ msgstr "其他捐款金額"
 
 #~ msgid "Become a Volunteer"
 #~ msgstr "成為志願者"

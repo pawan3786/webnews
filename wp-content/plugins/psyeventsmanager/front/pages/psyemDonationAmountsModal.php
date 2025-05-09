@@ -5,9 +5,12 @@ if (!empty($DonationAmounts) && is_array($DonationAmounts)) {
     $monthlyTitle   =  __('Monthly Donation', 'psyeventsmanager');
     $oneTimeTitle   =  __('One Time Donation', 'psyeventsmanager');
     $modalTitle     = ($amount_type == 'Monthly') ? $monthlyTitle : $oneTimeTitle;
+    $newModalTitle  = __('Make a targeted impact towards our core objectives', 'psyeventsmanager');
+    $modalTitle     = (isset($sourceModalTitle) && empty($sourceModalTitle)) ? $newModalTitle : $modalTitle;
     $CurrenyType                    = psyem_GetCurrenyType();
     $psyem_options                  = psyem_GetOptionsWithPrefix();
     $psyem_currency_exchange_rate   = @$psyem_options['psyem_currency_exchange_rate'];
+    $otherPh        = __('Type Amount', 'psyeventsmanager') ;
 ?>
     <div class="donation-amount-select">
         <div class="title"><?= $modalTitle ?></div>
@@ -37,7 +40,7 @@ if (!empty($DonationAmounts) && is_array($DonationAmounts)) {
                 <label for="customdonationamt" class="donation_currency_label">
                     <span class="donation_currency"><?= psyem_GetCurrenySign(); ?></span>
                 </label>
-                <input type="text" name="customdonationamt" class="donation-amount custom placeholder-shown strict_space strict_numeric strict_decimal" placeholder="Type Amount" style="opacity: 1;" data-amountenc="Custom" data-amountfor="<?= $amount_type ?>">
+                <input type="text" name="customdonationamt" class="donation-amount custom placeholder-shown strict_space strict_numeric strict_decimal" placeholder="<?=$otherPh?>" style="opacity: 1;" data-amountenc="Custom" data-amountfor="<?= $amount_type ?>">
             </div>
         </div>
         <a href="javascript:void(0);" class="link-oval submit-donation">

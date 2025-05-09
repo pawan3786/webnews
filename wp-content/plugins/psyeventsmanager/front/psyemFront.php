@@ -536,7 +536,7 @@ class psyemFrontManager
 
                         // send email
                         if ($dbStatus == 'Success') {
-                            psyem_SendEventOrderBookingEmail($checkout_event, $inserted_order_id, $participantId);
+                            // psyem_SendEventOrderBookingEmail($checkout_event, $inserted_order_id, $participantId);
                         }
                         $resp      = array(
                             'status'     => 'success',
@@ -1427,6 +1427,8 @@ class psyemFrontManager
 
         $amount_type      = @$postData['amount_type'];
         $DonationAmounts  = psyem_getPostsByMetakeyAndValueData('psyem-amounts', 'psyem_amount_type', $amount_type, '=', 'psyem_amount_');
+
+        $sourceModalTitle = @$postData['modal_title'];
 
         if (!empty($DonationAmounts) && count($DonationAmounts)) {
             $ahtml = '';
