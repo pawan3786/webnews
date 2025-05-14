@@ -1785,15 +1785,18 @@ class psyemAdminManager extends psyemEventsManager
                 }
 
                 $selectedEv = isset($query_params['event_id']) ? $query_params['event_id'] : 0;
-                $args  = array(
-                    'post_type'      => 'psyem-events',
-                    'posts_per_page' => -1,
-                    'post_status'    => 'publish',
-                    'orderby'        => 'ID',
-                    'order'          => 'DESC'
+
+                $dargs      = array(
+                    'post_type'         => 'psyem-events',
+                    'posts_per_page'    => -1,
+                    'post_status'       => 'publish',
+                    'meta_key'          => 'psyem_event_startdate',
+                    'orderby'           => 'meta_value',
+                    'order'             => 'DESC',
                 );
 
-                $query = new WP_Query($args);
+                $query = new WP_Query($dargs);
+
                 if ($query->have_posts()) {
                     echo '<select name="event_id">';
                     echo '<option value="">' . __('All Events', 'psyeventsmanager') . ' </option>';
@@ -1873,15 +1876,33 @@ class psyemAdminManager extends psyemEventsManager
             'post_status'       => 'publish',
         );
 
-        $event_id = (isset($getData['event_id'])) ? $getData['event_id'] : 0;
+        $event_id    = (isset($getData['event_id'])) ? $getData['event_id'] : 0;
+
         if ($event_id > 0) {
-            $args['meta_query'] = array(
-                array(
-                    'key'     => 'psyem_participant_event_id',
-                    'value'   => $event_id,
-                    'compare' => '='
-                )
-            );
+            $en_event_id = (function_exists('pll_get_post')) ? pll_get_post($event_id, 'en') : '';
+            $zh_event_id = (function_exists('pll_get_post')) ? pll_get_post($event_id, 'zh') : '';
+            $event_ids   = array_filter([$en_event_id, $zh_event_id]);
+            if (!empty($event_ids) && is_array($event_ids)) {
+                $meta_query = ['relation' => 'OR'];
+                foreach ($event_ids as $id) {
+                    if ($id > 0) {
+                        $meta_query[] = [
+                            'key'     => 'psyem_participant_event_id',
+                            'value'   => $id,
+                            'compare' => '='
+                        ];
+                    }
+                }
+                $args['meta_query'] = $meta_query;
+            } else {
+                $args['meta_query'] = array(
+                    array(
+                        'key'     => 'psyem_participant_event_id',
+                        'value'   => $en_event_id,
+                        'compare' => '='
+                    )
+                );
+            }
         }
 
         if (!empty($searchYear)) {

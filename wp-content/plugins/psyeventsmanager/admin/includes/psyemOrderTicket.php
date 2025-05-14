@@ -46,7 +46,7 @@ if (isset($pdf_content_type) && $pdf_content_type == 'Event') {
                 <tr style="border-top: 1px solid #e7e7e7;">
                     <td colspan="2" style="padding:10px;width:100%;">
                         <h1 style="text-align: left; font-size: 16px; margin-bottom:0;">
-                            <?= __('Item', 'psyeventsmanager') ?>
+                            <?= __('Event', 'psyeventsmanager') ?>
                         </h1>
                         <p style="font-size:14px; margin-top:2px;">
                             <?= @$orderEventInfo['title'] ?>
@@ -82,10 +82,10 @@ if (isset($pdf_content_type) && $pdf_content_type == 'Event') {
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2" style="padding:10px;width:100%;">
-                        <h1 style="text-align: left; font-size: 14px; padding: 10px 0; margin-bottom:0;">
+                    <td colspan="2" style="padding:10px;width:100%;font-size: 14px;">
+                        <h3 style="text-align: left; font-size: 18px; ">
                             <?= __('Location', 'psyeventsmanager') ?>
-                        </h1>
+                        </h3>
                         <p style="font-size:14px; margin-top:10px;">
                             <?= @$orderEventInfo['meta_data']['psyem_event_address'] ?>
                         </p>
@@ -119,10 +119,13 @@ if (isset($pdf_content_type) && $pdf_content_type == 'Ticket') {
                                 <?= @$participantInfo['last_name'] ?>
                             </strong>
                         </h3>
-                        <h1 style="text-align: left; font-size: 14px; padding-bottom: 0; margin-bottom: 10px; font-weight:600;">
-                            <span style="margin-bottom:5px; display:block;"><?= __('Company', 'psyeventsmanager') ?></span>
+
+                        <h3 style="text-align: left; font-size: 14px; padding-bottom: 0; width:100%; margin-bottom: 10px; font-weight:600;">
+                            <span style="margin-bottom:5px; display:block; font-size: 16px;font-weight:600;">
+                                <?= __('Company', 'psyeventsmanager') ?>
+                            </span>
                             <?= @$participantInfo['meta_data']['psyem_participant_company'] ?>
-                        </h1>
+                        </h3>
                     </td>
                     <td style="padding:10px; width:50%;">
                         <p style="font-size:12px; text-align: right;">

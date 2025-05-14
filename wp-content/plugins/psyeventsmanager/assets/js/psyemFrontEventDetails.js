@@ -6,7 +6,6 @@ var serverError = (page_params && page_params.server_error) ? page_params.server
 var csrf_token_name = '_nonce';
 var csrf_token_value = (page_params && page_params.cart_nonce) ? page_params.cart_nonce : '';
 
-
 jQuery(document).on('click', '.psyemCheckoutCartBtn', function () {
     var isCartValid = psyemValidateAddToCart();
     if (isCartValid == 'TRUE') {
@@ -165,8 +164,8 @@ function psyemCalculateCartTicketPrice(psyemCartForm, redirectTo = false) {
 
         var psyemCartBtn = jQuery('.psyemCheckoutCartBtn');
         var psyemCartTotal = jQuery('.psyemCartTotal');
-
-        jQuery.ajax({
+  
+          jQuery.ajax({
             type: "POST",
             dataType: "JSON",
             url: psyOrderAjaxUrl,

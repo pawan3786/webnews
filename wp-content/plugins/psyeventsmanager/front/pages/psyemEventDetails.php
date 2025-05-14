@@ -292,10 +292,10 @@ while (have_posts()) : the_post();
                                                                     </h5>
                                                                 </div>
                                                                 <div class="addToCartBtnCont">
-                                                                    <a href="javascript:void(0);" class="btn btn-primary btn-sm psyemCheckoutCartBtn" type="button">
+                                                                    <button class="btn btn-primary btn-sm psyemCheckoutCartBtn" type="button" disabled="disabled">
                                                                         <?= __('Add To Cart', 'psyeventsmanager') ?>
                                                                         <span class="spinner-border buttonLoader spinner-border-sm" role="status" aria-hidden="true" style="display: none;"></span>
-                                                                    </a>
+                                                                    </button>
                                                                 </div>
                                                             </div>
                                                         </div>

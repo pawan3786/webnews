@@ -494,8 +494,7 @@ function psyem_GetEventCheckoutPrices($CheckoutTickets = [], $event = [], $coupo
 		$cart_checkout_url   			= psyem_GetPageLinkByID($psyem_event_checkout_page_id)  . '?checkkey=' . $checkout_key;
 
 		// PSYTODO - add checkout page link in settings
-		$resp['redirect_to'] = $cart_checkout_url;
-
+		$resp['redirect_to'] = '';
 
 		if ((!empty($event_tickets) && is_array($event_tickets) && count($event_tickets) > 0) && ($event_regtype != 'Free')) {
 
@@ -623,6 +622,8 @@ function psyem_GetEventCheckoutPrices($CheckoutTickets = [], $event = [], $coupo
 
 			$checkout_price 			= psyem_roundPrecision(($total_price - $total_discount));
 			$resp['checkout_price'] 	= $checkout_price;
+
+			$resp['redirect_to'] 		= ($checkout_price > 0) ? $cart_checkout_url : '';
 
 			$_SESSION[$checkout_key] 	= $resp;
 		}
