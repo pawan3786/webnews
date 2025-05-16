@@ -500,6 +500,31 @@ function psyem_ValidateParticipantsExportData($post)
     return $errors;
 }
 
+function psyem_ValidateExportEventAttendeesData($post)
+{
+    $errors = array();
+    if (!empty($post) && is_array($post)) {
+        if (!isset($post['action']) || empty($post['action'])) {
+            $errors[] = __('Action is required to process the request', 'psyeventsmanager');
+        }
+        if (!isset($post['_nonce']) || empty($post['_nonce'])) {
+            $errors[] = __('Nonce is missing, Invalid request', 'psyeventsmanager');
+        }
+        if (isset($post['_nonce']) && !empty($post['_nonce'])) {
+            $do_check      = check_ajax_referer('_nonce', '_nonce', false);
+            if ($do_check == false) {
+                $errors[] = __('No kiddies please! Referer not matched', 'psyeventsmanager');
+            }
+            $do_nonce   = wp_verify_nonce($post['_nonce'], '_nonce');
+            if ($do_nonce == false) {
+                $errors[] = __('No kiddies please! Security nonce not matched', 'psyeventsmanager');
+            }
+        }
+    }
+    return $errors;
+}
+
+
 function psyem_ValidateDonationAmountsData($post)
 {
     $errors = array();

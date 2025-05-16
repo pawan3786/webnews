@@ -1,5 +1,4 @@
 <?php ob_start(); ?>
-
 <?php
 /**
  * Template Name:  Psyem Order verifyqr shortcode
@@ -37,6 +36,7 @@ if (($ticket_participant == $participant_id) && ($ticket_order == $order_id)) {
     $participant_meta     = @$participant_data['meta_data'];
     $participant_name     = @$participant_data['title'];
     $scanStatus           = '';
+
     if ($is_valid) {
         $scanResp         = psyem_UpdateOrderUsedSlotsCount($order_data, $event_data, $participant_data);
         $scanStatus       = (isset($scanResp['status']) && !empty($scanResp['status'])) ? $scanResp['status'] : '';

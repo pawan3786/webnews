@@ -1,6 +1,6 @@
 <?php if (isset($event_metabox_type) && !empty($event_metabox_type)) {  ?>
     <!-- configs - BGN -->
-    <?php if ($event_metabox_type == 'Config') {
+    <?php if ($event_metabox_type == 'Config') { 
         if (isset($configs_data) && !empty($configs_data)) {
             extract($configs_data);
         }
@@ -52,6 +52,17 @@
                 <small><?= __('If applicable, Enter external website url', 'psyeventsmanager') ?> </small>
             </div>
         </div>
+
+        <?php if($event_total_attendees > 0){?>
+        <div class="row mb-4">
+            <div class="col-sm-12 text-end">
+                <a class="btn btn-primary text-white" href="<?= $export_attendees_url ?>" target="_blank">
+                    <span class="dashicons dashicons-download"></span>
+                    <?= __('Export Attendees', 'psyeventsmanager') ?>
+                </a>
+            </div>
+        </div>
+        <?php } ?>
 
         <div class="row mb-4" id="psyem_event_tickets_cont">
             <p> <?= __('Select applicable tickets for this event', 'psyeventsmanager') ?></p>

@@ -76,6 +76,9 @@ class psyemAdminManager extends psyemEventsManager
 
         add_action('wp_ajax_'               . PSYEM_PREFIX . 'manage_copy_event', array(&$this,  PSYEM_PREFIX . 'ManageCopyEventData'));
         add_action('wp_ajax_nopriv_'        . PSYEM_PREFIX . 'manage_copy_event', array(&$this,  PSYEM_PREFIX . 'ManageCopyEventData'));
+        add_action('admin_post_'            . PSYEM_PREFIX . 'export_event_attendees', array(&$this,  PSYEM_PREFIX . 'ExportEventAttendees'));
+        add_action('admin_post_nopriv_'     . PSYEM_PREFIX . 'export_event_attendees', array(&$this,  PSYEM_PREFIX . 'ExportEventAttendees'));
+
 
         // order posts type
         add_action('init',                  array(&$this, PSYEM_PREFIX . 'OrdersCustomPostType'));
@@ -829,6 +832,16 @@ class psyemAdminManager extends psyemEventsManager
         $event_tickets      = get_post_meta(@$post_id, 'psyem_event_tickets', true);
         $event_tickets      = (!empty($event_tickets)) ? $event_tickets : [];
 
+        $event_total_attendees = psyem_GetEventAttendeesCount($post_id);
+        // export attendies url     
+        $linkParams = array(
+            'event_id'  => $post_id,
+            '_nonce'    => wp_create_nonce('_nonce'),
+            'action'    => PSYEM_PREFIX . 'export_event_attendees'
+        );
+        $get_data   = http_build_query($linkParams);
+        $export_attendees_url  = admin_url('admin-post.php') . '?' . $get_data;
+
         $event_metabox_type = 'Config';
         $current_event_id   = @$post->ID;
         require PSYEM_PATH . 'admin/includes/psyemEventMetaboxes.php';
@@ -1103,6 +1116,103 @@ class psyemAdminManager extends psyemEventsManager
         return $actions;
     }
 
+    function psyem_ExportEventAttendees()
+    {
+
+        global $wpdb;
+        $getData    = @$this->REQ;
+
+        $isvalid     = psyem_ValidateExportEventAttendeesData($getData);
+
+        if (!empty($isvalid)) {
+            wp_die($isvalid[0]);
+        }
+        if (!current_user_can('manage_options')) {
+            wp_die(__('You are not authorize to export data', 'psyeventsmanager'));
+        }
+
+        $event_id                   = (isset($getData['event_id'])) ? $getData['event_id'] : 0;
+        $en_event_id                = (function_exists('pll_get_post')) ? pll_get_post($event_id, 'en') : $event_id;
+        $zh_event_id                = (function_exists('pll_get_post')) ? pll_get_post($event_id, 'zh') : $event_id;
+
+        $eventAttendeesEnInfoArr    = [];
+        $eventAttendeesZhInfoArr    = [];
+        if ($en_event_id > 0) {
+            $eventAttendeesEnInfoArr    = get_post_meta(@$en_event_id, 'psyem_event_attendees_info', true);
+            $eventAttendeesEnInfoArr    = (!empty($eventAttendeesEnInfoArr) && is_array($eventAttendeesEnInfoArr)) ? $eventAttendeesEnInfoArr : [];
+        }
+        if ($zh_event_id > 0) {
+            $eventAttendeesZhInfoArr    = get_post_meta(@$zh_event_id, 'psyem_event_attendees_info', true);
+            $eventAttendeesZhInfoArr    = (!empty($eventAttendeesZhInfoArr) && is_array($eventAttendeesZhInfoArr)) ? $eventAttendeesZhInfoArr : [];
+        }
+
+        $attendeesIdsArr                = array_merge($eventAttendeesEnInfoArr, $eventAttendeesZhInfoArr);
+        $attendeesIdsArr                = array_values($attendeesIdsArr);
+
+        if (empty($attendeesIdsArr)) {
+            wp_die(__('No attendees found for this event.', 'psyeventsmanager'));
+        }
+        $attendeesIdsArr                = array_unique($attendeesIdsArr);
+        $attendeesIdsArr                = array_filter($attendeesIdsArr, function ($value) {
+            return $value != 0;
+        });
+        $attendeesIdsArr                = array_values($attendeesIdsArr);
+        if (empty($attendeesIdsArr)) {
+            wp_die(__('No attendees found for this event.', 'psyeventsmanager'));
+        }
+
+        header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
+        header('Content-Disposition: attachment; filename="participants.xlsx"');
+        header('Cache-Control: max-age=0');
+
+        // Create a new Spreadsheet object
+        $spreadsheet    = new Spreadsheet();
+        $sheet          = $spreadsheet->getActiveSheet();
+
+        // Set the header row
+        $sheet->setCellValue('A1', __('ID',  'psyeventsmanager'));
+        $sheet->setCellValue('B1', __('Name',  'psyeventsmanager'));
+        $sheet->setCellValue('C1', __('Email',  'psyeventsmanager'));
+        $sheet->setCellValue('D1', __('Type',  'psyeventsmanager'));
+        $sheet->setCellValue('E1', __('Company',  'psyeventsmanager'));
+        $sheet->setCellValue('F1', __('Event',  'psyeventsmanager'));
+        $sheet->setCellValue('G1', __('Date',  'psyeventsmanager'));
+
+        $args = array(
+            'post_type'         => 'psyem-participants',
+            'posts_per_page'    => -1,
+            'post_status'       => 'publish',
+            'post__in'          => $attendeesIdsArr,
+            'orderby'           => 'post__in'
+        );
+
+        $query        = new WP_Query($args);
+        $row          = 2; // Start from the second row
+
+        if ($query->have_posts()) {
+            foreach ($query->posts as $ppost) {
+                $ppostId                    = @$ppost->ID;
+                $psMeta                     = psyem_GetPostAllMetakeyValWithPrefix($ppostId, 'psyem_participant_');
+                $psyem_participant_event_id = @$psMeta['psyem_participant_event_id'];
+                $eventInfo                  = ($psyem_participant_event_id > 0) ? get_post($psyem_participant_event_id) : [];
+
+                $sheet->setCellValue('A' . $row, $ppostId);
+                $sheet->setCellValue('B' . $row, @$ppost->post_title);
+                $sheet->setCellValue('C' . $row, @$psMeta['psyem_participant_email']);
+                $sheet->setCellValue('D' . $row, @$psMeta['psyem_participant_type']);
+                $sheet->setCellValue('E' . $row, @$psMeta['psyem_participant_company']);
+                $sheet->setCellValue('F' . $row, @$eventInfo->post_title);
+                $sheet->setCellValue('G' . $row, get_the_date('d F Y', $ppost));
+
+                $row++;
+            }
+        }
+
+        // Write the file
+        $writer = new Xlsx($spreadsheet);
+        $writer->save('php://output');
+        exit();
+    }
     /* POST TYPE EVENTS - END */
 
     /* POST TYPE COUPONS - BGN */
@@ -1917,11 +2027,10 @@ class psyemAdminManager extends psyemEventsManager
 
         if ($query->have_posts()) {
 
-            $event_title = '';
             foreach ($query->posts as $ppost) {
                 $ppostId                    = @$ppost->ID;
                 $psMeta                     = psyem_GetPostAllMetakeyValWithPrefix($ppostId, 'psyem_participant_');
-                $psyem_participant_event_id = @$psMeta['psyem_participant_email'];
+                $psyem_participant_event_id = @$psMeta['psyem_participant_event_id'];
                 $eventInfo                  = ($psyem_participant_event_id > 0) ? get_post($psyem_participant_event_id) : [];
 
                 $sheet->setCellValue('A' . $row, $ppostId);

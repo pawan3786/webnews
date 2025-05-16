@@ -805,9 +805,36 @@ function psyem_UpdateOrderUsedSlotsCount($order, $event, $participant)
 					update_post_meta($order_id, 'psyem_order_used_slots', $orderUsedSlotsCount);
 					// update event slots count
 					psyem_UpdateEventSlotsCount($event, 0, 1);
+					psyem_UpdateEventAttendeesCount($event, $participant);
 					$resp = $orderUsedSlotsInfoArr;
 				}
 			}
+		}
+	}
+	return $resp;
+}
+
+function psyem_UpdateEventAttendeesCount($event, $participant)
+{
+
+	$event_meta           	= @$event['meta_data'];
+	$event_id         		= @$event['ID'];
+
+	$participant_meta     	= @$participant['meta_data'];
+	$participant_id         = @$participant['ID'];
+
+	$resp = array();
+	if ($event_id > 0 && $participant_id > 0) {
+		$eventAttendeesInfoArr  	 = get_post_meta(@$event_id, 'psyem_event_attendees_info', true);
+		$eventAttendeesInfoArr       = (!empty($eventAttendeesInfoArr) && is_array($eventAttendeesInfoArr)) ? $eventAttendeesInfoArr : [];
+		$eventAttendeesCount   		 = (!empty($eventAttendeesInfoArr) && is_array($eventAttendeesInfoArr)) ? count($eventAttendeesInfoArr) : 0;
+
+		if (isset($eventAttendeesInfoArr[$participant_id]) && !empty($eventAttendeesInfoArr[$participant_id]) && $eventAttendeesInfoArr[$participant_id] > 0) {
+			// ignore particpant is already updated as attendees
+		} else {
+			$eventAttendeesInfoArr[$participant_id] = $participant_id;
+			update_post_meta($event_id, 'psyem_event_attendees_info', $eventAttendeesInfoArr);
+			$resp  	 = get_post_meta(@$event_id, 'psyem_event_attendees_info', true);
 		}
 	}
 	return $resp;
@@ -2149,4 +2176,32 @@ function psyem_SendEventOrderBookingEmail($event_id = 0, $order_id = 0, $partici
 		}
 	}
 	return $resp;
+}
+
+
+function psyem_GetEventAttendeesCount($event_id)
+{
+
+	$en_event_id                	= (function_exists('pll_get_post')) ? pll_get_post($event_id, 'en') : $event_id;
+	$zh_event_id                	= (function_exists('pll_get_post')) ? pll_get_post($event_id, 'zh') : $event_id;
+
+	$eventAttendeesEnInfoArr    	= [];
+	$eventAttendeesZhInfoArr    	= [];
+	if ($en_event_id > 0) {
+		$eventAttendeesEnInfoArr    = get_post_meta(@$en_event_id, 'psyem_event_attendees_info', true);
+		$eventAttendeesEnInfoArr    = (!empty($eventAttendeesEnInfoArr) && is_array($eventAttendeesEnInfoArr)) ? $eventAttendeesEnInfoArr : [];
+	}
+	if ($zh_event_id > 0) {
+		$eventAttendeesZhInfoArr    = get_post_meta(@$zh_event_id, 'psyem_event_attendees_info', true);
+		$eventAttendeesZhInfoArr    = (!empty($eventAttendeesZhInfoArr) && is_array($eventAttendeesZhInfoArr)) ? $eventAttendeesZhInfoArr : [];
+	}
+
+	$attendeesIdsArr                = array_merge($eventAttendeesEnInfoArr, $eventAttendeesZhInfoArr);
+	$attendeesIdsArr                = array_values($attendeesIdsArr);
+	$attendeesIdsArr                = array_unique($attendeesIdsArr);
+	$attendeesIdsArr                = array_filter($attendeesIdsArr, function ($value) {
+		return $value != 0;
+	});
+	$attendeesIdsArr                = array_values($attendeesIdsArr);
+	return (is_array($attendeesIdsArr)) ? count($attendeesIdsArr) : 0;
 }
