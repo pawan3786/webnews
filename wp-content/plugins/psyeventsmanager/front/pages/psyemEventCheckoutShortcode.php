@@ -164,7 +164,6 @@ $psyem_event_listing_page_id    = @$psyem_options['psyem_event_listing_page_id']
                                                                         <tbody>
                                                                             <?php
                                                                             foreach ($cart_data as $cartTicketId => $cartTicketInfo) :
-                                                                                $ticketMeta = @$cartTicketInfo['ticket_meta'];
                                                                             ?>
                                                                                 <tr>
                                                                                     <td>

@@ -28,6 +28,7 @@ if (($ticket_participant == $participant_id) && ($ticket_order == $order_id)) {
     $is_valid             = (!empty($orderParticipantsIds) && is_array($orderParticipantsIds) && in_array($participant_id, $orderParticipantsIds)) ? true : false;
 
     $order_event_id       = @$order_meta['psyem_order_event_id'];
+    
     $event_data           = psyem_GetSinglePostWithMetaPrefix('psyem-events', $order_event_id, 'psyem_event_');
     $event_meta           = @$event_data['meta_data'];
     $event_name           = @$event_data['title'];
@@ -35,8 +36,8 @@ if (($ticket_participant == $participant_id) && ($ticket_order == $order_id)) {
     $participant_data     = psyem_GetSinglePostWithMetaPrefix('psyem-participants', $participant_id, 'psyem_participant_');
     $participant_meta     = @$participant_data['meta_data'];
     $participant_name     = @$participant_data['title'];
-    $scanStatus           = '';
 
+    $scanStatus           = '';
     if ($is_valid) {
         $scanResp         = psyem_UpdateOrderUsedSlotsCount($order_data, $event_data, $participant_data);
         $scanStatus       = (isset($scanResp['status']) && !empty($scanResp['status'])) ? $scanResp['status'] : '';

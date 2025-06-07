@@ -272,11 +272,16 @@ function psyem_GetSinglePostWithMetaPrefix($post_type = '', $post_id = 0, $meta_
 {
 	$resp = [];
 	if (!empty($post_type) && $post_id > 0) {
+		 $lang = (function_exists('pll_get_post_language')) ? pll_get_post_language($post_id) : '';
+		 $lang = (!empty($lang)) ? $lang : psyem_GetCurrentLocale();		
+
 		$args = array(
 			'post_type'      => $post_type,
 			'post_status'    => 'publish',
 			'p'              => $post_id,
+			'lang'           => $lang
 		);
+
 		$query = new WP_Query($args);
 		if ($query->have_posts()) {
 			foreach ($query->posts as $ppost) {
@@ -733,20 +738,21 @@ function psyem_IsEventBookingAllowed($EventId = 0, $eventWithMetaInfo = [])
 			}
 
 			// validate date time 
-			$startDateTimeObj  = new DateTime($startDateTime);
-			$endDateTimeObj    = new DateTime($endDateTime);
+			$startDateTimeObj  = new DateTime($startDateTime, new DateTimeZone('UTC'));
+			$endDateTimeObj    = new DateTime($endDateTime, new DateTimeZone('UTC'));
+			$currentDateTime   = new DateTime('now', new DateTimeZone('UTC'));
 			if ($endDateTimeObj < $startDateTimeObj) {
 				return 'No';
 			}
 
-			$currentDateTime = new DateTime();
-			if ($startDateTimeObj < $currentDateTime) {
+			// with current date time
+			if ($startDateTimeObj > $currentDateTime) {
 				return 'No';
 			}
 
 			// closing days
 			$EventRegistrationClosingDays   = @$psyemEventMeta['psyem_event_registration_closing'];
-			if ($EventRegistrationClosingDays > 0) {
+			if (!empty($EventRegistrationClosingDays) && $EventRegistrationClosingDays > 0) {
 				$startDateTimeObj->modify('+' . $EventRegistrationClosingDays . ' days');
 				if ($currentDateTime >= $startDateTimeObj) {
 					return 'No';
@@ -905,6 +911,9 @@ function psyem_GetSinglePostWithMetaPrefixForApi($post_type = '', $post_id = 0, 
 						}
 						if (isset($meta_data['psyem_event_coupons'])) {
 							unset($meta_data['psyem_event_coupons']);
+						}
+						if (isset($meta_data['psyem_event_attendees_info'])) {
+							unset($meta_data['psyem_event_attendees_info']);
 						}
 						$postData['meta_data'] = $meta_data;
 					}
@@ -1221,7 +1230,10 @@ function psyem_GetAllEventsForForApi($params = array())
 				if (isset($meta_data['psyem_event_media_urls'])) {
 					unset($meta_data['psyem_event_media_urls']);
 				}
-				$postData['meta_data'] = $meta_data;
+				if (isset($meta_data['psyem_event_attendees_info'])) {
+					unset($meta_data['psyem_event_attendees_info']);
+				}
+				$postData['meta_data']      = $meta_data;
 			}
 			$resp['data'][$ppostId] 		= $postData;
 		}

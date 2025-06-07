@@ -1157,12 +1157,14 @@ class psyemAdminManager extends psyemEventsManager
             return $value != 0;
         });
         $attendeesIdsArr                = array_values($attendeesIdsArr);
+
         if (empty($attendeesIdsArr)) {
             wp_die(__('No attendees found for this event.', 'psyeventsmanager'));
         }
 
+        $fileName = date('Y-m-d--H-i');
         header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
-        header('Content-Disposition: attachment; filename="participants.xlsx"');
+        header('Content-Disposition: attachment; filename="attendees-' . $fileName . '.xlsx"');
         header('Cache-Control: max-age=0');
 
         // Create a new Spreadsheet object
@@ -2197,6 +2199,7 @@ class psyemAdminManager extends psyemEventsManager
     {
         $columns['title']              = __('Event', 'psyeventsmanager');
         $columns['order_id']           = __('Order ID', 'psyeventsmanager');
+        $columns['event_id']           = __('Event ID', 'psyeventsmanager');
         $columns['total_tickets']      = __('Total Tickets', 'psyeventsmanager');
         $columns['dates']              = __('Dates', 'psyeventsmanager');
         $columns['participant_name']   = __('Name', 'psyeventsmanager');
@@ -2213,8 +2216,14 @@ class psyemAdminManager extends psyemEventsManager
     {
         $order_meta_data  =  psyem_GetPostAllMetakeyValWithPrefix($post_id, 'psyem_order_');
         if (!empty($order_meta_data) && is_array($order_meta_data)) {
+            
             if ($column == 'order_id') {
                 echo (!empty($post_id)) ? esc_html($post_id) : '-';
+            }
+
+            if ($column == 'event_id') {
+                $psyem_order_event_id = @$order_meta_data['psyem_order_event_id'];
+                echo (!empty($psyem_order_event_id)) ? esc_html($psyem_order_event_id) : 0;
             }
 
             if ($column == 'total_tickets') {
@@ -2327,12 +2336,13 @@ class psyemAdminManager extends psyemEventsManager
                     $verifyQrPageLink   = psyem_GetPageLinkByID($psyem_event_verifyqr_page_id);
 
                     try {
-                        $get_scan_data = http_build_query(array(
+                        $get_scan_data = http_build_query( array(
                             'ticketinfo'    => $scanKey,
                             'order'         => @$order_id,
                             'participant'   => @$participantID,
-                        ));
-                        $qrContentUrl =  $verifyQrPageLink . '?' . $get_scan_data;
+                        ) );
+                        $qrContentUrl =  $verifyQrPageLink . '?' . $get_scan_data;                    
+
                         $qrSamplePath = PSYEM_PATH . 'packages/phpqrcode/qrcode.png';
                         $qrSampleUrl  = PSYEM_URL . 'packages/phpqrcode/qrcode.png';
                         QRcode::png($qrContentUrl, $qrSamplePath, QR_ECLEVEL_L, 6, 2);
@@ -2469,6 +2479,7 @@ class psyemAdminManager extends psyemEventsManager
                                 'post_content' => $participantPostContent
                             );
                             wp_update_post($updated_post_data);
+                            update_post_meta($inserted_post_id, 'psyem_participant_event_id', $psyem_order_event_id);
                         } else {
                             $current_time     = current_time('mysql');
                             $current_time_gmt = current_time('mysql', 1); // Get GMT time

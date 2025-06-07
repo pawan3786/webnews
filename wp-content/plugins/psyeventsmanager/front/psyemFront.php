@@ -531,7 +531,7 @@ class psyemFrontManager
                         // update order particpant
                         update_post_meta($inserted_order_id, 'psyem_order_participants', $participantsArr);
                         // update event slots count
-                        psyem_UpdateEventSlotsCount($psyemEventInfo, $checkout_tickets, 0);
+                        psyem_UpdateEventSlotsCount($psyemEventInfo, $total_slots, 0);
 
 
                         // send email
@@ -680,6 +680,7 @@ class psyemFrontManager
                             'post_content' => $participantPostContent
                         );
                         wp_update_post($updated_post_data);
+                        update_post_meta($participantId, 'psyem_participant_event_id', $EventId);
                     } else {
                         // create Main Participant
                         $post_data = array(
@@ -704,6 +705,7 @@ class psyemFrontManager
                             update_post_meta($inserted_participant_id, 'psyem_participant_name', ucfirst($participant_name));
                             update_post_meta($inserted_participant_id, 'psyem_participant_email', strtolower($participant_email));
                             update_post_meta($inserted_participant_id, 'psyem_participant_type', 'Main');
+                            update_post_meta($inserted_participant_id, 'psyem_participant_event_id', $EventId);
                             $participantsArr = ['Main' => $inserted_participant_id];
                         }
                         $participantId    = @$inserted_participant_id;
